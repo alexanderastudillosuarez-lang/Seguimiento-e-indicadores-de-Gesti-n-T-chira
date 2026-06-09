@@ -1,6 +1,21 @@
 {
-  "ultima_actualizacion": "2026-06-09T08:00:00",
+  "ultima_actualizacion": "2026-06-09T17:00:03.211673",
   "noticias": [
+    {
+      "id": 1781038803,
+      "titulo": "Colombia exporta 1.8 Mt de carbón en febrero",
+      "resumen": "Datos de mercado actualizados por el sistema de monitoreo OICF.",
+      "fuente": "País Minero",
+      "fecha": "2026-06-09T17:00:03.207563",
+      "categoria": "energia",
+      "sentimiento": "neutral",
+      "url": "#",
+      "tags": [
+        "mercado",
+        "precios",
+        "minería"
+      ]
+    },
     {
       "id": 1,
       "titulo": "China aumenta importaciones de carbón energético ante ola de calor",
@@ -11,7 +26,12 @@
       "sentimiento": "positivo",
       "url": "#",
       "imagen": null,
-      "tags": ["China", "importaciones", "demanda", "carbón energético"]
+      "tags": [
+        "China",
+        "importaciones",
+        "demanda",
+        "carbón energético"
+      ]
     },
     {
       "id": 2,
@@ -23,7 +43,12 @@
       "sentimiento": "positivo",
       "url": "#",
       "imagen": null,
-      "tags": ["Australia", "exportaciones", "siderurgia", "carbón coquizable"]
+      "tags": [
+        "Australia",
+        "exportaciones",
+        "siderurgia",
+        "carbón coquizable"
+      ]
     },
     {
       "id": 3,
@@ -35,7 +60,12 @@
       "sentimiento": "neutral",
       "url": "#",
       "imagen": null,
-      "tags": ["Marruecos", "OCP", "fosfatos", "exportaciones"]
+      "tags": [
+        "Marruecos",
+        "OCP",
+        "fosfatos",
+        "exportaciones"
+      ]
     },
     {
       "id": 4,
@@ -47,7 +77,12 @@
       "sentimiento": "positivo",
       "url": "#",
       "imagen": null,
-      "tags": ["Colombia", "producción", "UPME", "crecimiento"]
+      "tags": [
+        "Colombia",
+        "producción",
+        "UPME",
+        "crecimiento"
+      ]
     },
     {
       "id": 5,
@@ -59,7 +94,12 @@
       "sentimiento": "negativo",
       "url": "#",
       "imagen": null,
-      "tags": ["fertilizantes", "DAP", "China", "restricciones"]
+      "tags": [
+        "fertilizantes",
+        "DAP",
+        "China",
+        "restricciones"
+      ]
     },
     {
       "id": 6,
@@ -71,7 +111,12 @@
       "sentimiento": "positivo",
       "url": "#",
       "imagen": null,
-      "tags": ["Venezuela", "Táchira", "reactivación", "inversión"]
+      "tags": [
+        "Venezuela",
+        "Táchira",
+        "reactivación",
+        "inversión"
+      ]
     },
     {
       "id": 7,
@@ -83,7 +128,12 @@
       "sentimiento": "neutral",
       "url": "#",
       "imagen": null,
-      "tags": ["India", "importaciones", "generación eléctrica", "Asia"]
+      "tags": [
+        "India",
+        "importaciones",
+        "generación eléctrica",
+        "Asia"
+      ]
     },
     {
       "id": 8,
@@ -95,7 +145,12 @@
       "sentimiento": "negativo",
       "url": "#",
       "imagen": null,
-      "tags": ["Rusia", "sanciones", "geopolítica", "Colombia"]
+      "tags": [
+        "Rusia",
+        "sanciones",
+        "geopolítica",
+        "Colombia"
+      ]
     },
     {
       "id": 9,
@@ -107,7 +162,13 @@
       "sentimiento": "positivo",
       "url": "#",
       "imagen": null,
-      "tags": ["Táchira", "Navay", "fosfatos", "Venezuela", "Caribe"]
+      "tags": [
+        "Táchira",
+        "Navay",
+        "fosfatos",
+        "Venezuela",
+        "Caribe"
+      ]
     },
     {
       "id": 10,
@@ -119,7 +180,12 @@
       "sentimiento": "negativo",
       "url": "#",
       "imagen": null,
-      "tags": ["precios", "Indonesia", "proyecciones", "oferta"]
+      "tags": [
+        "precios",
+        "Indonesia",
+        "proyecciones",
+        "oferta"
+      ]
     }
   ]
 }
