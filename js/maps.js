@@ -39,10 +39,9 @@ const OICF_Maps = (() => {
   ];
 
   const TACHIRA_SITES = [
-    { name: 'Yacimiento Lobatera',   lat: 7.92,  lng: -72.23, tipo: 'carbon',   desc: 'Reservas: 45 Mt', color: '#60a5fa' },
-    { name: 'Yacimiento La Grita',   lat: 8.13,  lng: -71.97, tipo: 'carbon',   desc: 'Reservas: 38 Mt', color: '#60a5fa' },
-    { name: 'Proyecto Navay',        lat: 7.80,  lng: -71.75, tipo: 'fosfatos', desc: 'Reservas: 150 Mt', color: '#34d399' },
-    { name: 'El Cobre',              lat: 7.72,  lng: -72.42, tipo: 'carbon',   desc: 'Reservas: 46 Mt', color: '#60a5fa' }
+    { name: 'Yacimiento Lobatera',        lat: 7.92,  lng: -72.23, tipo: 'carbon',   municipio: 'Lobatera',  desc: 'Reservas: 65 Mt · Carbón bituminoso', color: '#60a5fa' },
+    { name: 'Yacimiento Las Adjuntas',    lat: 7.68,  lng: -72.15, tipo: 'carbon',   municipio: 'Bolívar',   desc: 'Reservas: 64 Mt · Carbón bituminoso', color: '#60a5fa' },
+    { name: 'Yac. Monte Fresco',          lat: 7.73,  lng: -71.80, tipo: 'fosfatos', municipio: 'Ayacucho',  desc: 'Reservas: 150 Mt · 18% P₂O₅', color: '#34d399' }
   ];
 
   /* ---- Inicializar Mapa Mundial ---- */
@@ -148,6 +147,7 @@ const OICF_Maps = (() => {
       }).addTo(map);
       m.bindPopup(`
         <strong>${s.name}</strong><br>
+        <span style="font-size:.75rem;opacity:.6">Mpio. ${s.municipio} · Estado Táchira</span><br>
         <span style="color:${s.color};font-weight:600">${s.tipo.toUpperCase()}</span><br>
         <span style="font-size:.8rem">${s.desc}</span>
       `).openPopup();

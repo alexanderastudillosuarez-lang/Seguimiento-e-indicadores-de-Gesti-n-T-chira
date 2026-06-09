@@ -51,25 +51,25 @@
       "tachira": {
         "produccion_estimada_mt": 0.3,
         "reservas_mt": 129,
-        "yacimientos": ["Lobatera", "La Grita", "El Cobre"],
+        "yacimientos": [
+          {"nombre": "Lobatera", "municipio": "Lobatera", "reservas_mt": 65},
+          {"nombre": "Las Adjuntas", "municipio": "Bolívar", "reservas_mt": 64}
+        ],
         "estado": "suspendida",
         "potencial_exportador": "Caribe, Centroamérica",
         "mercados_potenciales": ["Cuba", "Jamaica", "Trinidad y Tobago", "Colombia"]
       }
     },
     "fosfatos": {
-      "riecito": {
-        "ubicacion": "Apure",
-        "reservas_estimadas_mt": 80,
-        "ley_p2o5_pct": 15.2,
-        "estado": "exploración"
-      },
-      "navay": {
-        "ubicacion": "Táchira",
+      "monte_fresco": {
+        "nombre": "Monte Fresco",
+        "municipio": "Ayacucho",
+        "ubicacion": "Estado Táchira",
         "reservas_estimadas_mt": 150,
         "ley_p2o5_pct": 18.0,
         "estado": "exploración avanzada",
-        "potencial": "Sustitución de importaciones + exportación Caribe"
+        "potencial": "Sustitución de importaciones + exportación Caribe",
+        "descripcion": "Yacimiento fosfático ubicado en el Municipio Ayacucho del Estado Táchira, con importantes reservas confirmadas de roca fosfática de alta ley."
       }
     }
   },
@@ -85,7 +85,10 @@
       "ingreso_potencial_anual_musd": 85.6
     },
     "potencial_fosfatico": {
-      "reservas_navay_mt": 150,
+      "yacimiento": "Monte Fresco",
+      "municipio": "Ayacucho",
+      "estado_venezolano": "Táchira",
+      "reservas_monte_fresco_mt": 150,
       "ley_promedio_pct_p2o5": 18,
       "mercados_objetivo": ["Colombia", "Brasil", "Caribe"],
       "precio_referencia_actual": 87.50,

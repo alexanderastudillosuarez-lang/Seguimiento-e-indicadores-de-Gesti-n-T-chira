@@ -1,6 +1,36 @@
 {
-  "ultima_actualizacion": "2026-06-09T17:00:03.211673",
+  "ultima_actualizacion": "2026-06-09T17:30:03.064920",
   "noticias": [
+    {
+      "id": 1781040603,
+      "titulo": "Carbón energético bajan 5.4% en sesión asiática",
+      "resumen": "Datos de mercado actualizados por el sistema de monitoreo OICF.",
+      "fuente": "País Minero",
+      "fecha": "2026-06-09T17:30:03.033994",
+      "categoria": "fosfatos",
+      "sentimiento": "negativo",
+      "url": "#",
+      "tags": [
+        "mercado",
+        "precios",
+        "minería"
+      ]
+    },
+    {
+      "id": 1781040602,
+      "titulo": "UPME actualiza proyecciones de producción carbonífera",
+      "resumen": "Datos de mercado actualizados por el sistema de monitoreo OICF.",
+      "fuente": "UPME",
+      "fecha": "2026-06-09T17:30:02.387650",
+      "categoria": "fertilizantes",
+      "sentimiento": "neutral",
+      "url": "#",
+      "tags": [
+        "mercado",
+        "precios",
+        "minería"
+      ]
+    },
     {
       "id": 1781038803,
       "titulo": "Colombia exporta 1.8 Mt de carbón en febrero",
@@ -154,8 +184,8 @@
     },
     {
       "id": 9,
-      "titulo": "Proyecto Navay: fosfatos del Táchira con potencial exportador hacia el Caribe",
-      "resumen": "Estudios geológicos confirman reservas de roca fosfática en la cuenca de Navay, estado Táchira, con ley promedio de 18% P₂O₅, suficientes para abastecer el mercado caribeño por 20 años.",
+      "titulo": "Monte Fresco (Ayacucho): fosfatos del Táchira con potencial exportador hacia el Caribe",
+      "resumen": "Estudios geológicos confirman reservas de roca fosfática en el yacimiento Monte Fresco, Municipio Ayacucho, estado Táchira, con ley promedio de 18% P₂O₅, suficientes para abastecer el mercado caribeño por 20 años.",
       "fuente": "País Minero",
       "fecha": "2026-06-06T16:00:00",
       "categoria": "fosfatos",
@@ -164,7 +194,7 @@
       "imagen": null,
       "tags": [
         "Táchira",
-        "Navay",
+        "Monte Fresco",
         "fosfatos",
         "Venezuela",
         "Caribe"

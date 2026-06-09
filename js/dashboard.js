@@ -375,8 +375,7 @@ const OICF = (() => {
       <div class="stat-row"><span>Estado Zulia</span><em class="text-warning">${ven.carbon.zulia.estado}</em></div>
       <div class="stat-row"><span>Carbón Táchira</span><strong>${ven.carbon.tachira.produccion_estimada_mt} Mt/año (est.)</strong></div>
       <div class="stat-row"><span>Estado Táchira</span><em class="text-danger">${ven.carbon.tachira.estado}</em></div>
-      <div class="stat-row"><span>Fosfatos Navay</span><strong>${ven.fosfatos.navay.reservas_estimadas_mt} Mt reservas</strong></div>
-      <div class="stat-row"><span>Fosfatos Riecito</span><strong>${ven.fosfatos.riecito.reservas_estimadas_mt} Mt reservas</strong></div>
+      <div class="stat-row"><span>Fosfatos Monte Fresco (Ayacucho)</span><strong>${ven.fosfatos.monte_fresco.reservas_estimadas_mt} Mt reservas</strong></div>
     `;
   }
 
@@ -413,9 +412,10 @@ const OICF = (() => {
         <div class="col-md-6">
           <div class="tachira-card">
             <h5><i class="fas fa-seedling me-2"></i>Potencial Fosfático</h5>
+            <div style="font-size:.72rem;color:rgba(255,255,255,.5);margin-top:4px">Yacimiento Monte Fresco · Mpio. Ayacucho</div>
             <div class="mt-3">
-              <div class="tachira-stat">${tach.potencial_fosfatico.reservas_navay_mt} Mt</div>
-              <div class="tachira-label">Reservas Navay</div>
+              <div class="tachira-stat">${tach.potencial_fosfatico.reservas_monte_fresco_mt} Mt</div>
+              <div class="tachira-label">Reservas Monte Fresco</div>
             </div>
             <div class="mt-2">
               <div class="tachira-stat">${tach.potencial_fosfatico.ley_promedio_pct_p2o5}% P₂O₅</div>
@@ -626,11 +626,11 @@ const OICF = (() => {
     },
     venezuela: {
       carbon: { zulia:{produccion_estimada_mt:0.5, estado:'operación reducida'}, tachira:{produccion_estimada_mt:0.3, estado:'suspendida'} },
-      fosfatos: { navay:{reservas_estimadas_mt:150}, riecito:{reservas_estimadas_mt:80} }
+      fosfatos: { monte_fresco:{reservas_estimadas_mt:150, municipio:'Ayacucho'} }
     },
     tachira_estrategico: {
       potencial_carbonifero:{ reservas_probadas_mt:129, reservas_probables_mt:250, tipo_carbon:'Bituminoso alta volatilidad', poder_calorifico_kcal_kg:6800, contenido_azufre_pct:0.8, ingreso_potencial_anual_musd:85.6 },
-      potencial_fosfatico:{ reservas_navay_mt:150, ley_promedio_pct_p2o5:18, mercados_objetivo:['Colombia','Brasil','Caribe'], ingreso_potencial_anual_musd:42.0 },
+      potencial_fosfatico:{ yacimiento:'Monte Fresco', municipio:'Ayacucho', reservas_monte_fresco_mt:150, ley_promedio_pct_p2o5:18, mercados_objetivo:['Colombia','Brasil','Caribe'], ingreso_potencial_anual_musd:42.0 },
       competidores_regionales:{ Colombia:{produccion_mt:57, fortalezas:['Infraestructura','Logística']}, Brasil:{produccion_mt:8, fortalezas:['Mercado interno']}, Chile:{produccion_mt:0.1, fortalezas:['Estabilidad']}, Venezuela:{produccion_mt:0.8, debilidades:['Crisis energética']} }
     }
   };

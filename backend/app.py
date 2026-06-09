@@ -279,7 +279,7 @@ def api_report(tipo):
         story.append(Paragraph(
             f"<b>Carbón:</b> {cp.get('reservas_probadas_mt',0)} Mt probadas + {cp.get('reservas_probables_mt',0)} Mt probables. "
             f"Ingreso potencial: USD ${cp.get('ingreso_potencial_anual_musd',0)}M/año.<br/>"
-            f"<b>Fosfatos Navay:</b> {fp.get('reservas_navay_mt',0)} Mt con {fp.get('ley_promedio_pct_p2o5',0)}% P₂O₅. "
+            f"<b>Fosfatos Monte Fresco (Mpio. Ayacucho):</b> {fp.get('reservas_monte_fresco_mt',0)} Mt con {fp.get('ley_promedio_pct_p2o5',0)}% P₂O₅. "
             f"Ingreso potencial: USD ${fp.get('ingreso_potencial_anual_musd',0)}M/año.", body_style))
 
         story.append(Spacer(1,12))
