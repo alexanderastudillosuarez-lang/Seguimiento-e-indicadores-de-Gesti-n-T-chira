@@ -298,6 +298,23 @@ def api_report(tipo):
         return jsonify({"error": str(e)}), 500
 
 # =============================================================================
+# API - FUENTES DE DATOS
+# =============================================================================
+
+@app.route("/api/fuentes")
+def api_fuentes():
+    try:
+        with open(DATA_DIR / "precios.json", encoding="utf-8") as f:
+            data = json.load(f)
+        return jsonify({
+            "fuentes_registro": data.get("fuentes_registro", {}),
+            "fuentes_sync":     data.get("fuentes", {}),
+            "ultima_actualizacion": data.get("ultima_actualizacion")
+        })
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+# =============================================================================
 # API - STATUS
 # =============================================================================
 

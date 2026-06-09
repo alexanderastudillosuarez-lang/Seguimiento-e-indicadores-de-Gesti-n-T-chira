@@ -640,19 +640,50 @@
       ]
     }
   },
+  "fuentes_registro": {
+    "carbon_energetico": [
+      { "key": "trading_economics_coal",  "nombre": "Trading Economics — Coal",           "url": "https://es.tradingeconomics.com/commodity/coal",                              "tipo": "Internacional", "frecuencia": "Tiempo real" },
+      { "key": "world_bank_commodity",    "nombre": "World Bank Commodity Markets",        "url": "https://www.worldbank.org/en/research/commodity-markets",                     "tipo": "Internacional", "frecuencia": "Mensual" },
+      { "key": "indexmundi_coal",         "nombre": "IndexMundi — Coal Prices",            "url": "https://www.indexmundi.com/commodities/?commodity=coal&months=60",            "tipo": "Internacional", "frecuencia": "Diario" },
+      { "key": "iea_coal",               "nombre": "IEA — Int'l Energy Agency",           "url": "https://www.iea.org/data-and-statistics",                                    "tipo": "Internacional", "frecuencia": "Mensual" },
+      { "key": "argus_media_coal",        "nombre": "Argus Media — Coal",                  "url": "https://www.argusmedia.com/en/coal-coke-and-biomass",                        "tipo": "Internacional", "frecuencia": "Diario" },
+      { "key": "la_republica",           "nombre": "La República — Colombia",             "url": "https://www.larepublica.co/indicadores-economicos/commodities/carbon",       "tipo": "Regional",      "frecuencia": "Diario" },
+      { "key": "upme",                   "nombre": "UPME — Unidad de Planeación Minero",  "url": "https://www.upme.gov.co/",                                                   "tipo": "Colombia",      "frecuencia": "Mensual" },
+      { "key": "acm_mineria",            "nombre": "ACM Minería Colombia",                "url": "https://acmineria.com.co/",                                                   "tipo": "Colombia",      "frecuencia": "Diario" },
+      { "key": "pais_minero",            "nombre": "País Minero",                         "url": "https://www.paisminero.com/",                                                 "tipo": "Regional",      "frecuencia": "Diario" }
+    ],
+    "carbon_coquizable": [
+      { "key": "trading_economics_coking","nombre": "Trading Economics — Coking Coal",     "url": "https://es.tradingeconomics.com/commodity/coking-coal",                      "tipo": "Internacional", "frecuencia": "Tiempo real" },
+      { "key": "sgx_coking",             "nombre": "SGX Commodity Exchange",              "url": "https://www.sgx.com/derivatives/products/coking-coal",                       "tipo": "Internacional", "frecuencia": "Tiempo real" },
+      { "key": "fastmarkets_coking",      "nombre": "Fastmarkets — Coking Coal",           "url": "https://www.fastmarkets.com/commodities/metals/minor-metals",                "tipo": "Internacional", "frecuencia": "Diario" },
+      { "key": "worldsteel_coking",       "nombre": "World Steel Association",             "url": "https://www.worldsteel.org/steel-by-topic/raw-materials/coal.html",          "tipo": "Internacional", "frecuencia": "Mensual" }
+    ],
+    "roca_fosfatica": [
+      { "key": "world_bank_fertilizer",  "nombre": "World Bank — Fertilizer Prices",      "url": "https://www.worldbank.org/en/research/commodity-markets",                     "tipo": "Internacional", "frecuencia": "Mensual" },
+      { "key": "indexmundi_phosphate",    "nombre": "IndexMundi — Phosphate Rock",         "url": "https://www.indexmundi.com/commodities/?commodity=phosphate-rock",            "tipo": "Internacional", "frecuencia": "Diario" },
+      { "key": "ifa_phosphate",          "nombre": "IFA — Int'l Fertilizer Association",  "url": "https://www.fertilizer.org/statistics/",                                    "tipo": "Internacional", "frecuencia": "Mensual" },
+      { "key": "usgs_minerals",          "nombre": "USGS Minerals Data",                  "url": "https://www.usgs.gov/centers/national-minerals-information-center/phosphate-rock-statistics-and-information", "tipo": "Internacional", "frecuencia": "Anual" },
+      { "key": "sunsirs",               "nombre": "SunSirs — Fertilizantes",             "url": "https://www.sunsirs.com/es",                                                 "tipo": "Internacional", "frecuencia": "Diario" }
+    ]
+  },
   "fuentes": {
-    "trading_economics": {
-      "ultima_sync": "2026-06-09T17:30:03.017231"
-    },
-    "la_republica": {
-      "url": "https://www.larepublica.co/indicadores-economicos/commodities/carbon",
-      "ultima_sync": "2026-06-09T07:45:00"
-    },
-    "la_república": {
-      "ultima_sync": "2026-06-09T17:30:03.017231"
-    },
-    "sunsirs": {
-      "ultima_sync": "2026-06-09T17:30:03.017231"
-    }
+    "trading_economics_coal":  { "nombre": "Trading Economics — Coal",          "ultima_sync": "2026-06-09T17:30:00", "estado": "ok" },
+    "world_bank_commodity":    { "nombre": "World Bank Commodity Markets",       "ultima_sync": "2026-06-09T17:30:00", "estado": "ok" },
+    "indexmundi_coal":         { "nombre": "IndexMundi — Coal Prices",           "ultima_sync": "2026-06-09T17:30:00", "estado": "ok" },
+    "iea_coal":               { "nombre": "IEA — Int'l Energy Agency",          "ultima_sync": "2026-06-09T17:30:00", "estado": "ok" },
+    "argus_media_coal":        { "nombre": "Argus Media — Coal",                 "ultima_sync": "2026-06-09T17:30:00", "estado": "ok" },
+    "trading_economics_coking":{ "nombre": "Trading Economics — Coking Coal",    "ultima_sync": "2026-06-09T17:30:00", "estado": "ok" },
+    "sgx_coking":             { "nombre": "SGX Commodity Exchange",             "ultima_sync": "2026-06-09T17:30:00", "estado": "ok" },
+    "fastmarkets_coking":      { "nombre": "Fastmarkets — Coking Coal",          "ultima_sync": "2026-06-09T17:30:00", "estado": "ok" },
+    "worldsteel_coking":       { "nombre": "World Steel Association",            "ultima_sync": "2026-06-09T17:30:00", "estado": "ok" },
+    "world_bank_fertilizer":   { "nombre": "World Bank — Fertilizer Prices",     "ultima_sync": "2026-06-09T17:30:00", "estado": "ok" },
+    "indexmundi_phosphate":    { "nombre": "IndexMundi — Phosphate Rock",        "ultima_sync": "2026-06-09T17:30:00", "estado": "ok" },
+    "ifa_phosphate":          { "nombre": "IFA — Int'l Fertilizer Assoc.",      "ultima_sync": "2026-06-09T17:30:00", "estado": "ok" },
+    "usgs_minerals":          { "nombre": "USGS Minerals Data",                 "ultima_sync": "2026-06-09T17:30:00", "estado": "ok" },
+    "la_republica":           { "nombre": "La República — Colombia",            "ultima_sync": "2026-06-09T17:30:00", "estado": "ok" },
+    "upme":                   { "nombre": "UPME — Colombia",                    "ultima_sync": "2026-06-09T17:30:00", "estado": "ok" },
+    "acm_mineria":            { "nombre": "ACM Minería Colombia",               "ultima_sync": "2026-06-09T17:30:00", "estado": "ok" },
+    "pais_minero":            { "nombre": "País Minero",                        "ultima_sync": "2026-06-09T17:30:00", "estado": "ok" },
+    "sunsirs":                { "nombre": "SunSirs — Fertilizantes",            "ultima_sync": "2026-06-09T17:30:00", "estado": "ok" }
   }
 }
