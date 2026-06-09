@@ -1,9 +1,9 @@
 services:
   - type: web
-    name: oicf-observatorio
+    name: observatorio-minero
     runtime: python
     buildCommand: pip install -r requirements.txt
-    startCommand: gunicorn --chdir backend app:app --bind 0.0.0.0:$PORT --workers 2 --timeout 120
+    startCommand: gunicorn wsgi:app --bind 0.0.0.0:$PORT --workers 2 --timeout 120
     envVars:
       - key: FLASK_ENV
         value: production
