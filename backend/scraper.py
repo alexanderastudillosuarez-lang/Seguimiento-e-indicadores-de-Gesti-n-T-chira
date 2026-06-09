@@ -423,6 +423,12 @@ class ScraperOICF:
         cats    = ["carbon","fosfatos","energia","fertilizantes","geopolitica"]
         sents   = ["positivo","neutral","negativo"]
 
+        fuente_key = random.choice(fuentes)
+        fuente_cfg = FUENTES_CONFIG[fuente_key]
+        mineral    = fuente_cfg["categoria"]
+        cat_map    = {"carbon_energetico":"carbon","carbon_coquizable":"carbon","roca_fosfatica":"fosfatos"}
+        cat        = cat_map.get(mineral, "carbon")
+
         return {
             "id":        int(datetime.datetime.now().timestamp()),
             "titulo":    random.choice(plantillas).format(
@@ -431,11 +437,12 @@ class ScraperOICF:
                 region=random.choice(regions)
             ),
             "resumen":   "Datos actualizados por el sistema de monitoreo OICF desde fuentes internacionales.",
-            "fuente":    FUENTES_CONFIG[random.choice(fuentes)]["nombre"],
+            "fuente":    fuente_cfg["nombre"],
             "fecha":     datetime.datetime.now().isoformat(),
-            "categoria": random.choice(cats),
+            "categoria": cat,
+            "mineral":   mineral,
             "sentimiento": random.choice(sents),
-            "url":       "#",
+            "url":       fuente_cfg["url"],
             "tags":      ["mercado","precios","minería"]
         }
 

@@ -263,14 +263,49 @@ body.light-mode .btn-period { border-color: var(--border-light); color: var(--te
 /* ---- News Panel ---- */
 .news-card {
   border-radius: 10px; padding: 14px 16px;
-  margin-bottom: 12px; transition: transform .15s;
+  margin-bottom: 12px; transition: transform .15s, box-shadow .15s;
 }
 body.dark-mode  .news-card { background: #1e293b; }
 body.light-mode .news-card { background: #f8fafc; border: 1px solid var(--border-light); }
-.news-card:hover { transform: translateX(4px); }
+.news-card:hover { transform: translateX(4px); box-shadow: 0 4px 16px rgba(0,0,0,.18); }
 .news-title { font-size: .9rem; font-weight: 600; line-height: 1.35; margin-bottom: 6px; }
+.news-title:hover { text-decoration: underline !important; opacity: .85; }
 .news-meta  { font-size: .72rem; opacity: .55; }
 .news-tag   { font-size: .65rem; padding: 2px 8px; border-radius: 20px; font-weight: 600; }
+
+/* Botón "Ver fuente" */
+.btn-ver-fuente {
+  display: inline-flex; align-items: center;
+  font-size: .68rem; font-weight: 600;
+  padding: 2px 9px; border-radius: 5px;
+  border: 1px solid rgba(99,102,241,.45);
+  color: #818cf8; background: rgba(99,102,241,.08);
+  text-decoration: none; cursor: pointer;
+  transition: background .15s, color .15s;
+  white-space: nowrap;
+}
+.btn-ver-fuente:hover {
+  background: rgba(99,102,241,.22);
+  color: #a5b4fc; text-decoration: none;
+}
+.btn-ver-fuente.disabled {
+  opacity: .4; cursor: default;
+  border-color: rgba(255,255,255,.15);
+  color: rgba(255,255,255,.4); background: transparent;
+}
+body.light-mode .btn-ver-fuente        { color: #4f46e5; border-color: rgba(79,70,229,.35); background: rgba(79,70,229,.07); }
+body.light-mode .btn-ver-fuente:hover  { background: rgba(79,70,229,.18); color: #3730a3; }
+body.light-mode .btn-ver-fuente.disabled { color: #94a3b8; border-color: #e2e8f0; }
+
+/* Panel fuentes — enlaces clicables */
+.fuente-link {
+  font-size: .73rem; color: inherit; text-decoration: none;
+  transition: color .15s; display: inline-flex; align-items: center; gap: 4px;
+}
+.fuente-link:hover { color: #818cf8; text-decoration: none; }
+.fuente-link:hover .fuente-ext-icon { opacity: 1; }
+.fuente-ext-icon { opacity: 0; font-size: .55rem; transition: opacity .15s; }
+body.light-mode .fuente-link:hover { color: #4f46e5; }
 
 .sentimiento-positivo { color: #22c55e; }
 .sentimiento-negativo { color: #ef4444; }

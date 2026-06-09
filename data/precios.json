@@ -1,11 +1,11 @@
 {
-  "ultima_actualizacion": "2026-06-09T17:30:03.017231",
+  "ultima_actualizacion": "2026-06-09T18:00:12.223438",
   "carbon_energetico": {
     "nombre": "Carbón Energético (Newcastle)",
     "unidad": "USD/Ton",
-    "precio_actual": 130.86,
-    "variacion_diaria": 0.53,
-    "variacion_diaria_pct": 0.41,
+    "precio_actual": 130.49,
+    "variacion_diaria": -0.11,
+    "variacion_diaria_pct": -0.08,
     "variacion_semanal_pct": -2.1,
     "variacion_mensual_pct": 3.8,
     "variacion_anual_pct": -12.4,
@@ -13,13 +13,13 @@
     "min_historico": 47.23,
     "historico": {
       "7d": [
-        132.07,
-        132.97,
-        131.55,
         132.69,
         131.19,
         130.33,
-        130.86
+        130.86,
+        130.52,
+        130.6,
+        130.49
       ],
       "30d": [
         128.1,
@@ -528,14 +528,20 @@
         366.9,
         365.4
       ]
+    },
+    "precio_consenso": {
+      "precio_consenso": 130.49,
+      "precio_min": 129.75,
+      "precio_max": 131.03,
+      "n_fuentes": 9
     }
   },
   "carbon_coquizable": {
     "nombre": "Carbón Coquizable (Premium HCC)",
     "unidad": "USD/Ton",
-    "precio_actual": 198.75,
-    "variacion_diaria": 2.15,
-    "variacion_diaria_pct": 1.09,
+    "precio_actual": 198.55,
+    "variacion_diaria": -0.2,
+    "variacion_diaria_pct": -0.1,
     "variacion_semanal_pct": 1.8,
     "variacion_mensual_pct": -2.3,
     "variacion_anual_pct": -8.7,
@@ -543,13 +549,13 @@
     "min_historico": 88.5,
     "historico": {
       "7d": [
-        194.2,
         195.9,
         196.1,
         197.8,
         196.7,
         197.5,
-        198.75
+        198.75,
+        198.55
       ],
       "30d": [
         191.1,
@@ -583,14 +589,20 @@
         196.5,
         198.75
       ]
+    },
+    "precio_consenso": {
+      "precio_consenso": 198.55,
+      "precio_min": 197.41,
+      "precio_max": 199.92,
+      "n_fuentes": 4
     }
   },
   "roca_fosfatica": {
     "nombre": "Roca Fosfática (68% BPL)",
     "unidad": "USD/Ton",
-    "precio_actual": 87.06,
-    "variacion_diaria": -0.65,
-    "variacion_diaria_pct": -0.74,
+    "precio_actual": 86.49,
+    "variacion_diaria": -0.03,
+    "variacion_diaria_pct": -0.03,
     "variacion_semanal_pct": 2.9,
     "variacion_mensual_pct": 5.4,
     "variacion_anual_pct": -3.2,
@@ -598,13 +610,13 @@
     "min_historico": 38.0,
     "historico": {
       "7d": [
-        86.7,
-        87.0,
         87.5,
         87.87,
         88.0,
         87.71,
-        87.06
+        87.06,
+        86.52,
+        86.49
       ],
       "30d": [
         82.1,
@@ -638,52 +650,274 @@
         86.5,
         87.5
       ]
+    },
+    "precio_consenso": {
+      "precio_consenso": 86.49,
+      "precio_min": 85.52,
+      "precio_max": 87.26,
+      "n_fuentes": 5
     }
   },
   "fuentes_registro": {
     "carbon_energetico": [
-      { "key": "trading_economics_coal",  "nombre": "Trading Economics — Coal",           "url": "https://es.tradingeconomics.com/commodity/coal",                              "tipo": "Internacional", "frecuencia": "Tiempo real" },
-      { "key": "world_bank_commodity",    "nombre": "World Bank Commodity Markets",        "url": "https://www.worldbank.org/en/research/commodity-markets",                     "tipo": "Internacional", "frecuencia": "Mensual" },
-      { "key": "indexmundi_coal",         "nombre": "IndexMundi — Coal Prices",            "url": "https://www.indexmundi.com/commodities/?commodity=coal&months=60",            "tipo": "Internacional", "frecuencia": "Diario" },
-      { "key": "iea_coal",               "nombre": "IEA — Int'l Energy Agency",           "url": "https://www.iea.org/data-and-statistics",                                    "tipo": "Internacional", "frecuencia": "Mensual" },
-      { "key": "argus_media_coal",        "nombre": "Argus Media — Coal",                  "url": "https://www.argusmedia.com/en/coal-coke-and-biomass",                        "tipo": "Internacional", "frecuencia": "Diario" },
-      { "key": "la_republica",           "nombre": "La República — Colombia",             "url": "https://www.larepublica.co/indicadores-economicos/commodities/carbon",       "tipo": "Regional",      "frecuencia": "Diario" },
-      { "key": "upme",                   "nombre": "UPME — Unidad de Planeación Minero",  "url": "https://www.upme.gov.co/",                                                   "tipo": "Colombia",      "frecuencia": "Mensual" },
-      { "key": "acm_mineria",            "nombre": "ACM Minería Colombia",                "url": "https://acmineria.com.co/",                                                   "tipo": "Colombia",      "frecuencia": "Diario" },
-      { "key": "pais_minero",            "nombre": "País Minero",                         "url": "https://www.paisminero.com/",                                                 "tipo": "Regional",      "frecuencia": "Diario" }
+      {
+        "key": "trading_economics_coal",
+        "nombre": "Trading Economics — Coal",
+        "url": "https://es.tradingeconomics.com/commodity/coal",
+        "tipo": "Internacional",
+        "frecuencia": "Tiempo real"
+      },
+      {
+        "key": "world_bank_commodity",
+        "nombre": "World Bank Commodity Markets",
+        "url": "https://www.worldbank.org/en/research/commodity-markets",
+        "tipo": "Internacional",
+        "frecuencia": "Mensual"
+      },
+      {
+        "key": "indexmundi_coal",
+        "nombre": "IndexMundi — Coal Prices",
+        "url": "https://www.indexmundi.com/commodities/?commodity=coal&months=60",
+        "tipo": "Internacional",
+        "frecuencia": "Diario"
+      },
+      {
+        "key": "iea_coal",
+        "nombre": "IEA — Int'l Energy Agency",
+        "url": "https://www.iea.org/data-and-statistics",
+        "tipo": "Internacional",
+        "frecuencia": "Mensual"
+      },
+      {
+        "key": "argus_media_coal",
+        "nombre": "Argus Media — Coal",
+        "url": "https://www.argusmedia.com/en/coal-coke-and-biomass",
+        "tipo": "Internacional",
+        "frecuencia": "Diario"
+      },
+      {
+        "key": "la_republica",
+        "nombre": "La República — Colombia",
+        "url": "https://www.larepublica.co/indicadores-economicos/commodities/carbon",
+        "tipo": "Regional",
+        "frecuencia": "Diario"
+      },
+      {
+        "key": "upme",
+        "nombre": "UPME — Unidad de Planeación Minero",
+        "url": "https://www.upme.gov.co/",
+        "tipo": "Colombia",
+        "frecuencia": "Mensual"
+      },
+      {
+        "key": "acm_mineria",
+        "nombre": "ACM Minería Colombia",
+        "url": "https://acmineria.com.co/",
+        "tipo": "Colombia",
+        "frecuencia": "Diario"
+      },
+      {
+        "key": "pais_minero",
+        "nombre": "País Minero",
+        "url": "https://www.paisminero.com/",
+        "tipo": "Regional",
+        "frecuencia": "Diario"
+      }
     ],
     "carbon_coquizable": [
-      { "key": "trading_economics_coking","nombre": "Trading Economics — Coking Coal",     "url": "https://es.tradingeconomics.com/commodity/coking-coal",                      "tipo": "Internacional", "frecuencia": "Tiempo real" },
-      { "key": "sgx_coking",             "nombre": "SGX Commodity Exchange",              "url": "https://www.sgx.com/derivatives/products/coking-coal",                       "tipo": "Internacional", "frecuencia": "Tiempo real" },
-      { "key": "fastmarkets_coking",      "nombre": "Fastmarkets — Coking Coal",           "url": "https://www.fastmarkets.com/commodities/metals/minor-metals",                "tipo": "Internacional", "frecuencia": "Diario" },
-      { "key": "worldsteel_coking",       "nombre": "World Steel Association",             "url": "https://www.worldsteel.org/steel-by-topic/raw-materials/coal.html",          "tipo": "Internacional", "frecuencia": "Mensual" }
+      {
+        "key": "trading_economics_coking",
+        "nombre": "Trading Economics — Coking Coal",
+        "url": "https://es.tradingeconomics.com/commodity/coking-coal",
+        "tipo": "Internacional",
+        "frecuencia": "Tiempo real"
+      },
+      {
+        "key": "sgx_coking",
+        "nombre": "SGX Commodity Exchange",
+        "url": "https://www.sgx.com/derivatives/products/coking-coal",
+        "tipo": "Internacional",
+        "frecuencia": "Tiempo real"
+      },
+      {
+        "key": "fastmarkets_coking",
+        "nombre": "Fastmarkets — Coking Coal",
+        "url": "https://www.fastmarkets.com/commodities/metals/minor-metals",
+        "tipo": "Internacional",
+        "frecuencia": "Diario"
+      },
+      {
+        "key": "worldsteel_coking",
+        "nombre": "World Steel Association",
+        "url": "https://www.worldsteel.org/steel-by-topic/raw-materials/coal.html",
+        "tipo": "Internacional",
+        "frecuencia": "Mensual"
+      }
     ],
     "roca_fosfatica": [
-      { "key": "world_bank_fertilizer",  "nombre": "World Bank — Fertilizer Prices",      "url": "https://www.worldbank.org/en/research/commodity-markets",                     "tipo": "Internacional", "frecuencia": "Mensual" },
-      { "key": "indexmundi_phosphate",    "nombre": "IndexMundi — Phosphate Rock",         "url": "https://www.indexmundi.com/commodities/?commodity=phosphate-rock",            "tipo": "Internacional", "frecuencia": "Diario" },
-      { "key": "ifa_phosphate",          "nombre": "IFA — Int'l Fertilizer Association",  "url": "https://www.fertilizer.org/statistics/",                                    "tipo": "Internacional", "frecuencia": "Mensual" },
-      { "key": "usgs_minerals",          "nombre": "USGS Minerals Data",                  "url": "https://www.usgs.gov/centers/national-minerals-information-center/phosphate-rock-statistics-and-information", "tipo": "Internacional", "frecuencia": "Anual" },
-      { "key": "sunsirs",               "nombre": "SunSirs — Fertilizantes",             "url": "https://www.sunsirs.com/es",                                                 "tipo": "Internacional", "frecuencia": "Diario" }
+      {
+        "key": "world_bank_fertilizer",
+        "nombre": "World Bank — Fertilizer Prices",
+        "url": "https://www.worldbank.org/en/research/commodity-markets",
+        "tipo": "Internacional",
+        "frecuencia": "Mensual"
+      },
+      {
+        "key": "indexmundi_phosphate",
+        "nombre": "IndexMundi — Phosphate Rock",
+        "url": "https://www.indexmundi.com/commodities/?commodity=phosphate-rock",
+        "tipo": "Internacional",
+        "frecuencia": "Diario"
+      },
+      {
+        "key": "ifa_phosphate",
+        "nombre": "IFA — Int'l Fertilizer Association",
+        "url": "https://www.fertilizer.org/statistics/",
+        "tipo": "Internacional",
+        "frecuencia": "Mensual"
+      },
+      {
+        "key": "usgs_minerals",
+        "nombre": "USGS Minerals Data",
+        "url": "https://www.usgs.gov/centers/national-minerals-information-center/phosphate-rock-statistics-and-information",
+        "tipo": "Internacional",
+        "frecuencia": "Anual"
+      },
+      {
+        "key": "sunsirs",
+        "nombre": "SunSirs — Fertilizantes",
+        "url": "https://www.sunsirs.com/es",
+        "tipo": "Internacional",
+        "frecuencia": "Diario"
+      }
     ]
   },
   "fuentes": {
-    "trading_economics_coal":  { "nombre": "Trading Economics — Coal",          "ultima_sync": "2026-06-09T17:30:00", "estado": "ok" },
-    "world_bank_commodity":    { "nombre": "World Bank Commodity Markets",       "ultima_sync": "2026-06-09T17:30:00", "estado": "ok" },
-    "indexmundi_coal":         { "nombre": "IndexMundi — Coal Prices",           "ultima_sync": "2026-06-09T17:30:00", "estado": "ok" },
-    "iea_coal":               { "nombre": "IEA — Int'l Energy Agency",          "ultima_sync": "2026-06-09T17:30:00", "estado": "ok" },
-    "argus_media_coal":        { "nombre": "Argus Media — Coal",                 "ultima_sync": "2026-06-09T17:30:00", "estado": "ok" },
-    "trading_economics_coking":{ "nombre": "Trading Economics — Coking Coal",    "ultima_sync": "2026-06-09T17:30:00", "estado": "ok" },
-    "sgx_coking":             { "nombre": "SGX Commodity Exchange",             "ultima_sync": "2026-06-09T17:30:00", "estado": "ok" },
-    "fastmarkets_coking":      { "nombre": "Fastmarkets — Coking Coal",          "ultima_sync": "2026-06-09T17:30:00", "estado": "ok" },
-    "worldsteel_coking":       { "nombre": "World Steel Association",            "ultima_sync": "2026-06-09T17:30:00", "estado": "ok" },
-    "world_bank_fertilizer":   { "nombre": "World Bank — Fertilizer Prices",     "ultima_sync": "2026-06-09T17:30:00", "estado": "ok" },
-    "indexmundi_phosphate":    { "nombre": "IndexMundi — Phosphate Rock",        "ultima_sync": "2026-06-09T17:30:00", "estado": "ok" },
-    "ifa_phosphate":          { "nombre": "IFA — Int'l Fertilizer Assoc.",      "ultima_sync": "2026-06-09T17:30:00", "estado": "ok" },
-    "usgs_minerals":          { "nombre": "USGS Minerals Data",                 "ultima_sync": "2026-06-09T17:30:00", "estado": "ok" },
-    "la_republica":           { "nombre": "La República — Colombia",            "ultima_sync": "2026-06-09T17:30:00", "estado": "ok" },
-    "upme":                   { "nombre": "UPME — Colombia",                    "ultima_sync": "2026-06-09T17:30:00", "estado": "ok" },
-    "acm_mineria":            { "nombre": "ACM Minería Colombia",               "ultima_sync": "2026-06-09T17:30:00", "estado": "ok" },
-    "pais_minero":            { "nombre": "País Minero",                        "ultima_sync": "2026-06-09T17:30:00", "estado": "ok" },
-    "sunsirs":                { "nombre": "SunSirs — Fertilizantes",            "ultima_sync": "2026-06-09T17:30:00", "estado": "ok" }
+    "trading_economics_coal": {
+      "nombre": "Trading Economics — Coal",
+      "url": "https://es.tradingeconomics.com/commodity/coal",
+      "ultima_sync": "2026-06-09T18:00:12.223438",
+      "precio": 130.5,
+      "estado": "ok"
+    },
+    "world_bank_commodity": {
+      "nombre": "World Bank Commodity Markets",
+      "url": "https://www.worldbank.org/en/research/commodity-markets",
+      "ultima_sync": "2026-06-09T18:00:12.223438",
+      "precio": 131.03,
+      "estado": "ok"
+    },
+    "indexmundi_coal": {
+      "nombre": "IndexMundi — Coal Prices",
+      "url": "https://www.indexmundi.com/commodities/?commodity=coal&months=60",
+      "ultima_sync": "2026-06-09T18:00:12.223438",
+      "precio": 129.75,
+      "estado": "ok"
+    },
+    "iea_coal": {
+      "nombre": "IEA — International Energy Agency",
+      "url": "https://www.iea.org/data-and-statistics/charts/coal-prices",
+      "ultima_sync": "2026-06-09T18:00:12.223438",
+      "precio": 130.22,
+      "estado": "ok"
+    },
+    "argus_media_coal": {
+      "nombre": "Argus Media — Coal",
+      "url": "https://www.argusmedia.com/en/coal-coke-and-biomass",
+      "ultima_sync": "2026-06-09T18:00:12.223438",
+      "precio": 130.62,
+      "estado": "ok"
+    },
+    "trading_economics_coking": {
+      "nombre": "Trading Economics — Coking Coal",
+      "url": "https://es.tradingeconomics.com/commodity/coking-coal",
+      "ultima_sync": "2026-06-09T18:00:12.223438",
+      "precio": 199.92,
+      "estado": "ok"
+    },
+    "sgx_coking": {
+      "nombre": "SGX Commodity Exchange",
+      "url": "https://www.sgx.com/derivatives/products/coking-coal",
+      "ultima_sync": "2026-06-09T18:00:12.223438",
+      "precio": 197.41,
+      "estado": "ok"
+    },
+    "fastmarkets_coking": {
+      "nombre": "Fastmarkets — Coking Coal",
+      "url": "https://www.fastmarkets.com/commodities/metals/minor-metals",
+      "ultima_sync": "2026-06-09T18:00:12.223438",
+      "precio": 197.65,
+      "estado": "ok"
+    },
+    "worldsteel_coking": {
+      "nombre": "World Steel Association",
+      "url": "https://www.worldsteel.org/steel-by-topic/raw-materials/coal.html",
+      "ultima_sync": "2026-06-09T18:00:12.223438",
+      "precio": 199.23,
+      "estado": "ok"
+    },
+    "world_bank_fertilizer": {
+      "nombre": "World Bank — Fertilizer Prices",
+      "url": "https://www.worldbank.org/en/research/commodity-markets",
+      "ultima_sync": "2026-06-09T18:00:12.223438",
+      "precio": 86.25,
+      "estado": "ok"
+    },
+    "indexmundi_phosphate": {
+      "nombre": "IndexMundi — Phosphate Rock",
+      "url": "https://www.indexmundi.com/commodities/?commodity=phosphate-rock",
+      "ultima_sync": "2026-06-09T18:00:12.223438",
+      "precio": 87.26,
+      "estado": "ok"
+    },
+    "ifa_phosphate": {
+      "nombre": "IFA — Int'l Fertilizer Association",
+      "url": "https://www.fertilizer.org/statistics/",
+      "ultima_sync": "2026-06-09T18:00:12.223438",
+      "precio": 86.83,
+      "estado": "ok"
+    },
+    "usgs_minerals": {
+      "nombre": "USGS Minerals Data",
+      "url": "https://www.usgs.gov/centers/national-minerals-information-center/phosphate-rock-statistics-and-information",
+      "ultima_sync": "2026-06-09T18:00:12.223438",
+      "precio": 86.57,
+      "estado": "ok"
+    },
+    "la_republica": {
+      "nombre": "La República Colombia",
+      "url": "https://www.larepublica.co/indicadores-economicos/commodities/carbon",
+      "ultima_sync": "2026-06-09T18:00:12.223438",
+      "precio": 130.39,
+      "estado": "ok"
+    },
+    "upme": {
+      "nombre": "UPME — Colombia",
+      "url": "https://www.upme.gov.co/",
+      "ultima_sync": "2026-06-09T18:00:12.223438",
+      "precio": 130.8,
+      "estado": "ok"
+    },
+    "acm_mineria": {
+      "nombre": "ACM Minería Colombia",
+      "url": "https://acmineria.com.co/",
+      "ultima_sync": "2026-06-09T18:00:12.223438",
+      "precio": 130.66,
+      "estado": "ok"
+    },
+    "pais_minero": {
+      "nombre": "País Minero",
+      "url": "https://www.paisminero.com/",
+      "ultima_sync": "2026-06-09T18:00:12.223438",
+      "precio": 130.45,
+      "estado": "ok"
+    },
+    "sunsirs": {
+      "nombre": "SunSirs — Fertilizantes",
+      "url": "https://www.sunsirs.com/es",
+      "ultima_sync": "2026-06-09T18:00:12.223438",
+      "precio": 85.52,
+      "estado": "ok"
+    }
   }
 }
