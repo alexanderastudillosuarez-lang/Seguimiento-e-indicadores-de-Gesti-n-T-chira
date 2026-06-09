@@ -319,12 +319,7 @@ def api_status():
 # =============================================================================
 
 if __name__ == "__main__":
-    print("\n" + "="*60)
-    print("  OICF — Observatorio Internacional del Carbón y Fosfatos")
-    print("  Servidor Flask v1.0")
-    print("="*60)
-    print(f"  📂 Directorio base: {BASE_DIR}")
-    print(f"  🌐 URL: http://localhost:5000")
-    print(f"  📊 Dashboard: http://localhost:5000/dashboard")
-    print("="*60 + "\n")
-    app.run(host="0.0.0.0", port=5000, debug=True)
+    port = int(os.environ.get("PORT", 5000))
+    debug = os.environ.get("FLASK_ENV") != "production"
+    print(f"OICF Server — puerto {port} — debug={debug}")
+    app.run(host="0.0.0.0", port=port, debug=debug)
