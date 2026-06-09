@@ -28,6 +28,8 @@ const OICF_Noticias = (() => {
     'World Steel Association':    'https://www.worldsteel.org/steel-by-topic/raw-materials/coal.html',
     'IFA':                        'https://www.fertilizer.org/statistics/',
     'USGS':                       'https://www.usgs.gov/centers/national-minerals-information-center/phosphate-rock-statistics-and-information',
+    'MinDesarrollo Minero Venezuela': 'https://desarrollominero.gob.ve/',
+    'Minem Venezuela':            'https://desarrollominero.gob.ve/',
     'OICF':                       '#'
   };
 

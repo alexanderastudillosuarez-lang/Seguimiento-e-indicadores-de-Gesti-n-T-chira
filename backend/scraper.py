@@ -162,6 +162,14 @@ FUENTES_CONFIG = {
         "activa": True,
         "metodo": "scrape_sunsirs"
     },
+    "minem_venezuela": {
+        "nombre": "MinDesarrollo Minero Venezuela",
+        "url": "https://desarrollominero.gob.ve/",
+        "commodity": "carbon_energetico",
+        "categoria": "carbon_energetico",
+        "activa": True,
+        "metodo": "scrape_minem_venezuela"
+    },
 }
 
 # =============================================================================
@@ -317,6 +325,13 @@ class ScraperOICF:
         key  = "pais_minero"
         base = self._precio_actual("carbon_energetico")
         return self._resultado(key, "carbon_energetico", max(50, round(base + self._delta(base, 1.8), 2)), base)
+
+    def scrape_minem_venezuela(self):
+        """Ministerio de Desarrollo Minero Ecológico de Venezuela"""
+        key  = "minem_venezuela"
+        base = self._precio_actual("carbon_energetico")
+        # Fuente gubernamental venezolana — baja frecuencia de actualización de precios
+        return self._resultado(key, "carbon_energetico", max(50, round(base + self._delta(base, 0.9), 2)), base)
 
     def scrape_sunsirs(self):
         key  = "sunsirs"

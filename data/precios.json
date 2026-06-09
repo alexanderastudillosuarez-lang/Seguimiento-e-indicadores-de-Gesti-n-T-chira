@@ -722,6 +722,13 @@
         "url": "https://www.paisminero.com/",
         "tipo": "Regional",
         "frecuencia": "Diario"
+      },
+      {
+        "key": "minem_venezuela",
+        "nombre": "MinDesarrollo Minero Venezuela",
+        "url": "https://desarrollominero.gob.ve/",
+        "tipo": "Venezuela",
+        "frecuencia": "Semanal"
       }
     ],
     "carbon_coquizable": [
@@ -910,6 +917,13 @@
       "url": "https://www.paisminero.com/",
       "ultima_sync": "2026-06-09T18:00:12.223438",
       "precio": 130.45,
+      "estado": "ok"
+    },
+    "minem_venezuela": {
+      "nombre": "MinDesarrollo Minero Venezuela",
+      "url": "https://desarrollominero.gob.ve/",
+      "ultima_sync": "2026-06-09T18:00:00",
+      "precio": null,
       "estado": "ok"
     },
     "sunsirs": {
