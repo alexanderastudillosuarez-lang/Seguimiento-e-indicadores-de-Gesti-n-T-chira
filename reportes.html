@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OICF — Reportes</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/dashboard.css" rel="stylesheet">
+</head>
+<body class="dark-mode">
+
+<aside id="sidebar" class="sidebar">
+  <a class="sidebar-logo" href="dashboard.html">
+    <span style="font-size:1.8rem;flex-shrink:0">⛏️</span>
+    <div class="sidebar-logo-text">
+      <span class="brand-name">OICF</span>
+      <span class="brand-sub">Observatorio Minero</span>
+    </div>
+  </a>
+  <nav class="sidebar-nav">
+    <div class="nav-item-oicf"><a href="dashboard.html" class="nav-link-oicf"><i class="fas fa-tachometer-alt"></i><span class="nav-text">Dashboard</span></a></div>
+    <div class="nav-item-oicf"><a href="alertas.html"   class="nav-link-oicf"><i class="fas fa-bell"></i><span class="nav-text">Alertas</span></a></div>
+    <div class="nav-item-oicf"><a href="reportes.html"  class="nav-link-oicf active"><i class="fas fa-file-pdf"></i><span class="nav-text">Reportes</span></a></div>
+    <div class="nav-item-oicf"><a href="login.html"     class="nav-link-oicf"><i class="fas fa-sign-out-alt"></i><span class="nav-text">Salir</span></a></div>
+  </nav>
+</aside>
+
+<header id="topbar" class="topbar">
+  <button class="btn-icon border-0" onclick="document.getElementById('sidebar').classList.toggle('collapsed');document.getElementById('topbar').classList.toggle('sidebar-collapsed');document.getElementById('main-content').classList.toggle('sidebar-collapsed')">
+    <i class="fas fa-bars"></i>
+  </button>
+  <span class="topbar-title"><i class="fas fa-file-pdf me-2 text-danger"></i>Centro de Reportes</span>
+  <div class="topbar-actions">
+    <button class="btn-icon border-0" onclick="document.body.classList.toggle('dark-mode');document.body.classList.toggle('light-mode')"><i class="fas fa-sun"></i></button>
+    <a href="dashboard.html" class="btn-icon border-0"><i class="fas fa-arrow-left"></i></a>
+  </div>
+</header>
+
+<main id="main-content" class="main-content">
+  <div class="content-inner">
+
+    <!-- Informe Ejecutivo destacado -->
+    <div class="card-oicf p-4 mb-4" style="background:linear-gradient(135deg,#0d1b2a,#1e3a5f);border:1px solid #2563eb">
+      <div class="d-flex align-items-center gap-3 flex-wrap">
+        <div style="font-size:3rem">📋</div>
+        <div style="flex:1">
+          <h4 class="fw-800 mb-1" style="color:#60a5fa">Informe Ejecutivo Completo</h4>
+          <p class="mb-0" style="color:rgba(255,255,255,.65);font-size:.875rem">
+            Análisis integral de todos los mercados · Carbón + Fosfatos · Colombia · Venezuela · Táchira · Proyecciones IA
+          </p>
+        </div>
+        <button class="cta-btn" onclick="descargar('ejecutivo')" style="display:inline-flex;align-items:center;gap:8px;padding:12px 28px;border-radius:50px;background:linear-gradient(135deg,#0d6efd,#7c3aed);color:#fff;font-weight:700;border:none;cursor:pointer;font-size:.9rem">
+          <i class="fas fa-crown"></i> Descargar PDF
+        </button>
+      </div>
+    </div>
+
+    <!-- Reportes periódicos -->
+    <div class="section-header">
+      <div class="section-title"><span class="dot"></span>Reportes Periódicos</div>
+    </div>
+    <div class="row g-3 mb-4">
+      <div class="col-md-4">
+        <div class="card-oicf p-3 text-center">
+          <div style="font-size:2.5rem;margin-bottom:12px">📄</div>
+          <h6 class="fw-700">Informe Diario</h6>
+          <p class="fs-xs text-muted mb-3">Resumen de precios, variaciones y alertas del día. Generado automáticamente cada mañana.</p>
+          <div class="d-flex flex-column gap-2">
+            <button class="report-btn" onclick="descargar('diario')"><i class="fas fa-file-pdf text-danger"></i>Descargar PDF Hoy</button>
+            <button class="report-btn" onclick="descargar('diario-ayer')"><i class="fas fa-history text-muted"></i>Informe de Ayer</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card-oicf p-3 text-center">
+          <div style="font-size:2.5rem;margin-bottom:12px">📊</div>
+          <h6 class="fw-700">Informe Semanal</h6>
+          <p class="fs-xs text-muted mb-3">Análisis de tendencias semanales, comparativos de precios y noticias relevantes.</p>
+          <div class="d-flex flex-column gap-2">
+            <button class="report-btn" onclick="descargar('semanal')"><i class="fas fa-file-pdf text-warning"></i>Semana Actual</button>
+            <button class="report-btn" onclick="descargar('semanal-ant')"><i class="fas fa-history text-muted"></i>Semana Anterior</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card-oicf p-3 text-center">
+          <div style="font-size:2.5rem;margin-bottom:12px">📈</div>
+          <h6 class="fw-700">Informe Mensual</h6>
+          <p class="fs-xs text-muted mb-3">Análisis exhaustivo del mes con proyecciones, alertas estratégicas y oportunidades.</p>
+          <div class="d-flex flex-column gap-2">
+            <button class="report-btn" onclick="descargar('mensual')"><i class="fas fa-file-pdf text-info"></i>Mes Actual</button>
+            <button class="report-btn" onclick="descargar('mensual-ant')"><i class="fas fa-history text-muted"></i>Mes Anterior</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Reportes especiales -->
+    <div class="section-header">
+      <div class="section-title"><span class="dot" style="background:#34d399"></span>Reportes Especiales</div>
+    </div>
+    <div class="row g-3 mb-4">
+      <div class="col-md-6">
+        <div class="card-oicf p-3">
+          <h6><i class="fas fa-mountain me-2 text-warning"></i>Análisis Estratégico Táchira</h6>
+          <p class="fs-xs text-muted mb-3">Potencial minero, proyecciones de inversión, mercados objetivo y análisis de competidores regionales.</p>
+          <button class="report-btn" onclick="descargar('tachira')"><i class="fas fa-file-pdf text-warning"></i>Descargar Análisis Táchira</button>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card-oicf p-3">
+          <h6><i class="fas fa-seedling me-2 text-success"></i>Observatorio del Fosfato</h6>
+          <p class="fs-xs text-muted mb-3">Mercado mundial de fosfatos, análisis de Marruecos vs China, oportunidades Venezuela-Navay.</p>
+          <button class="report-btn" onclick="descargar('fosfatos')"><i class="fas fa-file-pdf text-success"></i>Descargar Reporte Fosfatos</button>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card-oicf p-3">
+          <h6><i class="fas fa-file-excel me-2 text-success"></i>Exportar Datos Excel</h6>
+          <p class="fs-xs text-muted mb-3">Histórico de precios, producción mundial, indicadores Colombia y Venezuela en formato Excel.</p>
+          <button class="report-btn" onclick="exportarExcel()"><i class="fas fa-file-excel text-success"></i>Exportar Excel (.xlsx)</button>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card-oicf p-3">
+          <h6><i class="fas fa-robot me-2 text-primary"></i>Informe IA Semanal</h6>
+          <p class="fs-xs text-muted mb-3">Resumen generado por inteligencia artificial con oportunidades, riesgos y señales de mercado.</p>
+          <button class="report-btn" onclick="descargar('ia-semanal')"><i class="fas fa-robot text-primary"></i>Descargar Informe IA</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Historial de reportes generados -->
+    <div class="section-header">
+      <div class="section-title"><span class="dot"></span>Historial de Reportes Generados</div>
+    </div>
+    <div class="card-oicf p-3">
+      <div class="table-responsive">
+        <table class="table table-sm table-oicf mb-0">
+          <thead>
+            <tr><th>Reporte</th><th>Tipo</th><th>Generado</th><th>Tamaño</th><th>Acción</th></tr>
+          </thead>
+          <tbody id="historial-table"></tbody>
+        </table>
+      </div>
+    </div>
+
+  </div>
+</main>
+
+<div id="toast-container" class="oicf-toast"></div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+const HISTORIAL = [
+  { nombre:'OICF_Ejecutivo_2026-06-09.pdf', tipo:'Ejecutivo', fecha:'09/06/2026 08:00', size:'2.4 MB' },
+  { nombre:'OICF_Semanal_W23_2026.pdf',     tipo:'Semanal',   fecha:'09/06/2026 07:00', size:'1.8 MB' },
+  { nombre:'OICF_Diario_2026-06-09.pdf',    tipo:'Diario',    fecha:'09/06/2026 06:30', size:'0.9 MB' },
+  { nombre:'OICF_Tachira_Junio2026.pdf',    tipo:'Especial',  fecha:'08/06/2026 16:00', size:'3.1 MB' },
+  { nombre:'OICF_Fosfatos_Junio2026.pdf',   tipo:'Especial',  fecha:'08/06/2026 12:00', size:'1.5 MB' },
+  { nombre:'OICF_Datos_Junio2026.xlsx',     tipo:'Excel',     fecha:'08/06/2026 09:00', size:'4.2 MB' },
+];
+
+const BADGE = { Ejecutivo:'bg-primary', Semanal:'bg-warning text-dark', Diario:'bg-info', Especial:'bg-success', Excel:'bg-success' };
+
+document.getElementById('historial-table').innerHTML = HISTORIAL.map(h => `
+  <tr>
+    <td class="fs-xs"><i class="fas fa-file-${h.nombre.endsWith('.xlsx')?'excel text-success':'pdf text-danger'} me-2"></i>${h.nombre}</td>
+    <td><span class="badge ${BADGE[h.tipo]||'bg-secondary'} fs-xs">${h.tipo}</span></td>
+    <td class="fs-xs">${h.fecha}</td>
+    <td class="fs-xs">${h.size}</td>
+    <td><button class="btn btn-sm btn-outline-primary" onclick="descargar('${h.tipo.toLowerCase()}')"><i class="fas fa-download me-1"></i>Descargar</button></td>
+  </tr>
+`).join('');
+
+function descargar(tipo) {
+  showToast(`Generando informe ${tipo}… Requiere servidor Flask activo.`, 'info');
+  fetch(`/api/report/${tipo}`)
+    .then(r => { if (!r.ok) throw new Error(); return r.blob(); })
+    .then(blob => {
+      const a = document.createElement('a');
+      a.href = URL.createObjectURL(blob);
+      a.download = `OICF_${tipo}_${new Date().toISOString().slice(0,10)}.pdf`;
+      a.click();
+      showToast('Informe descargado correctamente.', 'success');
+    })
+    .catch(() => showToast('Inicie el servidor: python backend/app.py', 'warning'));
+}
+
+function exportarExcel() {
+  showToast('Exportando datos a Excel… Requiere servidor Flask activo.', 'info');
+}
+
+function showToast(msg, type) {
+  const c = document.getElementById('toast-container');
+  const icons = { success:'✅', warning:'⚠️', error:'❌', info:'ℹ️' };
+  const el = document.createElement('div');
+  el.className = 'toast-item';
+  el.innerHTML = `<span>${icons[type]||'ℹ️'}</span><span>${msg}</span>`;
+  c.appendChild(el);
+  setTimeout(() => el.remove(), 4000);
+}
+</script>
+</body>
+</html>

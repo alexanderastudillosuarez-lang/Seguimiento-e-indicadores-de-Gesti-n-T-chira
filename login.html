@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OICF — Iniciar Sesión</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <style>
+    body { background: #0a0e1a; color: #e2e8f0; font-family: 'Inter', sans-serif; min-height: 100vh; display: flex; align-items: center; justify-content: center; }
+    .login-wrap { display: flex; width: 100%; max-width: 900px; min-height: 560px; border-radius: 20px; overflow: hidden; box-shadow: 0 24px 80px rgba(0,0,0,.5); }
+    .login-left { flex: 1; background: linear-gradient(145deg, #0d1b2a, #1e3a5f); display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 48px 36px; text-align: center; }
+    .login-right { flex: 1; background: #111827; padding: 48px 40px; display: flex; flex-direction: column; justify-content: center; }
+    .login-logo { font-size: 3.5rem; margin-bottom: 16px; }
+    .login-brand { font-size: 1.5rem; font-weight: 800; color: #60a5fa; margin-bottom: 8px; }
+    .login-desc  { font-size: .85rem; color: rgba(255,255,255,.5); line-height: 1.7; }
+    .login-feat  { display: flex; align-items: center; gap: 10px; margin-top: 20px; font-size: .82rem; color: rgba(255,255,255,.7); }
+    .login-feat i { color: #22c55e; width: 16px; }
+    .form-label-oicf { font-size: .8rem; font-weight: 600; color: #94a3b8; margin-bottom: 6px; text-transform: uppercase; letter-spacing: .05em; }
+    .form-control-oicf { background: #1e293b; border: 1px solid #1e293b; color: #e2e8f0; border-radius: 10px; padding: 12px 16px; font-size: .9rem; transition: border-color .2s; }
+    .form-control-oicf:focus { background: #1e293b; color: #e2e8f0; border-color: #0d6efd; box-shadow: 0 0 0 3px rgba(13,110,253,.15); outline: none; }
+    .btn-login { background: linear-gradient(135deg, #0d6efd, #7c3aed); color: #fff; border: none; border-radius: 10px; padding: 13px; font-weight: 700; font-size: .95rem; width: 100%; cursor: pointer; transition: opacity .2s; }
+    .btn-login:hover { opacity: .9; }
+    @media(max-width:640px) { .login-left { display: none; } .login-right { border-radius: 20px; } }
+  </style>
+</head>
+<body class="dark-mode">
+<div class="login-wrap">
+  <!-- Left panel -->
+  <div class="login-left">
+    <div class="login-logo">⛏️</div>
+    <div class="login-brand">OICF</div>
+    <div style="font-size:.75rem;color:rgba(255,255,255,.4);margin-bottom:20px">Observatorio Internacional del<br>Carbón y Fosfatos</div>
+    <div class="login-desc">Plataforma profesional de monitoreo de mercados mineros para América Latina, Colombia, Venezuela y el Estado Táchira.</div>
+    <div class="mt-4">
+      <div class="login-feat"><i class="fas fa-check-circle"></i>Precios en tiempo real</div>
+      <div class="login-feat"><i class="fas fa-check-circle"></i>Mapas interactivos globales</div>
+      <div class="login-feat"><i class="fas fa-check-circle"></i>Proyecciones con IA</div>
+      <div class="login-feat"><i class="fas fa-check-circle"></i>Reportes PDF automáticos</div>
+      <div class="login-feat"><i class="fas fa-check-circle"></i>Panel estratégico Táchira</div>
+    </div>
+  </div>
+  <!-- Right panel -->
+  <div class="login-right">
+    <h2 style="font-weight:800;margin-bottom:4px">Bienvenido</h2>
+    <p style="color:#64748b;font-size:.875rem;margin-bottom:32px">Ingrese sus credenciales para acceder al observatorio</p>
+
+    <form id="login-form" onsubmit="doLogin(event)">
+      <div class="mb-3">
+        <label class="form-label-oicf">Correo Electrónico</label>
+        <input type="email" id="email" class="form-control-oicf w-100" placeholder="usuario@oicf.com" required value="admin@oicf.com">
+      </div>
+      <div class="mb-4">
+        <label class="form-label-oicf">Contraseña</label>
+        <div style="position:relative">
+          <input type="password" id="password" class="form-control-oicf w-100" placeholder="••••••••" required value="oicf2026">
+          <button type="button" onclick="togglePass()" style="position:absolute;right:12px;top:50%;transform:translateY(-50%);background:none;border:none;color:#64748b;cursor:pointer">
+            <i class="fas fa-eye" id="pass-icon"></i>
+          </button>
+        </div>
+      </div>
+      <div class="d-flex justify-content-between align-items-center mb-4">
+        <label style="font-size:.8rem;color:#64748b;cursor:pointer">
+          <input type="checkbox" class="me-2">Recordarme
+        </label>
+        <a href="#" style="font-size:.8rem;color:#60a5fa;text-decoration:none">¿Olvidó su contraseña?</a>
+      </div>
+      <button type="submit" class="btn-login" id="login-btn">
+        <i class="fas fa-sign-in-alt me-2"></i>Ingresar al Observatorio
+      </button>
+      <div id="login-error" class="mt-3 text-danger fs-xs" style="display:none">
+        <i class="fas fa-exclamation-circle me-1"></i>Credenciales incorrectas. Intente de nuevo.
+      </div>
+    </form>
+
+    <p style="font-size:.75rem;color:#334155;text-align:center;margin-top:32px">
+      Credenciales demo: <code style="color:#60a5fa">admin@oicf.com</code> / <code style="color:#60a5fa">oicf2026</code>
+    </p>
+  </div>
+</div>
+
+<script>
+  function doLogin(e) {
+    e.preventDefault();
+    const btn = document.getElementById('login-btn');
+    btn.innerHTML = '<i class="fas fa-spinner fa-spin me-2"></i>Verificando...';
+    btn.disabled = true;
+
+    setTimeout(() => {
+      const email = document.getElementById('email').value;
+      const pass  = document.getElementById('password').value;
+      if ((email === 'admin@oicf.com' && pass === 'oicf2026') || (email && pass.length >= 4)) {
+        sessionStorage.setItem('oicf-user', email);
+        window.location.href = 'dashboard.html';
+      } else {
+        document.getElementById('login-error').style.display = 'block';
+        btn.innerHTML = '<i class="fas fa-sign-in-alt me-2"></i>Ingresar al Observatorio';
+        btn.disabled = false;
+      }
+    }, 900);
+  }
+
+  function togglePass() {
+    const inp  = document.getElementById('password');
+    const icon = document.getElementById('pass-icon');
+    if (inp.type === 'password') { inp.type = 'text';     icon.className = 'fas fa-eye-slash'; }
+    else                         { inp.type = 'password'; icon.className = 'fas fa-eye'; }
+  }
+</script>
+</body>
+</html>

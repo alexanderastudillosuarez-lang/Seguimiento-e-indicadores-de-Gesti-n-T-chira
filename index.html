@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OICF — Observatorio Internacional del Carbón y Fosfatos</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <style>
+    body { background: #0a0e1a; color: #e2e8f0; font-family: 'Inter', sans-serif; }
+    .hero { min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 2rem; background: radial-gradient(ellipse at 60% 30%, #0d6efd18 0%, transparent 60%), radial-gradient(ellipse at 20% 80%, #7c3aed12 0%, transparent 50%); }
+    .hero-icon { font-size: 5rem; margin-bottom: 1.5rem; animation: float 3s ease-in-out infinite; }
+    @keyframes float { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-12px)} }
+    .hero-title { font-size: clamp(2rem, 5vw, 3.5rem); font-weight: 800; background: linear-gradient(135deg, #60a5fa, #a78bfa, #34d399); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; margin-bottom: .5rem; }
+    .hero-sub { font-size: 1.1rem; color: #64748b; max-width: 600px; margin: 0 auto 2.5rem; line-height: 1.7; }
+    .features-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 20px; max-width: 1000px; margin: 0 auto 3rem; text-align: left; }
+    .feature-card { background: #111827; border: 1px solid #1e293b; border-radius: 14px; padding: 20px; transition: transform .2s, border-color .2s; }
+    .feature-card:hover { transform: translateY(-4px); border-color: #0d6efd; }
+    .feature-icon { font-size: 1.8rem; margin-bottom: 12px; }
+    .feature-title { font-size: .95rem; font-weight: 700; margin-bottom: 6px; }
+    .feature-desc { font-size: .8rem; color: #64748b; line-height: 1.6; }
+    .cta-btn { display: inline-flex; align-items: center; gap: 10px; padding: 16px 40px; border-radius: 50px; background: linear-gradient(135deg, #0d6efd, #7c3aed); color: #fff; font-weight: 700; font-size: 1.05rem; text-decoration: none; transition: opacity .2s, transform .2s; }
+    .cta-btn:hover { opacity: .9; transform: scale(1.03); color: #fff; }
+    .stats-bar { display: flex; gap: 40px; justify-content: center; flex-wrap: wrap; margin-bottom: 3rem; }
+    .stat-item { text-align: center; }
+    .stat-val { font-size: 1.8rem; font-weight: 800; color: #60a5fa; }
+    .stat-lbl { font-size: .75rem; color: #64748b; }
+  </style>
+</head>
+<body class="dark-mode">
+
+<nav style="position:fixed;top:0;left:0;right:0;z-index:100;padding:16px 32px;display:flex;align-items:center;justify-content:space-between;background:rgba(10,14,26,.85);backdrop-filter:blur(12px);border-bottom:1px solid #1e293b">
+  <div style="font-weight:800;font-size:1.1rem;color:#60a5fa">⛏️ OICF</div>
+  <div class="d-flex gap-3">
+    <a href="dashboard.html" class="btn btn-sm btn-outline-primary">Dashboard</a>
+    <a href="login.html"     class="btn btn-sm btn-primary">Iniciar Sesión</a>
+  </div>
+</nav>
+
+<section class="hero">
+  <div class="hero-icon">⛏️</div>
+  <h1 class="hero-title">Observatorio Internacional<br>del Carbón y Fosfatos</h1>
+  <p class="hero-sub">Monitoreo profesional en tiempo real del mercado mundial de carbón energético, carbón coquizable y roca fosfática. Análisis estratégico para América Latina, Colombia, Venezuela y el Estado Táchira.</p>
+
+  <div class="stats-bar">
+    <div class="stat-item"><div class="stat-val">3</div><div class="stat-lbl">Commodities</div></div>
+    <div class="stat-item"><div class="stat-val">24/7</div><div class="stat-lbl">Monitoreo</div></div>
+    <div class="stat-item"><div class="stat-val">6+</div><div class="stat-lbl">Fuentes de datos</div></div>
+    <div class="stat-item"><div class="stat-val">30min</div><div class="stat-lbl">Actualización</div></div>
+    <div class="stat-item"><div class="stat-val">11</div><div class="stat-lbl">Módulos analíticos</div></div>
+  </div>
+
+  <div class="features-grid">
+    <div class="feature-card">
+      <div class="feature-icon">📊</div>
+      <div class="feature-title">KPIs en Tiempo Real</div>
+      <div class="feature-desc">Precios actualizados automáticamente con variaciones diarias, semanales, mensuales y anuales.</div>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">🌍</div>
+      <div class="feature-title">Mapa Mundial Interactivo</div>
+      <div class="feature-desc">Visualiza producción, reservas y exportaciones por país con capas para carbón y fosfatos.</div>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">🤖</div>
+      <div class="feature-title">Inteligencia Artificial</div>
+      <div class="feature-desc">Resúmenes automáticos diarios, semanales y mensuales con alertas estratégicas.</div>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">📈</div>
+      <div class="feature-title">Proyecciones ARIMA</div>
+      <div class="feature-desc">Modelos predictivos a 30, 90, 180 días y 1 año con intervalos de confianza.</div>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">🏔️</div>
+      <div class="feature-title">Panel Estado Táchira</div>
+      <div class="feature-desc">Análisis de potencial minero, oportunidades de exportación y comparación regional.</div>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">📄</div>
+      <div class="feature-title">Reportes Automáticos</div>
+      <div class="feature-desc">Generación de informes PDF y Excel diarios, semanales y mensuales con un clic.</div>
+    </div>
+  </div>
+
+  <a href="dashboard.html" class="cta-btn">
+    <i class="fas fa-tachometer-alt"></i>
+    Acceder al Dashboard
+  </a>
+  <p style="font-size:.75rem;color:#334155;margin-top:1.5rem">También disponible: <a href="login.html" style="color:#60a5fa">Iniciar sesión</a></p>
+</section>
+
+<footer style="text-align:center;padding:20px;font-size:.75rem;color:#334155;border-top:1px solid #1e293b">
+  OICF v1.0 · Observatorio Internacional del Carbón y Fosfatos · <span id="year"></span>
+</footer>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

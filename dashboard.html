@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OICF — Observatorio Internacional del Carbón y Fosfatos</title>
+  <meta name="description" content="Monitoreo diario del mercado mundial de carbón energético, carbón coquizable y roca fosfática">
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  <!-- Leaflet -->
+  <link href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" rel="stylesheet">
+  <!-- DataTables -->
+  <link href="https://cdn.datatables.net/1.13.8/css/dataTables.bootstrap5.min.css" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <!-- Estilos propios -->
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/dashboard.css" rel="stylesheet">
+</head>
+<body class="dark-mode">
+
+<!-- ============================================================
+     LOADER
+     ============================================================ -->
+<div id="oicf-loader" class="oicf-loader">
+  <div style="text-align:center">
+    <div style="font-size:3.5rem;margin-bottom:16px">⛏️</div>
+    <div style="font-size:1.4rem;font-weight:700;color:#60a5fa;margin-bottom:4px">OICF</div>
+    <div style="font-size:.85rem;color:#64748b;margin-bottom:24px">Observatorio Internacional del Carbón y Fosfatos</div>
+    <div class="loader-bar"><div class="loader-progress"></div></div>
+    <div style="font-size:.75rem;color:#64748b;margin-top:12px">Cargando datos de mercado…</div>
+  </div>
+</div>
+
+<!-- ============================================================
+     SIDEBAR
+     ============================================================ -->
+<aside id="sidebar" class="sidebar">
+  <a class="sidebar-logo" href="dashboard.html">
+    <span style="font-size:1.8rem;flex-shrink:0">⛏️</span>
+    <div class="sidebar-logo-text">
+      <span class="brand-name">OICF</span>
+      <span class="brand-sub">Observatorio Minero Internacional</span>
+    </div>
+  </a>
+
+  <nav class="sidebar-nav">
+    <div class="nav-section-label">PRINCIPAL</div>
+
+    <div class="nav-item-oicf">
+      <a href="#resumen" class="nav-link-oicf active" onclick="scrollTo('resumen')">
+        <i class="fas fa-tachometer-alt"></i>
+        <span class="nav-text">Resumen Ejecutivo</span>
+      </a>
+    </div>
+    <div class="nav-item-oicf">
+      <a href="#graficos" class="nav-link-oicf">
+        <i class="fas fa-chart-line"></i>
+        <span class="nav-text">Gráficos Históricos</span>
+      </a>
+    </div>
+    <div class="nav-item-oicf">
+      <a href="#mapa-mundial" class="nav-link-oicf">
+        <i class="fas fa-globe-americas"></i>
+        <span class="nav-text">Mapa Mundial</span>
+      </a>
+    </div>
+
+    <div class="nav-section-label">REGIONES</div>
+
+    <div class="nav-item-oicf">
+      <a href="#colombia" class="nav-link-oicf">
+        <i class="fas fa-flag"></i>
+        <span class="nav-text">Monitor Colombia</span>
+      </a>
+    </div>
+    <div class="nav-item-oicf">
+      <a href="#venezuela" class="nav-link-oicf">
+        <i class="fas fa-oil-well"></i>
+        <span class="nav-text">Monitor Venezuela</span>
+      </a>
+    </div>
+    <div class="nav-item-oicf">
+      <a href="#tachira" class="nav-link-oicf">
+        <i class="fas fa-mountain"></i>
+        <span class="nav-text">Panel Táchira</span>
+      </a>
+    </div>
+
+    <div class="nav-section-label">MERCADOS</div>
+
+    <div class="nav-item-oicf">
+      <a href="#fosfatos" class="nav-link-oicf">
+        <i class="fas fa-seedling"></i>
+        <span class="nav-text">Observatorio Fosfato</span>
+      </a>
+    </div>
+    <div class="nav-item-oicf">
+      <a href="#proyecciones" class="nav-link-oicf">
+        <i class="fas fa-chart-area"></i>
+        <span class="nav-text">Proyecciones IA</span>
+      </a>
+    </div>
+    <div class="nav-item-oicf">
+      <a href="#noticias" class="nav-link-oicf">
+        <i class="fas fa-newspaper"></i>
+        <span class="nav-text">Centro de Noticias</span>
+      </a>
+    </div>
+
+    <div class="nav-section-label">GESTIÓN</div>
+
+    <div class="nav-item-oicf">
+      <a href="alertas.html" class="nav-link-oicf">
+        <i class="fas fa-bell"></i>
+        <span class="nav-text">Alertas</span>
+        <span class="badge-nav" id="alerts-badge">0</span>
+      </a>
+    </div>
+    <div class="nav-item-oicf">
+      <a href="reportes.html" class="nav-link-oicf">
+        <i class="fas fa-file-pdf"></i>
+        <span class="nav-text">Reportes</span>
+      </a>
+    </div>
+    <div class="nav-item-oicf">
+      <a href="#ia" class="nav-link-oicf">
+        <i class="fas fa-robot"></i>
+        <span class="nav-text">Inteligencia Artificial</span>
+      </a>
+    </div>
+  </nav>
+
+  <div class="sidebar-footer">
+    <button class="nav-link-oicf w-100 border-0 bg-transparent" onclick="OICF.toggleTheme()">
+      <i class="fas fa-moon" id="theme-icon"></i>
+      <span class="nav-text">Cambiar tema</span>
+    </button>
+  </div>
+</aside>
+
+<!-- Mobile Overlay -->
+<div id="mobile-overlay" class="d-none" style="position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:1039"></div>
+
+<!-- ============================================================
+     TOPBAR
+     ============================================================ -->
+<header id="topbar" class="topbar">
+  <button id="sidebar-toggle" class="btn-icon border-0" title="Menú">
+    <i class="fas fa-bars"></i>
+  </button>
+
+  <!-- Ticker -->
+  <div class="ticker-bar flex-grow-1 rounded-2 mx-2 d-none d-lg-flex" style="overflow:hidden;max-width:600px">
+    <span style="padding:0 12px;color:#fff;font-size:.75rem;font-weight:700;white-space:nowrap;background:rgba(0,0,0,.2)">EN VIVO</span>
+    <div style="overflow:hidden;flex:1">
+      <div class="ticker-inner" id="ticker-inner"></div>
+    </div>
+  </div>
+
+  <div class="topbar-actions">
+    <div class="d-flex align-items-center gap-1" style="font-size:.72rem;opacity:.5">
+      <span class="live-indicator"></span>
+      <span>Act: <span id="last-update">--:--</span></span>
+    </div>
+    <button id="refresh-btn" class="btn-icon border-0" title="Actualizar datos">
+      <i class="fas fa-sync-alt"></i>
+    </button>
+    <button id="theme-toggle" class="btn-icon border-0" title="Cambiar tema">
+      <i class="fas fa-sun" id="theme-icon"></i>
+    </button>
+    <button class="btn-icon border-0" title="Descargar informe" onclick="window.print()">
+      <i class="fas fa-download"></i>
+    </button>
+    <a href="login.html" class="btn-icon border-0" title="Cuenta">
+      <i class="fas fa-user-circle"></i>
+    </a>
+  </div>
+</header>
+
+<!-- ============================================================
+     MAIN CONTENT
+     ============================================================ -->
+<main id="main-content" class="main-content">
+
+  <!-- =========================================================
+       SEC 1: RESUMEN EJECUTIVO / KPIs
+       ========================================================= -->
+  <section id="resumen" class="content-inner pb-0">
+    <div class="section-header">
+      <div class="section-title">
+        <span class="dot"></span>
+        Resumen Ejecutivo
+        <span class="badge bg-primary ms-2" style="font-size:.7rem">EN VIVO</span>
+      </div>
+      <span style="font-size:.78rem;opacity:.5">Precios de referencia internacional · Newcastle (carbón) · CFR (fosfatos)</span>
+    </div>
+
+    <div class="kpi-grid">
+      <div id="kpi-coal-thermal"></div>
+      <div id="kpi-coal-coking"></div>
+      <div id="kpi-phosphate"></div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       SEC 2: GRÁFICOS HISTÓRICOS
+       ========================================================= -->
+  <section id="graficos" class="content-inner pb-0">
+    <div class="section-header">
+      <div class="section-title"><span class="dot" style="background:#60a5fa"></span>Evolución Histórica de Precios</div>
+    </div>
+
+    <div class="card-oicf mb-4">
+      <div class="chart-toolbar">
+        <span style="font-size:.82rem;font-weight:600;opacity:.7">Período:</span>
+        <button class="btn-period" data-period="7d"   onclick="OICF.buildMainChart('7d')">7D</button>
+        <button class="btn-period active" data-period="30d"  onclick="OICF.buildMainChart('30d')">30D</button>
+        <button class="btn-period" data-period="90d"  onclick="OICF.buildMainChart('90d')">90D</button>
+        <button class="btn-period" data-period="365d" onclick="OICF.buildMainChart('365d')">1A</button>
+        <div class="ms-auto d-flex gap-2">
+          <button class="btn-period" onclick="window.print()"><i class="fas fa-file-pdf me-1"></i>PDF</button>
+          <button class="btn-period" id="chart-download"><i class="fas fa-image me-1"></i>PNG</button>
+        </div>
+      </div>
+      <div class="p-3" style="height:380px">
+        <canvas id="main-chart"></canvas>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       SEC 3: MAPA MUNDIAL
+       ========================================================= -->
+  <section id="mapa-mundial" class="content-inner pb-0">
+    <div class="section-header">
+      <div class="section-title"><span class="dot" style="background:#22c55e"></span>Mapa Mundial de Producción</div>
+      <div class="d-flex gap-2">
+        <button class="btn-period active" onclick="OICF_Maps.renderWorldMarkers('coal');this.classList.add('active');document.querySelectorAll('.map-layer-btn').forEach(b=>b!==this&&b.classList.remove('active'))" class="map-layer-btn">🏭 Carbón</button>
+        <button class="btn-period map-layer-btn" onclick="OICF_Maps.renderWorldMarkers('phosphate');this.classList.add('active');document.querySelectorAll('.map-layer-btn').forEach(b=>b!==this&&b.classList.remove('active'))">🌱 Fosfatos</button>
+      </div>
+    </div>
+
+    <div class="card-oicf p-0 mb-4" style="position:relative;overflow:hidden">
+      <div id="world-map"></div>
+      <div class="map-legend">
+        <div class="fw-600 mb-2" style="font-size:.8rem">Tamaño = Producción anual</div>
+        <div class="map-legend-item"><div class="map-dot" style="background:#ef4444"></div><span>China (mayor productor)</span></div>
+        <div class="map-legend-item"><div class="map-dot" style="background:#f97316"></div><span>India</span></div>
+        <div class="map-legend-item"><div class="map-dot" style="background:#a855f7"></div><span>Colombia</span></div>
+        <div class="map-legend-item"><div class="map-dot" style="background:#ec4899"></div><span>Venezuela</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       SEC 4: MONITOR COLOMBIA
+       ========================================================= -->
+  <section id="colombia" class="content-inner pb-0">
+    <div class="section-header">
+      <div class="section-title"><span class="dot" style="background:#f59e0b"></span>Monitor Colombia 🇨🇴</div>
+      <span style="font-size:.78rem;opacity:.5">Fuente: UPME · ACM Minería</span>
+    </div>
+
+    <div class="row g-3 mb-4">
+      <div class="col-lg-4">
+        <div class="card-oicf p-3 h-100">
+          <h6 class="mb-3"><i class="fas fa-chart-pie me-2 text-primary"></i>Producción por Departamento</h6>
+          <div style="height:220px"><canvas id="colombia-donut"></canvas></div>
+          <div id="colombia-stats" class="mt-3"></div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="card-oicf p-3 h-100">
+          <h6 class="mb-3"><i class="fas fa-map-marked-alt me-2 text-warning"></i>Mapa Minero Colombia</h6>
+          <div id="colombia-map" style="height:320px;border-radius:8px"></div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="card-oicf p-3 h-100">
+          <h6 class="mb-3"><i class="fas fa-ship me-2 text-info"></i>Puertos de Exportación</h6>
+          <div class="table-responsive">
+            <table class="table table-sm table-oicf">
+              <thead><tr><th>Puerto</th><th>Mt/año</th><th>Dpto.</th></tr></thead>
+              <tbody>
+                <tr><td>Puerto Bolívar</td><td><strong>4.2</strong></td><td>La Guajira</td></tr>
+                <tr><td>Santa Marta</td><td><strong>1.8</strong></td><td>Magdalena</td></tr>
+                <tr><td>Barranquilla</td><td><strong>1.2</strong></td><td>Atlántico</td></tr>
+                <tr><td>Buenaventura</td><td><strong>0.8</strong></td><td>Valle</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <h6 class="mt-3 mb-2"><i class="fas fa-bar-chart me-2 text-success"></i>Evolución Trimestral</h6>
+          <div style="height:140px"><canvas id="colombia-trim-chart"></canvas></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       SEC 5: MONITOR VENEZUELA
+       ========================================================= -->
+  <section id="venezuela" class="content-inner pb-0">
+    <div class="section-header">
+      <div class="section-title"><span class="dot" style="background:#ef4444"></span>Monitor Venezuela 🇻🇪</div>
+    </div>
+
+    <div class="row g-3 mb-4">
+      <div class="col-lg-6">
+        <div class="card-oicf p-3 h-100">
+          <h6 class="mb-3"><i class="fas fa-industry me-2"></i>Estadísticas por Región</h6>
+          <div id="venezuela-stats"></div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="card-oicf p-3 h-100">
+          <h6 class="mb-3"><i class="fas fa-info-circle me-2 text-info"></i>Proyectos y Yacimientos</h6>
+          <div class="alert-item info">
+            <span class="alert-icon">⛏️</span>
+            <div><strong>Carbón Zulia</strong> — Cuenca del Lago de Maracaibo. Mina Norte y Paso Diablo. Operación reducida.</div>
+          </div>
+          <div class="alert-item warning">
+            <span class="alert-icon">⛏️</span>
+            <div><strong>Carbón Táchira</strong> — Lobatera, La Grita, El Cobre. 129 Mt reservas. Suspendido.</div>
+          </div>
+          <div class="alert-item info">
+            <span class="alert-icon">🌱</span>
+            <div><strong>Fosfatos Navay (Táchira)</strong> — 150 Mt reservas, 18% P₂O₅. Exploración avanzada.</div>
+          </div>
+          <div class="alert-item info">
+            <span class="alert-icon">🌱</span>
+            <div><strong>Fosfatos Riecito (Apure)</strong> — 80 Mt reservas, 15.2% P₂O₅. En exploración.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       SEC 6: CENTRO DE NOTICIAS
+       ========================================================= -->
+  <section id="noticias" class="content-inner pb-0">
+    <div class="section-header">
+      <div class="section-title"><span class="dot" style="background:#a78bfa"></span>Centro de Noticias</div>
+    </div>
+
+    <div class="row g-3 mb-4">
+      <div class="col-lg-8">
+        <div class="card-oicf p-3">
+          <div class="d-flex gap-2 flex-wrap mb-3" id="news-filtros"></div>
+          <div id="news-container"></div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="card-oicf p-3 mb-3">
+          <h6 class="mb-3"><i class="fas fa-brain me-2 text-primary"></i>Análisis de Sentimiento</h6>
+          <div id="sentimiento-resumen"></div>
+        </div>
+        <div class="card-oicf p-3">
+          <h6 class="mb-2"><i class="fas fa-rss me-2 text-warning"></i>Fuentes Monitoreadas</h6>
+          <div class="d-flex flex-column gap-2">
+            <div class="stat-row"><span class="fs-xs">Trading Economics</span><span class="badge bg-success">Activo</span></div>
+            <div class="stat-row"><span class="fs-xs">La República CO</span><span class="badge bg-success">Activo</span></div>
+            <div class="stat-row"><span class="fs-xs">UPME Colombia</span><span class="badge bg-success">Activo</span></div>
+            <div class="stat-row"><span class="fs-xs">ACM Minería</span><span class="badge bg-success">Activo</span></div>
+            <div class="stat-row"><span class="fs-xs">País Minero</span><span class="badge bg-success">Activo</span></div>
+            <div class="stat-row"><span class="fs-xs">SunSirs</span><span class="badge bg-warning text-dark">Parcial</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       SEC 7: OBSERVATORIO DEL FOSFATO
+       ========================================================= -->
+  <section id="fosfatos" class="content-inner pb-0">
+    <div class="section-header">
+      <div class="section-title"><span class="dot" style="background:#34d399"></span>Observatorio del Fosfato</div>
+    </div>
+
+    <div class="row g-3 mb-4">
+      <div class="col-lg-8">
+        <div class="card-oicf p-3">
+          <h6 class="mb-3">Producción Mundial de Fosfatos (Mt/año)</h6>
+          <div style="height:280px"><canvas id="phosphate-bar"></canvas></div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="card-oicf p-3 h-100">
+          <h6 class="mb-3">Datos Clave</h6>
+          <div class="stat-row"><span>Producción global</span><strong>240 Mt/año</strong></div>
+          <div class="stat-row"><span>Precio actual CFR</span><strong>$87.50 USD/Ton</strong></div>
+          <div class="stat-row"><span>Var. mensual</span><strong style="color:#22c55e">+5.4%</strong></div>
+          <div class="stat-row"><span>Mayor productor</span><strong>China (95 Mt)</strong></div>
+          <div class="stat-row"><span>Mayor reservas</span><strong>Marruecos (50B Mt)</strong></div>
+          <div class="stat-row"><span>Demanda 2026E</span><strong>245 Mt</strong></div>
+          <div class="stat-row"><span>Balance</span><strong style="color:#f59e0b">Déficit leve</strong></div>
+          <div class="mt-3">
+            <h6 class="fs-xs mb-2">Principales usos finales</h6>
+            <div class="d-flex flex-wrap gap-1">
+              <span class="badge" style="background:#34d399;color:#000">Fertilizantes 82%</span>
+              <span class="badge bg-secondary">Ind. Química 12%</span>
+              <span class="badge bg-secondary">Otros 6%</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       SEC 8: PROYECCIONES
+       ========================================================= -->
+  <section id="proyecciones" class="content-inner pb-0">
+    <div class="section-header">
+      <div class="section-title"><span class="dot" style="background:#f59e0b"></span>Proyecciones de Mercado (Modelo ARIMA + Prophet)</div>
+    </div>
+
+    <div class="card-oicf mb-3">
+      <div class="chart-toolbar">
+        <span style="font-size:.82rem;font-weight:600;opacity:.7">Pronóstico:</span>
+        <span class="badge" style="background:#60a5fa22;color:#60a5fa">— Histórico</span>
+        <span class="badge" style="background:#f59e0b22;color:#f59e0b">— 30 días</span>
+        <span class="badge" style="background:#a78bfa22;color:#a78bfa">·· 90 días</span>
+      </div>
+      <div class="p-3" style="height:380px" id="projection-chart"></div>
+    </div>
+
+    <div class="row g-3 mb-4" id="proj-cards"></div>
+  </section>
+
+  <!-- =========================================================
+       SEC 9: ALERTAS
+       ========================================================= -->
+  <section id="alertas" class="content-inner pb-0">
+    <div class="section-header">
+      <div class="section-title"><span class="dot" style="background:#ef4444"></span>Panel de Alertas Automáticas</div>
+    </div>
+
+    <div class="card-oicf p-3 mb-4">
+      <div id="alerts-container"></div>
+      <div class="mt-3 pt-3" style="border-top:1px solid rgba(255,255,255,.07)">
+        <h6 class="mb-2 fs-xs text-muted">UMBRALES CONFIGURADOS</h6>
+        <div class="d-flex gap-2 flex-wrap">
+          <span class="badge bg-warning text-dark">Variación &gt; 5%</span>
+          <span class="badge bg-danger">Variación &gt; 10%</span>
+          <span class="badge bg-info">Máximo histórico ±2%</span>
+          <span class="badge bg-info">Mínimo histórico ±2%</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       SEC 10: REPORTES
+       ========================================================= -->
+  <section id="reportes" class="content-inner pb-0">
+    <div class="section-header">
+      <div class="section-title"><span class="dot" style="background:#06b6d4"></span>Generación de Reportes</div>
+    </div>
+
+    <div class="row g-3 mb-4">
+      <div class="col-md-3">
+        <button class="report-btn" onclick="generateReport('diario')">
+          <i class="fas fa-file-pdf text-danger"></i>
+          <div><div>Informe Diario</div><div style="font-size:.7rem;opacity:.5">PDF ejecutivo</div></div>
+        </button>
+      </div>
+      <div class="col-md-3">
+        <button class="report-btn" onclick="generateReport('semanal')">
+          <i class="fas fa-file-pdf text-warning"></i>
+          <div><div>Informe Semanal</div><div style="font-size:.7rem;opacity:.5">PDF análisis</div></div>
+        </button>
+      </div>
+      <div class="col-md-3">
+        <button class="report-btn" onclick="generateReport('mensual')">
+          <i class="fas fa-file-pdf text-info"></i>
+          <div><div>Informe Mensual</div><div style="font-size:.7rem;opacity:.5">PDF completo</div></div>
+        </button>
+      </div>
+      <div class="col-md-3">
+        <button class="report-btn" onclick="generateReport('excel')">
+          <i class="fas fa-file-excel text-success"></i>
+          <div><div>Exportar Excel</div><div style="font-size:.7rem;opacity:.5">Datos históricos</div></div>
+        </button>
+      </div>
+      <div class="col-12">
+        <button class="report-btn justify-content-center" style="background:linear-gradient(135deg,#0d6efd,#7c3aed);color:#fff" onclick="generateReport('ejecutivo')">
+          <i class="fas fa-crown"></i>
+          <div><div style="font-size:1rem">Descargar Informe Ejecutivo Completo</div><div style="font-size:.75rem;opacity:.8">PDF · Todos los mercados · Análisis estratégico · Táchira</div></div>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       SEC 11: PANEL TÁCHIRA
+       ========================================================= -->
+  <section id="tachira" class="content-inner pb-0">
+    <div class="section-header">
+      <div class="section-title"><span class="dot" style="background:#f59e0b"></span>Panel Estratégico — Estado Táchira 🏔️</div>
+      <span style="font-size:.78rem;opacity:.5">Venezuela · Potencial minero y oportunidades de exportación</span>
+    </div>
+    <div id="tachira-stats" class="mb-4"></div>
+  </section>
+
+  <!-- =========================================================
+       SEC IA: INTELIGENCIA ARTIFICIAL
+       ========================================================= -->
+  <section id="ia" class="content-inner pb-0">
+    <div class="section-header">
+      <div class="section-title"><span class="dot" style="background:#a78bfa"></span>Módulo de Inteligencia Artificial</div>
+    </div>
+
+    <div class="row g-3 mb-4">
+      <div class="col-lg-6">
+        <div class="card-oicf ai-panel">
+          <div class="ai-header">
+            <i class="fas fa-robot fa-lg"></i>
+            <div>
+              <div class="fw-700">Análisis Inteligente</div>
+              <div style="font-size:.75rem;opacity:.7">Generado por IA · OICF Engine v2.0</div>
+            </div>
+          </div>
+          <div class="ai-body">
+            <div class="ai-tabs mb-3">
+              <button class="ai-tab active" onclick="selectAITab('diario',this)">Diario</button>
+              <button class="ai-tab" onclick="selectAITab('semanal',this)">Semanal</button>
+              <button class="ai-tab" onclick="selectAITab('mensual',this)">Mensual</button>
+              <button class="ai-tab" onclick="selectAITab('alertas',this)">Alertas</button>
+            </div>
+            <button class="ai-generate-btn" id="ia-gen-btn" onclick="OICF.generateIAReport(window._iaTab||'diario')">
+              <i class="fas fa-magic me-2"></i>Generar Análisis
+            </button>
+            <div id="ia-response"></div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="card-oicf p-3">
+          <h6 class="mb-3"><i class="fas fa-lightbulb me-2 text-warning"></i>Oportunidades de Negocio Detectadas</h6>
+          <div class="alert-item info mb-2">
+            <span class="alert-icon">💡</span>
+            <div><strong>Táchira → Caribe:</strong> Redirigir producción carbonífera hacia Cuba, Jamaica, Trinidad y Tobago. Precio break-even: $60/Ton. Precio actual: $132/Ton.</div>
+          </div>
+          <div class="alert-item info mb-2">
+            <span class="alert-icon">💡</span>
+            <div><strong>Fosfatos Navay → Colombia:</strong> Colombia importa fosfatos. Navay podría abastecer parte de esa demanda regional.</div>
+          </div>
+          <div class="alert-item warning mb-2">
+            <span class="alert-icon">⚠️</span>
+            <div><strong>Riesgo sobreoferta:</strong> Indonesia proyecta +8% en producción H2 2026. Posible corrección de precios.</div>
+          </div>
+          <div class="alert-item info">
+            <span class="alert-icon">🌍</span>
+            <div><strong>Geopolítica favorable:</strong> Sanciones rusas crean vacío que Colombia y Venezuela pueden ocupar en mercados asiáticos.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Producción mundial carbón -->
+  <section class="content-inner pb-0">
+    <div class="section-header">
+      <div class="section-title"><span class="dot"></span>Producción Mundial de Carbón por País</div>
+    </div>
+    <div class="card-oicf p-3 mb-4">
+      <div style="height:300px"><canvas id="production-bar"></canvas></div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <div class="dashboard-footer">
+    OICF · Observatorio Internacional del Carbón y Fosfatos · Datos de referencia internacional
+    · <span id="footer-date"></span>
+    · Desarrollado con ❤️ para el Estado Táchira
+  </div>
+
+</main>
+
+<!-- Toast Container -->
+<div id="toast-container" class="oicf-toast"></div>
+
+<!-- ============================================================
+     SCRIPTS
+     ============================================================ -->
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<!-- Bootstrap 5 -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Chart.js -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.2/dist/chart.umd.min.js"></script>
+<!-- Plotly -->
+<script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+<!-- ApexCharts -->
+<script src="https://cdn.jsdelivr.net/npm/apexcharts@3.46.0/dist/apexcharts.min.js"></script>
+<!-- Leaflet -->
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<!-- DataTables -->
+<script src="https://cdn.datatables.net/1.13.8/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/1.13.8/js/dataTables.bootstrap5.min.js"></script>
+
+<!-- Scripts propios -->
+<script src="js/charts.js"></script>
+<script src="js/maps.js"></script>
+<script src="js/noticias.js"></script>
+<script src="js/dashboard.js"></script>
+
+<script>
+  /* ---- Helpers globales ---- */
+  function selectAITab(tab, el) {
+    window._iaTab = tab;
+    document.querySelectorAll('.ai-tab').forEach(b => b.classList.remove('active'));
+    el.classList.add('active');
+  }
+
+  function scrollTo(id) {
+    document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
+  }
+
+  function generateReport(type) {
+    const labels = { diario:'diario', semanal:'semanal', mensual:'mensual', excel:'Excel', ejecutivo:'Ejecutivo Completo' };
+    OICF.showToast(`Generando informe ${labels[type]}… (requiere backend Flask activo)`, 'info');
+    if (type === 'ejecutivo' || type === 'diario' || type === 'semanal' || type === 'mensual') {
+      fetch(`/api/report/${type}`)
+        .then(r => r.blob())
+        .then(blob => {
+          const url = URL.createObjectURL(blob);
+          const a = document.createElement('a');
+          a.href = url; a.download = `OICF_Informe_${labels[type]}_${new Date().toISOString().slice(0,10)}.pdf`;
+          a.click();
+        })
+        .catch(() => OICF.showToast('Inicie el servidor Flask: python backend/app.py', 'warning'));
+    }
+  }
+
+  /* Chart download PNG */
+  document.addEventListener('DOMContentLoaded', () => {
+    document.getElementById('footer-date').textContent = new Date().toLocaleDateString('es-ES', { day:'numeric', month:'long', year:'numeric' });
+
+    document.getElementById('chart-download')?.addEventListener('click', () => {
+      const canvas = document.getElementById('main-chart');
+      if (canvas) {
+        const a = document.createElement('a');
+        a.href = canvas.toDataURL('image/png');
+        a.download = 'OICF_Chart.png';
+        a.click();
+      }
+    });
+
+    /* Colombia trimestral chart */
+    setTimeout(() => {
+      const ctx = document.getElementById('colombia-trim-chart');
+      if (ctx) {
+        new Chart(ctx, {
+          type: 'bar',
+          data: {
+            labels: ['Q1','Q2','Q3','Q4'],
+            datasets: [
+              { label:'Producción', data:[8.7,9.1,8.4,8.9], backgroundColor:'rgba(96,165,250,.7)', borderRadius:4 },
+              { label:'Exportación', data:[7.8,8.2,7.6,8.0], backgroundColor:'rgba(52,211,153,.7)', borderRadius:4 }
+            ]
+          },
+          options: {
+            responsive:true, maintainAspectRatio:false,
+            plugins:{ legend:{ labels:{ color:'#94a3b8', font:{size:10} } } },
+            scales:{
+              x:{ grid:{display:false}, ticks:{color:'#94a3b8'} },
+              y:{ grid:{color:'rgba(255,255,255,.05)'}, ticks:{color:'#94a3b8'} }
+            }
+          }
+        });
+      }
+    }, 1500);
+  });
+</script>
+</body>
+</html>

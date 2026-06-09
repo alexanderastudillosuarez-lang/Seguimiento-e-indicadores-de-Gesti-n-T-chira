@@ -1,0 +1,189 @@
+/* ============================================================
+   OICF - dashboard.css
+   ============================================================ */
+
+/* ---- Grid Layout ---- */
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 20px;
+}
+
+.col-span-12 { grid-column: span 12; }
+.col-span-8  { grid-column: span 8; }
+.col-span-6  { grid-column: span 6; }
+.col-span-4  { grid-column: span 4; }
+.col-span-3  { grid-column: span 3; }
+
+@media (max-width: 1200px) {
+  .col-span-8 { grid-column: span 12; }
+  .col-span-4 { grid-column: span 12; }
+  .col-span-6 { grid-column: span 12; }
+  .col-span-3 { grid-column: span 6; }
+}
+@media (max-width: 768px) {
+  .col-span-3 { grid-column: span 12; }
+}
+
+/* ---- KPI Grid ---- */
+.kpi-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 16px;
+}
+
+/* ---- Commodity Tab Pills ---- */
+.commodity-tabs {
+  display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 20px;
+}
+.commodity-tab {
+  display: flex; align-items: center; gap: 8px;
+  padding: 8px 16px; border-radius: 30px;
+  cursor: pointer; font-size: .82rem; font-weight: 600;
+  border: 2px solid transparent;
+  transition: all .2s;
+}
+.commodity-tab.coal-thermal { border-color: #6b7280; }
+.commodity-tab.coal-coking  { border-color: #2563eb; }
+.commodity-tab.phosphate    { border-color: #7c3aed; }
+.commodity-tab.active.coal-thermal { background: #374151; color: #fff; }
+.commodity-tab.active.coal-coking  { background: #1e3a5f; color: #fff; border-color: #2563eb; }
+.commodity-tab.active.phosphate    { background: #5b21b6; color: #fff; }
+
+body.dark-mode  .commodity-tab { color: #94a3b8; background: #1e293b; }
+body.light-mode .commodity-tab { color: #475569; background: #f1f5f9; }
+
+/* ---- World Map Overlay ---- */
+.map-legend {
+  position: absolute; bottom: 20px; left: 20px; z-index: 500;
+  border-radius: 10px; padding: 12px 16px; font-size: .78rem;
+}
+body.dark-mode  .map-legend { background: rgba(17,24,39,.9); color: #e2e8f0; }
+body.light-mode .map-legend { background: rgba(255,255,255,.9); color: #1e293b; box-shadow: 0 2px 12px rgba(0,0,0,.15); }
+
+.map-legend-item {
+  display: flex; align-items: center; gap: 8px; margin-bottom: 6px;
+}
+.map-dot { width: 12px; height: 12px; border-radius: 50%; flex-shrink: 0; }
+
+/* ---- AI Module ---- */
+.ai-panel {
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+.ai-header {
+  padding: 14px 20px;
+  display: flex; align-items: center; gap: 12px;
+  background: linear-gradient(135deg, #1e3a5f, #0d6efd);
+  color: #fff;
+}
+.ai-body { padding: 20px; }
+.ai-tabs {
+  display: flex; gap: 4px;
+  background: rgba(255,255,255,.05); padding: 4px; border-radius: 8px;
+  margin-bottom: 16px;
+}
+body.light-mode .ai-tabs { background: #f1f5f9; }
+.ai-tab {
+  flex: 1; text-align: center; padding: 6px; border-radius: 6px;
+  font-size: .75rem; cursor: pointer; transition: all .2s;
+  border: none; background: transparent; color: inherit;
+}
+.ai-tab.active {
+  background: var(--primary); color: #fff; font-weight: 600;
+}
+
+.ai-generate-btn {
+  width: 100%; padding: 10px; border-radius: 8px;
+  background: linear-gradient(135deg, var(--primary), #7c3aed);
+  color: #fff; border: none; cursor: pointer; font-weight: 600;
+  font-size: .875rem; transition: opacity .2s;
+}
+.ai-generate-btn:hover { opacity: .9; }
+.ai-generate-btn:disabled { opacity: .5; cursor: not-allowed; }
+
+/* ---- Projections ---- */
+.projection-card {
+  padding: 16px; border-radius: 10px; text-align: center;
+}
+body.dark-mode  .projection-card { background: #1e293b; }
+body.light-mode .projection-card { background: #f8fafc; border: 1px solid var(--border-light); }
+
+.proj-value   { font-size: 1.5rem; font-weight: 700; }
+.proj-label   { font-size: .75rem; opacity: .6; }
+.proj-change  { font-size: .85rem; font-weight: 600; margin-top: 4px; }
+.proj-change.up   { color: #22c55e; }
+.proj-change.down { color: #ef4444; }
+
+/* ---- Venezuela / Táchira Section ---- */
+.tachira-card {
+  background: linear-gradient(135deg, #0d1b2a, #1e3a5f);
+  color: #fff; border-radius: var(--radius); padding: 20px;
+}
+.tachira-card h5 { color: #60a5fa; }
+.tachira-stat { font-size: 1.4rem; font-weight: 700; }
+.tachira-label { font-size: .75rem; color: rgba(255,255,255,.6); }
+
+/* ---- Colombia Map ---- */
+#colombia-map { height: 320px; border-radius: 10px; }
+
+/* ---- Gauge Charts ---- */
+.gauge-wrap {
+  display: flex; flex-direction: column; align-items: center; gap: 4px;
+}
+.gauge-label { font-size: .75rem; font-weight: 600; text-align: center; }
+.gauge-val   { font-size: 1.3rem; font-weight: 700; }
+
+/* ---- Ticker Bar ---- */
+.ticker-bar {
+  background: #0d6efd; overflow: hidden; height: 36px;
+  display: flex; align-items: center;
+}
+.ticker-inner {
+  display: flex; gap: 60px;
+  animation: ticker 35s linear infinite;
+  white-space: nowrap;
+}
+@keyframes ticker {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+.ticker-item {
+  display: inline-flex; align-items: center; gap: 8px;
+  font-size: .8rem; color: #fff; font-weight: 500;
+}
+.ticker-item .ti-name { opacity: .7; }
+.ticker-item .ti-price { font-weight: 700; }
+.ticker-item .ti-chg.up   { color: #bbf7d0; }
+.ticker-item .ti-chg.down { color: #fca5a5; }
+
+/* ---- Reports ---- */
+.report-btn {
+  display: flex; align-items: center; gap: 10px;
+  padding: 14px 18px; border-radius: 10px; cursor: pointer;
+  border: none; width: 100%; text-align: left;
+  transition: all .2s; font-size: .875rem; font-weight: 600;
+}
+body.dark-mode  .report-btn { background: #1e293b; color: #e2e8f0; }
+body.light-mode .report-btn { background: #f8fafc; color: #1e293b; border: 1px solid var(--border-light); }
+.report-btn:hover { background: var(--primary) !important; color: #fff !important; }
+.report-btn i { font-size: 1.3rem; }
+
+/* ---- Stat Table ---- */
+.stat-row {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 10px 0; border-bottom: 1px solid rgba(255,255,255,.06);
+}
+body.light-mode .stat-row { border-bottom-color: var(--border-light); }
+.stat-row:last-child { border-bottom: none; }
+.stat-bar-wrap { width: 120px; height: 6px; background: rgba(255,255,255,.1); border-radius: 6px; overflow: hidden; }
+body.light-mode .stat-bar-wrap { background: #e2e8f0; }
+.stat-bar { height: 100%; border-radius: 6px; background: var(--primary); }
+
+/* ---- Footer ---- */
+.dashboard-footer {
+  padding: 20px 24px;
+  font-size: .75rem; opacity: .45; text-align: center;
+  border-top: 1px solid rgba(255,255,255,.06);
+}
+body.light-mode .dashboard-footer { border-top-color: var(--border-light); }

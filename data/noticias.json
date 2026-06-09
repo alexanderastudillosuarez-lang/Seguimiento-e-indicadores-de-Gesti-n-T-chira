@@ -1,0 +1,125 @@
+{
+  "ultima_actualizacion": "2026-06-09T08:00:00",
+  "noticias": [
+    {
+      "id": 1,
+      "titulo": "China aumenta importaciones de carbón energético ante ola de calor",
+      "resumen": "Las importaciones de carbón chinas aumentaron 15% en mayo ante alta demanda eléctrica por temperaturas récord. Se espera que la tendencia continúe durante el tercer trimestre.",
+      "fuente": "La República",
+      "fecha": "2026-06-09T07:30:00",
+      "categoria": "carbon",
+      "sentimiento": "positivo",
+      "url": "#",
+      "imagen": null,
+      "tags": ["China", "importaciones", "demanda", "carbón energético"]
+    },
+    {
+      "id": 2,
+      "titulo": "Australia reporta récord de exportaciones de carbón coquizable en mayo",
+      "resumen": "Las exportaciones australianas de carbón metalúrgico alcanzaron 18.5 millones de toneladas en mayo 2026, impulsadas por la recuperación de la industria siderúrgica en Europa y Asia.",
+      "fuente": "ACM Minería",
+      "fecha": "2026-06-09T06:15:00",
+      "categoria": "carbon",
+      "sentimiento": "positivo",
+      "url": "#",
+      "imagen": null,
+      "tags": ["Australia", "exportaciones", "siderurgia", "carbón coquizable"]
+    },
+    {
+      "id": 3,
+      "titulo": "Marruecos expande capacidad de exportación de fosfatos con nueva terminal",
+      "resumen": "OCP Group inauguró una nueva terminal portuaria en Jorf Lasfar con capacidad de 15 millones de toneladas anuales, consolidando el liderazgo marroquí en el mercado mundial de fosfatos.",
+      "fuente": "País Minero",
+      "fecha": "2026-06-08T15:00:00",
+      "categoria": "fosfatos",
+      "sentimiento": "neutral",
+      "url": "#",
+      "imagen": null,
+      "tags": ["Marruecos", "OCP", "fosfatos", "exportaciones"]
+    },
+    {
+      "id": 4,
+      "titulo": "Colombia aumenta producción carbonífera: UPME reporta crecimiento 8% interanual",
+      "resumen": "La Unidad de Planeación Minero Energética reportó que Colombia produjo 8.7 millones de toneladas de carbón en el primer trimestre de 2026, un 8% más que el mismo período del año anterior.",
+      "fuente": "UPME",
+      "fecha": "2026-06-08T10:00:00",
+      "categoria": "carbon",
+      "sentimiento": "positivo",
+      "url": "#",
+      "imagen": null,
+      "tags": ["Colombia", "producción", "UPME", "crecimiento"]
+    },
+    {
+      "id": 5,
+      "titulo": "Fertilizantes fosfatados alcanzan máximos por restricciones de exportación en China",
+      "resumen": "Los precios del DAP y MAP registraron máximos en 18 meses ante las restricciones de exportación impuestas por China, principal productor mundial de fertilizantes fosfatados.",
+      "fuente": "SunSirs",
+      "fecha": "2026-06-08T08:30:00",
+      "categoria": "fertilizantes",
+      "sentimiento": "negativo",
+      "url": "#",
+      "imagen": null,
+      "tags": ["fertilizantes", "DAP", "China", "restricciones"]
+    },
+    {
+      "id": 6,
+      "titulo": "Venezuela estudia reactivación de minas de carbón en Táchira y Zulia",
+      "resumen": "El Ministerio de Minas venezolano anunció un plan piloto para reactivar operaciones en yacimientos carboníferos del estado Táchira con inversión estimada de $120 millones para 2027.",
+      "fuente": "País Minero",
+      "fecha": "2026-06-07T14:00:00",
+      "categoria": "carbon",
+      "sentimiento": "positivo",
+      "url": "#",
+      "imagen": null,
+      "tags": ["Venezuela", "Táchira", "reactivación", "inversión"]
+    },
+    {
+      "id": 7,
+      "titulo": "India supera a Japón como segundo mayor importador de carbón energético",
+      "resumen": "India importó 14.2 Mt de carbón térmico en mayo 2026, superando a Japón por segundo mes consecutivo, impulsado por crecimiento en capacidad de generación eléctrica.",
+      "fuente": "Trading Economics",
+      "fecha": "2026-06-07T11:00:00",
+      "categoria": "energia",
+      "sentimiento": "neutral",
+      "url": "#",
+      "imagen": null,
+      "tags": ["India", "importaciones", "generación eléctrica", "Asia"]
+    },
+    {
+      "id": 8,
+      "titulo": "Geopolítica: sanciones impactan flujos de carbón ruso hacia mercados asiáticos",
+      "resumen": "Las nuevas sanciones europeas dificultan la triangulación del carbón ruso hacia Asia, creando oportunidades para exportadores alternativos como Colombia, Sudáfrica e Indonesia.",
+      "fuente": "ACM Minería",
+      "fecha": "2026-06-07T09:00:00",
+      "categoria": "geopolitica",
+      "sentimiento": "negativo",
+      "url": "#",
+      "imagen": null,
+      "tags": ["Rusia", "sanciones", "geopolítica", "Colombia"]
+    },
+    {
+      "id": 9,
+      "titulo": "Proyecto Navay: fosfatos del Táchira con potencial exportador hacia el Caribe",
+      "resumen": "Estudios geológicos confirman reservas de roca fosfática en la cuenca de Navay, estado Táchira, con ley promedio de 18% P₂O₅, suficientes para abastecer el mercado caribeño por 20 años.",
+      "fuente": "País Minero",
+      "fecha": "2026-06-06T16:00:00",
+      "categoria": "fosfatos",
+      "sentimiento": "positivo",
+      "url": "#",
+      "imagen": null,
+      "tags": ["Táchira", "Navay", "fosfatos", "Venezuela", "Caribe"]
+    },
+    {
+      "id": 10,
+      "titulo": "Precios del carbón podrían caer 15% en segundo semestre por mayor oferta indonesa",
+      "resumen": "Analistas de S&P Global proyectan una corrección del 15% en precios del carbón energético para el segundo semestre de 2026, ante aumento de oferta indonesia y desaceleración china.",
+      "fuente": "Trading Economics",
+      "fecha": "2026-06-06T10:00:00",
+      "categoria": "carbon",
+      "sentimiento": "negativo",
+      "url": "#",
+      "imagen": null,
+      "tags": ["precios", "Indonesia", "proyecciones", "oferta"]
+    }
+  ]
+}
