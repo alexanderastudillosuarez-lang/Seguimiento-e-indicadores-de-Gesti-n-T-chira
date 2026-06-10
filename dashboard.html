@@ -239,19 +239,20 @@
     <div class="section-header">
       <div class="section-title"><span class="dot" style="background:#22c55e"></span>Mapa Mundial de Producción</div>
       <div class="d-flex gap-2">
-        <button class="btn-period active" onclick="OICF_Maps.renderWorldMarkers('coal');this.classList.add('active');document.querySelectorAll('.map-layer-btn').forEach(b=>b!==this&&b.classList.remove('active'))" class="map-layer-btn">🏭 Carbón</button>
-        <button class="btn-period map-layer-btn" onclick="OICF_Maps.renderWorldMarkers('phosphate');this.classList.add('active');document.querySelectorAll('.map-layer-btn').forEach(b=>b!==this&&b.classList.remove('active'))">🌱 Fosfatos</button>
+        <button class="btn-period active map-layer-btn" onclick="OICF_Maps.renderWorldMarkers('coal');this.classList.add('active');document.querySelectorAll('.map-layer-btn').forEach(b=>b!==this&&b.classList.remove('active'))">🏭 Carbón Energético</button>
+        <button class="btn-period map-layer-btn" onclick="OICF_Maps.renderWorldMarkers('coking');this.classList.add('active');document.querySelectorAll('.map-layer-btn').forEach(b=>b!==this&&b.classList.remove('active'))">⛏️ Carbón Coquizable</button>
+        <button class="btn-period map-layer-btn" onclick="OICF_Maps.renderWorldMarkers('phosphate');this.classList.add('active');document.querySelectorAll('.map-layer-btn').forEach(b=>b!==this&&b.classList.remove('active'))">🌱 Roca Fosfática</button>
       </div>
     </div>
 
     <div class="card-oicf p-0 mb-4" style="position:relative;overflow:hidden">
       <div id="world-map"></div>
-      <div class="map-legend">
-        <div class="fw-600 mb-2" style="font-size:.8rem">Tamaño = Producción anual</div>
+      <div class="map-legend" id="map-legend-content">
+        <div class="fw-600 mb-2" style="font-size:.8rem">Tamaño = Producción anual · Carbón Energético</div>
         <div class="map-legend-item"><div class="map-dot" style="background:#ef4444"></div><span>China (mayor productor)</span></div>
         <div class="map-legend-item"><div class="map-dot" style="background:#f97316"></div><span>India</span></div>
-        <div class="map-legend-item"><div class="map-dot" style="background:#a855f7"></div><span>Colombia</span></div>
-        <div class="map-legend-item"><div class="map-dot" style="background:#ec4899"></div><span>Venezuela</span></div>
+        <div class="map-legend-item"><div class="map-dot" style="background:#eab308"></div><span>Indonesia</span></div>
+        <div class="map-legend-item"><div class="map-dot" style="background:#06b6d4"></div><span>Rusia</span></div>
       </div>
     </div>
   </section>
