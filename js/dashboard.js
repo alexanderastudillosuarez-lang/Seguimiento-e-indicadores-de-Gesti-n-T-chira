@@ -160,26 +160,29 @@ const OICF = (() => {
     const kpis = [
       {
         id: 'kpi-coal-thermal',
+        commodity: 'carbon_energetico',
         data: precios.carbon_energetico,
         icon: 'fa-industry', gradient: 'gradient-coal',
-        sparkId: 'spark-coal-thermal',
-        histKey: '7d'
+        flete: 12  // USD/ton estimado FOB->CIF
       },
       {
         id: 'kpi-coal-coking',
+        commodity: 'carbon_coquizable',
         data: precios.carbon_coquizable,
         icon: 'fa-hard-hat', gradient: 'gradient-coking',
-        sparkId: 'spark-coal-coking',
-        histKey: '7d'
+        flete: 18
       },
       {
         id: 'kpi-phosphate',
+        commodity: 'roca_fosfatica',
         data: precios.roca_fosfatica,
         icon: 'fa-seedling', gradient: 'gradient-phosph',
-        sparkId: 'spark-phosphate',
-        histKey: '7d'
+        flete: 8
       }
     ];
+
+    const fuentesReg  = (precios.fuentes_registro || {});
+    const fuentesSync = (precios.fuentes || {});
 
     kpis.forEach(k => {
       const el = document.getElementById(k.id);
@@ -188,6 +191,22 @@ const OICF = (() => {
       const up = d.variacion_diaria >= 0;
       const arr = up ? '▲' : '▼';
       const cls = up ? 'up' : 'down';
+
+      /* ---- Tabla de precios por fuente (FOB / CIF) ---- */
+      const lista = (fuentesReg[k.commodity] || [])
+        .map(f => ({ ...f, sync: fuentesSync[f.key] }))
+        .filter(f => f.sync && typeof f.sync.precio === 'number');
+
+      const filasHtml = lista.length ? lista.map(f => {
+        const fob = f.sync.precio;
+        const cif = fob + k.flete;
+        return `
+          <div class="d-flex align-items-center justify-content-between" style="padding:3px 0;border-bottom:1px solid rgba(255,255,255,.05)">
+            <span class="fs-xs" style="opacity:.8;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:54%">${f.nombre}</span>
+            <span class="fs-xs fw-600" style="white-space:nowrap">FOB $${fob.toFixed(2)} <span style="opacity:.45">/</span> CIF $${cif.toFixed(2)}</span>
+          </div>
+        `;
+      }).join('') : `<div class="fs-xs text-muted text-center py-2">Sin datos de fuentes disponibles</div>`;
 
       el.innerHTML = `
         <div class="kpi-card card-oicf h-100">
@@ -198,7 +217,7 @@ const OICF = (() => {
             <div style="flex:1">
               <div class="kpi-label">${d.nombre}</div>
               <div class="kpi-price mt-1">$${d.precio_actual.toFixed(2)}</div>
-              <div class="kpi-unit">USD / Tonelada</div>
+              <div class="kpi-unit">USD / Tonelada · Precio consenso</div>
             </div>
           </div>
           <div class="d-flex gap-2 flex-wrap mb-2">
@@ -206,17 +225,14 @@ const OICF = (() => {
             <span class="kpi-badge ${d.variacion_mensual_pct>=0?'up':'down'}">${d.variacion_mensual_pct>=0?'▲':'▼'} Mes ${Math.abs(d.variacion_mensual_pct).toFixed(1)}%</span>
             <span class="kpi-badge ${d.variacion_anual_pct>=0?'up':'down'}">${d.variacion_anual_pct>=0?'▲':'▼'} Año ${Math.abs(d.variacion_anual_pct).toFixed(1)}%</span>
           </div>
-          <canvas id="${k.sparkId}" class="kpi-sparkline"></canvas>
-          <div class="d-flex justify-content-between mt-2" style="font-size:.7rem;opacity:.5">
+          <div class="fs-xs text-muted fw-bold mb-1" style="text-transform:uppercase;letter-spacing:.05em">Precios por fuente</div>
+          <div style="max-height:170px;overflow-y:auto">${filasHtml}</div>
+          <div class="d-flex justify-content-between mt-2 pt-2" style="font-size:.7rem;opacity:.5;border-top:1px solid rgba(255,255,255,.08)">
             <span>Mín hist: $${d.min_historico}</span>
             <span>Máx hist: $${d.max_historico}</span>
           </div>
         </div>
       `;
-
-      /* Sparkline */
-      const hist = d.historico?.[k.histKey] || [];
-      if (hist.length) OICF_Charts.createSparkline(k.sparkId, hist, null, up);
     });
   }
 
