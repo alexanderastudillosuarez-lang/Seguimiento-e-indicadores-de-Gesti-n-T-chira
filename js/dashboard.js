@@ -495,32 +495,6 @@ const OICF = (() => {
             <div class="fs-xs mt-2" style="opacity:.6">Fuente: Gabinete de Minería - Gobernación del Táchira, 2023</div>
           </div>
         </div>
-        <div class="col-md-6">
-          <div class="tachira-card">
-            <h5><i class="fas fa-fire me-2"></i>Planta de Procesamiento de Coque</h5>
-            <div class="mt-2 fs-xs" style="color:rgba(255,255,255,.7)">
-              ${produccion.venezuela.carbon.tachira.planta_procesamiento.nombre} · Mpio. ${produccion.venezuela.carbon.tachira.planta_procesamiento.municipio}<br>
-              Operador: ${produccion.venezuela.carbon.tachira.planta_procesamiento.operador}<br>
-              ${produccion.venezuela.carbon.tachira.planta_procesamiento.hornos}, hasta ${produccion.venezuela.carbon.tachira.planta_procesamiento.quemas_semanales} quemas/semana
-            </div>
-            <div class="mt-3 p-2" style="background:rgba(255,255,255,.08);border-radius:8px">
-              <div class="fs-xs text-muted">Producción estimada</div>
-              <div class="fw-700" style="font-size:1.3rem;color:#f59e0b">${produccion.venezuela.carbon.tachira.planta_procesamiento.produccion_estimada_tm_mes.toLocaleString()} Tm/mes</div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="tachira-card">
-            <h5><i class="fas fa-cube me-2"></i>Yeso - San Pablo (Mpio. Sucre)</h5>
-            <div class="mt-3">
-              <div class="tachira-stat" style="color:#f59e0b">${produccion.venezuela.yeso.san_pablo.total_mt} Mt</div>
-              <div class="tachira-label">Reservas + Recursos totales (Fm. La Quinta)</div>
-            </div>
-            <div class="mt-2 fs-xs" style="color:rgba(255,255,255,.7)">
-              Operador: ${produccion.venezuela.yeso.san_pablo.operador} · Estado: ${produccion.venezuela.yeso.san_pablo.estado}
-            </div>
-          </div>
-        </div>
         <div class="col-12">
           <div class="card-oicf p-3">
             <h6 class="mb-3">Comparación Regional de Competidores</h6>
