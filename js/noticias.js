@@ -163,8 +163,8 @@ const OICF_Noticias = (() => {
     const verFuente = n._url_fuente && n._url_fuente !== '#'
       ? `<a href="${n._url_fuente}" target="_blank" rel="noopener noreferrer"
             class="btn-ver-fuente"
-            title="Ir a la página de monitoreo de ${n.fuente} (sección general, puede no mostrar esta noticia específica)">
-           <i class="fas fa-external-link-alt me-1" style="font-size:.6rem"></i>Fuente: ${n.fuente}
+            title="Leer noticia completa en ${n.fuente}">
+           <i class="fas fa-external-link-alt me-1" style="font-size:.6rem"></i>Ver noticia
          </a>`
       : `<span class="btn-ver-fuente disabled" title="Fuente interna">
            <i class="fas fa-lock me-1" style="font-size:.6rem"></i>Fuente OICF
