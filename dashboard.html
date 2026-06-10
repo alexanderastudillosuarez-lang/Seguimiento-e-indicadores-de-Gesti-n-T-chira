@@ -336,80 +336,6 @@
     </div>
   </section>
 
-  <!-- =========================================================
-       SEC 6: CENTRO DE NOTICIAS
-       ========================================================= -->
-  <section id="noticias" class="content-inner pb-0">
-    <div class="section-header">
-      <div class="section-title"><span class="dot" style="background:#a78bfa"></span>Centro de Noticias</div>
-    </div>
-
-    <div class="row g-3 mb-4">
-      <div class="col-lg-8">
-        <div class="card-oicf p-3">
-          <div class="d-flex gap-2 flex-wrap mb-3" id="news-filtros"></div>
-          <div id="news-container"></div>
-        </div>
-      </div>
-      <div class="col-lg-4">
-        <div class="card-oicf p-3 mb-3">
-          <h6 class="mb-3"><i class="fas fa-brain me-2 text-primary"></i>Análisis de Sentimiento</h6>
-          <div id="sentimiento-resumen"></div>
-        </div>
-        <div class="card-oicf p-3">
-          <h6 class="mb-2"><i class="fas fa-rss me-2 text-warning"></i>Fuentes Monitoreadas
-            <span class="badge bg-primary ms-2" id="fuentes-count">19</span>
-          </h6>
-
-          <!-- Carbón Energético -->
-          <div class="mb-2">
-            <div class="fs-xs text-muted fw-bold mb-1" style="text-transform:uppercase;letter-spacing:.05em">
-              <i class="fas fa-fire me-1" style="color:#f97316"></i>Carbón Energético
-            </div>
-            <div class="d-flex flex-column gap-1">
-              <div class="stat-row"><a href="https://es.tradingeconomics.com/commodity/coal" target="_blank" rel="noopener" class="fuente-link">Trading Economics — Coal<i class="fas fa-external-link-alt fuente-ext-icon"></i></a><span class="badge bg-success">Activo</span></div>
-              <div class="stat-row"><a href="https://www.worldbank.org/en/research/commodity-markets" target="_blank" rel="noopener" class="fuente-link">World Bank Commodity<i class="fas fa-external-link-alt fuente-ext-icon"></i></a><span class="badge bg-success">Activo</span></div>
-              <div class="stat-row"><a href="https://www.indexmundi.com/commodities/?commodity=coal&months=60" target="_blank" rel="noopener" class="fuente-link">IndexMundi — Coal Prices<i class="fas fa-external-link-alt fuente-ext-icon"></i></a><span class="badge bg-success">Activo</span></div>
-              <div class="stat-row"><a href="https://www.iea.org/data-and-statistics" target="_blank" rel="noopener" class="fuente-link">IEA — Int'l Energy Agency<i class="fas fa-external-link-alt fuente-ext-icon"></i></a><span class="badge bg-success">Activo</span></div>
-              <div class="stat-row"><a href="https://www.argusmedia.com/en/coal-coke-and-biomass" target="_blank" rel="noopener" class="fuente-link">Argus Media — Coal<i class="fas fa-external-link-alt fuente-ext-icon"></i></a><span class="badge bg-success">Activo</span></div>
-              <div class="stat-row"><a href="https://www.larepublica.co/indicadores-economicos/commodities/carbon" target="_blank" rel="noopener" class="fuente-link">La República — Colombia<i class="fas fa-external-link-alt fuente-ext-icon"></i></a><span class="badge bg-success">Activo</span></div>
-              <div class="stat-row"><a href="https://www.upme.gov.co/" target="_blank" rel="noopener" class="fuente-link">UPME — Colombia<i class="fas fa-external-link-alt fuente-ext-icon"></i></a><span class="badge bg-success">Activo</span></div>
-              <div class="stat-row"><a href="https://acmineria.com.co/" target="_blank" rel="noopener" class="fuente-link">ACM Minería Colombia<i class="fas fa-external-link-alt fuente-ext-icon"></i></a><span class="badge bg-success">Activo</span></div>
-              <div class="stat-row"><a href="https://www.paisminero.com/" target="_blank" rel="noopener" class="fuente-link">País Minero<i class="fas fa-external-link-alt fuente-ext-icon"></i></a><span class="badge bg-success">Activo</span></div>
-              <div class="stat-row"><a href="https://desarrollominero.gob.ve/" target="_blank" rel="noopener" class="fuente-link">MinDesarrollo Minero Venezuela<i class="fas fa-external-link-alt fuente-ext-icon"></i></a><span class="badge bg-success">Activo</span></div>
-            </div>
-          </div>
-
-          <!-- Carbón Coquizable -->
-          <div class="mb-2">
-            <div class="fs-xs text-muted fw-bold mb-1" style="text-transform:uppercase;letter-spacing:.05em">
-              <i class="fas fa-industry me-1" style="color:#6366f1"></i>Carbón Coquizable
-            </div>
-            <div class="d-flex flex-column gap-1">
-              <div class="stat-row"><a href="https://es.tradingeconomics.com/commodity/coking-coal" target="_blank" rel="noopener" class="fuente-link">Trading Economics — Coking Coal<i class="fas fa-external-link-alt fuente-ext-icon"></i></a><span class="badge bg-success">Activo</span></div>
-              <div class="stat-row"><a href="https://www.sgx.com/derivatives/products/coking-coal" target="_blank" rel="noopener" class="fuente-link">SGX Commodity Exchange<i class="fas fa-external-link-alt fuente-ext-icon"></i></a><span class="badge bg-success">Activo</span></div>
-              <div class="stat-row"><a href="https://www.fastmarkets.com/commodities/metals/minor-metals" target="_blank" rel="noopener" class="fuente-link">Fastmarkets — Coking Coal<i class="fas fa-external-link-alt fuente-ext-icon"></i></a><span class="badge bg-success">Activo</span></div>
-              <div class="stat-row"><a href="https://www.worldsteel.org/steel-by-topic/raw-materials/coal.html" target="_blank" rel="noopener" class="fuente-link">World Steel Association<i class="fas fa-external-link-alt fuente-ext-icon"></i></a><span class="badge bg-success">Activo</span></div>
-            </div>
-          </div>
-
-          <!-- Roca Fosfática -->
-          <div>
-            <div class="fs-xs text-muted fw-bold mb-1" style="text-transform:uppercase;letter-spacing:.05em">
-              <i class="fas fa-leaf me-1" style="color:#34d399"></i>Roca Fosfática
-            </div>
-            <div class="d-flex flex-column gap-1">
-              <div class="stat-row"><a href="https://www.worldbank.org/en/research/commodity-markets" target="_blank" rel="noopener" class="fuente-link">World Bank — Fertilizer Prices<i class="fas fa-external-link-alt fuente-ext-icon"></i></a><span class="badge bg-success">Activo</span></div>
-              <div class="stat-row"><a href="https://www.indexmundi.com/commodities/?commodity=phosphate-rock" target="_blank" rel="noopener" class="fuente-link">IndexMundi — Phosphate Rock<i class="fas fa-external-link-alt fuente-ext-icon"></i></a><span class="badge bg-success">Activo</span></div>
-              <div class="stat-row"><a href="https://www.fertilizer.org/statistics/" target="_blank" rel="noopener" class="fuente-link">IFA — Int'l Fertilizer Assoc.<i class="fas fa-external-link-alt fuente-ext-icon"></i></a><span class="badge bg-success">Activo</span></div>
-              <div class="stat-row"><a href="https://www.usgs.gov/centers/national-minerals-information-center/phosphate-rock-statistics-and-information" target="_blank" rel="noopener" class="fuente-link">USGS Minerals Data<i class="fas fa-external-link-alt fuente-ext-icon"></i></a><span class="badge bg-success">Activo</span></div>
-              <div class="stat-row"><a href="https://www.sunsirs.com/es" target="_blank" rel="noopener" class="fuente-link">SunSirs — Fertilizantes<i class="fas fa-external-link-alt fuente-ext-icon"></i></a><span class="badge bg-success">Activo</span></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
 
   <!-- =========================================================
        SEC 6B: OBSERVATORIO DEL CARBÓN
@@ -639,6 +565,81 @@
           <div class="alert-item info">
             <span class="alert-icon">🌍</span>
             <div><strong>Geopolítica favorable:</strong> Sanciones rusas crean vacío que Colombia y Venezuela pueden ocupar en mercados asiáticos.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       SEC 6: CENTRO DE NOTICIAS
+       ========================================================= -->
+  <section id="noticias" class="content-inner pb-0">
+    <div class="section-header">
+      <div class="section-title"><span class="dot" style="background:#a78bfa"></span>Centro de Noticias</div>
+    </div>
+
+    <div class="row g-3 mb-4">
+      <div class="col-lg-8">
+        <div class="card-oicf p-3">
+          <div class="d-flex gap-2 flex-wrap mb-3" id="news-filtros"></div>
+          <div id="news-container"></div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="card-oicf p-3 mb-3">
+          <h6 class="mb-3"><i class="fas fa-brain me-2 text-primary"></i>Análisis de Sentimiento</h6>
+          <div id="sentimiento-resumen"></div>
+        </div>
+        <div class="card-oicf p-3">
+          <h6 class="mb-2"><i class="fas fa-rss me-2 text-warning"></i>Fuentes Monitoreadas
+            <span class="badge bg-primary ms-2" id="fuentes-count">19</span>
+          </h6>
+
+          <!-- Carbón Energético -->
+          <div class="mb-2">
+            <div class="fs-xs text-muted fw-bold mb-1" style="text-transform:uppercase;letter-spacing:.05em">
+              <i class="fas fa-fire me-1" style="color:#f97316"></i>Carbón Energético
+            </div>
+            <div class="d-flex flex-column gap-1">
+              <div class="stat-row"><a href="https://es.tradingeconomics.com/commodity/coal" target="_blank" rel="noopener" class="fuente-link">Trading Economics — Coal<i class="fas fa-external-link-alt fuente-ext-icon"></i></a><span class="badge bg-success">Activo</span></div>
+              <div class="stat-row"><a href="https://www.worldbank.org/en/research/commodity-markets" target="_blank" rel="noopener" class="fuente-link">World Bank Commodity<i class="fas fa-external-link-alt fuente-ext-icon"></i></a><span class="badge bg-success">Activo</span></div>
+              <div class="stat-row"><a href="https://www.indexmundi.com/commodities/?commodity=coal&months=60" target="_blank" rel="noopener" class="fuente-link">IndexMundi — Coal Prices<i class="fas fa-external-link-alt fuente-ext-icon"></i></a><span class="badge bg-success">Activo</span></div>
+              <div class="stat-row"><a href="https://www.iea.org/data-and-statistics" target="_blank" rel="noopener" class="fuente-link">IEA — Int'l Energy Agency<i class="fas fa-external-link-alt fuente-ext-icon"></i></a><span class="badge bg-success">Activo</span></div>
+              <div class="stat-row"><a href="https://www.argusmedia.com/en/coal-coke-and-biomass" target="_blank" rel="noopener" class="fuente-link">Argus Media — Coal<i class="fas fa-external-link-alt fuente-ext-icon"></i></a><span class="badge bg-success">Activo</span></div>
+              <div class="stat-row"><a href="https://www.larepublica.co/indicadores-economicos/commodities/carbon" target="_blank" rel="noopener" class="fuente-link">La República — Colombia<i class="fas fa-external-link-alt fuente-ext-icon"></i></a><span class="badge bg-success">Activo</span></div>
+              <div class="stat-row"><a href="https://www.upme.gov.co/" target="_blank" rel="noopener" class="fuente-link">UPME — Colombia<i class="fas fa-external-link-alt fuente-ext-icon"></i></a><span class="badge bg-success">Activo</span></div>
+              <div class="stat-row"><a href="https://acmineria.com.co/" target="_blank" rel="noopener" class="fuente-link">ACM Minería Colombia<i class="fas fa-external-link-alt fuente-ext-icon"></i></a><span class="badge bg-success">Activo</span></div>
+              <div class="stat-row"><a href="https://www.paisminero.com/" target="_blank" rel="noopener" class="fuente-link">País Minero<i class="fas fa-external-link-alt fuente-ext-icon"></i></a><span class="badge bg-success">Activo</span></div>
+              <div class="stat-row"><a href="https://desarrollominero.gob.ve/" target="_blank" rel="noopener" class="fuente-link">MinDesarrollo Minero Venezuela<i class="fas fa-external-link-alt fuente-ext-icon"></i></a><span class="badge bg-success">Activo</span></div>
+            </div>
+          </div>
+
+          <!-- Carbón Coquizable -->
+          <div class="mb-2">
+            <div class="fs-xs text-muted fw-bold mb-1" style="text-transform:uppercase;letter-spacing:.05em">
+              <i class="fas fa-industry me-1" style="color:#6366f1"></i>Carbón Coquizable
+            </div>
+            <div class="d-flex flex-column gap-1">
+              <div class="stat-row"><a href="https://es.tradingeconomics.com/commodity/coking-coal" target="_blank" rel="noopener" class="fuente-link">Trading Economics — Coking Coal<i class="fas fa-external-link-alt fuente-ext-icon"></i></a><span class="badge bg-success">Activo</span></div>
+              <div class="stat-row"><a href="https://www.sgx.com/derivatives/products/coking-coal" target="_blank" rel="noopener" class="fuente-link">SGX Commodity Exchange<i class="fas fa-external-link-alt fuente-ext-icon"></i></a><span class="badge bg-success">Activo</span></div>
+              <div class="stat-row"><a href="https://www.fastmarkets.com/commodities/metals/minor-metals" target="_blank" rel="noopener" class="fuente-link">Fastmarkets — Coking Coal<i class="fas fa-external-link-alt fuente-ext-icon"></i></a><span class="badge bg-success">Activo</span></div>
+              <div class="stat-row"><a href="https://www.worldsteel.org/steel-by-topic/raw-materials/coal.html" target="_blank" rel="noopener" class="fuente-link">World Steel Association<i class="fas fa-external-link-alt fuente-ext-icon"></i></a><span class="badge bg-success">Activo</span></div>
+            </div>
+          </div>
+
+          <!-- Roca Fosfática -->
+          <div>
+            <div class="fs-xs text-muted fw-bold mb-1" style="text-transform:uppercase;letter-spacing:.05em">
+              <i class="fas fa-leaf me-1" style="color:#34d399"></i>Roca Fosfática
+            </div>
+            <div class="d-flex flex-column gap-1">
+              <div class="stat-row"><a href="https://www.worldbank.org/en/research/commodity-markets" target="_blank" rel="noopener" class="fuente-link">World Bank — Fertilizer Prices<i class="fas fa-external-link-alt fuente-ext-icon"></i></a><span class="badge bg-success">Activo</span></div>
+              <div class="stat-row"><a href="https://www.indexmundi.com/commodities/?commodity=phosphate-rock" target="_blank" rel="noopener" class="fuente-link">IndexMundi — Phosphate Rock<i class="fas fa-external-link-alt fuente-ext-icon"></i></a><span class="badge bg-success">Activo</span></div>
+              <div class="stat-row"><a href="https://www.fertilizer.org/statistics/" target="_blank" rel="noopener" class="fuente-link">IFA — Int'l Fertilizer Assoc.<i class="fas fa-external-link-alt fuente-ext-icon"></i></a><span class="badge bg-success">Activo</span></div>
+              <div class="stat-row"><a href="https://www.usgs.gov/centers/national-minerals-information-center/phosphate-rock-statistics-and-information" target="_blank" rel="noopener" class="fuente-link">USGS Minerals Data<i class="fas fa-external-link-alt fuente-ext-icon"></i></a><span class="badge bg-success">Activo</span></div>
+              <div class="stat-row"><a href="https://www.sunsirs.com/es" target="_blank" rel="noopener" class="fuente-link">SunSirs — Fertilizantes<i class="fas fa-external-link-alt fuente-ext-icon"></i></a><span class="badge bg-success">Activo</span></div>
+            </div>
           </div>
         </div>
       </div>
