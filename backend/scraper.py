@@ -241,7 +241,8 @@ class ScraperOICF:
                 resp = self.session.get(url, timeout=15)
                 resp.raise_for_status()
                 soup   = BeautifulSoup(resp.text, "lxml")
-                texto  = soup.select_one("#p").get_text(strip=True)
+                fila   = soup.select_one('a[href="/commodity/coal"]').find_parent("tr")
+                texto  = fila.select_one("#p").get_text(strip=True)
                 precio = round(float(texto), 2)
                 resultado = self._resultado(key, "carbon_energetico", precio, base)
                 resultado["metodo"] = "scraping_real"
@@ -303,7 +304,8 @@ class ScraperOICF:
                 resp = self.session.get(url, timeout=15)
                 resp.raise_for_status()
                 soup   = BeautifulSoup(resp.text, "lxml")
-                texto  = soup.select_one("#p").get_text(strip=True)
+                fila   = soup.select_one('a[href="/commodity/coking-coal"]').find_parent("tr")
+                texto  = fila.select_one("#p").get_text(strip=True)
                 precio = round(float(texto), 2)
                 resultado = self._resultado(key, "carbon_coquizable", precio, base)
                 resultado["metodo"] = "scraping_real"
