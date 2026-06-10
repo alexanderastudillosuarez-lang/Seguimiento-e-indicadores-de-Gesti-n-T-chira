@@ -306,7 +306,8 @@ const OICF = (() => {
     if (!precios) return;
     mineral = mineral || 'carbon_energetico';
     const cfg = PROJECTION_CONFIG[mineral];
-    const hist = precios[mineral].historico?.['90d'] || [];
+    const h = precios[mineral].historico || {};
+    const hist = (h['90d']?.length ? h['90d'] : (h['30d']?.length ? h['30d'] : (h['7d'] || [])));
     OICF_Charts.buildProjectionPlotly('projection-chart', hist, cfg.proj30, cfg.proj90, cfg.nombre);
 
     /* Tarjetas de proyección */
