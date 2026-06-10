@@ -476,7 +476,7 @@ const OICF = (() => {
             <div class="table-responsive">
               <table class="table table-sm table-oicf mb-0">
                 <thead><tr>
-                  <th>Yacimiento</th><th>Municipio</th><th>Tipo</th><th>Reservas (Mt)</th><th>Recursos (Mt)</th><th>Total (Mt)</th>
+                  <th>Yacimiento</th><th>Municipio</th><th>Tipo</th><th>Reservas (Mt)</th><th>Recursos (Mt)</th><th>Total (Mt)</th><th>Estudio realizado por / Año</th>
                 </tr></thead>
                 <tbody>
                   ${produccion.venezuela.carbon.tachira.yacimientos.map(y => `
@@ -487,6 +487,7 @@ const OICF = (() => {
                       <td>${y.reservas_mt.toFixed(2)}</td>
                       <td>${y.recursos_mt.toFixed(2)}</td>
                       <td class="fw-700">${y.total_mt.toFixed(2)}</td>
+                      <td class="fs-xs">${y.operador || '—'}</td>
                     </tr>
                   `).join('')}
                   ${Object.values(produccion.venezuela.fosfatos).map(y => `
@@ -497,6 +498,7 @@ const OICF = (() => {
                       <td>${y.reservas_mt.toFixed(2)}</td>
                       <td>${y.recursos_mt.toFixed(2)}</td>
                       <td class="fw-700">${y.total_mt.toFixed(2)}</td>
+                      <td class="fs-xs">${y.operador || '—'}</td>
                     </tr>
                   `).join('')}
                 </tbody>

@@ -143,6 +143,7 @@
         "recursos_mt": 87.4712,
         "total_mt": 129.5594,
         "ley_p2o5_pct": 27.57,
+        "operador": "Betel Inc Florida (1990)",
         "ficha_tecnica": {"P2O5": 27.57, "CaO": 38.65, "SiO2": 15.35, "Fe2O3": 0.8, "Al2O3": 2.74, "MgO": 0.23, "F": 2.92, "Cl": 0.015, "CO2": 4.5, "LOI": 9.39, "H2O": 5.5},
         "estado": "exploración avanzada",
         "proyectos_en_operacion": {"alianzas_estrategicas": 2, "decreto_presidencial_aliadas_estrategicas_mt": 85.137695},
