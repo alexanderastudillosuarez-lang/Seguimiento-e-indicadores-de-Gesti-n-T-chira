@@ -1,6 +1,51 @@
 {
-  "ultima_actualizacion": "2026-06-10T11:57:56.629021",
+  "ultima_actualizacion": "2026-06-10T12:15:58.675331",
   "noticias": [
+    {
+      "id": 1781108158,
+      "titulo": "La crisis energética mundial está llevando a los países de vuelta al carbón.",
+      "resumen": "Noticia del sector minero del carbón publicada por País Minero: La crisis energética mundial está llevando a los países de vuelta al carbón.",
+      "fuente": "País Minero",
+      "fecha": "2026-06-10T12:15:58.667359",
+      "categoria": "carbon",
+      "mineral": "carbon_energetico",
+      "sentimiento": "neutral",
+      "url": "https://www.paisminero.com/index.php?option=com_content&view=article&id=30341:la-crisis-energetica-mundial-esta-llevando-a-los-paises-de-vuelta-al-carbon-j3&catid=116&Itemid=10001",
+      "tags": [
+        "carbón",
+        "país minero"
+      ]
+    },
+    {
+      "id": 1781108157,
+      "titulo": "Comunicado : Operaciones e Inversiones de la Sabana.",
+      "resumen": "Noticia del sector minero del carbón publicada por País Minero: Comunicado : Operaciones e Inversiones de la Sabana.",
+      "fuente": "País Minero",
+      "fecha": "2026-06-10T12:15:57.796247",
+      "categoria": "carbon",
+      "mineral": "carbon_energetico",
+      "sentimiento": "neutral",
+      "url": "https://www.paisminero.com/index.php?option=com_content&view=article&id=30305:comunicado-operaciones-e-inversiones-de-la-sabana-j3&catid=116&Itemid=10001",
+      "tags": [
+        "carbón",
+        "país minero"
+      ]
+    },
+    {
+      "id": 1781108156,
+      "titulo": "El golpe de Petro a los suizos dueños del Cerrejón y a los gringos de la Drummond",
+      "resumen": "Noticia del sector minero del carbón publicada por País Minero: El golpe de Petro a los suizos dueños del Cerrejón y a los gringos de la Drummond",
+      "fuente": "País Minero",
+      "fecha": "2026-06-10T12:15:56.897405",
+      "categoria": "carbon",
+      "mineral": "carbon_energetico",
+      "sentimiento": "neutral",
+      "url": "https://www.paisminero.com/index.php?option=com_content&view=article&id=27864:el-golpe-de-petro-a-los-suizos-duenos-del-cerrejon-y-a-los-gringos-de-la-drummond&catid=116&Itemid=10001",
+      "tags": [
+        "carbón",
+        "país minero"
+      ]
+    },
     {
       "id": 1781107076,
       "titulo": "Hormuz Strait Blockade: How Energy Shocks Feed Into Fertilizer and Food Prices - Impakter",

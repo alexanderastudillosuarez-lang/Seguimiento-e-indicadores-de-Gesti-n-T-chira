@@ -511,6 +511,54 @@ class ScraperOICF:
         "tachira":           ["minería carbón Táchira Venezuela", "site:laopinion.co minería carbón Táchira"]
     }
 
+    def scrape_paisminero(self):
+        """Busca noticias reales de la categoria Carbon de Pais Minero."""
+        try:
+            import requests
+            from bs4 import BeautifulSoup
+
+            url = "https://www.paisminero.com/index.php?option=com_content&view=category&layout=blog&id=116&Itemid=10001"
+            resp = requests.get(url, timeout=15, headers={"User-Agent": "Mozilla/5.0"})
+            resp.raise_for_status()
+
+            soup = BeautifulSoup(resp.text, "lxml")
+            items = []
+            for a in soup.select("h2 a, h3 a"):
+                titulo = a.get_text(strip=True)
+                href = a.get("href")
+                if not titulo or not href:
+                    continue
+                if href.startswith("/"):
+                    href = "https://www.paisminero.com" + href
+                items.append((titulo, href))
+
+            if not items:
+                return None
+
+            titulo, link = random.choice(items)
+
+            t_low = titulo.lower()
+            if "coquizable" in t_low or "metalúrgic" in t_low or "metalurgic" in t_low or "siderúrg" in t_low or "siderurg" in t_low:
+                mineral = "carbon_coquizable"
+            else:
+                mineral = "carbon_energetico"
+
+            return {
+                "id":        int(datetime.datetime.now().timestamp()),
+                "titulo":    titulo,
+                "resumen":   f"Noticia del sector minero del carbón publicada por País Minero: {titulo}",
+                "fuente":    "País Minero",
+                "fecha":     datetime.datetime.now().isoformat(),
+                "categoria": "carbon",
+                "mineral":   mineral,
+                "sentimiento": "neutral",
+                "url":       link,
+                "tags":      ["carbón", "país minero"]
+            }
+        except Exception as e:
+            print(f"[ERR] scrape_paisminero: {e}")
+            return None
+
     def scrape_noticias(self):
         """Busca noticias reales recientes vía Google News RSS para los minerales monitoreados."""
         try:
@@ -604,6 +652,9 @@ class ScraperOICF:
 
         self.agregar_noticia(self.scrape_noticias())
         print("  -> Noticia agregada al feed")
+
+        self.agregar_noticia(self.scrape_paisminero())
+        print("  -> Noticia Pais Minero agregada al feed")
 
         ok = len([r for r in resultados if "error" not in r])
         print(f"[OK] Ciclo completo — {ok}/{len(resultados)} fuentes exitosas\n")
