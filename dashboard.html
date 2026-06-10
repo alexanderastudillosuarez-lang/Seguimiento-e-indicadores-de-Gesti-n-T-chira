@@ -496,6 +496,12 @@
     </div>
 
     <div class="card-oicf mb-3">
+      <div class="chart-toolbar flex-wrap">
+        <span style="font-size:.82rem;font-weight:600;opacity:.7">Mineral:</span>
+        <button class="btn-period active proj-mineral-btn" onclick="OICF.buildProjectionCharts('carbon_energetico');this.classList.add('active');document.querySelectorAll('.proj-mineral-btn').forEach(b=>b!==this&&b.classList.remove('active'))">🏭 Carbón Energético</button>
+        <button class="btn-period proj-mineral-btn" onclick="OICF.buildProjectionCharts('carbon_coquizable');this.classList.add('active');document.querySelectorAll('.proj-mineral-btn').forEach(b=>b!==this&&b.classList.remove('active'))">⚙️ Carbón Coquizable</button>
+        <button class="btn-period proj-mineral-btn" onclick="OICF.buildProjectionCharts('roca_fosfatica');this.classList.add('active');document.querySelectorAll('.proj-mineral-btn').forEach(b=>b!==this&&b.classList.remove('active'))">🌱 Roca Fosfática</button>
+      </div>
       <div class="chart-toolbar">
         <span style="font-size:.82rem;font-weight:600;opacity:.7">Pronóstico:</span>
         <span class="badge" style="background:#60a5fa22;color:#60a5fa">— Histórico</span>

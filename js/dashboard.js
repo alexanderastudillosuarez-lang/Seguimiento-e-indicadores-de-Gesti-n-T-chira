@@ -296,18 +296,27 @@ const OICF = (() => {
   /* ============================================================
      PROYECCIONES
      ============================================================ */
-  function buildProjectionCharts() {
+  const PROJECTION_CONFIG = {
+    carbon_energetico: { nombre: 'Carbón Energético', proj30: -8.5,  proj90: -15.2 },
+    carbon_coquizable: { nombre: 'Carbón Coquizable', proj30: -6.0,  proj90: -10.5 },
+    roca_fosfatica:    { nombre: 'Roca Fosfática',    proj30:  3.5,  proj90:   6.8 }
+  };
+
+  function buildProjectionCharts(mineral) {
     if (!precios) return;
-    const hist = precios.carbon_energetico.historico?.['90d'] || [];
-    OICF_Charts.buildProjectionPlotly('projection-chart', hist, -8.5, -15.2, 'Carbón Energético');
+    mineral = mineral || 'carbon_energetico';
+    const cfg = PROJECTION_CONFIG[mineral];
+    const hist = precios[mineral].historico?.['90d'] || [];
+    OICF_Charts.buildProjectionPlotly('projection-chart', hist, cfg.proj30, cfg.proj90, cfg.nombre);
 
     /* Tarjetas de proyección */
-    renderProjectionCards();
+    renderProjectionCards(mineral);
   }
 
-  function renderProjectionCards() {
+  function renderProjectionCards(mineral) {
     if (!precios) return;
-    const d = precios.carbon_energetico;
+    mineral = mineral || 'carbon_energetico';
+    const d = precios[mineral];
     const base = d.precio_actual;
     const projections = [
       { label: '30 días',  val: base * 0.972, pct: -2.8 },
@@ -737,7 +746,7 @@ const OICF = (() => {
   };
 
   /* ---- Public API ---- */
-  return { init, buildMainChart, generateIAReport, showToast, toggleTheme, renderColombiaSection };
+  return { init, buildMainChart, generateIAReport, showToast, toggleTheme, renderColombiaSection, buildProjectionCharts };
 
 })();
 
