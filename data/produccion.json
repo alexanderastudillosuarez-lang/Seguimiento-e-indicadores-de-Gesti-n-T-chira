@@ -210,10 +210,10 @@
       "fuente": "Gabinete de Minería - Gobernación del Táchira, 2023"
     },
     "competidores_regionales": {
-      "Colombia": {"produccion_mt": 57, "fortalezas": ["Infraestructura", "Logística", "Contratos LT"]},
-      "Brasil": {"produccion_mt": 8, "fortalezas": ["Mercado interno grande", "Tecnología"]},
-      "Chile": {"produccion_mt": 0.1, "fortalezas": ["Estabilidad jurídica", "Infraestructura"]},
-      "Venezuela": {"produccion_mt": 0.8, "debilidades": ["Crisis energética", "Falta de inversión"]}
+      "Colombia": {"produccion_mt": 57, "produccion_fosfato_mt": 0.52, "fortalezas": ["Infraestructura", "Logística", "Contratos LT"]},
+      "Brasil": {"produccion_mt": 8, "produccion_fosfato_mt": 8, "fortalezas": ["Mercado interno grande", "Tecnología"]},
+      "Chile": {"produccion_mt": 0.1, "produccion_fosfato_mt": 0, "fortalezas": ["Estabilidad jurídica", "Infraestructura"]},
+      "Venezuela": {"produccion_mt": 0.8, "produccion_fosfato_mt": 0.3, "debilidades": ["Crisis energética", "Falta de inversión"]}
     }
   }
 }

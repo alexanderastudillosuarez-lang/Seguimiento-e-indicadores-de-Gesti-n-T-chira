@@ -513,13 +513,14 @@ const OICF = (() => {
             <div class="table-responsive">
               <table class="table table-sm table-oicf mb-0">
                 <thead><tr>
-                  <th>País</th><th>Prod. carbón</th><th>Fortalezas / Debilidades</th>
+                  <th>País</th><th>Prod. carbón</th><th>Prod. fosfato</th><th>Fortalezas / Debilidades</th>
                 </tr></thead>
                 <tbody>
                   ${Object.entries(tach.competidores_regionales).map(([pais, info]) => `
                     <tr>
                       <td class="fw-600">${pais}</td>
                       <td>${info.produccion_mt} Mt</td>
+                      <td>${info.produccion_fosfato_mt} Mt</td>
                       <td class="fs-xs">${(info.fortalezas||info.debilidades||[]).join(', ')}</td>
                     </tr>
                   `).join('')}
