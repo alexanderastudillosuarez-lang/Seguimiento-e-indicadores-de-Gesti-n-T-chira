@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>OICF — Reportes</title>
+  <title>OTM — Reportes</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
@@ -14,10 +14,10 @@
 
 <aside id="sidebar" class="sidebar">
   <a class="sidebar-logo" href="dashboard.html">
-    <span style="font-size:1.8rem;flex-shrink:0">⛏️</span>
+    <img src="assets/logo.png" alt="OTM" style="width:38px;height:38px;flex-shrink:0;border-radius:6px;object-fit:cover">
     <div class="sidebar-logo-text">
-      <span class="brand-name">OICF</span>
-      <span class="brand-sub">Observatorio Minero</span>
+      <span class="brand-name">OTM</span>
+      <span class="brand-sub">Táchira · Venezuela</span>
     </div>
   </a>
   <nav class="sidebar-nav">
@@ -156,12 +156,12 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script>
 const HISTORIAL = [
-  { nombre:'OICF_Ejecutivo_2026-06-09.pdf', tipo:'Ejecutivo', fecha:'09/06/2026 08:00', size:'2.4 MB' },
-  { nombre:'OICF_Semanal_W23_2026.pdf',     tipo:'Semanal',   fecha:'09/06/2026 07:00', size:'1.8 MB' },
-  { nombre:'OICF_Diario_2026-06-09.pdf',    tipo:'Diario',    fecha:'09/06/2026 06:30', size:'0.9 MB' },
-  { nombre:'OICF_Tachira_Junio2026.pdf',    tipo:'Especial',  fecha:'08/06/2026 16:00', size:'3.1 MB' },
-  { nombre:'OICF_Fosfatos_Junio2026.pdf',   tipo:'Especial',  fecha:'08/06/2026 12:00', size:'1.5 MB' },
-  { nombre:'OICF_Datos_Junio2026.xlsx',     tipo:'Excel',     fecha:'08/06/2026 09:00', size:'4.2 MB' },
+  { nombre:'OTM_Ejecutivo_2026-06-09.pdf', tipo:'Ejecutivo', fecha:'09/06/2026 08:00', size:'2.4 MB' },
+  { nombre:'OTM_Semanal_W23_2026.pdf',     tipo:'Semanal',   fecha:'09/06/2026 07:00', size:'1.8 MB' },
+  { nombre:'OTM_Diario_2026-06-09.pdf',    tipo:'Diario',    fecha:'09/06/2026 06:30', size:'0.9 MB' },
+  { nombre:'OTM_Tachira_Junio2026.pdf',    tipo:'Especial',  fecha:'08/06/2026 16:00', size:'3.1 MB' },
+  { nombre:'OTM_Fosfatos_Junio2026.pdf',   tipo:'Especial',  fecha:'08/06/2026 12:00', size:'1.5 MB' },
+  { nombre:'OTM_Datos_Junio2026.xlsx',     tipo:'Excel',     fecha:'08/06/2026 09:00', size:'4.2 MB' },
 ];
 
 const BADGE = { Ejecutivo:'bg-primary', Semanal:'bg-warning text-dark', Diario:'bg-info', Especial:'bg-success', Excel:'bg-success' };
@@ -183,7 +183,7 @@ function descargar(tipo) {
     .then(blob => {
       const a = document.createElement('a');
       a.href = URL.createObjectURL(blob);
-      a.download = `OICF_${tipo}_${new Date().toISOString().slice(0,10)}.pdf`;
+      a.download = `OTM_${tipo}_${new Date().toISOString().slice(0,10)}.pdf`;
       a.click();
       showToast('Informe descargado correctamente.', 'success');
     })

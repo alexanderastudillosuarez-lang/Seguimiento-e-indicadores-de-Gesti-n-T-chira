@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>OICF — Observatorio Internacional del Carbón y Fosfatos</title>
+  <title>OTM — Observatorio Tachirense de Minería</title>
   <meta name="description" content="Monitoreo diario del mercado mundial de carbón energético, carbón coquizable y roca fosfática">
 
   <!-- Bootstrap 5 -->
@@ -27,9 +27,9 @@
      ============================================================ -->
 <div id="oicf-loader" class="oicf-loader">
   <div style="text-align:center">
-    <div style="font-size:3.5rem;margin-bottom:16px">⛏️</div>
-    <div style="font-size:1.4rem;font-weight:700;color:#60a5fa;margin-bottom:4px">OICF</div>
-    <div style="font-size:.85rem;color:#64748b;margin-bottom:24px">Observatorio Internacional del Carbón y Fosfatos</div>
+    <img src="assets/logo.png" alt="OTM" style="width:72px;height:72px;border-radius:10px;object-fit:cover;margin-bottom:16px">
+    <div style="font-size:1.4rem;font-weight:700;color:#60a5fa;margin-bottom:4px">OTM</div>
+    <div style="font-size:.85rem;color:#64748b;margin-bottom:24px">Observatorio Tachirense de Minería</div>
     <div class="loader-bar"><div class="loader-progress"></div></div>
     <div style="font-size:.75rem;color:#64748b;margin-top:12px">Cargando datos de mercado…</div>
   </div>
@@ -40,10 +40,10 @@
      ============================================================ -->
 <aside id="sidebar" class="sidebar">
   <a class="sidebar-logo" href="dashboard.html">
-    <span style="font-size:1.8rem;flex-shrink:0">⛏️</span>
+    <img src="assets/logo.png" alt="OTM" style="width:38px;height:38px;flex-shrink:0;border-radius:6px;object-fit:cover">
     <div class="sidebar-logo-text">
-      <span class="brand-name">OICF</span>
-      <span class="brand-sub">Observatorio Minero Internacional</span>
+      <span class="brand-name">OTM</span>
+      <span class="brand-sub">Táchira · Venezuela</span>
     </div>
   </a>
 
@@ -319,11 +319,11 @@
         <div class="card-oicf p-3 h-100">
           <h6 class="mb-3"><i class="fas fa-info-circle me-2 text-info"></i>Proyectos y Yacimientos</h6>
           <div class="alert-item info">
-            <span class="alert-icon">⛏️</span>
+            <span class="alert-icon">🪨</span>
             <div><strong>Carbón Zulia</strong> — Cuenca del Lago de Maracaibo. Mina Norte y Paso Diablo. Operación reducida.</div>
           </div>
           <div class="alert-item warning">
-            <span class="alert-icon">⛏️</span>
+            <span class="alert-icon">🪨</span>
             <div><strong>Carbón Táchira</strong> — Lobatera (Mpio. Lobatera) y Las Adjuntas (Mpio. Bolívar). 129 Mt reservas. Suspendido.</div>
           </div>
           <div class="alert-item info">
@@ -559,7 +559,7 @@
             <i class="fas fa-robot fa-lg"></i>
             <div>
               <div class="fw-700">Análisis Inteligente</div>
-              <div style="font-size:.75rem;opacity:.7">Generado por IA · OICF Engine v2.0</div>
+              <div style="font-size:.75rem;opacity:.7">Generado por IA · OTM Engine v2.0</div>
             </div>
           </div>
           <div class="ai-body">
@@ -612,7 +612,7 @@
 
   <!-- Footer -->
   <div class="dashboard-footer">
-    OICF · Observatorio Internacional del Carbón y Fosfatos · Datos de referencia internacional
+    OTM · Observatorio Tachirense de Minería · Datos de referencia internacional
     · <span id="footer-date"></span>
     · Desarrollado con ❤️ para el Estado Táchira
   </div>
@@ -668,7 +668,7 @@
         .then(blob => {
           const url = URL.createObjectURL(blob);
           const a = document.createElement('a');
-          a.href = url; a.download = `OICF_Informe_${labels[type]}_${new Date().toISOString().slice(0,10)}.pdf`;
+          a.href = url; a.download = `OTM_Informe_${labels[type]}_${new Date().toISOString().slice(0,10)}.pdf`;
           a.click();
         })
         .catch(() => OICF.showToast('Inicie el servidor Flask: python backend/app.py', 'warning'));
@@ -684,7 +684,7 @@
       if (canvas) {
         const a = document.createElement('a');
         a.href = canvas.toDataURL('image/png');
-        a.download = 'OICF_Chart.png';
+        a.download = 'OTM_Chart.png';
         a.click();
       }
     });

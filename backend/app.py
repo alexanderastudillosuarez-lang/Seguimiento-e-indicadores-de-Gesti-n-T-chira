@@ -1,5 +1,5 @@
 """
-OICF - Observatorio Internacional del Carbón y Fosfatos
+OTM - Observatorio Tachirense de Minería
 app.py - Servidor Flask principal
 """
 
@@ -232,7 +232,7 @@ def api_report(tipo):
             fontSize=9.5, leading=14, spaceAfter=8)
 
         tipo_label = {"diario":"Diario","semanal":"Semanal","mensual":"Mensual","ejecutivo":"Ejecutivo Completo"}.get(tipo, tipo.title())
-        story.append(Paragraph("⛏️ OICF — Observatorio Internacional del Carbón y Fosfatos", title_style))
+        story.append(Paragraph("⛏️ OTM — Observatorio Tachirense de Minería", title_style))
         story.append(Paragraph(f"Informe {tipo_label} · {datetime.date.today().strftime('%d de %B de %Y')}", subtitle_style))
         story.append(HRFlowable(width="100%", thickness=2, color=colors.HexColor('#0d6efd')))
         story.append(Spacer(1, 14))
@@ -286,7 +286,7 @@ def api_report(tipo):
         story.append(HRFlowable(width="100%", thickness=0.5, color=colors.grey))
         story.append(Spacer(1,6))
         story.append(Paragraph(
-            f"Generado automáticamente por OICF Engine · {datetime.datetime.now().strftime('%d/%m/%Y %H:%M')} · Datos de referencia internacional",
+            f"Generado automáticamente por OTM Engine · {datetime.datetime.now().strftime('%d/%m/%Y %H:%M')} · Datos de referencia internacional",
             ParagraphStyle('Footer', parent=styles['Normal'], fontSize=7.5, textColor=colors.grey)))
 
         doc.build(story)
