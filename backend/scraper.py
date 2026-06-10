@@ -293,8 +293,23 @@ class ScraperOICF:
     # SCRAPERS — CARBÓN COQUIZABLE
     # =========================================================================
     def scrape_trading_economics_coking(self):
+        """Trading Economics — Coking Coal (precio real)"""
         key  = "trading_economics_coking"
         base = self._precio_actual("carbon_coquizable")
+        url  = FUENTES_CONFIG[key]["url"]
+        if self.session:
+            try:
+                from bs4 import BeautifulSoup
+                resp = self.session.get(url, timeout=15)
+                resp.raise_for_status()
+                soup   = BeautifulSoup(resp.text, "lxml")
+                texto  = soup.select_one("#p").get_text(strip=True)
+                precio = round(float(texto), 2)
+                resultado = self._resultado(key, "carbon_coquizable", precio, base)
+                resultado["metodo"] = "scraping_real"
+                return resultado
+            except Exception as e:
+                print(f"[WARN] scrape_trading_economics_coking falló, usando simulación: {e}")
         return self._resultado(key, "carbon_coquizable", max(80, round(base + self._delta(base, 4.0), 2)), base)
 
     def scrape_sgx(self):
@@ -321,8 +336,26 @@ class ScraperOICF:
         return self._resultado(key, "roca_fosfatica", max(30, round(base + self._delta(base, 1.5), 2)), base)
 
     def scrape_indexmundi_phosphate(self):
+        """IndexMundi — Rock Phosphate (precio real, último mes publicado)"""
         key  = "indexmundi_phosphate"
         base = self._precio_actual("roca_fosfatica")
+        url  = "https://www.indexmundi.com/commodities/?commodity=rock-phosphate&months=12"
+        if self.session:
+            try:
+                from bs4 import BeautifulSoup
+                resp = self.session.get(url, timeout=15)
+                resp.raise_for_status()
+                soup = BeautifulSoup(resp.text, "lxml")
+                for t in soup.find_all("table"):
+                    if "Month Price Change" in t.get_text(" ", strip=True):
+                        filas = [[c.get_text(strip=True) for c in r.find_all("td")] for r in t.find_all("tr")]
+                        filas = [f for f in filas if len(f) == 3]
+                        precio = round(float(filas[-1][1]), 2)
+                        resultado = self._resultado(key, "roca_fosfatica", precio, base)
+                        resultado["metodo"] = "scraping_real"
+                        return resultado
+            except Exception as e:
+                print(f"[WARN] scrape_indexmundi_phosphate falló, usando simulación: {e}")
         return self._resultado(key, "roca_fosfatica", max(30, round(base + self._delta(base, 2.1), 2)), base)
 
     def scrape_ifa(self):
