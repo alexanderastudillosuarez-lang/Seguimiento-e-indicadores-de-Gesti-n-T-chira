@@ -307,8 +307,26 @@ class ScraperOICF:
     # SCRAPERS — REGIONALES
     # =========================================================================
     def scrape_la_republica(self):
+        """La República — Indicadores Económicos / Commodities / Carbón (precio real)"""
         key  = "la_republica"
         base = self._precio_actual("carbon_energetico")
+        url  = FUENTES_CONFIG[key]["url"]
+        if self.session:
+            try:
+                from bs4 import BeautifulSoup
+                resp = self.session.get(url, timeout=15)
+                resp.raise_for_status()
+                soup  = BeautifulSoup(resp.text, "lxml")
+                texto = soup.select_one(".content-price .price").get_text(strip=True)
+                # Formato: "US$ 146,95" -> 146.95
+                num = texto.replace("US$", "").replace("$", "").strip()
+                num = num.replace(".", "").replace(",", ".")
+                precio = round(float(num), 2)
+                resultado = self._resultado(key, "carbon_energetico", precio, base)
+                resultado["metodo"] = "scraping_real"
+                return resultado
+            except Exception as e:
+                print(f"[WARN] scrape_la_republica falló, usando simulación: {e}")
         return self._resultado(key, "carbon_energetico", max(50, round(base + self._delta(base, 2.8), 2)), base)
 
     def scrape_upme(self):
@@ -398,7 +416,8 @@ class ScraperOICF:
                         "url":         r.get("url",""),
                         "ultima_sync": ahora,
                         "precio":      r.get("precio"),
-                        "estado":      "ok"
+                        "estado":      "ok",
+                        "metodo":      r.get("metodo", "simulacion_delta")
                     }
 
             data["fuentes"]              = sync_log
