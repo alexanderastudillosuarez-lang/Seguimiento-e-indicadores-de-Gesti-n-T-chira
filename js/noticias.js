@@ -30,6 +30,7 @@ const OICF_Noticias = (() => {
     'USGS':                       'https://www.usgs.gov/centers/national-minerals-information-center/phosphate-rock-statistics-and-information',
     'MinDesarrollo Minero Venezuela': 'https://desarrollominero.gob.ve/',
     'Minem Venezuela':            'https://desarrollominero.gob.ve/',
+    'La Opinión':                 'https://laopinion.co/',
     'OICF':                       '#'
   };
 

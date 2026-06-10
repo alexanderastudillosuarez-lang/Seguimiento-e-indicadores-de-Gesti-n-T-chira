@@ -508,7 +508,7 @@ class ScraperOICF:
         "carbon_energetico": ["precio carbón térmico", "thermal coal price"],
         "carbon_coquizable": ["carbón coquizable metalúrgico", "coking coal price"],
         "roca_fosfatica":    ["roca fosfática precio", "phosphate rock price"],
-        "tachira":           ["minería carbón Táchira Venezuela"]
+        "tachira":           ["minería carbón Táchira Venezuela", "site:laopinion.co minería carbón Táchira"]
     }
 
     def scrape_noticias(self):
