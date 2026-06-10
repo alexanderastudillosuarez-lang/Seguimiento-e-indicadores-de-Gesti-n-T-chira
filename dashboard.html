@@ -93,6 +93,12 @@
     <div class="nav-section-label">MERCADOS</div>
 
     <div class="nav-item-oicf">
+      <a href="#carbon" class="nav-link-oicf">
+        <i class="fas fa-burn"></i>
+        <span class="nav-text">Observatorio Carbón</span>
+      </a>
+    </div>
+    <div class="nav-item-oicf">
       <a href="#fosfatos" class="nav-link-oicf">
         <i class="fas fa-seedling"></i>
         <span class="nav-text">Observatorio Fosfato</span>
@@ -406,6 +412,44 @@
   </section>
 
   <!-- =========================================================
+       SEC 6B: OBSERVATORIO DEL CARBÓN
+       ========================================================= -->
+  <section id="carbon" class="content-inner pb-0">
+    <div class="section-header">
+      <div class="section-title"><span class="dot" style="background:#60a5fa"></span>Observatorio del Carbón</div>
+    </div>
+
+    <div class="row g-3 mb-4">
+      <div class="col-lg-8">
+        <div class="card-oicf p-3">
+          <h6 class="mb-3">Producción Mundial de Carbón (Mt/año)</h6>
+          <div style="height:280px"><canvas id="production-bar"></canvas></div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="card-oicf p-3 h-100">
+          <h6 class="mb-3">Datos Clave</h6>
+          <div class="stat-row"><span>Producción global</span><strong>~8,650 Mt/año</strong></div>
+          <div class="stat-row"><span>Precio Energético (Newcastle)</span><strong>$150.20 USD/Ton</strong></div>
+          <div class="stat-row"><span>Precio Coquizable</span><strong>$246.00 USD/Ton</strong></div>
+          <div class="stat-row"><span>Mayor productor</span><strong>China (4,560 Mt)</strong></div>
+          <div class="stat-row"><span>Mayor reservas</span><strong>Estados Unidos (~249,000 Mt)</strong></div>
+          <div class="stat-row"><span>Producción Colombia</span><strong>57 Mt/año</strong></div>
+          <div class="stat-row"><span>Producción Venezuela</span><strong>0.8 Mt/año</strong></div>
+          <div class="mt-3">
+            <h6 class="fs-xs mb-2">Principales usos finales</h6>
+            <div class="d-flex flex-wrap gap-1">
+              <span class="badge" style="background:#60a5fa;color:#000">Generación eléctrica 65%</span>
+              <span class="badge bg-secondary">Siderurgia (coque) 25%</span>
+              <span class="badge bg-secondary">Otros 10%</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
        SEC 7: OBSERVATORIO DEL FOSFATO
        ========================================================= -->
   <section id="fosfatos" class="content-inner pb-0">
@@ -592,16 +636,6 @@
           </div>
         </div>
       </div>
-    </div>
-  </section>
-
-  <!-- Producción mundial carbón -->
-  <section class="content-inner pb-0">
-    <div class="section-header">
-      <div class="section-title"><span class="dot"></span>Producción Mundial de Carbón por País</div>
-    </div>
-    <div class="card-oicf p-3 mb-4">
-      <div style="height:300px"><canvas id="production-bar"></canvas></div>
     </div>
   </section>
 
