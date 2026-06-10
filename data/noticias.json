@@ -1,6 +1,81 @@
 {
-  "ultima_actualizacion": "2026-06-09T18:00:00",
+  "ultima_actualizacion": "2026-06-09T23:33:54.590588",
   "noticias": [
+    {
+      "id": 1781062434,
+      "titulo": "Accidente mortal en una mina de China eleva los precios del carbón - Bloomberg Línea",
+      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTXNMTzVVN2M5N3A0OHFpUm1IaldKNzI5czlRMDNhYW44ekxGdjJ2d1NORFNiUzcyQ1NFVFV4cGZHaVlEWGNrTUYxOGtscUdFQmVaY0ZPaExwV1VvY2sxTXl5djk5LVFNVUlmbVRtR01Fa2JjaFZKRnJOYTZ6LWU1QXg3Q1lyWEJKRzJLbm1nTFJrQU84UEZHZGxXb2MzYWlHaEc1eldDNzl0Z0",
+      "fuente": "Bloomberg Línea",
+      "fecha": "2026-05-25T07:00:00",
+      "categoria": "carbon",
+      "mineral": "carbon_energetico",
+      "sentimiento": "neutral",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTXNMTzVVN2M5N3A0OHFpUm1IaldKNzI5czlRMDNhYW44ekxGdjJ2d1NORFNiUzcyQ1NFVFV4cGZHaVlEWGNrTUYxOGtscUdFQmVaY0ZPaExwV1VvY2sxTXl5djk5LVFNVUlmbVRtR01Fa2JjaFZKRnJOYTZ6LWU1QXg3Q1lyWEJKRzJLbm1nTFJrQU84UEZHZGxXb2MzYWlHaEc1eldDNzl0Z0XSAb8BQVVfeXFMUHlwYjI1TmdPT3luOThTWFBrZWxTWkd2eEdTaTVsTHQ1U2xXaVFVY0lISlZzMHNBYWRmZ0ZqN3A1VTMweXdCcVJmZzNvcHRIejRyUTZObmdRWW04amtfeFFPVnFzdVlLXzdha3hlbk1PWGtVZTNkSVlNVlJRTlBJMTZMTXUyMTNOclJHMzRzVTNsZ0FBa2I2RGt2em1YWkNtT2tjakFZVlM3ZnRkc1kxTnFpYUYzTXRhYmdHeWVkanM?oc=5",
+      "tags": [
+        "mercado",
+        "precio carbón térmico"
+      ]
+    },
+    {
+      "id": 1781062433,
+      "titulo": "Fuel supply – World Energy Investment 2020 – Analysis - IEA – International Energy Agency",
+      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMid0FVX3lxTFBSMzZBdVV5YlQ5akFMUGVGZWFQa1hlMlFXUEU4RndlYlRlWlpYUmRWNzVwMTJMMXhTeDhWV1pFRU5zZUxaZTBpLW5IQ2hYODhGU0RZTmtvV083aFlGazdFRWhZUFE4eGdUZUpDRnJCRnhHZ3BSR2pN?oc=5\" target=\"_blank\">Fuel supply – World Energy Investment 2020 – An",
+      "fuente": "IEA – International Energy Agency",
+      "fecha": "2020-05-27T15:48:02",
+      "categoria": "carbon",
+      "mineral": "carbon_energetico",
+      "sentimiento": "neutral",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBSMzZBdVV5YlQ5akFMUGVGZWFQa1hlMlFXUEU4RndlYlRlWlpYUmRWNzVwMTJMMXhTeDhWV1pFRU5zZUxaZTBpLW5IQ2hYODhGU0RZTmtvV083aFlGazdFRWhZUFE4eGdUZUpDRnJCRnhHZ3BSR2pN?oc=5",
+      "tags": [
+        "mercado",
+        "thermal coal price"
+      ]
+    },
+    {
+      "id": 1781062432,
+      "titulo": "Las 6 mineras de Boyacá y N. de Santander que le venden carbón a las grandes acerías del mundo - Las2orillas",
+      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxQZ0hXbTNQMmZsRHluV1BwM0ZPX0prdkJmQ0wxVy1NS3d3UjZjQlBXVmxCamZRcVpYMUJZZTJ3T2MyY1Uxcml4d0NzRzYzal9PTGhadmhldlZVbzZ2aE05TXFGR2ZvU2l0TG1pNWF4andTU1JYRmJ3NDR6NzhhNXdqZU5kUGpNZ1JCSVdycXBDcmdsMTEzcTYwZHIxSHFHbTd1Uk1iZTV0ZXIwOH",
+      "fuente": "Las2orillas",
+      "fecha": "2025-08-07T07:00:00",
+      "categoria": "carbon",
+      "mineral": "carbon_coquizable",
+      "sentimiento": "neutral",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQZ0hXbTNQMmZsRHluV1BwM0ZPX0prdkJmQ0wxVy1NS3d3UjZjQlBXVmxCamZRcVpYMUJZZTJ3T2MyY1Uxcml4d0NzRzYzal9PTGhadmhldlZVbzZ2aE05TXFGR2ZvU2l0TG1pNWF4andTU1JYRmJ3NDR6NzhhNXdqZU5kUGpNZ1JCSVdycXBDcmdsMTEzcTYwZHIxSHFHbTd1Uk1iZTV0ZXIwOHAtNDhFU3hWUl9TLU8weHlHQ3F3?oc=5",
+      "tags": [
+        "mercado",
+        "carbón coquizable metalúrgico"
+      ]
+    },
+    {
+      "id": 1781062432,
+      "titulo": "Precios del carbón suben 12.4 % en junio debido a factores climáticos y tensiones comerciales - Ministerio de Economía, Planificación y Desarrollo (MEPyD)",
+      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxOVGYtQUZGeXVyTFRKckF1eXN6bHl2VXNBOFdxQW9kOFVfVGhiNWpCWHpiUnk3aEFJMmdLNEczU3laaFhSaEF3OVg5LTFXZlNqbHVyUGYyUVZFQ2hjZmh3NzhyZFhVUEV0cnFxcjRmeHhjckxfbFE0eXItc0hpTFNZVlZuYWZ4bWxETHpROG5yUmZxRTB3RHJhemZyNHNqU2pjeWxJbWtvRXBKMm",
+      "fuente": "Ministerio de Economía, Planificación y Desarrollo (MEPyD)",
+      "fecha": "2025-07-15T19:18:52",
+      "categoria": "carbon",
+      "mineral": "carbon_energetico",
+      "sentimiento": "neutral",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOVGYtQUZGeXVyTFRKckF1eXN6bHl2VXNBOFdxQW9kOFVfVGhiNWpCWHpiUnk3aEFJMmdLNEczU3laaFhSaEF3OVg5LTFXZlNqbHVyUGYyUVZFQ2hjZmh3NzhyZFhVUEV0cnFxcjRmeHhjckxfbFE0eXItc0hpTFNZVlZuYWZ4bWxETHpROG5yUmZxRTB3RHJhemZyNHNqU2pjeWxJbWtvRXBKMmxMRVlheTdIMA?oc=5",
+      "tags": [
+        "mercado",
+        "precio carbón térmico"
+      ]
+    },
+    {
+      "id": 1781062431,
+      "titulo": "Venezuela aprueba una nueva ley de minas: cuáles son las otras riquezas naturales que tiene el país además del petróleo - BBC",
+      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMiW0FVX3lxTE85SWtWd1lrSUtIelJfLTJfQnFWOHJJQnVoWnJQWU80S3drSlpjZTZTRmxDM1lCakhveUg2a3JOZzRLSXhxVnNUU2ZHeWdpbmtHZXFuQkxySzZPQ0XSAWBBVV95cUxPYWdQTEtENEx5c1BFbG5CSVVWMDJCQTI0WElDU3lKVzF5S3dGOUlzUXR3SzNQeXV5akRVeXlkbE5seUQ2NTNobE1aeFNFS0",
+      "fuente": "BBC",
+      "fecha": "2026-02-11T08:00:00",
+      "categoria": "geopolitica",
+      "mineral": "carbon_energetico",
+      "sentimiento": "neutral",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE85SWtWd1lrSUtIelJfLTJfQnFWOHJJQnVoWnJQWU80S3drSlpjZTZTRmxDM1lCakhveUg2a3JOZzRLSXhxVnNUU2ZHeWdpbmtHZXFuQkxySzZPQ0XSAWBBVV95cUxPYWdQTEtENEx5c1BFbG5CSVVWMDJCQTI0WElDU3lKVzF5S3dGOUlzUXR3SzNQeXV5akRVeXlkbE5seUQ2NTNobE1aeFNFS0NfZnpodzhmbjBmOU5WSDk4QlI?oc=5",
+      "tags": [
+        "mercado",
+        "minería carbón Táchira Venezuela"
+      ]
+    },
     {
       "id": 1,
       "titulo": "China aumenta importaciones de carbón energético ante ola de calor",
@@ -11,7 +86,12 @@
       "mineral": "carbon_energetico",
       "sentimiento": "positivo",
       "url": "https://www.larepublica.co/indicadores-economicos/commodities/carbon",
-      "tags": ["China", "importaciones", "demanda", "carbón energético"]
+      "tags": [
+        "China",
+        "importaciones",
+        "demanda",
+        "carbón energético"
+      ]
     },
     {
       "id": 2,
@@ -23,7 +103,12 @@
       "mineral": "carbon_coquizable",
       "sentimiento": "positivo",
       "url": "https://acmineria.com.co/",
-      "tags": ["Australia", "exportaciones", "siderurgia", "carbón coquizable"]
+      "tags": [
+        "Australia",
+        "exportaciones",
+        "siderurgia",
+        "carbón coquizable"
+      ]
     },
     {
       "id": 3,
@@ -35,7 +120,12 @@
       "mineral": "roca_fosfatica",
       "sentimiento": "neutral",
       "url": "https://www.paisminero.com/",
-      "tags": ["Marruecos", "OCP", "fosfatos", "exportaciones"]
+      "tags": [
+        "Marruecos",
+        "OCP",
+        "fosfatos",
+        "exportaciones"
+      ]
     },
     {
       "id": 4,
@@ -47,7 +137,12 @@
       "mineral": "carbon_energetico",
       "sentimiento": "positivo",
       "url": "https://www.upme.gov.co/",
-      "tags": ["Colombia", "producción", "UPME", "crecimiento"]
+      "tags": [
+        "Colombia",
+        "producción",
+        "UPME",
+        "crecimiento"
+      ]
     },
     {
       "id": 5,
@@ -59,7 +154,12 @@
       "mineral": "roca_fosfatica",
       "sentimiento": "negativo",
       "url": "https://www.sunsirs.com/es",
-      "tags": ["fertilizantes", "DAP", "China", "restricciones"]
+      "tags": [
+        "fertilizantes",
+        "DAP",
+        "China",
+        "restricciones"
+      ]
     },
     {
       "id": 6,
@@ -71,7 +171,12 @@
       "mineral": "carbon_energetico",
       "sentimiento": "positivo",
       "url": "https://www.paisminero.com/",
-      "tags": ["Venezuela", "Táchira", "reactivación", "inversión"]
+      "tags": [
+        "Venezuela",
+        "Táchira",
+        "reactivación",
+        "inversión"
+      ]
     },
     {
       "id": 7,
@@ -83,7 +188,12 @@
       "mineral": "carbon_energetico",
       "sentimiento": "neutral",
       "url": "https://es.tradingeconomics.com/commodity/coal",
-      "tags": ["India", "importaciones", "generación eléctrica", "Asia"]
+      "tags": [
+        "India",
+        "importaciones",
+        "generación eléctrica",
+        "Asia"
+      ]
     },
     {
       "id": 8,
@@ -95,7 +205,12 @@
       "mineral": "carbon_energetico",
       "sentimiento": "negativo",
       "url": "https://acmineria.com.co/",
-      "tags": ["Rusia", "sanciones", "geopolítica", "Colombia"]
+      "tags": [
+        "Rusia",
+        "sanciones",
+        "geopolítica",
+        "Colombia"
+      ]
     },
     {
       "id": 9,
@@ -107,7 +222,13 @@
       "mineral": "roca_fosfatica",
       "sentimiento": "positivo",
       "url": "https://www.paisminero.com/",
-      "tags": ["Táchira", "Monte Fresco", "fosfatos", "Venezuela", "Caribe"]
+      "tags": [
+        "Táchira",
+        "Monte Fresco",
+        "fosfatos",
+        "Venezuela",
+        "Caribe"
+      ]
     },
     {
       "id": 10,
@@ -119,7 +240,12 @@
       "mineral": "carbon_energetico",
       "sentimiento": "negativo",
       "url": "https://es.tradingeconomics.com/commodity/coal",
-      "tags": ["precios", "Indonesia", "proyecciones", "oferta"]
+      "tags": [
+        "precios",
+        "Indonesia",
+        "proyecciones",
+        "oferta"
+      ]
     },
     {
       "id": 11,
@@ -131,7 +257,13 @@
       "mineral": "carbon_coquizable",
       "sentimiento": "positivo",
       "url": "https://www.sgx.com/derivatives/products/coking-coal",
-      "tags": ["SGX", "futuros", "acero", "China", "carbón coquizable"]
+      "tags": [
+        "SGX",
+        "futuros",
+        "acero",
+        "China",
+        "carbón coquizable"
+      ]
     },
     {
       "id": 12,
@@ -143,7 +275,13 @@
       "mineral": "roca_fosfatica",
       "sentimiento": "positivo",
       "url": "https://www.usgs.gov/centers/national-minerals-information-center/phosphate-rock-statistics-and-information",
-      "tags": ["USGS", "fosfatos", "Venezuela", "Brasil", "reservas"]
+      "tags": [
+        "USGS",
+        "fosfatos",
+        "Venezuela",
+        "Brasil",
+        "reservas"
+      ]
     },
     {
       "id": 13,
@@ -155,7 +293,12 @@
       "mineral": "carbon_energetico",
       "sentimiento": "positivo",
       "url": "https://www.worldbank.org/en/research/commodity-markets",
-      "tags": ["World Bank", "proyecciones", "precios", "Asia"]
+      "tags": [
+        "World Bank",
+        "proyecciones",
+        "precios",
+        "Asia"
+      ]
     },
     {
       "id": 14,
@@ -167,7 +310,12 @@
       "mineral": "roca_fosfatica",
       "sentimiento": "positivo",
       "url": "https://www.fertilizer.org/statistics/",
-      "tags": ["IFA", "fertilizantes", "producción", "Marruecos"]
+      "tags": [
+        "IFA",
+        "fertilizantes",
+        "producción",
+        "Marruecos"
+      ]
     },
     {
       "id": 15,
@@ -179,7 +327,13 @@
       "mineral": "carbon_coquizable",
       "sentimiento": "neutral",
       "url": "https://www.fastmarkets.com/commodities/metals/minor-metals",
-      "tags": ["Fastmarkets", "HCC", "SHCC", "Australia", "spread"]
+      "tags": [
+        "Fastmarkets",
+        "HCC",
+        "SHCC",
+        "Australia",
+        "spread"
+      ]
     },
     {
       "id": 16,
@@ -191,7 +345,13 @@
       "mineral": "carbon_energetico",
       "sentimiento": "neutral",
       "url": "https://www.iea.org/data-and-statistics",
-      "tags": ["IEA", "Europa", "Asia", "demanda", "transición energética"]
+      "tags": [
+        "IEA",
+        "Europa",
+        "Asia",
+        "demanda",
+        "transición energética"
+      ]
     },
     {
       "id": 17,
@@ -203,7 +363,12 @@
       "mineral": "roca_fosfatica",
       "sentimiento": "positivo",
       "url": "https://www.indexmundi.com/commodities/?commodity=phosphate-rock",
-      "tags": ["IndexMundi", "FOB", "fosfatos", "Asia meridional"]
+      "tags": [
+        "IndexMundi",
+        "FOB",
+        "fosfatos",
+        "Asia meridional"
+      ]
     },
     {
       "id": 18,
@@ -215,7 +380,13 @@
       "mineral": "carbon_energetico",
       "sentimiento": "positivo",
       "url": "https://www.argusmedia.com/en/coal-coke-and-biomass",
-      "tags": ["Argus", "Newcastle", "Japón", "Corea", "benchmark"]
+      "tags": [
+        "Argus",
+        "Newcastle",
+        "Japón",
+        "Corea",
+        "benchmark"
+      ]
     },
     {
       "id": 19,
@@ -227,7 +398,13 @@
       "mineral": "carbon_coquizable",
       "sentimiento": "positivo",
       "url": "https://www.worldsteel.org/steel-by-topic/raw-materials/coal.html",
-      "tags": ["WSA", "acero", "Australia", "Canadá", "carbón coquizable"]
+      "tags": [
+        "WSA",
+        "acero",
+        "Australia",
+        "Canadá",
+        "carbón coquizable"
+      ]
     }
   ]
 }

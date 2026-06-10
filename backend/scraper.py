@@ -503,55 +503,72 @@ class ScraperOICF:
     # =========================================================================
     # NOTICIAS AUTOMÁTICAS
     # =========================================================================
+    # Búsquedas reales por mineral para Google News RSS
+    NOTICIAS_QUERIES = {
+        "carbon_energetico": ["precio carbón térmico", "thermal coal price"],
+        "carbon_coquizable": ["carbón coquizable metalúrgico", "coking coal price"],
+        "roca_fosfatica":    ["roca fosfática precio", "phosphate rock price"],
+        "tachira":           ["minería carbón Táchira Venezuela"]
+    }
+
     def scrape_noticias(self):
-        fuentes = list(FUENTES_CONFIG.keys())
-        plantillas = [
-            "Carbón energético {dir} {pct}% en sesión asiática",
-            "Colombia exporta {vol} Mt de carbón en {mes}",
-            "Marruecos amplía producción de fosfatos: {vol} Mt adicionales",
-            "USGS confirma nuevas reservas de fosfatos en América del Sur",
-            "SGX: futuros de carbón coquizable {dir} en sesión de Singapur",
-            "World Bank revisa proyecciones de precios de commodities mineros",
-            "IEA: transición energética afecta demanda de carbón térmico",
-            "IndexMundi: precio FOB del carbón {dir} {pct}% mensual",
-            "Fastmarkets: mercado de carbón coquizable {dir} por demanda China",
-            "IFA: producción mundial de fosfatos creció {pct}% este año",
-            "Venezuela evalúa reactivación de minas en {region}",
-            "Argus Media: spread Newcastle-Richards Bay se amplía {pct}%"
-        ]
-        dirs    = ["sube", "baja", "se consolida"]
-        meses   = ["enero","febrero","marzo","abril","mayo","junio","julio","agosto"]
-        regions = ["Táchira — Lobatera y Las Adjuntas", "Zulia — Mina Norte"]
-        cats    = ["carbon","fosfatos","energia","fertilizantes","geopolitica"]
-        sents   = ["positivo","neutral","negativo"]
+        """Busca noticias reales recientes vía Google News RSS para los minerales monitoreados."""
+        try:
+            import requests
+            import xml.etree.ElementTree as ET
+            import html as html_lib
 
-        fuente_key = random.choice(fuentes)
-        fuente_cfg = FUENTES_CONFIG[fuente_key]
-        mineral    = fuente_cfg["categoria"]
-        cat_map    = {"carbon_energetico":"carbon","carbon_coquizable":"carbon","roca_fosfatica":"fosfatos"}
-        cat        = cat_map.get(mineral, "carbon")
+            mineral = random.choice(list(self.NOTICIAS_QUERIES.keys()))
+            query   = random.choice(self.NOTICIAS_QUERIES[mineral])
 
-        return {
-            "id":        int(datetime.datetime.now().timestamp()),
-            "titulo":    random.choice(plantillas).format(
-                dir=random.choice(dirs), pct=round(random.uniform(1,8),1),
-                vol=round(random.uniform(1,10),1), mes=random.choice(meses),
-                region=random.choice(regions)
-            ),
-            "resumen":   "Datos actualizados por el sistema de monitoreo OICF desde fuentes internacionales.",
-            "fuente":    fuente_cfg["nombre"],
-            "fecha":     datetime.datetime.now().isoformat(),
-            "categoria": cat,
-            "mineral":   mineral,
-            "sentimiento": random.choice(sents),
-            "url":       fuente_cfg["url"],
-            "tags":      ["mercado","precios","minería"]
-        }
+            url = f"https://news.google.com/rss/search?q={requests.utils.quote(query)}&hl=es-419&gl=CO&ceid=CO:es"
+            resp = requests.get(url, timeout=10, headers={"User-Agent": "Mozilla/5.0"})
+            resp.raise_for_status()
+
+            root  = ET.fromstring(resp.content)
+            items = root.findall("./channel/item")[:10]
+            if not items:
+                return None
+
+            item    = random.choice(items)
+            titulo  = html_lib.unescape((item.findtext("title") or "").strip())
+            link    = (item.findtext("link") or "").strip()
+            pubdate = item.findtext("pubDate")
+            fuente_el = item.find("source")
+            fuente  = fuente_el.text if fuente_el is not None else "Google News"
+            descripcion = html_lib.unescape((item.findtext("description") or "")).strip()
+
+            try:
+                fecha = datetime.datetime.strptime(pubdate, "%a, %d %b %Y %H:%M:%S %Z").isoformat()
+            except (TypeError, ValueError):
+                fecha = datetime.datetime.now().isoformat()
+
+            cat_map = {"carbon_energetico":"carbon","carbon_coquizable":"carbon","roca_fosfatica":"fosfatos","tachira":"geopolitica"}
+
+            return {
+                "id":        int(datetime.datetime.now().timestamp()),
+                "titulo":    titulo,
+                "resumen":   descripcion[:280] if descripcion else f"Resultado de búsqueda: {query}",
+                "fuente":    fuente,
+                "fecha":     fecha,
+                "categoria": cat_map.get(mineral, "carbon"),
+                "mineral":   mineral if mineral != "tachira" else "carbon_energetico",
+                "sentimiento": "neutral",
+                "url":       link,
+                "tags":      ["mercado", query]
+            }
+        except Exception as e:
+            print(f"[ERR] scrape_noticias: {e}")
+            return None
 
     def agregar_noticia(self, noticia):
+        if not noticia:
+            return
         try:
             with open(DATA_DIR / "noticias.json", encoding="utf-8") as f:
                 data = json.load(f)
+            if any(n.get("url") == noticia["url"] for n in data["noticias"]):
+                return
             data["noticias"].insert(0, noticia)
             data["noticias"]             = data["noticias"][:60]
             data["ultima_actualizacion"] = datetime.datetime.now().isoformat()
