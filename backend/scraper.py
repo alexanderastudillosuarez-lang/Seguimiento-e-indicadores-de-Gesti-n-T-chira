@@ -231,8 +231,23 @@ class ScraperOICF:
     # SCRAPERS — CARBÓN ENERGÉTICO
     # =========================================================================
     def scrape_trading_economics_coal(self):
+        """Trading Economics — Coal (precio real)"""
         key  = "trading_economics_coal"
         base = self._precio_actual("carbon_energetico")
+        url  = FUENTES_CONFIG[key]["url"]
+        if self.session:
+            try:
+                from bs4 import BeautifulSoup
+                resp = self.session.get(url, timeout=15)
+                resp.raise_for_status()
+                soup   = BeautifulSoup(resp.text, "lxml")
+                texto  = soup.select_one("#p").get_text(strip=True)
+                precio = round(float(texto), 2)
+                resultado = self._resultado(key, "carbon_energetico", precio, base)
+                resultado["metodo"] = "scraping_real"
+                return resultado
+            except Exception as e:
+                print(f"[WARN] scrape_trading_economics_coal falló, usando simulación: {e}")
         return self._resultado(key, "carbon_energetico", max(50, round(base + self._delta(base, 3.5), 2)), base)
 
     def scrape_world_bank(self):
@@ -242,8 +257,26 @@ class ScraperOICF:
         return self._resultado(key, "carbon_energetico", max(50, round(base + self._delta(base, 1.2), 2)), base)
 
     def scrape_indexmundi_coal(self):
+        """IndexMundi — Coal, Australian thermal (precio real, último mes publicado)"""
         key  = "indexmundi_coal"
         base = self._precio_actual("carbon_energetico")
+        url  = "https://www.indexmundi.com/commodities/?commodity=coal-australian&months=12"
+        if self.session:
+            try:
+                from bs4 import BeautifulSoup
+                resp = self.session.get(url, timeout=15)
+                resp.raise_for_status()
+                soup = BeautifulSoup(resp.text, "lxml")
+                for t in soup.find_all("table"):
+                    if "Month Price Change" in t.get_text(" ", strip=True):
+                        filas = [[c.get_text(strip=True) for c in r.find_all("td")] for r in t.find_all("tr")]
+                        filas = [f for f in filas if len(f) == 3]
+                        precio = round(float(filas[-1][1]), 2)
+                        resultado = self._resultado(key, "carbon_energetico", precio, base)
+                        resultado["metodo"] = "scraping_real"
+                        return resultado
+            except Exception as e:
+                print(f"[WARN] scrape_indexmundi_coal falló, usando simulación: {e}")
         return self._resultado(key, "carbon_energetico", max(50, round(base + self._delta(base, 2.8), 2)), base)
 
     def scrape_iea(self):
