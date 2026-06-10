@@ -202,7 +202,7 @@ const OICF = (() => {
         const cif = fob + k.flete;
         return `
           <div class="d-flex align-items-center justify-content-between" style="padding:3px 0;border-bottom:1px solid rgba(255,255,255,.05)">
-            <span class="fs-xs" style="opacity:.8;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:54%">${f.nombre}</span>
+            <a href="${f.url || '#'}" target="_blank" rel="noopener" class="fs-xs" style="opacity:.8;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:54%;color:inherit;text-decoration:none" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'" title="Abrir fuente: ${f.nombre}">${f.nombre} <i class="fas fa-external-link-alt" style="font-size:.6rem;opacity:.6"></i></a>
             <span class="fs-xs fw-600" style="white-space:nowrap">FOB $${fob.toFixed(2)} <span style="opacity:.45">/</span> CIF $${cif.toFixed(2)}</span>
           </div>
         `;
