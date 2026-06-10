@@ -8,6 +8,7 @@ const OICF_Maps = (() => {
   let worldMap = null;
   let colombiaMap = null;
   let markers = [];
+  let colombiaMarkers = [];
 
   /* ---- Datos de países ---- */
   const COAL_COUNTRIES = [
@@ -39,13 +40,22 @@ const OICF_Maps = (() => {
     { name: 'Venezuela',     lat: 6.42,  lng: -66.59, produccion: 0.3,  reservas: 150,   color: '#ec4899' }
   ];
 
-  const COLOMBIA_REGIONS = [
-    { name: 'Cesar',              lat: 9.33,  lng: -73.50, pct: 47, minas: 'Drummond, Prodeco', color: '#3b82f6' },
-    { name: 'La Guajira',         lat: 11.35, lng: -72.52, pct: 37, minas: 'Cerrejón',          color: '#06b6d4' },
-    { name: 'Boyacá',             lat: 5.45,  lng: -73.36, pct: 8,  minas: 'Paz del Río',       color: '#22c55e' },
-    { name: 'Cundinamarca',       lat: 4.65,  lng: -74.08, pct: 4,  minas: 'Varios',            color: '#f59e0b' },
-    { name: 'Norte de Santander', lat: 7.88,  lng: -72.50, pct: 4,  minas: 'Varios',            color: '#a855f7' }
-  ];
+  /* Coordenadas de referencia de departamentos y puertos colombianos */
+  const COLOMBIA_DEPT_COORDS = {
+    'Cesar':              { lat: 9.33,  lng: -73.50, color: '#3b82f6' },
+    'La Guajira':         { lat: 11.35, lng: -72.52, color: '#06b6d4' },
+    'Boyacá':             { lat: 5.45,  lng: -73.36, color: '#22c55e' },
+    'Cundinamarca':       { lat: 4.65,  lng: -74.08, color: '#f59e0b' },
+    'Norte de Santander': { lat: 7.88,  lng: -72.50, color: '#a855f7' },
+    'Huila':              { lat: 2.53,  lng: -75.52, color: '#ec4899' }
+  };
+
+  const COLOMBIA_PORT_COORDS = {
+    'Puerto Bolivar': { lat: 12.20, lng: -71.95 },
+    'Santa Marta':    { lat: 11.24, lng: -74.20 },
+    'Barranquilla':   { lat: 10.96, lng: -74.81 },
+    'Buenaventura':   { lat: 3.88,  lng: -77.02 }
+  };
 
   const TACHIRA_SITES = [
     { name: 'Yacimiento Lobatera',        lat: 7.92,  lng: -72.23, tipo: 'carbon',   municipio: 'Lobatera',  desc: 'Reservas: 65 Mt · Carbón bituminoso', color: '#60a5fa' },
@@ -126,36 +136,45 @@ const OICF_Maps = (() => {
     colombiaMap = L.map(divId, { center: [4.5, -74.0], zoom: 5 });
     L.tileLayer(tileUrl, { attribution: '© CARTO', subdomains: 'abcd' }).addTo(colombiaMap);
 
-    COLOMBIA_REGIONS.forEach(r => {
-      const m = L.circleMarker([r.lat, r.lng], {
-        radius: Math.max(12, r.pct * 0.9),
-        color: r.color, fillColor: r.color, fillOpacity: 0.6, weight: 2
+    return colombiaMap;
+  }
+
+  function renderColombiaMarkers(mineral, col) {
+    if (!colombiaMap) return;
+    colombiaMarkers.forEach(m => colombiaMap.removeLayer(m));
+    colombiaMarkers = [];
+
+    const nombreMineral = col.nombre || mineral;
+
+    /* Departamentos productores */
+    Object.entries(col.departamentos_productores).forEach(([dep, info]) => {
+      const coords = COLOMBIA_DEPT_COORDS[dep];
+      if (!coords) return;
+      const m = L.circleMarker([coords.lat, coords.lng], {
+        radius: Math.max(12, info.produccion_pct * 0.9),
+        color: coords.color, fillColor: coords.color, fillOpacity: 0.6, weight: 2
       }).addTo(colombiaMap);
       m.bindPopup(`
-        <strong>${r.name}</strong><br>
-        <span style="font-size:.8rem">Producción: <b>${r.pct}%</b> nacional</span><br>
-        <span style="font-size:.75rem;opacity:.7">Minas: ${r.minas}</span>
+        <strong>${dep}</strong><br>
+        <span style="font-size:.8rem">${nombreMineral}: <b>${info.produccion_pct}%</b> nacional</span><br>
+        <span style="font-size:.75rem;opacity:.7">Minas: ${info.principales_minas.join(', ')}</span>
       `);
+      colombiaMarkers.push(m);
     });
 
     /* Puertos */
-    const puertos = [
-      { name: 'Puerto Bolívar', lat: 12.20, lng: -71.95, mt: 4.2 },
-      { name: 'Santa Marta',    lat: 11.24, lng: -74.20, mt: 1.8 },
-      { name: 'Barranquilla',   lat: 10.96, lng: -74.81, mt: 1.2 },
-      { name: 'Buenaventura',   lat: 3.88,  lng: -77.02, mt: 0.8 }
-    ];
-    puertos.forEach(p => {
-      const m = L.marker([p.lat, p.lng], {
+    Object.entries(col.puertos).forEach(([nombre, p]) => {
+      const coords = COLOMBIA_PORT_COORDS[nombre];
+      if (!coords) return;
+      const m = L.marker([coords.lat, coords.lng], {
         icon: L.divIcon({
-          html: `<div style="background:#f59e0b;color:#000;font-size:.65rem;font-weight:700;padding:3px 6px;border-radius:4px;white-space:nowrap">⚓ ${p.name}</div>`,
+          html: `<div style="background:#f59e0b;color:#000;font-size:.65rem;font-weight:700;padding:3px 6px;border-radius:4px;white-space:nowrap">⚓ ${nombre}</div>`,
           className: '', iconAnchor: [40, 10]
         })
       }).addTo(colombiaMap);
-      m.bindPopup(`<strong>${p.name}</strong><br>Exportaciones: <b>${p.mt} Mt/año</b>`);
+      m.bindPopup(`<strong>${nombre}</strong><br>${nombreMineral} exportado: <b>${p.exportaciones_mt} Mt/año</b>`);
+      colombiaMarkers.push(m);
     });
-
-    return colombiaMap;
   }
 
   /* ---- Mapa Táchira ---- */
@@ -200,6 +219,6 @@ const OICF_Maps = (() => {
     });
   }
 
-  return { initWorldMap, renderWorldMarkers, updateLegend, initColombiaMap, initTachiraMap, refreshTheme };
+  return { initWorldMap, renderWorldMarkers, updateLegend, initColombiaMap, renderColombiaMarkers, initTachiraMap, refreshTheme };
 
 })();

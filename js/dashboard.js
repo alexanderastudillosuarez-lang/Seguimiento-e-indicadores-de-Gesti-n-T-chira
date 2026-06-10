@@ -346,37 +346,67 @@ const OICF = (() => {
     const pData   = pLabels.map(k => phos[k].produccion);
     OICF_Charts.buildProductionBar('phosphate-bar', pData, pLabels, 'Producción fosfatos Mt/año');
 
-    /* Donut Colombia */
-    const col = produccion.colombia.departamentos_productores;
-    OICF_Charts.buildDonut('colombia-donut',
-      Object.values(col).map(v => v.produccion_pct),
-      Object.keys(col),
-      ['#3b82f6','#06b6d4','#22c55e','#f59e0b','#a855f7']
-    );
-
-    renderColombiaStats();
+    renderColombiaSection('carbon_energetico');
     renderVenezuelaStats();
     renderTachiraPanel();
   }
 
-  /* ---- Colombia Stats ---- */
-  function renderColombiaStats() {
+  /* ---- Monitor Colombia: específico por mineral ---- */
+  function renderColombiaSection(mineral) {
     if (!produccion) return;
-    const col = produccion.colombia;
-    const el = document.getElementById('colombia-stats');
-    if (!el) return;
+    const col = produccion.colombia.por_mineral?.[mineral];
+    if (!col) return;
 
-    const totalProd = col.produccion_trimestral_mt.reduce((a,b)=>a+b,0).toFixed(1);
-    const totalExp  = col.exportaciones_mt.reduce((a,b)=>a+b,0).toFixed(1);
-    const totalReg  = col.regalias_cop_billones.reduce((a,b)=>a+b,0).toFixed(2);
-    const totalFob  = col.valor_fob_usd_millones.reduce((a,b)=>a+b,0).toFixed(0);
+    const dept = col.departamentos_productores;
+    OICF_Charts.buildDonut('colombia-donut',
+      Object.values(dept).map(v => v.produccion_pct),
+      Object.keys(dept),
+      ['#3b82f6','#06b6d4','#22c55e','#f59e0b','#a855f7']
+    );
 
-    el.innerHTML = `
-      <div class="stat-row"><span>Producción anual</span><strong>${totalProd} Mt</strong></div>
-      <div class="stat-row"><span>Exportaciones</span><strong>${totalExp} Mt</strong></div>
-      <div class="stat-row"><span>Regalías</span><strong>COP ${totalReg} Bill.</strong></div>
-      <div class="stat-row"><span>Valor FOB</span><strong>USD $${Number(totalFob).toLocaleString()}M</strong></div>
+    const totalProd = col.produccion_trimestral_mt.reduce((a,b)=>a+b,0);
+    const totalExp  = col.exportaciones_mt.reduce((a,b)=>a+b,0);
+    const totalReg  = col.regalias_cop_billones.reduce((a,b)=>a+b,0);
+    const totalFob  = col.valor_fob_usd_millones.reduce((a,b)=>a+b,0);
+
+    const statsEl = document.getElementById('colombia-stats');
+    if (statsEl) statsEl.innerHTML = `
+      <div class="stat-row"><span>Producción anual</span><strong>${totalProd.toFixed(2)} Mt</strong></div>
+      <div class="stat-row"><span>Exportaciones</span><strong>${totalExp.toFixed(2)} Mt</strong></div>
+      <div class="stat-row"><span>Regalías</span><strong>COP ${totalReg.toFixed(2)} Bill.</strong></div>
+      <div class="stat-row"><span>Valor FOB</span><strong>USD $${Number(totalFob.toFixed(0)).toLocaleString()}M</strong></div>
     `;
+
+    const puertosBody = document.getElementById('colombia-puertos-body');
+    if (puertosBody) puertosBody.innerHTML = Object.entries(col.puertos)
+      .sort((a,b) => b[1].exportaciones_mt - a[1].exportaciones_mt)
+      .map(([nombre,p]) => `<tr><td>${nombre}</td><td><strong>${p.exportaciones_mt}</strong></td><td>${p.departamento}</td></tr>`)
+      .join('');
+
+    const trimCanvas = document.getElementById('colombia-trim-chart');
+    if (trimCanvas) {
+      if (trimCanvas._chartInstance) trimCanvas._chartInstance.destroy();
+      trimCanvas._chartInstance = new Chart(trimCanvas, {
+        type: 'bar',
+        data: {
+          labels: ['Q1','Q2','Q3','Q4'],
+          datasets: [
+            { label:'Producción', data: col.produccion_trimestral_mt, backgroundColor:'rgba(96,165,250,.7)', borderRadius:4 },
+            { label:'Exportación', data: col.exportaciones_mt, backgroundColor:'rgba(52,211,153,.7)', borderRadius:4 }
+          ]
+        },
+        options: {
+          responsive:true, maintainAspectRatio:false,
+          plugins:{ legend:{ labels:{ color:'#94a3b8', font:{size:10} } } },
+          scales:{
+            x:{ grid:{display:false}, ticks:{color:'#94a3b8'} },
+            y:{ grid:{color:'rgba(255,255,255,.05)'}, ticks:{color:'#94a3b8'} }
+          }
+        }
+      });
+    }
+
+    OICF_Maps.renderColombiaMarkers(mineral, col);
   }
 
   /* ---- Venezuela Stats ---- */
@@ -638,7 +668,30 @@ const OICF = (() => {
     colombia: {
       produccion_trimestral_mt:[8.7,9.1,8.4,8.9], exportaciones_mt:[7.8,8.2,7.6,8.0],
       regalias_cop_billones:[1.2,1.4,1.1,1.3], valor_fob_usd_millones:[1152,1230,1102,1195],
-      departamentos_productores:{ Cesar:{produccion_pct:47}, 'La Guajira':{produccion_pct:37}, Boyacá:{produccion_pct:8}, Cundinamarca:{produccion_pct:4}, 'N. Santander':{produccion_pct:4} }
+      departamentos_productores:{ Cesar:{produccion_pct:47}, 'La Guajira':{produccion_pct:37}, Boyacá:{produccion_pct:8}, Cundinamarca:{produccion_pct:4}, 'N. Santander':{produccion_pct:4} },
+      por_mineral: {
+        carbon_energetico: {
+          nombre: 'Carbón Energético',
+          produccion_trimestral_mt:[8.7,9.1,8.4,8.9], exportaciones_mt:[7.8,8.2,7.6,8.0],
+          regalias_cop_billones:[1.2,1.4,1.1,1.3], valor_fob_usd_millones:[1152,1230,1102,1195],
+          departamentos_productores:{ Cesar:{produccion_pct:51,principales_minas:['El Cerrejón','Prodeco','Drummond']}, 'La Guajira':{produccion_pct:40,principales_minas:['Cerrejón']}, Cundinamarca:{produccion_pct:5,principales_minas:['Varias']}, 'Norte de Santander':{produccion_pct:4,principales_minas:['Varias']} },
+          puertos: { 'Puerto Bolivar':{exportaciones_mt:4.2,departamento:'La Guajira'}, 'Santa Marta':{exportaciones_mt:1.8,departamento:'Magdalena'}, Barranquilla:{exportaciones_mt:1.0,departamento:'Atlántico'}, Buenaventura:{exportaciones_mt:0.2,departamento:'Valle del Cauca'} }
+        },
+        carbon_coquizable: {
+          nombre: 'Carbón Coquizable',
+          produccion_trimestral_mt:[0.46,0.49,0.44,0.47], exportaciones_mt:[0.32,0.35,0.30,0.33],
+          regalias_cop_billones:[0.06,0.07,0.06,0.06], valor_fob_usd_millones:[78,84,75,80],
+          departamentos_productores:{ Boyacá:{produccion_pct:55,principales_minas:['Paz del Río','Samacá']}, 'Norte de Santander':{produccion_pct:35,principales_minas:['Cúcuta','El Zulia']}, Cundinamarca:{produccion_pct:10,principales_minas:['Varias']} },
+          puertos: { Barranquilla:{exportaciones_mt:0.18,departamento:'Atlántico'}, Buenaventura:{exportaciones_mt:0.10,departamento:'Valle del Cauca'}, 'Santa Marta':{exportaciones_mt:0.05,departamento:'Magdalena'} }
+        },
+        roca_fosfatica: {
+          nombre: 'Roca Fosfática',
+          produccion_trimestral_mt:[0.13,0.14,0.12,0.13], exportaciones_mt:[0.05,0.06,0.05,0.05],
+          regalias_cop_billones:[0.01,0.01,0.01,0.01], valor_fob_usd_millones:[9,10,8,9],
+          departamentos_productores:{ Boyacá:{produccion_pct:60,principales_minas:['Sardinata','Pesca']}, Huila:{produccion_pct:25,principales_minas:['Aipe']}, 'Norte de Santander':{produccion_pct:15,principales_minas:['Pamplona']} },
+          puertos: { Barranquilla:{exportaciones_mt:0.04,departamento:'Atlántico'}, 'Santa Marta':{exportaciones_mt:0.01,departamento:'Magdalena'} }
+        }
+      }
     },
     venezuela: {
       carbon: { zulia:{produccion_estimada_mt:0.5, estado:'operación reducida'}, tachira:{produccion_estimada_mt:0.3, estado:'suspendida'} },
@@ -652,7 +705,7 @@ const OICF = (() => {
   };
 
   /* ---- Public API ---- */
-  return { init, buildMainChart, generateIAReport, showToast, toggleTheme };
+  return { init, buildMainChart, generateIAReport, showToast, toggleTheme, renderColombiaSection };
 
 })();
 
