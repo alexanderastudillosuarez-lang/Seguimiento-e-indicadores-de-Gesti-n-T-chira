@@ -104,12 +104,32 @@
       },
       "tachira": {
         "produccion_estimada_mt": 0.3,
-        "reservas_mt": 129,
+        "reservas_mt": 863.67,
+        "fuente": "Gabinete de Minería - Gobernación del Táchira, 2023",
         "yacimientos": [
-          {"nombre": "Lobatera", "municipio": "Lobatera", "reservas_mt": 65},
-          {"nombre": "Las Adjuntas", "municipio": "Bolívar", "reservas_mt": 64}
+          {"nombre": "La Gran Ubatera (Los Cuervos)", "municipio": "Lobatera", "tipo": "coquizable", "reservas_mt": 2.5679, "recursos_mt": 19.1155, "total_mt": 21.6834, "operador": "Mitsubishi / UPSUROESTE (1992)"},
+          {"nombre": "La Gran Ubatera (Carbonera)", "municipio": "Lobatera", "tipo": "energetico", "reservas_mt": 14.6519, "recursos_mt": 2.2202, "total_mt": 16.8721, "operador": "KOPEX Polonia (1976)"},
+          {"nombre": "Las Adjuntas (Los Cuervos)", "municipio": "Bolívar", "tipo": "coquizable", "reservas_mt": 29.82, "recursos_mt": 284.92, "total_mt": 314.74, "operador": "Mitsubishi (1992)"},
+          {"nombre": "Santo Domingo (Carbonera)", "municipio": "Fernández Feo", "tipo": "coquizable", "reservas_mt": 169.031, "recursos_mt": 282.62, "total_mt": 451.651, "operador": "KOPEX (1992)"},
+          {"nombre": "Hato de la Virgen-Lomas Baja (Carbonera)", "municipio": "Libertad", "tipo": "termico", "reservas_mt": 6.7633, "recursos_mt": 8.0, "total_mt": 14.7633, "operador": "KOPEX"},
+          {"nombre": "Hato de la Virgen-Lomas Baja (Los Cuervos)", "municipio": "Libertad", "tipo": "coquizable", "reservas_mt": 5.444, "recursos_mt": 19.692, "total_mt": 25.136, "operador": "Mitsubishi (1992)"},
+          {"nombre": "Capote (Los Cuervos)", "municipio": "Junín", "tipo": "coquizable", "reservas_mt": 0, "recursos_mt": 27.49, "total_mt": 27.49, "operador": "—"}
         ],
         "estado": "suspendida",
+        "proyectos_en_operacion": {
+          "La Gran Ubatera": {"municipio": "Lobatera", "alianzas_pequena_mineria": 23, "brigadas_mineras": 55, "alianzas_mediana_gran_mineria": 7},
+          "Las Adjuntas": {"municipio": "Bolívar", "alianzas_estrategicas": 1},
+          "Capote": {"municipio": "Junín", "alianzas_estrategicas": 1},
+          "Lomas Baja-Hato de la Virgen": {"municipio": "Libertad", "alianzas_estrategicas": 5}
+        },
+        "planta_procesamiento": {
+          "nombre": "Planta de Coque La Gran Ubatera",
+          "municipio": "Lobatera",
+          "operador": "Empresa de Producción Social Minera Nacional C.A. (filial CVM)",
+          "hornos": "12 hornos tipo solera, 7.5 Tm/día c/u",
+          "quemas_semanales": 4,
+          "produccion_estimada_tm_mes": 1440
+        },
         "potencial_exportador": "Caribe, Centroamérica",
         "mercados_potenciales": ["Cuba", "Jamaica", "Trinidad y Tobago", "Colombia"]
       }
@@ -119,34 +139,74 @@
         "nombre": "Monte Fresco",
         "municipio": "Ayacucho",
         "ubicacion": "Estado Táchira",
-        "reservas_estimadas_mt": 150,
-        "ley_p2o5_pct": 18.0,
+        "reservas_mt": 42.0882,
+        "recursos_mt": 87.4712,
+        "total_mt": 129.5594,
+        "ley_p2o5_pct": 27.57,
+        "ficha_tecnica": {"P2O5": 27.57, "CaO": 38.65, "SiO2": 15.35, "Fe2O3": 0.8, "Al2O3": 2.74, "MgO": 0.23, "F": 2.92, "Cl": 0.015, "CO2": 4.5, "LOI": 9.39, "H2O": 5.5},
         "estado": "exploración avanzada",
+        "proyectos_en_operacion": {"alianzas_estrategicas": 2, "decreto_presidencial_aliadas_estrategicas_mt": 85.137695},
         "potencial": "Sustitución de importaciones + exportación Caribe",
         "descripcion": "Yacimiento fosfático ubicado en el Municipio Ayacucho del Estado Táchira, con importantes reservas confirmadas de roca fosfática de alta ley."
+      },
+      "los_monos_navay": {
+        "nombre": "Los Monos - Navay",
+        "municipio": "Libertador",
+        "ubicacion": "Estado Táchira",
+        "reservas_mt": 60.978878,
+        "recursos_mt": 58.911458,
+        "total_mt": 119.890336,
+        "operador": "Florida Engineering & Design (1993)",
+        "estado": "exploración",
+        "proyectos_en_operacion": {"proyecto": "PEQUIVEN"}
+      }
+    },
+    "yeso": {
+      "san_pablo": {
+        "nombre": "San Pablo",
+        "municipio": "Sucre",
+        "formacion": "La Quinta",
+        "reservas_mt": 0.389149,
+        "recursos_mt": 5.127514,
+        "total_mt": 5.516663,
+        "operador": "KOPEX (1978)",
+        "estado": "en explotación",
+        "proyectos_en_operacion": {"empresas_en_explotacion": 1}
       }
     }
   },
   "tachira_estrategico": {
     "potencial_carbonifero": {
-      "reservas_probadas_mt": 129,
-      "reservas_probables_mt": 250,
-      "tipo_carbon": "Carbón bituminoso de alta volatilidad",
+      "reservas_probadas_mt": 47.04,
+      "reservas_probables_mt": 306.26,
+      "reservas_totales_mt": 353.30,
+      "tipo_carbon": "Carbón energético, coquizable y térmico",
       "poder_calorifico_kcal_kg": 6800,
       "contenido_azufre_pct": 0.8,
       "mercados_objetivo": ["Colombia", "Centroamérica", "Caribe"],
       "precio_referencia_actual": 132.45,
-      "ingreso_potencial_anual_musd": 85.6
+      "ingreso_potencial_anual_musd": 85.6,
+      "fuente": "Gabinete de Minería - Gobernación del Táchira, 2023"
     },
     "potencial_fosfatico": {
-      "yacimiento": "Monte Fresco",
-      "municipio": "Ayacucho",
+      "yacimiento": "Monte Fresco / Los Monos-Navay",
+      "municipio": "Ayacucho / Libertador",
       "estado_venezolano": "Táchira",
-      "reservas_monte_fresco_mt": 150,
-      "ley_promedio_pct_p2o5": 18,
+      "reservas_monte_fresco_mt": 129.5594,
+      "reservas_los_monos_navay_mt": 119.890336,
+      "reservas_totales_mt": 249.449736,
+      "ley_promedio_pct_p2o5": 27.57,
       "mercados_objetivo": ["Colombia", "Brasil", "Caribe"],
       "precio_referencia_actual": 87.50,
-      "ingreso_potencial_anual_musd": 42.0
+      "ingreso_potencial_anual_musd": 42.0,
+      "fuente": "Gabinete de Minería - Gobernación del Táchira, 2023"
+    },
+    "potencial_yeso": {
+      "yacimiento": "San Pablo",
+      "municipio": "Sucre",
+      "reservas_totales_mt": 5.516663,
+      "estado": "en explotación",
+      "fuente": "Gabinete de Minería - Gobernación del Táchira, 2023"
     },
     "competidores_regionales": {
       "Colombia": {"produccion_mt": 57, "fortalezas": ["Infraestructura", "Logística", "Contratos LT"]},

@@ -439,15 +439,20 @@ const OICF = (() => {
             <h5><i class="fas fa-mountain me-2"></i>Potencial Carbonífero</h5>
             <div class="mt-3">
               <div class="tachira-stat">${tach.potencial_carbonifero.reservas_probadas_mt} Mt</div>
-              <div class="tachira-label">Reservas Probadas</div>
+              <div class="tachira-label">Reservas Probadas (medidas)</div>
             </div>
             <div class="mt-2">
               <div class="tachira-stat">${tach.potencial_carbonifero.reservas_probables_mt} Mt</div>
-              <div class="tachira-label">Reservas Probables</div>
+              <div class="tachira-label">Recursos (probables)</div>
+            </div>
+            <div class="mt-2">
+              <div class="tachira-stat" style="color:#34d399">${tach.potencial_carbonifero.reservas_totales_mt} Mt</div>
+              <div class="tachira-label">Total certificado</div>
             </div>
             <div class="mt-2 fs-xs" style="color:rgba(255,255,255,.7)">
               ${tach.potencial_carbonifero.tipo_carbon}<br>
-              PC: ${tach.potencial_carbonifero.poder_calorifico_kcal_kg} Kcal/kg | S: ${tach.potencial_carbonifero.contenido_azufre_pct}%
+              PC: ${tach.potencial_carbonifero.poder_calorifico_kcal_kg} Kcal/kg | S: ${tach.potencial_carbonifero.contenido_azufre_pct}%<br>
+              <span style="opacity:.6">Fuente: ${tach.potencial_carbonifero.fuente}</span>
             </div>
             <div class="mt-3 p-2" style="background:rgba(255,255,255,.08);border-radius:8px">
               <div class="fs-xs text-muted">Ingreso potencial anual</div>
@@ -458,21 +463,78 @@ const OICF = (() => {
         <div class="col-md-6">
           <div class="tachira-card">
             <h5><i class="fas fa-seedling me-2"></i>Potencial Fosfático</h5>
-            <div style="font-size:.72rem;color:rgba(255,255,255,.5);margin-top:4px">Yacimiento Monte Fresco · Mpio. Ayacucho</div>
+            <div style="font-size:.72rem;color:rgba(255,255,255,.5);margin-top:4px">Monte Fresco (Ayacucho) + Los Monos-Navay (Libertador)</div>
             <div class="mt-3">
               <div class="tachira-stat">${tach.potencial_fosfatico.reservas_monte_fresco_mt} Mt</div>
-              <div class="tachira-label">Reservas Monte Fresco</div>
+              <div class="tachira-label">Total Monte Fresco</div>
             </div>
             <div class="mt-2">
-              <div class="tachira-stat">${tach.potencial_fosfatico.ley_promedio_pct_p2o5}% P₂O₅</div>
-              <div class="tachira-label">Ley promedio</div>
+              <div class="tachira-stat">${tach.potencial_fosfatico.reservas_los_monos_navay_mt} Mt</div>
+              <div class="tachira-label">Total Los Monos-Navay</div>
+            </div>
+            <div class="mt-2">
+              <div class="tachira-stat" style="color:#34d399">${tach.potencial_fosfatico.reservas_totales_mt} Mt</div>
+              <div class="tachira-label">Total combinado</div>
             </div>
             <div class="mt-2 fs-xs" style="color:rgba(255,255,255,.7)">
-              Mercados: ${tach.potencial_fosfatico.mercados_objetivo.join(', ')}
+              Ley promedio: ${tach.potencial_fosfatico.ley_promedio_pct_p2o5}% P₂O₅<br>
+              Mercados: ${tach.potencial_fosfatico.mercados_objetivo.join(', ')}<br>
+              <span style="opacity:.6">Fuente: ${tach.potencial_fosfatico.fuente}</span>
             </div>
             <div class="mt-3 p-2" style="background:rgba(255,255,255,.08);border-radius:8px">
               <div class="fs-xs text-muted">Ingreso potencial anual</div>
               <div class="fw-700" style="font-size:1.3rem;color:#34d399">USD $${tach.potencial_fosfatico.ingreso_potencial_anual_musd}M</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="card-oicf p-3">
+            <h6 class="mb-3"><i class="fas fa-layer-group me-2"></i>Yacimientos Carboníferos del Táchira (TM)</h6>
+            <div class="table-responsive">
+              <table class="table table-sm table-oicf mb-0">
+                <thead><tr>
+                  <th>Yacimiento</th><th>Municipio</th><th>Tipo</th><th>Reservas (Mt)</th><th>Recursos (Mt)</th><th>Total (Mt)</th>
+                </tr></thead>
+                <tbody>
+                  ${produccion.venezuela.carbon.tachira.yacimientos.map(y => `
+                    <tr>
+                      <td class="fw-600">${y.nombre}</td>
+                      <td>${y.municipio}</td>
+                      <td class="fs-xs text-uppercase">${y.tipo}</td>
+                      <td>${y.reservas_mt.toFixed(2)}</td>
+                      <td>${y.recursos_mt.toFixed(2)}</td>
+                      <td class="fw-700">${y.total_mt.toFixed(2)}</td>
+                    </tr>
+                  `).join('')}
+                </tbody>
+              </table>
+            </div>
+            <div class="fs-xs mt-2" style="opacity:.6">Fuente: Gabinete de Minería - Gobernación del Táchira, 2023</div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="tachira-card">
+            <h5><i class="fas fa-fire me-2"></i>Planta de Procesamiento de Coque</h5>
+            <div class="mt-2 fs-xs" style="color:rgba(255,255,255,.7)">
+              ${produccion.venezuela.carbon.tachira.planta_procesamiento.nombre} · Mpio. ${produccion.venezuela.carbon.tachira.planta_procesamiento.municipio}<br>
+              Operador: ${produccion.venezuela.carbon.tachira.planta_procesamiento.operador}<br>
+              ${produccion.venezuela.carbon.tachira.planta_procesamiento.hornos}, hasta ${produccion.venezuela.carbon.tachira.planta_procesamiento.quemas_semanales} quemas/semana
+            </div>
+            <div class="mt-3 p-2" style="background:rgba(255,255,255,.08);border-radius:8px">
+              <div class="fs-xs text-muted">Producción estimada</div>
+              <div class="fw-700" style="font-size:1.3rem;color:#f59e0b">${produccion.venezuela.carbon.tachira.planta_procesamiento.produccion_estimada_tm_mes.toLocaleString()} Tm/mes</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="tachira-card">
+            <h5><i class="fas fa-cube me-2"></i>Yeso - San Pablo (Mpio. Sucre)</h5>
+            <div class="mt-3">
+              <div class="tachira-stat" style="color:#f59e0b">${produccion.venezuela.yeso.san_pablo.total_mt} Mt</div>
+              <div class="tachira-label">Reservas + Recursos totales (Fm. La Quinta)</div>
+            </div>
+            <div class="mt-2 fs-xs" style="color:rgba(255,255,255,.7)">
+              Operador: ${produccion.venezuela.yeso.san_pablo.operador} · Estado: ${produccion.venezuela.yeso.san_pablo.estado}
             </div>
           </div>
         </div>

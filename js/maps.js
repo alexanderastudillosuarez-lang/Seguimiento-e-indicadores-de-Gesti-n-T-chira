@@ -58,9 +58,14 @@ const OICF_Maps = (() => {
   };
 
   const TACHIRA_SITES = [
-    { name: 'Yacimiento Lobatera',        lat: 7.92,  lng: -72.23, tipo: 'carbon',   municipio: 'Lobatera',  desc: 'Reservas: 65 Mt · Carbón bituminoso', color: '#60a5fa' },
-    { name: 'Yacimiento Las Adjuntas',    lat: 7.68,  lng: -72.15, tipo: 'carbon',   municipio: 'Bolívar',   desc: 'Reservas: 64 Mt · Carbón bituminoso', color: '#60a5fa' },
-    { name: 'Yac. Monte Fresco',          lat: 7.73,  lng: -71.80, tipo: 'fosfatos', municipio: 'Ayacucho',  desc: 'Reservas: 150 Mt · 18% P₂O₅', color: '#34d399' }
+    { name: 'La Gran Ubatera',            lat: 7.92,  lng: -72.23, tipo: 'carbon',   municipio: 'Lobatera',    desc: 'Total: 38.56 Mt · Carbón coquizable y energético · Planta de coque (1,440 Tm/mes)', color: '#60a5fa' },
+    { name: 'Las Adjuntas',               lat: 7.68,  lng: -72.15, tipo: 'carbon',   municipio: 'Bolívar',     desc: 'Total: 314.74 Mt · Carbón coquizable', color: '#60a5fa' },
+    { name: 'Santo Domingo',              lat: 7.85,  lng: -71.78, tipo: 'carbon',   municipio: 'Fernández Feo', desc: 'Total: 451.65 Mt · Carbón coquizable', color: '#3b82f6' },
+    { name: 'Hato de la Virgen-Lomas Baja', lat: 7.97, lng: -71.65, tipo: 'carbon',  municipio: 'Libertad',    desc: 'Total: 39.90 Mt · Carbón térmico y coquizable', color: '#3b82f6' },
+    { name: 'Capote',                     lat: 7.78,  lng: -71.65, tipo: 'carbon',   municipio: 'Junín',       desc: 'Recursos: 27.49 Mt · Carbón coquizable', color: '#3b82f6' },
+    { name: 'Monte Fresco',               lat: 7.73,  lng: -71.80, tipo: 'fosfatos', municipio: 'Ayacucho',    desc: 'Total: 129.56 Mt · 27.57% P₂O₅', color: '#34d399' },
+    { name: 'Los Monos - Navay',          lat: 7.65,  lng: -71.75, tipo: 'fosfatos', municipio: 'Libertador',  desc: 'Total: 119.89 Mt · Roca fosfática (PEQUIVEN)', color: '#34d399' },
+    { name: 'San Pablo',                  lat: 7.78,  lng: -72.40, tipo: 'yeso',     municipio: 'Sucre',       desc: 'Total: 5.52 Mt · Yeso (Fm. La Quinta) · En explotación', color: '#f59e0b' }
   ];
 
   /* ---- Inicializar Mapa Mundial ---- */
