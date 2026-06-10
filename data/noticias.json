@@ -1,6 +1,81 @@
 {
-  "ultima_actualizacion": "2026-06-09T23:33:54.590588",
+  "ultima_actualizacion": "2026-06-10T11:57:56.629021",
   "noticias": [
+    {
+      "id": 1781107076,
+      "titulo": "Hormuz Strait Blockade: How Energy Shocks Feed Into Fertilizer and Food Prices - Impakter",
+      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxPam1IOG4wSnBZQmp5N2kwYndxWWVrcVh2QjlsQU41YmFEQzJSTGRHNFJDdzMwNTdPS2dGNXFkYjZnakRyMGlCdldsOHI1dEUtOWU5WGtuT0JsLUNnb1VwRW9PcWdWc19SeDFvaW5lajBOejMyTkFOM1BrY1VrLTdKbm1kc09BX1hJUk1SX1lSRGc3bkJwdW1UYkxlRnk1MnNk?oc=5\" target=",
+      "fuente": "Impakter",
+      "fecha": "2026-03-25T07:00:00",
+      "categoria": "fosfatos",
+      "mineral": "roca_fosfatica",
+      "sentimiento": "neutral",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPam1IOG4wSnBZQmp5N2kwYndxWWVrcVh2QjlsQU41YmFEQzJSTGRHNFJDdzMwNTdPS2dGNXFkYjZnakRyMGlCdldsOHI1dEUtOWU5WGtuT0JsLUNnb1VwRW9PcWdWc19SeDFvaW5lajBOejMyTkFOM1BrY1VrLTdKbm1kc09BX1hJUk1SX1lSRGc3bkJwdW1UYkxlRnk1MnNk?oc=5",
+      "tags": [
+        "mercado",
+        "phosphate rock price"
+      ]
+    },
+    {
+      "id": 1781107075,
+      "titulo": "Roca fosfórica: un fertilizante ideal en la producción de pastos - CONtexto Ganadero",
+      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxPSWF5VW5vT3dIbnhseDFCTmJXaEVRZmFpMWxUQTBpWEt6Uk5NUVo5NDBiMVJ3M1g5MXJfSlZfR1FmbDRWTHV6anhGalhyVUZrY0ZUSHBLc2VPRHd4aFd4Y0tia2x3TERHUldXNThVelhFTmcxaXQtc1VHUExIeEpZenFSdDlYZW4zcmpORU1wdFoyc1dPZWFpUkN6a2M2YVo5V0M1MUhXbWQ?oc",
+      "fuente": "CONtexto Ganadero",
+      "fecha": "2014-09-25T07:00:00",
+      "categoria": "fosfatos",
+      "mineral": "roca_fosfatica",
+      "sentimiento": "neutral",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPSWF5VW5vT3dIbnhseDFCTmJXaEVRZmFpMWxUQTBpWEt6Uk5NUVo5NDBiMVJ3M1g5MXJfSlZfR1FmbDRWTHV6anhGalhyVUZrY0ZUSHBLc2VPRHd4aFd4Y0tia2x3TERHUldXNThVelhFTmcxaXQtc1VHUExIeEpZenFSdDlYZW4zcmpORU1wdFoyc1dPZWFpUkN6a2M2YVo5V0M1MUhXbWQ?oc=5",
+      "tags": [
+        "mercado",
+        "roca fosfática precio"
+      ]
+    },
+    {
+      "id": 1781107074,
+      "titulo": "El carbón aún sostiene a Colombia, pero su margen se reduce rumbo a 2030, así está el panorama - Infobae",
+      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMi0wFBVV95cUxQRE43WFljQ09DQklDZmRZWnRDZ0hsX0tLdXpLOEN0dF92OWZZa2VQYnVCZnpmbDVBOUZ2LU9nZE40RGJzNXBFU2s1MjRwNHJQRmpLSDBPNC1qQkdfNUQ2aEY5MEljaFg1SFJyWkVRSG55R3BIZjc4QTE3dllyYjB1eWxyWnZQUHE2dEJOd1pnRHJqLVhGdmc3dGVzZkhoS1pLSTRYbTloSF9hWD",
+      "fuente": "Infobae",
+      "fecha": "2025-12-17T08:00:00",
+      "categoria": "carbon",
+      "mineral": "carbon_energetico",
+      "sentimiento": "neutral",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQRE43WFljQ09DQklDZmRZWnRDZ0hsX0tLdXpLOEN0dF92OWZZa2VQYnVCZnpmbDVBOUZ2LU9nZE40RGJzNXBFU2s1MjRwNHJQRmpLSDBPNC1qQkdfNUQ2aEY5MEljaFg1SFJyWkVRSG55R3BIZjc4QTE3dllyYjB1eWxyWnZQUHE2dEJOd1pnRHJqLVhGdmc3dGVzZkhoS1pLSTRYbTloSF9hWDFWNHFTaU1HLXVua3VKVUZmcXNRamNENUlOZ1lLblhzTHdlZ08tdVlR0gHuAUFVX3lxTFBUVWtLV19rbklFNEpCMXNKOXBPM09KMkNURGFkMWtZXzRqRUFDT0VSZS02cHBqWmNyWHFCWXRWRjM0eXpmOVk5bVAwQ3FZQ1RmYzhTbHJUVTI1anhjQzk1S3FSa3hlLUVPS19kRXZNNzFZUUtnS2o3bmtkbXFGOTZCWlctb2ZBOWlBQnl6N2RnRUtpSXNGdGNCVXFNTEx6WS02akhHby1UcFZNemNXUUdnVDFoY0s5ZWx6Vm1TVFVFcm1HdFpFNDV2OE9KaEJrUmIzYWlwWVFEazNxRk56bTlfOVhNRWtoRGE1Q2Eyb3c?oc=5",
+      "tags": [
+        "mercado",
+        "precio carbón térmico"
+      ]
+    },
+    {
+      "id": 1781107073,
+      "titulo": "Carboneros de Norte de Santander proyectan producir 2,5 millones de toneladas - laopinion.co",
+      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMiuAFBVV95cUxQU1piMUhTMUJWX2dhbHBLOXhUa2V1YU83ZTNpbXNUT0dWa2JHMWRySnh0TTQ0dXA2VjdYS1FBNlJqVlBIaW9ZaDEtQTFPWHlVRmRiWUY0dngtaWlEUFFMcVppeEJPaVBxa2V4d0ZxU2hPanFIa1h1SFRKNkhqY2dJTzlCODhTaGRyTkRnZi16VDdDSG5vSXJWUFVxbFdyV1BZbS0zMkpxeklMdl",
+      "fuente": "laopinion.co",
+      "fecha": "2021-03-02T08:00:00",
+      "categoria": "geopolitica",
+      "mineral": "carbon_energetico",
+      "sentimiento": "neutral",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQU1piMUhTMUJWX2dhbHBLOXhUa2V1YU83ZTNpbXNUT0dWa2JHMWRySnh0TTQ0dXA2VjdYS1FBNlJqVlBIaW9ZaDEtQTFPWHlVRmRiWUY0dngtaWlEUFFMcVppeEJPaVBxa2V4d0ZxU2hPanFIa1h1SFRKNkhqY2dJTzlCODhTaGRyTkRnZi16VDdDSG5vSXJWUFVxbFdyV1BZbS0zMkpxeklMdlVjXzFyb01UWjNjbkhC?oc=5",
+      "tags": [
+        "mercado",
+        "site:laopinion.co minería carbón Táchira"
+      ]
+    },
+    {
+      "id": 1781107072,
+      "titulo": "Coal India, BCCL shares rise up to 5% as govt designates coking coal as critical mineral - Moneycontrol.com",
+      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMi5gFBVV95cUxPY0hKZ0FyaXFpbUV5SXFMN3F2LTljdWR6V01yU280VEctSHZLSEdkbW5SWVpCWExDNjdXVnc4dVVKSjRnVzRnczVjRHlHRE8xdHU4QnRfZ1lNZnlRQjI4ME9UajkwVlZ1SDdQci1xV1lXZFJtQUtnZHgxMk00STRMWENqa1g0bGc0aGdvcWVua0VhWDlVbVo2ZzZHUTdZWUJLMDZ3NXMxRkJobC",
+      "fuente": "Moneycontrol.com",
+      "fecha": "2026-01-29T08:00:00",
+      "categoria": "carbon",
+      "mineral": "carbon_coquizable",
+      "sentimiento": "neutral",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPY0hKZ0FyaXFpbUV5SXFMN3F2LTljdWR6V01yU280VEctSHZLSEdkbW5SWVpCWExDNjdXVnc4dVVKSjRnVzRnczVjRHlHRE8xdHU4QnRfZ1lNZnlRQjI4ME9UajkwVlZ1SDdQci1xV1lXZFJtQUtnZHgxMk00STRMWENqa1g0bGc0aGdvcWVua0VhWDlVbVo2ZzZHUTdZWUJLMDZ3NXMxRkJobC1yTndoTmVXUWR4Mk5VcVE5WE1hODczOVk1Y1FiQVdDZjFvLUNhUDB2N1NyQ21haThwZ3ZJS2JXaGlmZ9IB6wFBVV95cUxNdHU3T1pQR3ZvYkE3aDJZTTRqMmtHUVNYMk9GcEFGUkJvVjB3a1c1N1l1Y1dmdXhkOUhnLUF4LXdqb3RLQkZxU0ZiRlBFNWR1OXVKaTY5UlE1UE5yWENWOVBHSW9NdEZFWVhySnBuS2QyLWlxblVLaUxQcVZxVlR0TjZEWkJWRUtJZUNTR2h2NGVmLUVjYU9zdk5WeDIwdnpNSUdyWWJ5M2tac1N2cFNmR0kyRlVHbVRKMFJzVWZNWUY0VjFzallnN1AwdWVCV1VyUDhmMTJRaVE5LWdJOU05UTJ1TjhuQVQtVUpj?oc=5",
+      "tags": [
+        "mercado",
+        "coking coal price"
+      ]
+    },
     {
       "id": 1781062434,
       "titulo": "Accidente mortal en una mina de China eleva los precios del carbón - Bloomberg Línea",
@@ -74,336 +149,6 @@
       "tags": [
         "mercado",
         "minería carbón Táchira Venezuela"
-      ]
-    },
-    {
-      "id": 1,
-      "titulo": "China aumenta importaciones de carbón energético ante ola de calor",
-      "resumen": "Las importaciones de carbón chinas aumentaron 15% en mayo ante alta demanda eléctrica por temperaturas récord. Se espera que la tendencia continúe durante el tercer trimestre.",
-      "fuente": "La República",
-      "fecha": "2026-06-09T07:30:00",
-      "categoria": "carbon",
-      "mineral": "carbon_energetico",
-      "sentimiento": "positivo",
-      "url": "https://www.larepublica.co/indicadores-economicos/commodities/carbon",
-      "tags": [
-        "China",
-        "importaciones",
-        "demanda",
-        "carbón energético"
-      ]
-    },
-    {
-      "id": 2,
-      "titulo": "Australia reporta récord de exportaciones de carbón coquizable en mayo",
-      "resumen": "Las exportaciones australianas de carbón metalúrgico alcanzaron 18.5 millones de toneladas en mayo 2026, impulsadas por la recuperación de la industria siderúrgica en Europa y Asia.",
-      "fuente": "ACM Minería",
-      "fecha": "2026-06-09T06:15:00",
-      "categoria": "carbon",
-      "mineral": "carbon_coquizable",
-      "sentimiento": "positivo",
-      "url": "https://acmineria.com.co/",
-      "tags": [
-        "Australia",
-        "exportaciones",
-        "siderurgia",
-        "carbón coquizable"
-      ]
-    },
-    {
-      "id": 3,
-      "titulo": "Marruecos expande capacidad de exportación de fosfatos con nueva terminal",
-      "resumen": "OCP Group inauguró una nueva terminal portuaria en Jorf Lasfar con capacidad de 15 millones de toneladas anuales, consolidando el liderazgo marroquí en el mercado mundial de fosfatos.",
-      "fuente": "País Minero",
-      "fecha": "2026-06-08T15:00:00",
-      "categoria": "fosfatos",
-      "mineral": "roca_fosfatica",
-      "sentimiento": "neutral",
-      "url": "https://www.paisminero.com/",
-      "tags": [
-        "Marruecos",
-        "OCP",
-        "fosfatos",
-        "exportaciones"
-      ]
-    },
-    {
-      "id": 4,
-      "titulo": "Colombia aumenta producción carbonífera: UPME reporta crecimiento 8% interanual",
-      "resumen": "La Unidad de Planeación Minero Energética reportó que Colombia produjo 8.7 millones de toneladas de carbón en el primer trimestre de 2026, un 8% más que el mismo período del año anterior.",
-      "fuente": "UPME",
-      "fecha": "2026-06-08T10:00:00",
-      "categoria": "carbon",
-      "mineral": "carbon_energetico",
-      "sentimiento": "positivo",
-      "url": "https://www.upme.gov.co/",
-      "tags": [
-        "Colombia",
-        "producción",
-        "UPME",
-        "crecimiento"
-      ]
-    },
-    {
-      "id": 5,
-      "titulo": "Fertilizantes fosfatados alcanzan máximos por restricciones de exportación en China",
-      "resumen": "Los precios del DAP y MAP registraron máximos en 18 meses ante las restricciones de exportación impuestas por China, principal productor mundial de fertilizantes fosfatados.",
-      "fuente": "SunSirs",
-      "fecha": "2026-06-08T08:30:00",
-      "categoria": "fertilizantes",
-      "mineral": "roca_fosfatica",
-      "sentimiento": "negativo",
-      "url": "https://www.sunsirs.com/es",
-      "tags": [
-        "fertilizantes",
-        "DAP",
-        "China",
-        "restricciones"
-      ]
-    },
-    {
-      "id": 6,
-      "titulo": "Venezuela estudia reactivación de minas de carbón en Táchira y Zulia",
-      "resumen": "El Ministerio de Minas venezolano anunció un plan piloto para reactivar operaciones en yacimientos carboníferos del estado Táchira con inversión estimada de $120 millones para 2027.",
-      "fuente": "País Minero",
-      "fecha": "2026-06-07T14:00:00",
-      "categoria": "carbon",
-      "mineral": "carbon_energetico",
-      "sentimiento": "positivo",
-      "url": "https://www.paisminero.com/",
-      "tags": [
-        "Venezuela",
-        "Táchira",
-        "reactivación",
-        "inversión"
-      ]
-    },
-    {
-      "id": 7,
-      "titulo": "India supera a Japón como segundo mayor importador de carbón energético",
-      "resumen": "India importó 14.2 Mt de carbón térmico en mayo 2026, superando a Japón por segundo mes consecutivo, impulsado por crecimiento en capacidad de generación eléctrica.",
-      "fuente": "Trading Economics",
-      "fecha": "2026-06-07T11:00:00",
-      "categoria": "energia",
-      "mineral": "carbon_energetico",
-      "sentimiento": "neutral",
-      "url": "https://es.tradingeconomics.com/commodity/coal",
-      "tags": [
-        "India",
-        "importaciones",
-        "generación eléctrica",
-        "Asia"
-      ]
-    },
-    {
-      "id": 8,
-      "titulo": "Geopolítica: sanciones impactan flujos de carbón ruso hacia mercados asiáticos",
-      "resumen": "Las nuevas sanciones europeas dificultan la triangulación del carbón ruso hacia Asia, creando oportunidades para exportadores alternativos como Colombia, Sudáfrica e Indonesia.",
-      "fuente": "ACM Minería",
-      "fecha": "2026-06-07T09:00:00",
-      "categoria": "geopolitica",
-      "mineral": "carbon_energetico",
-      "sentimiento": "negativo",
-      "url": "https://acmineria.com.co/",
-      "tags": [
-        "Rusia",
-        "sanciones",
-        "geopolítica",
-        "Colombia"
-      ]
-    },
-    {
-      "id": 9,
-      "titulo": "Monte Fresco (Ayacucho): fosfatos del Táchira con potencial exportador hacia el Caribe",
-      "resumen": "Estudios geológicos confirman reservas de roca fosfática en el yacimiento Monte Fresco, Municipio Ayacucho, estado Táchira, con ley promedio de 18% P₂O₅, suficientes para abastecer el mercado caribeño por 20 años.",
-      "fuente": "País Minero",
-      "fecha": "2026-06-06T16:00:00",
-      "categoria": "fosfatos",
-      "mineral": "roca_fosfatica",
-      "sentimiento": "positivo",
-      "url": "https://www.paisminero.com/",
-      "tags": [
-        "Táchira",
-        "Monte Fresco",
-        "fosfatos",
-        "Venezuela",
-        "Caribe"
-      ]
-    },
-    {
-      "id": 10,
-      "titulo": "Precios del carbón energético podrían caer 15% en segundo semestre por mayor oferta indonesa",
-      "resumen": "Analistas de S&P Global proyectan una corrección del 15% en precios del carbón energético para el segundo semestre de 2026, ante aumento de oferta indonesia y desaceleración china.",
-      "fuente": "Trading Economics",
-      "fecha": "2026-06-06T10:00:00",
-      "categoria": "carbon",
-      "mineral": "carbon_energetico",
-      "sentimiento": "negativo",
-      "url": "https://es.tradingeconomics.com/commodity/coal",
-      "tags": [
-        "precios",
-        "Indonesia",
-        "proyecciones",
-        "oferta"
-      ]
-    },
-    {
-      "id": 11,
-      "titulo": "SGX: futuros de carbón coquizable suben 3.2% tras datos siderúrgicos de China",
-      "resumen": "Los contratos de futuros de carbón coquizable en la Bolsa de Singapur cerraron al alza ante proyecciones positivas de producción de acero en China para el segundo semestre.",
-      "fuente": "SGX",
-      "fecha": "2026-06-06T07:00:00",
-      "categoria": "carbon",
-      "mineral": "carbon_coquizable",
-      "sentimiento": "positivo",
-      "url": "https://www.sgx.com/derivatives/products/coking-coal",
-      "tags": [
-        "SGX",
-        "futuros",
-        "acero",
-        "China",
-        "carbón coquizable"
-      ]
-    },
-    {
-      "id": 12,
-      "titulo": "USGS confirma reservas estratégicas de fosfatos en América del Sur",
-      "resumen": "El Servicio Geológico de Estados Unidos publicó un informe destacando yacimientos de roca fosfática en Venezuela y Brasil como reservas estratégicas de importancia hemisférica.",
-      "fuente": "USGS",
-      "fecha": "2026-06-05T14:00:00",
-      "categoria": "fosfatos",
-      "mineral": "roca_fosfatica",
-      "sentimiento": "positivo",
-      "url": "https://www.usgs.gov/centers/national-minerals-information-center/phosphate-rock-statistics-and-information",
-      "tags": [
-        "USGS",
-        "fosfatos",
-        "Venezuela",
-        "Brasil",
-        "reservas"
-      ]
-    },
-    {
-      "id": 13,
-      "titulo": "World Bank revisa al alza precios de carbón energético para 2026-2027",
-      "resumen": "El Banco Mundial actualizó sus proyecciones de precios de commodities, elevando la estimación del carbón energético a USD 135/ton para 2026 y USD 128/ton para 2027 ante demanda sostenida de Asia.",
-      "fuente": "World Bank",
-      "fecha": "2026-06-05T10:00:00",
-      "categoria": "carbon",
-      "mineral": "carbon_energetico",
-      "sentimiento": "positivo",
-      "url": "https://www.worldbank.org/en/research/commodity-markets",
-      "tags": [
-        "World Bank",
-        "proyecciones",
-        "precios",
-        "Asia"
-      ]
-    },
-    {
-      "id": 14,
-      "titulo": "IFA: producción mundial de fertilizantes fosfatados creció 4.1% en 2025",
-      "resumen": "La Asociación Internacional de Fertilizantes reportó un crecimiento global de 4.1% en producción de fertilizantes fosfatados durante 2025, liderado por Marruecos, China y Rusia.",
-      "fuente": "IFA",
-      "fecha": "2026-06-04T11:00:00",
-      "categoria": "fertilizantes",
-      "mineral": "roca_fosfatica",
-      "sentimiento": "positivo",
-      "url": "https://www.fertilizer.org/statistics/",
-      "tags": [
-        "IFA",
-        "fertilizantes",
-        "producción",
-        "Marruecos"
-      ]
-    },
-    {
-      "id": 15,
-      "titulo": "Fastmarkets: spread HCC/SHCC se amplía por problemas de calidad en minas australianas",
-      "resumen": "Fastmarkets reporta una ampliación del spread entre carbón coquizable premium (HCC) y semi-duro (SHCC) impulsada por problemas de calidad en minas australianas de tercer nivel.",
-      "fuente": "Fastmarkets",
-      "fecha": "2026-06-04T08:00:00",
-      "categoria": "carbon",
-      "mineral": "carbon_coquizable",
-      "sentimiento": "neutral",
-      "url": "https://www.fastmarkets.com/commodities/metals/minor-metals",
-      "tags": [
-        "Fastmarkets",
-        "HCC",
-        "SHCC",
-        "Australia",
-        "spread"
-      ]
-    },
-    {
-      "id": 16,
-      "titulo": "IEA advierte: demanda de carbón térmico cae en Europa pero crece 8% en Asia emergente",
-      "resumen": "La Agencia Internacional de Energía publicó su informe semestral señalando una caída del 12% en consumo europeo de carbón energético compensada por crecimiento en Vietnam, Indonesia y Bangladesh.",
-      "fuente": "IEA",
-      "fecha": "2026-06-03T14:00:00",
-      "categoria": "energia",
-      "mineral": "carbon_energetico",
-      "sentimiento": "neutral",
-      "url": "https://www.iea.org/data-and-statistics",
-      "tags": [
-        "IEA",
-        "Europa",
-        "Asia",
-        "demanda",
-        "transición energética"
-      ]
-    },
-    {
-      "id": 17,
-      "titulo": "IndexMundi: precio FOB roca fosfática sube 5.4% en mayo",
-      "resumen": "Según datos de IndexMundi, el precio FOB de la roca fosfática (68% BPL) cerró mayo en USD 88.5/ton, un 5.4% por encima del mes anterior, impulsado por demanda de fertilizantes en Asia meridional.",
-      "fuente": "IndexMundi",
-      "fecha": "2026-06-03T09:00:00",
-      "categoria": "fosfatos",
-      "mineral": "roca_fosfatica",
-      "sentimiento": "positivo",
-      "url": "https://www.indexmundi.com/commodities/?commodity=phosphate-rock",
-      "tags": [
-        "IndexMundi",
-        "FOB",
-        "fosfatos",
-        "Asia meridional"
-      ]
-    },
-    {
-      "id": 18,
-      "titulo": "Argus Media: precio Newcastle coal supera USD 130/ton por tercer mes consecutivo",
-      "resumen": "El benchmark de carbón energético Newcastle se mantuvo por encima de USD 130/ton durante mayo, sostenido por fuerte demanda japonesa y surcoreana ante recambio de centrales nucleares.",
-      "fuente": "Argus Media",
-      "fecha": "2026-06-02T10:00:00",
-      "categoria": "carbon",
-      "mineral": "carbon_energetico",
-      "sentimiento": "positivo",
-      "url": "https://www.argusmedia.com/en/coal-coke-and-biomass",
-      "tags": [
-        "Argus",
-        "Newcastle",
-        "Japón",
-        "Corea",
-        "benchmark"
-      ]
-    },
-    {
-      "id": 19,
-      "titulo": "World Steel Association: producción de acero crece 3.8% y jalona carbón coquizable",
-      "resumen": "La WSA reportó producción mundial de acero de 163 Mt en abril 2026, un 3.8% superior al año anterior, dinamizando la demanda de carbón coquizable premium en Australia y Canadá.",
-      "fuente": "World Steel Association",
-      "fecha": "2026-06-01T11:00:00",
-      "categoria": "carbon",
-      "mineral": "carbon_coquizable",
-      "sentimiento": "positivo",
-      "url": "https://www.worldsteel.org/steel-by-topic/raw-materials/coal.html",
-      "tags": [
-        "WSA",
-        "acero",
-        "Australia",
-        "Canadá",
-        "carbón coquizable"
       ]
     }
   ]

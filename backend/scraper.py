@@ -602,9 +602,8 @@ class ScraperOICF:
 
         self.actualizar_precios(resultados)
 
-        if random.random() < 0.5:
-            self.agregar_noticia(self.scrape_noticias())
-            print("  -> Noticia agregada al feed")
+        self.agregar_noticia(self.scrape_noticias())
+        print("  -> Noticia agregada al feed")
 
         ok = len([r for r in resultados if "error" not in r])
         print(f"[OK] Ciclo completo — {ok}/{len(resultados)} fuentes exitosas\n")
