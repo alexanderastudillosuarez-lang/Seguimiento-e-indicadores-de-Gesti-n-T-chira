@@ -347,7 +347,6 @@ const OICF = (() => {
     OICF_Charts.buildProductionBar('phosphate-bar', pData, pLabels, 'Producción fosfatos Mt/año');
 
     renderColombiaSection('carbon_energetico');
-    renderVenezuelaStats();
     renderTachiraPanel();
   }
 
@@ -407,22 +406,6 @@ const OICF = (() => {
     }
 
     OICF_Maps.renderColombiaMarkers(mineral, col);
-  }
-
-  /* ---- Venezuela Stats ---- */
-  function renderVenezuelaStats() {
-    if (!produccion) return;
-    const ven = produccion.venezuela;
-    const el = document.getElementById('venezuela-stats');
-    if (!el) return;
-
-    el.innerHTML = `
-      <div class="stat-row"><span>Carbón Zulia</span><strong>${ven.carbon.zulia.produccion_estimada_mt} Mt/año (est.)</strong></div>
-      <div class="stat-row"><span>Estado Zulia</span><em class="text-warning">${ven.carbon.zulia.estado}</em></div>
-      <div class="stat-row"><span>Carbón Táchira</span><strong>${ven.carbon.tachira.produccion_estimada_mt} Mt/año (est.)</strong></div>
-      <div class="stat-row"><span>Estado Táchira</span><em class="text-danger">${ven.carbon.tachira.estado}</em></div>
-      <div class="stat-row"><span>Fosfatos Monte Fresco (Ayacucho)</span><strong>${ven.fosfatos.monte_fresco.reservas_estimadas_mt} Mt reservas</strong></div>
-    `;
   }
 
   /* ---- Táchira Panel ---- */
