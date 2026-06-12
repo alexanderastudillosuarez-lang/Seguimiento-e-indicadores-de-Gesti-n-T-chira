@@ -126,7 +126,7 @@ const OICF_Charts = (() => {
       data: { labels, datasets },
       options: {
         responsive: true, maintainAspectRatio: false,
-        interaction: { mode: 'index', intersect: false },
+        interaction: { mode: 'nearest', intersect: true },
         plugins: {
           legend: {
             display: true,
