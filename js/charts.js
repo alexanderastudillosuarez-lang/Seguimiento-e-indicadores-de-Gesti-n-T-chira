@@ -77,12 +77,18 @@ const OICF_Charts = (() => {
     const datasets = [];
 
     const commodities = [
-      { key: 'carbon_energetico', label: 'Carbón Energético', colors: COLORS.coal_thermal },
-      { key: 'carbon_coquizable', label: 'Carbón Coquizable',  colors: COLORS.coal_coking  },
-      { key: 'roca_fosfatica',    label: 'Roca Fosfática',     colors: COLORS.phosphate    }
+      { key: 'carbon_energetico', label: 'Carbón Energético', colors: COLORS.coal_thermal, axis: 'yCarbonEnergetico', position: 'left'  },
+      { key: 'carbon_coquizable', label: 'Carbón Coquizable',  colors: COLORS.coal_coking,  axis: 'yCarbonCoquizable', position: 'right' },
+      { key: 'roca_fosfatica',    label: 'Roca Fosfática',     colors: COLORS.phosphate,    axis: 'yRocaFosfatica',    position: 'right' }
     ];
 
     let labels = [];
+    const scales = {
+      x: {
+        grid: { color: d.gridColor },
+        ticks: { color: d.textColor, maxTicksLimit: 10, font: { size: 11 } }
+      }
+    };
 
     commodities.forEach(c => {
       const raw = precios[c.key]?.historico?.[period] || [];
@@ -100,8 +106,19 @@ const OICF_Charts = (() => {
         pointRadius: raw.length > 60 ? 0 : 3,
         pointHoverRadius: 5,
         fill: true,
-        tension: 0.4
+        tension: 0.4,
+        yAxisID: c.axis
       });
+
+      scales[c.axis] = {
+        position: c.position,
+        grid: { color: c.axis === 'yCarbonEnergetico' ? d.gridColor : 'transparent', drawOnChartArea: c.axis === 'yCarbonEnergetico' },
+        ticks: {
+          color: c.colors.line, font: { size: 11 },
+          callback: v => '$' + v.toFixed(0)
+        },
+        title: { display: true, text: c.label, color: c.colors.line, font: { size: 11 } }
+      };
     });
 
     mainChart = new Chart(ctx, {
@@ -126,19 +143,7 @@ const OICF_Charts = (() => {
             }
           }
         },
-        scales: {
-          x: {
-            grid: { color: d.gridColor },
-            ticks: { color: d.textColor, maxTicksLimit: 10, font: { size: 11 } }
-          },
-          y: {
-            grid: { color: d.gridColor },
-            ticks: {
-              color: d.textColor, font: { size: 11 },
-              callback: v => '$' + v.toFixed(0)
-            }
-          }
-        }
+        scales
       }
     });
     return mainChart;
