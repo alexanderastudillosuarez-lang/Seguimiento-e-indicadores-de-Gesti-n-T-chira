@@ -62,11 +62,30 @@ def alertas():
 # API - PRECIOS
 # =============================================================================
 
+def _precios_desactualizados(data, horas=24):
+    try:
+        ultima = datetime.datetime.fromisoformat(data.get("ultima_actualizacion"))
+        return (datetime.datetime.now() - ultima) > datetime.timedelta(hours=horas)
+    except (TypeError, ValueError):
+        return True
+
+def _disparar_actualizacion_async():
+    import threading
+    def _run():
+        try:
+            from scraper import ScraperOICF
+            ScraperOICF().run_all()
+        except Exception as e:
+            print(f"[ERR] Actualizacion automatica: {e}")
+    threading.Thread(target=_run, daemon=True).start()
+
 @app.route("/api/precios")
 def api_precios():
     try:
         with open(DATA_DIR / "precios.json", encoding="utf-8") as f:
             data = json.load(f)
+        if _precios_desactualizados(data):
+            _disparar_actualizacion_async()
         return jsonify(data)
     except Exception as e:
         return jsonify({"error": str(e)}), 500

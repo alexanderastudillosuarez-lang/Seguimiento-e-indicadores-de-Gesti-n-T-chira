@@ -1,6 +1,21 @@
 {
-  "ultima_actualizacion": "2026-06-10T12:15:58.675331",
+  "ultima_actualizacion": "2026-06-12T14:10:41.205668",
   "noticias": [
+    {
+      "id": 1781287841,
+      "titulo": "Poco oxígeno y baja paga: precariedad en minas artesanales de carbón de Venezuela - Revista Semana",
+      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMixAFBVV95cUxPclFKaUdaOWhfSmNQMGd1VnB5d093SC1zR1B0bHpqV3dLdWVfR19JUlUwRHFoYkplRExOXzB0VnFfeG81TnNxa3VDYTV4WVE4RnNWQXVieGdzdTVrQVJjMWFfSVF1clpzM0tzMUtEUGp0SzdCZ1dVU0YzSHNWRllTTzB1T0dBZ3lGdHpMS1dLeVpBRlVFVG9hRkNMbUVJa0xXWGJEUlFnSDhCZk",
+      "fuente": "Revista Semana",
+      "fecha": "2022-03-14T07:00:00",
+      "categoria": "geopolitica",
+      "mineral": "carbon_energetico",
+      "sentimiento": "neutral",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPclFKaUdaOWhfSmNQMGd1VnB5d093SC1zR1B0bHpqV3dLdWVfR19JUlUwRHFoYkplRExOXzB0VnFfeG81TnNxa3VDYTV4WVE4RnNWQXVieGdzdTVrQVJjMWFfSVF1clpzM0tzMUtEUGp0SzdCZ1dVU0YzSHNWRllTTzB1T0dBZ3lGdHpMS1dLeVpBRlVFVG9hRkNMbUVJa0xXWGJEUlFnSDhCZkpYWHlJN2ZHTkI1OVItU2h4WW8yd0djZVpq0gHKAUFVX3lxTFB0WlNVVzdFZzk2T2JFem9YOXkwRFB0TG8wc2FQTjl1ZlFXaG5vWXhrLXhyNmFGQVZyVzBYTExLVXBDWG9iR3B0Z0JFanZUTzhkTmZfenVKSHZDU0R1SVUtYk1ISGMtV0N5WEVtRlFDV05hTzZKRDY5NUZ4VEVYZFVHRTUzTHltX2Jad01jTnh5TGR5MDhnMFUwelZ1ajJwU3E4VlZKdzdwc2M0TzFGNS1TM0xmZXdaNlY2RDhDSHVNQXFwS2pWajJMZFE?oc=5",
+      "tags": [
+        "mercado",
+        "minería carbón Táchira Venezuela"
+      ]
+    },
     {
       "id": 1781108158,
       "titulo": "La crisis energética mundial está llevando a los países de vuelta al carbón.",
