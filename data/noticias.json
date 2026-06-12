@@ -1,6 +1,21 @@
 {
-  "ultima_actualizacion": "2026-06-12T14:10:41.205668",
+  "ultima_actualizacion": "2026-06-12T14:32:53.275372",
   "noticias": [
+    {
+      "id": 1781289173,
+      "titulo": "Argus selected to price Japanese coking coal imports - Argus Media",
+      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMi1gFBVV95cUxOTzJ1cEduT3dKYjg1NEU4R3h5bFgzTEllSG40M29aUlpCbnNlSVE1dE5QZFIya3pKdDlsZWtUXzJKU1EzMUdKMlRsNEU4WkNfbDZOM3hJOERIelV0ZzEta0l4TEdMUzJ5YnRHek5JYW41NDBLNmxiTm9qT25vZ1NQWW5NcW5odmVuc183NDFSWU5HRWVUZU04Ny1kWlAxcWdmaG9VZGJxQ205UX",
+      "fuente": "Argus Media",
+      "fecha": "2017-06-27T07:00:00",
+      "categoria": "carbon",
+      "mineral": "carbon_coquizable",
+      "sentimiento": "neutral",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOTzJ1cEduT3dKYjg1NEU4R3h5bFgzTEllSG40M29aUlpCbnNlSVE1dE5QZFIya3pKdDlsZWtUXzJKU1EzMUdKMlRsNEU4WkNfbDZOM3hJOERIelV0ZzEta0l4TEdMUzJ5YnRHek5JYW41NDBLNmxiTm9qT25vZ1NQWW5NcW5odmVuc183NDFSWU5HRWVUZU04Ny1kWlAxcWdmaG9VZGJxQ205UXZsdHNsRDNrYmpBUUo0VUpFbWh0anZKRGNmQ3JmV1ZlX0JaMi1MVWxBVzFn?oc=5",
+      "tags": [
+        "mercado",
+        "coking coal price"
+      ]
+    },
     {
       "id": 1781287841,
       "titulo": "Poco oxígeno y baja paga: precariedad en minas artesanales de carbón de Venezuela - Revista Semana",

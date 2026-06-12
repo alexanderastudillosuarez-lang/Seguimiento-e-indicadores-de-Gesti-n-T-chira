@@ -126,13 +126,15 @@ const OICF_Charts = (() => {
       data: { labels, datasets },
       options: {
         responsive: true, maintainAspectRatio: false,
-        interaction: { mode: 'nearest', intersect: true },
+        interaction: { mode: 'point', intersect: true },
         plugins: {
           legend: {
             display: true,
             labels: { color: d.textColor, usePointStyle: true, pointStyleWidth: 10, font: { size: 12 } }
           },
           tooltip: {
+            mode: 'point',
+            intersect: true,
             backgroundColor: d.bgColor === '#111827' ? '#1e293b' : '#fff',
             titleColor: d.textColor,
             bodyColor: d.textColor,

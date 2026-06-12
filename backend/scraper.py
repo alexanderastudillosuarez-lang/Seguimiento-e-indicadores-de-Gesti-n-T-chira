@@ -472,9 +472,13 @@ class ScraperOICF:
                 data[commodity]["precio_consenso"]      = cons
                 data[commodity].setdefault("historico", {})
 
-                hist7 = data[commodity]["historico"].get("7d", [])
-                hist7.append(nuevo)
-                data[commodity]["historico"]["7d"] = hist7[-7:]
+                for periodo, limite in (("7d", 7), ("30d", 30), ("90d", 90), ("365d", 365)):
+                    hist = data[commodity]["historico"].get(periodo, [])
+                    hist.append(nuevo)
+                    data[commodity]["historico"][periodo] = hist[-limite:]
+
+                data[commodity]["max_historico"] = max(data[commodity].get("max_historico", nuevo), nuevo)
+                data[commodity]["min_historico"] = min(data[commodity].get("min_historico", nuevo), nuevo)
 
             # Registrar última sync por fuente
             for r in resultados:
