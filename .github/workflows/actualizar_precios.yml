@@ -1,0 +1,33 @@
+name: Actualizar precios diarios
+
+on:
+  schedule:
+    - cron: "0 11 * * *"   # 06:00 America/Bogota (UTC-5)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  actualizar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: Ejecutar scraper
+        run: python -c "import sys; sys.path.insert(0,'backend'); from scraper import ScraperOICF; ScraperOICF().run_all()"
+
+      - name: Commit y push de datos actualizados
+        run: |
+          git config user.name "OTM Bot"
+          git config user.email "actions@github.com"
+          git add data/precios.json data/noticias.json
+          git diff --cached --quiet || git commit -m "chore: actualizacion diaria automatica de precios y noticias"
+          git push
