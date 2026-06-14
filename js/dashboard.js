@@ -23,6 +23,7 @@ const OICF = (() => {
     buildTicker();
     renderKPIs();
     renderAlerts();
+    renderOportunidades();
     buildMainChart('30d');
     buildProjectionCharts();
     buildProductionCharts();
@@ -738,9 +739,80 @@ const OICF = (() => {
       await loadData();
       renderKPIs();
       renderAlerts();
+      renderOportunidades();
       buildTicker();
       renderLastUpdate();
     }, REFRESH_MS);
+  }
+
+  /* ============================================================
+     OPORTUNIDADES DE NEGOCIO
+     ============================================================ */
+  function renderOportunidades() {
+    const el = document.getElementById('oportunidades-negocio');
+    if (!el || !precios) return;
+
+    const ce = precios.carbon_energetico;
+    const cc = precios.carbon_coquizable;
+    const rf = precios.roca_fosfatica;
+    const items = [];
+
+    /* Táchira -> Caribe: viabilidad según margen sobre break-even */
+    const BREAK_EVEN_TACHIRA = 60;
+    const margen = ce.precio_actual - BREAK_EVEN_TACHIRA;
+    const margenPct = Math.round((margen / BREAK_EVEN_TACHIRA) * 100);
+    items.push({
+      tipo: margen > 0 ? 'info' : 'warning',
+      icono: margen > 0 ? '💡' : '⚠️',
+      html: `<strong>Táchira → Caribe:</strong> Redirigir producción carbonífera hacia Cuba, Jamaica, Trinidad y Tobago. Precio break-even: $${BREAK_EVEN_TACHIRA}/Ton. Precio actual: $${ce.precio_actual.toFixed(2)}/Ton ${margen > 0 ? `(margen de +${margenPct}% sobre el break-even)` : `(por debajo del break-even, margen ${margenPct}%)`}.`
+    });
+
+    /* Fosfatos Monte Fresco -> Colombia, sensible al precio */
+    items.push({
+      tipo: 'info',
+      icono: '💡',
+      html: `<strong>Fosfatos Monte Fresco → Colombia:</strong> Colombia importa fosfatos. Con la roca fosfática cotizando a $${rf.precio_actual.toFixed(2)}/Ton (${fmtPct(rf.variacion_diaria_pct)} hoy), Monte Fresco (Mpio. Ayacucho, Táchira) podría abastecer parte de esa demanda regional.`
+    });
+
+    /* Carbón coquizable: oportunidad si tendencia alcista, riesgo si bajista fuerte */
+    if (cc.variacion_semanal_pct >= 0) {
+      items.push({
+        tipo: 'info',
+        icono: '💡',
+        html: `<strong>Carbón Coquizable:</strong> precio en $${cc.precio_actual.toFixed(2)}/Ton, con variación semanal de ${fmtPct(cc.variacion_semanal_pct)}. Demanda siderúrgica al alza favorece posiciones exportadoras.`
+      });
+    } else {
+      items.push({
+        tipo: 'warning',
+        icono: '⚠️',
+        html: `<strong>Riesgo carbón coquizable:</strong> precio en $${cc.precio_actual.toFixed(2)}/Ton, con caída semanal de ${fmtPct(cc.variacion_semanal_pct)}. Posible corrección por menor demanda siderúrgica.`
+      });
+    }
+
+    /* Riesgo sobreoferta si algún mineral está cerca del máximo histórico */
+    [{ d: ce, n: 'Carbón Energético' }, { d: cc, n: 'Carbón Coquizable' }, { d: rf, n: 'Roca Fosfática' }].forEach(({ d, n }) => {
+      if (d.max_historico && d.precio_actual >= d.max_historico * 0.95) {
+        items.push({
+          tipo: 'warning',
+          icono: '⚠️',
+          html: `<strong>Riesgo sobreoferta/corrección — ${n}:</strong> precio ($${d.precio_actual.toFixed(2)}/Ton) cerca de su máximo histórico ($${d.max_historico.toFixed(2)}/Ton). Posible corrección de precios.`
+        });
+      }
+    });
+
+    /* Geopolítica: siempre vigente */
+    items.push({
+      tipo: 'info',
+      icono: '🌍',
+      html: `<strong>Geopolítica favorable:</strong> sanciones rusas crean vacío que Colombia y Venezuela pueden ocupar en mercados asiáticos.`
+    });
+
+    el.innerHTML = items.map(it => `
+      <div class="alert-item ${it.tipo} mb-2">
+        <span class="alert-icon">${it.icono}</span>
+        <div>${it.html}</div>
+      </div>
+    `).join('');
   }
 
   function renderLastUpdate() {
