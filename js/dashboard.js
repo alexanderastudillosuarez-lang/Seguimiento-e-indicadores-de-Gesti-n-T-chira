@@ -584,63 +584,148 @@ const OICF = (() => {
     el.innerHTML = `<div class="ia-response">${text}</div>`;
   }
 
+  /* ---- Configuración descriptiva por mineral, usada para enriquecer los informes ---- */
+  const IA_MINERAL_INFO = {
+    carbon_energetico: {
+      nombre: 'Carbón Energético (Newcastle)',
+      icono: '🔥',
+      mercado: 'Demandado principalmente por generación eléctrica en Asia (China, India, Indonesia). Colombia exporta a Europa y América; Venezuela/Táchira tiene potencial exportador hacia el Caribe y Centroamérica.',
+      drivers: ['Demanda eléctrica de China e India', 'Política energética europea (transición vs. seguridad de suministro)', 'Costos de flete marítimo y disponibilidad de buques'],
+    },
+    carbon_coquizable: {
+      nombre: 'Carbón Coquizable (Premium HCC)',
+      icono: '⚙️',
+      mercado: 'Insumo clave para la producción de acero (altos hornos). La demanda está atada al ciclo de la industria siderúrgica mundial, liderada por China, India y la UE.',
+      drivers: ['Producción de acero crudo a nivel mundial', 'Exportaciones de Australia (principal productor)', 'Sustitución por procesos de reducción directa (DRI) en el largo plazo'],
+    },
+    roca_fosfatica: {
+      nombre: 'Roca Fosfática',
+      icono: '🌱',
+      mercado: 'Materia prima esencial para fertilizantes (fósforo). La demanda es estacional, ligada a los ciclos de siembra en América Latina, Brasil y EE.UU. Marruecos (OCP) domina la oferta mundial.',
+      drivers: ['Ciclos de siembra y demanda de fertilizantes', 'Política de exportación de China', 'Capacidad de Marruecos (OCP) y Rusia'],
+    }
+  };
+
+  function getMineralSnapshot(key) {
+    const d = precios?.[key];
+    if (!d) return null;
+    const info = IA_MINERAL_INFO[key];
+    const proj = PROJECTION_CONFIG[key];
+    return { key, d, info, proj };
+  }
+
+  function fmtPct(v) {
+    const sign = v >= 0 ? '+' : '';
+    return `${sign}${v.toFixed(2)}%`;
+  }
+
+  function tendenciaLabel(v) {
+    return v >= 0 ? 'alcista 📈' : 'bajista 📉';
+  }
+
+  /* ---- Bloque común de precios/variación/prospectiva por mineral ---- */
+  function buildMineralBlock(key, { incluirSemanal=true, incluirMensual=false } = {}) {
+    const s = getMineralSnapshot(key);
+    if (!s) return '';
+    const { d, info, proj } = s;
+    const rango = (d.max_historico && d.min_historico)
+      ? `Rango histórico: $${d.min_historico.toFixed(2)} – $${d.max_historico.toFixed(2)} USD/Ton. `
+      : '';
+    const posicionRango = (d.max_historico && d.min_historico)
+      ? Math.round(((d.precio_actual - d.min_historico) / (d.max_historico - d.min_historico)) * 100)
+      : null;
+
+    return `
+      <div class="mb-2" style="padding:10px 12px;border-left:3px solid var(--bs-primary,#3b82f6);background:rgba(99,102,241,.06);border-radius:6px">
+        <p class="mb-1"><strong>${info.icono} ${info.nombre}</strong></p>
+        <p class="mb-1">Precio actual: <b>$${d.precio_actual.toFixed(2)} USD/Ton</b> · Variación diaria: <b>${fmtPct(d.variacion_diaria_pct)}</b> (tendencia ${tendenciaLabel(d.variacion_diaria_pct)})${incluirSemanal && d.variacion_semanal_pct !== undefined ? ` · Semanal: <b>${fmtPct(d.variacion_semanal_pct)}</b>` : ''}${incluirMensual && d.variacion_mensual_pct !== undefined ? ` · Mensual: <b>${fmtPct(d.variacion_mensual_pct)}</b>` : ''}${d.variacion_anual_pct !== undefined ? ` · Anual: <b>${fmtPct(d.variacion_anual_pct)}</b>` : ''}</p>
+        <p class="mb-1">${rango}${posicionRango !== null ? `Posición actual en el rango histórico: <b>${posicionRango}%</b> ${posicionRango >= 80 ? '(cerca de máximos — riesgo de corrección)' : posicionRango <= 20 ? '(cerca de mínimos — posible oportunidad de entrada)' : '(zona media)'}.` : ''}</p>
+        <p class="mb-1"><b>Mercado:</b> ${info.mercado}</p>
+        <p class="mb-1"><b>Factores a vigilar:</b> ${info.drivers.join(' · ')}</p>
+        ${proj ? `<p class="mb-0"><b>Prospectiva:</b> proyección a 30 días <b>${fmtPct(proj.proj30)}</b>, a 90 días <b>${fmtPct(proj.proj90)}</b>.</p>` : ''}
+      </div>
+    `;
+  }
+
   function generateDailyReport() {
     if (!precios) return '';
-    const c = precios.carbon_energetico;
-    const f = precios.roca_fosfatica;
-    const sentDir = c.variacion_diaria >= 0 ? 'alcista' : 'bajista';
     return `
       <p><strong>📊 Resumen Diario — ${new Date().toLocaleDateString('es-ES', {weekday:'long', day:'numeric', month:'long', year:'numeric'})}</strong></p>
-      <p>El mercado de carbón energético muestra una tendencia <b>${sentDir}</b> con el precio Newcastle en <b>$${c.precio_actual.toFixed(2)} USD/Ton</b>, una variación diaria de <b>${c.variacion_diaria >= 0 ? '+' : ''}${c.variacion_diaria.toFixed(2)} USD</b> (${c.variacion_diaria_pct.toFixed(2)}%).</p>
-      <p>La roca fosfática cotiza en <b>$${f.precio_actual.toFixed(2)} USD/Ton</b> con tendencia ${f.variacion_diaria >= 0 ? 'positiva' : 'negativa'} de ${Math.abs(f.variacion_diaria_pct).toFixed(2)}% en la sesión.</p>
+      <p>Análisis integral de precios, variación, mercado y prospectiva para los tres minerales monitoreados. Información orientada a la toma de decisiones de inversión.</p>
+      ${buildMineralBlock('carbon_energetico')}
+      ${buildMineralBlock('carbon_coquizable')}
+      ${buildMineralBlock('roca_fosfatica')}
       <p><strong>🎯 Oportunidades identificadas:</strong></p>
       <ul style="margin:0;padding-left:18px">
-        <li>Posición compradora en carbón coquizable ante recuperación siderúrgica europea</li>
-        <li>Ventana exportadora Colombia → India para carbón energético Q3 2026</li>
-        <li>Táchira: momento favorable para iniciar trámites de titulación minera</li>
+        <li>Posición compradora en carbón coquizable ante recuperación siderúrgica asiática</li>
+        <li>Ventana exportadora Colombia → India para carbón energético</li>
+        <li>Táchira: potencial de reactivación minera con costos competitivos frente al precio de referencia actual</li>
       </ul>
-      <p class="mb-0 mt-2"><strong>⚠️ Riesgos:</strong> Desaceleración china en segundo semestre puede presionar precios a la baja 10-15%.</p>
+      <p class="mb-0 mt-2"><strong>⚠️ Riesgos:</strong> Una desaceleración en China en el corto plazo puede presionar los tres mercados a la baja entre 10-15%. Monitorear inventarios portuarios y política comercial china.</p>
     `;
   }
 
   function generateWeeklyReport() {
+    if (!precios) return '';
     return `
       <p><strong>📈 Análisis Semanal — Semana del ${new Date().toLocaleDateString('es-ES')}</strong></p>
-      <p>Durante la semana se observó <b>consolidación de precios</b> en carbón energético con soporte en $130 USD/Ton. El carbón coquizable muestra fortaleza relativa impulsado por demanda siderúrgica asiática.</p>
-      <p>Los fosfatos continúan en fase de <b>recuperación gradual</b>, con señales de acumulación por parte de importadores latinoamericanos ante restricciones chinas.</p>
+      <p>Comparativo de precios, variación semanal, contexto de mercado y prospectiva de mediano plazo por mineral.</p>
+      ${buildMineralBlock('carbon_energetico', { incluirSemanal: true })}
+      ${buildMineralBlock('carbon_coquizable', { incluirSemanal: true })}
+      ${buildMineralBlock('roca_fosfatica', { incluirSemanal: true })}
       <p><strong>🌍 Factores geopolíticos clave:</strong></p>
       <ul style="margin:0;padding-left:18px">
-        <li>Sanciones rusas redirigen flujos hacia Colombia e Indonesia</li>
-        <li>India supera a Japón como 2do importador mundial</li>
-        <li>OCP Marruecos amplía capacidad portuaria en 15 Mt/año</li>
+        <li>Sanciones a Rusia redirigen flujos de carbón hacia Colombia e Indonesia</li>
+        <li>India consolida su posición como gran importador de carbón energético y coquizable</li>
+        <li>OCP Marruecos amplía capacidad de exportación de fosfatos</li>
+        <li>Venezuela/Táchira: evolución de marcos regulatorios para alianzas estratégicas en minería</li>
       </ul>
     `;
   }
 
   function generateMonthlyReport() {
+    if (!precios) return '';
+    const mesNombre = new Date().toLocaleDateString('es-ES', {month:'long', year:'numeric'});
     return `
-      <p><strong>📋 Informe Mensual — Junio 2026</strong></p>
-      <p>El mercado de carbón refleja un <b>ciclo de corrección moderada</b> tras los picos de 2022-2023. Los precios se han estabilizado en rangos más sostenibles de largo plazo.</p>
-      <p>Colombia mantiene su posición competitiva con exportaciones crecientes al 8% interanual. La ventana de oportunidad para Venezuela y Táchira se abre con el reposicionamiento de flujos post-sanciones rusas.</p>
-      <p><strong>📊 Métricas clave del mes:</strong></p>
+      <p><strong>📋 Informe Mensual — ${mesNombre}</strong></p>
+      <p>Visión de mediano y largo plazo: niveles de precio, variación mensual/anual, posición dentro del rango histórico y prospectiva, con foco en decisiones de inversión.</p>
+      ${buildMineralBlock('carbon_energetico', { incluirSemanal: false, incluirMensual: true })}
+      ${buildMineralBlock('carbon_coquizable', { incluirSemanal: false, incluirMensual: true })}
+      ${buildMineralBlock('roca_fosfatica', { incluirSemanal: false, incluirMensual: true })}
+      <p><strong>📊 Contexto regional:</strong></p>
       <ul style="margin:0;padding-left:18px">
-        <li>Carbón Energético: promedio mensual $131.2 USD/Ton</li>
-        <li>Carbón Coquizable: promedio mensual $196.8 USD/Ton</li>
-        <li>Fosfatos: promedio mensual $85.9 USD/Ton</li>
-        <li>Colombia: exportaciones estimadas 8.0 Mt en mayo</li>
+        <li>Colombia mantiene posición competitiva en exportaciones de carbón energético y coquizable</li>
+        <li>Táchira (Venezuela): reservas certificadas de carbón (353.30 Mt) y fosfatos (249.45 Mt) representan potencial exportador hacia el Caribe y Colombia</li>
+        <li>La sustitución de flujos rusos sigue abriendo ventanas comerciales para productores latinoamericanos</li>
       </ul>
+      <p class="mb-0"><strong>💡 Para el inversionista:</strong> evaluar entradas en niveles cercanos al mínimo histórico (mayor margen de seguridad) y considerar coberturas ante alta variación anual en carbón coquizable.</p>
     `;
   }
 
   function generateAlertReport() {
+    if (!precios) return '';
+    const items = [];
+    ['carbon_energetico', 'carbon_coquizable', 'roca_fosfatica'].forEach(key => {
+      const s = getMineralSnapshot(key);
+      if (!s) return;
+      const { d, info } = s;
+      if (d.max_historico && d.precio_actual >= d.max_historico * 0.95) {
+        items.push(`<li><b>${info.icono} ${info.nombre} — RIESGO:</b> precio cerca de su máximo histórico ($${d.max_historico.toFixed(2)}), posible corrección.</li>`);
+      }
+      if (d.min_historico && d.precio_actual <= d.min_historico * 1.05) {
+        items.push(`<li><b>${info.icono} ${info.nombre} — OPORTUNIDAD:</b> precio cerca de su mínimo histórico ($${d.min_historico.toFixed(2)}), posible punto de entrada.</li>`);
+      }
+      if (Math.abs(d.variacion_diaria_pct) >= 2) {
+        items.push(`<li><b>${info.icono} ${info.nombre}:</b> movimiento diario significativo de ${fmtPct(d.variacion_diaria_pct)}, monitorear continuidad de la tendencia.</li>`);
+      }
+    });
+
     return `
       <p><strong>🚨 Alertas Estratégicas — ${new Date().toLocaleDateString('es-ES')}</strong></p>
       <ul style="margin:0;padding-left:18px">
-        <li><b>OPORTUNIDAD:</b> Diferencial Newcastle-Colombia en mínimos de 3 años → margen exportador favorable</li>
-        <li><b>RIESGO:</b> Sobreoferta indonesia puede deprimir precios en Q3 2026</li>
-        <li><b>TÁCHIRA:</b> Precio actual $132/Ton hace rentable reactivación minera con costos &lt;$60/Ton</li>
-        <li><b>FOSFATOS:</b> Restricciones chinas crean escasez temporal en mercado spot</li>
-        <li><b>GEOPOLÍTICA:</b> Monitorear negociaciones Rusia-Occidente que podrían relajar sanciones</li>
+        ${items.join('') || '<li>Sin movimientos atípicos relevantes en la sesión actual.</li>'}
+        <li><b>TÁCHIRA:</b> con el precio actual de carbón energético ($${precios.carbon_energetico.precio_actual.toFixed(2)}/Ton), la reactivación minera resulta atractiva frente a costos de producción estimados por debajo de $60/Ton.</li>
+        <li><b>GEOPOLÍTICA:</b> monitorear negociaciones internacionales que puedan alterar flujos comerciales de carbón y fosfatos hacia/desde Rusia y China.</li>
       </ul>
     `;
   }
