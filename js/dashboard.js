@@ -105,6 +105,19 @@ const OICF = (() => {
       renderLastUpdate();
       setTimeout(() => refreshBtn.querySelector('i')?.classList.remove('fa-spin'), 1000);
       showToast('Datos actualizados', 'success');
+
+      // Disparar Manual Deploy en Render
+      try {
+        const r = await fetch('/api/deploy', { method: 'POST' });
+        const d = await r.json();
+        if (d.ok) {
+          showToast('Despliegue en Render iniciado', 'success');
+        } else if (r.status !== 501) {
+          showToast('No se pudo iniciar el despliegue en Render', 'error');
+        }
+      } catch (e) {
+        console.warn('No se pudo disparar el deploy en Render:', e);
+      }
     });
   }
 

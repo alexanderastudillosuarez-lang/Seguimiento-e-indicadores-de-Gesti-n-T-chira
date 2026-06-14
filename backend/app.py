@@ -79,6 +79,19 @@ def _disparar_actualizacion_async():
             print(f"[ERR] Actualizacion automatica: {e}")
     threading.Thread(target=_run, daemon=True).start()
 
+@app.route("/api/deploy", methods=["POST"])
+def api_deploy():
+    """Dispara un Manual Deploy en Render via Deploy Hook (URL en variable de entorno RENDER_DEPLOY_HOOK_URL)."""
+    hook_url = os.environ.get("RENDER_DEPLOY_HOOK_URL")
+    if not hook_url:
+        return jsonify({"ok": False, "error": "RENDER_DEPLOY_HOOK_URL no configurada en el servidor"}), 501
+    try:
+        import requests
+        resp = requests.post(hook_url, timeout=10)
+        return jsonify({"ok": resp.ok, "status": resp.status_code})
+    except Exception as e:
+        return jsonify({"ok": False, "error": str(e)}), 500
+
 @app.route("/api/precios")
 def api_precios():
     try:
