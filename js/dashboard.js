@@ -106,6 +106,8 @@ const OICF = (() => {
       renderAlerts();
       renderOportunidades();
       renderTachiraPanel();
+      renderObservatorios();
+      buildProductionCharts();
       buildMainChart(window._currentPeriod || '30d');
       await OICF_Noticias.cargarNoticias();
       renderIAPanel();
@@ -385,6 +387,26 @@ const OICF = (() => {
 
     renderColombiaSection('carbon_energetico');
     renderTachiraPanel();
+    renderObservatorios();
+  }
+
+  function renderObservatorios() {
+    if (!precios) return;
+    const ce = precios.carbon_energetico, cc = precios.carbon_coquizable, rf = precios.roca_fosfatica;
+
+    const dcE = document.getElementById('dc-precio-energetico');
+    if (dcE) dcE.textContent = `$${ce.precio_actual.toFixed(2)} USD/Ton`;
+    const dcC = document.getElementById('dc-precio-coquizable');
+    if (dcC) dcC.textContent = `$${cc.precio_actual.toFixed(2)} USD/Ton`;
+
+    const dfP = document.getElementById('df-precio-actual');
+    if (dfP) dfP.textContent = `$${rf.precio_actual.toFixed(2)} USD/Ton`;
+    const dfV = document.getElementById('df-var-mensual');
+    if (dfV) {
+      const v = rf.variacion_mensual_pct;
+      dfV.textContent = `${v >= 0 ? '+' : ''}${v.toFixed(1)}%`;
+      dfV.style.color = v >= 0 ? '#22c55e' : '#ef4444';
+    }
   }
 
   /* ---- Monitor Colombia: específico por mineral ---- */
