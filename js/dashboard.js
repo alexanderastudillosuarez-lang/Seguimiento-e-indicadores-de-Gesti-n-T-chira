@@ -204,6 +204,9 @@ const OICF = (() => {
 
     const fuentesReg  = (precios.fuentes_registro || {});
     const fuentesSync = (precios.fuentes || {});
+    const fechaActualizacion = precios.ultima_actualizacion
+      ? new Date(precios.ultima_actualizacion).toLocaleString('es-ES', { day:'2-digit', month:'short', year:'numeric', hour:'2-digit', minute:'2-digit' })
+      : '—';
 
     kpis.forEach(k => {
       const el = document.getElementById(k.id);
@@ -245,6 +248,9 @@ const OICF = (() => {
             <span class="kpi-badge ${cls}">${arr} Hoy ${Math.abs(d.variacion_diaria).toFixed(2)}</span>
             <span class="kpi-badge ${d.variacion_mensual_pct>=0?'up':'down'}">${d.variacion_mensual_pct>=0?'▲':'▼'} Mes ${Math.abs(d.variacion_mensual_pct).toFixed(1)}%</span>
             <span class="kpi-badge ${d.variacion_anual_pct>=0?'up':'down'}">${d.variacion_anual_pct>=0?'▲':'▼'} Año ${Math.abs(d.variacion_anual_pct).toFixed(1)}%</span>
+          </div>
+          <div class="fs-xs text-muted mb-2" style="opacity:.6">
+            <i class="fas fa-clock"></i> Actualizado: ${fechaActualizacion}
           </div>
           <div class="fs-xs text-muted fw-bold mb-1" style="text-transform:uppercase;letter-spacing:.05em">Precios por fuente</div>
           <div style="max-height:170px;overflow-y:auto">${filasHtml}</div>
