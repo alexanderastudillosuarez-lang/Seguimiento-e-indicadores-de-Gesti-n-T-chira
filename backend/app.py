@@ -95,6 +95,9 @@ def api_deploy():
 @app.route("/api/precios")
 def api_precios():
     try:
+        if request.args.get("force") == "1":
+            from scraper import ScraperOICF
+            ScraperOICF().run_all()
         with open(DATA_DIR / "precios.json", encoding="utf-8") as f:
             data = json.load(f)
         if _precios_desactualizados(data):

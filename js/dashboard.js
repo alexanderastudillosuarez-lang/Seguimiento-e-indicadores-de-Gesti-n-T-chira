@@ -35,10 +35,13 @@ const OICF = (() => {
   }
 
   /* ---- Cargar datos ---- */
-  async function loadData() {
+  async function loadData(forceRefresh = false) {
     try {
+      if (forceRefresh) {
+        await fetch('/api/precios?force=1');
+      }
       const [p, pr] = await Promise.all([
-        fetch('/data/precios.json').then(r => r.json()),
+        fetch('/data/precios.json?_=' + Date.now()).then(r => r.json()),
         fetch('/data/produccion.json').then(r => r.json())
       ]);
       precios = p;
@@ -98,7 +101,7 @@ const OICF = (() => {
     const refreshBtn = document.getElementById('refresh-btn');
     refreshBtn?.addEventListener('click', async () => {
       refreshBtn.querySelector('i')?.classList.add('fa-spin');
-      await loadData();
+      await loadData(true);
       renderKPIs();
       renderAlerts();
       buildMainChart(window._currentPeriod || '30d');
