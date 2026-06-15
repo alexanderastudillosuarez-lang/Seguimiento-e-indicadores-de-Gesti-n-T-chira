@@ -1,6 +1,21 @@
 {
-  "ultima_actualizacion": "2026-06-12T14:32:53.275372",
+  "ultima_actualizacion": "2026-06-15T21:37:52.353773",
   "noticias": [
+    {
+      "id": 1781559472,
+      "titulo": "La demanda de carbón en Asia aumentará en 70 millones de toneladas en 2026 debido al fuerte déficit de GNL.",
+      "resumen": "Noticia del sector minero del carbón publicada por País Minero: La demanda de carbón en Asia aumentará en 70 millones de toneladas en 2026 debido al fuerte déficit de GNL.",
+      "fuente": "País Minero",
+      "fecha": "2026-06-15T21:37:52.352754",
+      "categoria": "carbon",
+      "mineral": "carbon_energetico",
+      "sentimiento": "neutral",
+      "url": "https://www.paisminero.com/index.php?option=com_content&view=article&id=30454:la-demanda-de-carbon-en-asia-aumentara-en-70-millones-de-toneladas-en-2026-debido-al-fuerte-deficit-de-gnl&catid=116&Itemid=10001",
+      "tags": [
+        "carbón",
+        "país minero"
+      ]
+    },
     {
       "id": 1781289173,
       "titulo": "Argus selected to price Japanese coking coal imports - Argus Media",
