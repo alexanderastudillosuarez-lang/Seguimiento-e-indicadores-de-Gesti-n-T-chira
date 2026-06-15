@@ -83,7 +83,7 @@ const OICF_Noticias = (() => {
   /* ---- Cargar noticias ---- */
   async function cargarNoticias() {
     try {
-      const resp = await fetch('/data/noticias.json');
+      const resp = await fetch('/data/noticias.json?_=' + Date.now());
       const data = await resp.json();
       allNews = (data.noticias || []).map(normalizar);
     } catch {

@@ -42,7 +42,7 @@ const OICF = (() => {
       }
       const [p, pr] = await Promise.all([
         fetch('/data/precios.json?_=' + Date.now()).then(r => r.json()),
-        fetch('/data/produccion.json').then(r => r.json())
+        fetch('/data/produccion.json?_=' + Date.now()).then(r => r.json())
       ]);
       precios = p;
       produccion = pr;
@@ -104,7 +104,11 @@ const OICF = (() => {
       await loadData(true);
       renderKPIs();
       renderAlerts();
+      renderOportunidades();
+      renderTachiraPanel();
       buildMainChart(window._currentPeriod || '30d');
+      await OICF_Noticias.cargarNoticias();
+      renderIAPanel();
       renderLastUpdate();
       setTimeout(() => refreshBtn.querySelector('i')?.classList.remove('fa-spin'), 1000);
       showToast('Datos actualizados', 'success');
