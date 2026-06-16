@@ -1,6 +1,21 @@
 {
-  "ultima_actualizacion": "2026-06-15T21:37:52.353773",
+  "ultima_actualizacion": "2026-06-16T21:37:39.412371",
   "noticias": [
+    {
+      "id": 1781645859,
+      "titulo": "Fenalcarbón : ' Consejo de Estado suspende decreto que aumentaba retenciones y autorretenciones al sector productivo. '",
+      "resumen": "Noticia del sector minero del carbón publicada por País Minero: Fenalcarbón : ' Consejo de Estado suspende decreto que aumentaba retenciones y autorretenciones al sector productivo. '",
+      "fuente": "País Minero",
+      "fecha": "2026-06-16T21:37:39.411320",
+      "categoria": "carbon",
+      "mineral": "carbon_energetico",
+      "sentimiento": "neutral",
+      "url": "https://www.paisminero.com/index.php?option=com_content&view=article&id=30312:fenalcarbon-consejo-de-estado-suspende-decreto-que-aumentaba-retenciones-y-autorretenciones-al-sector-productivo-j3&catid=116&Itemid=10001",
+      "tags": [
+        "carbón",
+        "país minero"
+      ]
+    },
     {
       "id": 1781559472,
       "titulo": "La demanda de carbón en Asia aumentará en 70 millones de toneladas en 2026 debido al fuerte déficit de GNL.",
