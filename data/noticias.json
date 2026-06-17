@@ -1,6 +1,36 @@
 {
-  "ultima_actualizacion": "2026-06-16T21:37:39.412371",
+  "ultima_actualizacion": "2026-06-17T19:32:12.396955",
   "noticias": [
+    {
+      "id": 1781724732,
+      "titulo": "FutureCoal lanza un capítulo en África del Sur",
+      "resumen": "Noticia del sector minero del carbón publicada por País Minero: FutureCoal lanza un capítulo en África del Sur",
+      "fuente": "País Minero",
+      "fecha": "2026-06-17T19:32:12.395727",
+      "categoria": "carbon",
+      "mineral": "carbon_energetico",
+      "sentimiento": "neutral",
+      "url": "https://www.paisminero.com/index.php?option=com_content&view=article&id=28758:futurecoal-lanza-un-capitulo-en-africa-del-sur&catid=116&Itemid=10001",
+      "tags": [
+        "carbón",
+        "país minero"
+      ]
+    },
+    {
+      "id": 1781724730,
+      "titulo": "“Acabar la economía del carbón le restaría $38 billones al Producto Interno Bruto” - LaRepublica.co",
+      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxPR21NdUxpR0Y5clhEVmNJZVpKN0hxZEZWbDYwbnBTeFJBZXpmUmdLZ25SaHR5YzM5TnA3Y1VmM2tTdUsyT3p1MC1qSGM0OEthXzJycGRnbUN5TFJ2b3lGR0QyU19DT1Y4cEJ6RndiN2FHSmZROC1YZDFXZS1JLTdTLU43NzBfWjZuUXBXTWtjX3R0ajRiYmtCZk41WFTSAZwBQVVfeXFMTVZVWW",
+      "fuente": "LaRepublica.co",
+      "fecha": "2025-10-17T07:00:00",
+      "categoria": "carbon",
+      "mineral": "carbon_energetico",
+      "sentimiento": "neutral",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPR21NdUxpR0Y5clhEVmNJZVpKN0hxZEZWbDYwbnBTeFJBZXpmUmdLZ25SaHR5YzM5TnA3Y1VmM2tTdUsyT3p1MC1qSGM0OEthXzJycGRnbUN5TFJ2b3lGR0QyU19DT1Y4cEJ6RndiN2FHSmZROC1YZDFXZS1JLTdTLU43NzBfWjZuUXBXTWtjX3R0ajRiYmtCZk41WFTSAZwBQVVfeXFMTVZVWWZrLTloVVJfRWx6MUFUQ3FwcVdFVHRIbkU1d0hzSFlaUnRIbGtjMDZkXzl0QjZjTFd3Nndtams5WngtYWtKSmtEaUFCdmxfeGk2UU1VeFo4WFFMS3FBcDJfMXlFQjZ2cmx6bDNRLWw1YmNHamFIOU9ySEctd1huZ19ZR0dvZ1VzZzRhd3VaM1VvM3ZLMFMzQ3RF?oc=5",
+      "tags": [
+        "mercado",
+        "precio carbón térmico"
+      ]
+    },
     {
       "id": 1781645859,
       "titulo": "Fenalcarbón : ' Consejo de Estado suspende decreto que aumentaba retenciones y autorretenciones al sector productivo. '",
