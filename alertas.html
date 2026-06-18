@@ -9,6 +9,37 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
   <link href="css/dashboard.css" rel="stylesheet">
+  <style>
+    .alerta-card {
+      border-radius: 10px; padding: 14px 16px; margin-bottom: 10px;
+      display: flex; align-items: flex-start; gap: 14px;
+      border-left: 4px solid transparent;
+    }
+    .alerta-card.critica   { border-color:#ef4444; background:rgba(239,68,68,.1); }
+    .alerta-card.warning   { border-color:#f59e0b; background:rgba(245,158,11,.08); }
+    .alerta-card.oportunidad { border-color:#22c55e; background:rgba(34,197,94,.1); }
+    .alerta-card.info      { border-color:#60a5fa; background:rgba(96,165,250,.08); }
+    .alerta-nivel { font-size:.65rem; font-weight:700; padding:2px 8px; border-radius:20px; white-space:nowrap; }
+    .nivel-critica     { background:#ef4444; color:#fff; }
+    .nivel-warning     { background:#f59e0b; color:#000; }
+    .nivel-oportunidad { background:#22c55e; color:#000; }
+    .nivel-info        { background:#60a5fa; color:#000; }
+    .alerta-title  { font-size:.88rem; font-weight:700; margin-bottom:3px; }
+    .alerta-msg    { font-size:.83rem; line-height:1.5; }
+    .alerta-accion { font-size:.78rem; font-weight:600; margin-top:6px; opacity:.85; }
+    .alerta-hora   { font-size:.68rem; opacity:.45; margin-top:3px; }
+    .alerta-icon   { font-size:1.3rem; flex-shrink:0; margin-top:2px; }
+    .senal-card { border-radius:10px; padding:14px; margin-bottom:8px; display:flex; justify-content:space-between; align-items:center; }
+    .senal-compra  { background:rgba(34,197,94,.12); border-left:4px solid #22c55e; }
+    .senal-venta   { background:rgba(239,68,68,.12); border-left:4px solid #ef4444; }
+    .senal-esperar { background:rgba(245,158,11,.10); border-left:4px solid #f59e0b; }
+    .badge-senal { font-size:.72rem; padding:4px 10px; border-radius:20px; font-weight:700; }
+    .stat-row { display:flex; justify-content:space-between; align-items:center; padding:8px 0; border-bottom:1px solid rgba(255,255,255,.07); }
+    body.light-mode .stat-row { border-color:rgba(0,0,0,.07); }
+    .progress-mini { height:6px; border-radius:3px; background:rgba(255,255,255,.1); margin-top:4px; }
+    body.light-mode .progress-mini { background:rgba(0,0,0,.1); }
+    .progress-mini-bar { height:100%; border-radius:3px; }
+  </style>
 </head>
 <body class="dark-mode">
 
@@ -34,7 +65,7 @@
   <button id="sidebar-toggle" class="btn-icon border-0" onclick="document.getElementById('sidebar').classList.toggle('collapsed');document.getElementById('topbar').classList.toggle('sidebar-collapsed');document.getElementById('main-content').classList.toggle('sidebar-collapsed')">
     <i class="fas fa-bars"></i>
   </button>
-  <span class="topbar-title"><i class="fas fa-bell me-2 text-warning"></i>Panel de Alertas</span>
+  <span class="topbar-title"><i class="fas fa-bell me-2 text-warning"></i>Panel de Alertas de Inversión</span>
   <div class="topbar-actions">
     <span class="live-indicator"></span>
     <button class="btn-icon border-0" onclick="document.body.classList.toggle('dark-mode');document.body.classList.toggle('light-mode')"><i class="fas fa-sun"></i></button>
@@ -51,30 +82,44 @@
     </div>
     <div class="card-oicf p-3 mb-4">
       <div class="row g-3">
-        <div class="col-md-3">
-          <label class="form-label-oicf fs-xs text-muted">Alerta Advertencia (%)</label>
-          <input type="number" id="threshold-warn" value="5" min="1" max="50" class="form-control" style="background:#1e293b;color:#e2e8f0;border-color:#1e293b">
+        <div class="col-md-2">
+          <label class="fs-xs text-muted">Advertencia Diaria (%)</label>
+          <input type="number" id="threshold-warn-d" value="3" min="1" max="50" class="form-control" style="background:#1e293b;color:#e2e8f0;border-color:#334155">
         </div>
-        <div class="col-md-3">
-          <label class="form-label-oicf fs-xs text-muted">Alerta Crítica (%)</label>
-          <input type="number" id="threshold-crit" value="10" min="1" max="50" class="form-control" style="background:#1e293b;color:#e2e8f0;border-color:#1e293b">
+        <div class="col-md-2">
+          <label class="fs-xs text-muted">Crítica Diaria (%)</label>
+          <input type="number" id="threshold-crit-d" value="7" min="1" max="50" class="form-control" style="background:#1e293b;color:#e2e8f0;border-color:#334155">
         </div>
-        <div class="col-md-3">
-          <label class="form-label-oicf fs-xs text-muted">Commodity</label>
-          <select id="alert-commodity" class="form-control" style="background:#1e293b;color:#e2e8f0;border-color:#1e293b">
+        <div class="col-md-2">
+          <label class="fs-xs text-muted">Advertencia Semanal (%)</label>
+          <input type="number" id="threshold-warn-w" value="5" min="1" max="50" class="form-control" style="background:#1e293b;color:#e2e8f0;border-color:#334155">
+        </div>
+        <div class="col-md-2">
+          <label class="fs-xs text-muted">Crítica Semanal (%)</label>
+          <input type="number" id="threshold-crit-w" value="10" min="1" max="50" class="form-control" style="background:#1e293b;color:#e2e8f0;border-color:#334155">
+        </div>
+        <div class="col-md-2">
+          <label class="fs-xs text-muted">Commodity</label>
+          <select id="alert-commodity" class="form-control" style="background:#1e293b;color:#e2e8f0;border-color:#334155">
             <option value="todos">Todos</option>
             <option value="carbon_energetico">Carbón Energético</option>
             <option value="carbon_coquizable">Carbón Coquizable</option>
             <option value="roca_fosfatica">Roca Fosfática</option>
           </select>
         </div>
-        <div class="col-md-3 d-flex align-items-end">
-          <button class="btn btn-primary w-100" onclick="evaluarAlertas()">
+        <div class="col-md-2 d-flex align-items-end">
+          <button class="btn btn-primary w-100" id="btn-evaluar" onclick="evaluarAlertas()">
             <i class="fas fa-sync-alt me-2"></i>Evaluar Alertas
           </button>
         </div>
       </div>
     </div>
+
+    <!-- Señales de inversión -->
+    <div class="section-header">
+      <div class="section-title"><span class="dot" style="background:#22c55e"></span>Señales de Inversión</div>
+    </div>
+    <div id="senales-panel" class="mb-4"></div>
 
     <!-- Alertas activas -->
     <div class="section-header">
@@ -83,60 +128,303 @@
     </div>
     <div id="alertas-panel" class="mb-4"></div>
 
+    <!-- Tabla de posición en rango -->
+    <div class="section-header">
+      <div class="section-title"><span class="dot" style="background:#60a5fa"></span>Posición en Rango Histórico</div>
+    </div>
+    <div class="card-oicf p-3 mb-4" id="rango-panel"></div>
+
     <!-- Historial -->
     <div class="section-header">
-      <div class="section-title"><span class="dot"></span>Historial de Alertas (últimas 24h)</div>
+      <div class="section-title"><span class="dot"></span>Historial de Alertas (sesión)</div>
     </div>
     <div class="card-oicf p-3">
-      <div id="historial-alertas"></div>
+      <div id="historial-alertas"><div class="text-muted fs-xs text-center py-3">Evalúa alertas para generar historial.</div></div>
     </div>
+
   </div>
 </main>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script>
-const ALERTAS_DEMO = [
-  { nivel:'info',        icon:'✅', comd:'General',           msg:'Mercados estables. Sin movimientos significativos en las últimas 4 horas.' },
-  { nivel:'warning',     icon:'⚠️', comd:'Carbón Energético', msg:'Variación diaria: -0.93%. Dentro de rango normal. Monitor activo.' },
-  { nivel:'info',        icon:'📊', comd:'Roca Fosfática',    msg:'Precio en zona de soporte $85-90. Tendencia alcista confirmada (+5.4% mensual).' },
-  { nivel:'info',        icon:'🌍', comd:'Carbón Coquizable', msg:'Demanda siderúrgica asiática sostiene precios. Variación +1.09% positiva.' }
+let historial = [];
+let preciosData = null;
+
+const BREAK_EVEN_TACHIRA = 60; // USD/ton
+const MINERALES = [
+  { key:'carbon_energetico',  nombre:'Carbón Energético',  icono:'⚡', unidad:'Newcastle' },
+  { key:'carbon_coquizable',  nombre:'Carbón Coquizable',  icono:'🏭', unidad:'HCC' },
+  { key:'roca_fosfatica',     nombre:'Roca Fosfática',     icono:'🌿', unidad:'68% BPL' }
 ];
 
-const HISTORIAL_DEMO = [
-  { hora:'14:30', nivel:'warning', comd:'Carbón Energético', msg:'Variación intradiaria superó 3% — monitoreando', fecha: hoy() },
-  { hora:'11:00', nivel:'info',    comd:'Roca Fosfática',    msg:'Precio tocó resistencia $88.50', fecha: hoy() },
-  { hora:'08:00', nivel:'info',    comd:'General',           msg:'Apertura de mercados asiáticos sin novedades', fecha: hoy() },
-  { hora:'22:00', nivel:'warning', comd:'Carbón Energético', msg:'Noticias de sobreoferta indonesia presionan precios', fecha: ayer() },
-  { hora:'16:45', nivel:'info',    comd:'Carbón Coquizable', msg:'Acuerdo siderúrgico europeo impulsó precio +1.5%', fecha: ayer() }
-];
+async function cargarPrecios() {
+  try {
+    const r = await fetch('/data/precios.json?_=' + Date.now());
+    preciosData = await r.json();
+  } catch(e) {
+    console.error('Error cargando precios:', e);
+  }
+}
 
-function hoy()  { return new Date().toLocaleDateString('es-ES',{day:'numeric',month:'short'}); }
-function ayer() { const d=new Date(); d.setDate(d.getDate()-1); return d.toLocaleDateString('es-ES',{day:'numeric',month:'short'}); }
+function rangoPos(precio, mn, mx) {
+  if (!mn || !mx || mx <= mn) return 50;
+  return Math.round(((precio - mn) / (mx - mn)) * 100);
+}
 
-function evaluarAlertas() {
+function generarAlertas(filtro, warnD, critD, warnW, critW) {
+  const alertas = [];
+  const ahora = new Date().toLocaleTimeString('es-ES', {hour:'2-digit', minute:'2-digit'});
+
+  MINERALES.forEach(m => {
+    if (filtro !== 'todos' && filtro !== m.key) return;
+    const d = preciosData?.[m.key];
+    if (!d) return;
+
+    const varD   = d.variacion_diaria_pct ?? 0;
+    const varW   = d.variacion_semanal_pct ?? 0;
+    const varM   = d.variacion_mensual_pct ?? 0;
+    const varA   = d.variacion_anual_pct ?? 0;
+    const precio = d.precio_actual ?? 0;
+    const mn     = d.min_historico ?? precio * 0.7;
+    const mx     = d.max_historico ?? precio * 1.3;
+    const pos    = rangoPos(precio, mn, mx);
+
+    // ── CAÍDA CRÍTICA DIARIA ─────────────────────────────────
+    if (varD <= -critD) {
+      alertas.push({
+        nivel:'critica', icono:'🚨', commodity: m.nombre,
+        titulo: `Caída crítica de ${Math.abs(varD).toFixed(2)}% hoy`,
+        msg: `${m.nombre} cayó ${Math.abs(varD).toFixed(2)}% en el día. Precio actual $${precio.toFixed(2)}/Ton (${m.unidad}). Caída semanal acumulada: ${varW.toFixed(1)}%.`,
+        accion: '⚠️ Decisión: Suspender compras inmediatas. Esperar confirmación de soporte antes de entrar al mercado.',
+        hora: ahora
+      });
+    }
+    // ── ALZA CRÍTICA DIARIA ──────────────────────────────────
+    else if (varD >= critD) {
+      alertas.push({
+        nivel:'critica', icono:'📈', commodity: m.nombre,
+        titulo: `Alza crítica de +${varD.toFixed(2)}% hoy`,
+        msg: `${m.nombre} subió ${varD.toFixed(2)}% en el día. Precio actual $${precio.toFixed(2)}/Ton. Movimiento inusual que puede representar pico o aceleración.`,
+        accion: '⚠️ Decisión: Si tiene posición abierta, evalúe toma de ganancias parcial. No comprar en pico.',
+        hora: ahora
+      });
+    }
+    // ── ADVERTENCIA DIARIA ───────────────────────────────────
+    else if (Math.abs(varD) >= warnD) {
+      alertas.push({
+        nivel: varD < 0 ? 'warning' : 'oportunidad',
+        icono: varD < 0 ? '⚠️' : '📊',
+        commodity: m.nombre,
+        titulo: `${varD < 0 ? 'Baja' : 'Alza'} de ${Math.abs(varD).toFixed(2)}% hoy`,
+        msg: `${m.nombre}: $${precio.toFixed(2)}/Ton (${varD >= 0 ? '+' : ''}${varD.toFixed(2)}% hoy, ${varM >= 0 ? '+' : ''}${varM.toFixed(1)}% mes).`,
+        accion: varD < 0
+          ? '📋 Decisión: Monitorear si la baja continúa. Posible punto de entrada si toca soporte histórico.'
+          : '📋 Decisión: Tendencia positiva. Favorece vender contratos spot o exportar stock existente.',
+        hora: ahora
+      });
+    }
+
+    // ── CAÍDA SEMANAL SIGNIFICATIVA ──────────────────────────
+    if (varW <= -warnW && Math.abs(varD) < warnD) {
+      alertas.push({
+        nivel:'warning', icono:'📉', commodity: m.nombre,
+        titulo: `Tendencia bajista semanal: ${varW.toFixed(1)}%`,
+        msg: `${m.nombre} acumula ${Math.abs(varW).toFixed(1)}% de caída en la semana. Precio $${precio.toFixed(2)}/Ton. Variación anual: ${varA.toFixed(1)}%.`,
+        accion: '📋 Decisión: Tendencia negativa de corto plazo. Esperar estabilización antes de comprometer capital nuevo.',
+        hora: ahora
+      });
+    }
+
+    // ── CERCANO A MÍNIMO HISTÓRICO (OPORTUNIDAD) ────────────
+    if (pos <= 20) {
+      alertas.push({
+        nivel:'oportunidad', icono:'🎯', commodity: m.nombre,
+        titulo: `Precio en zona de mínimos: percentil ${pos}% del rango histórico`,
+        msg: `${m.nombre} está en $${precio.toFixed(2)}/Ton, cerca de su mínimo histórico ($${mn.toFixed(2)}/Ton). Máximo histórico: $${mx.toFixed(2)}/Ton. Potencial de recuperación alto.`,
+        accion: '✅ Decisión: Zona de potencial acumulación. Precio por debajo del 20% del rango → señal de posible rebote. Evalúe entrada por tramos.',
+        hora: ahora
+      });
+    }
+
+    // ── CERCANO A MÁXIMO HISTÓRICO (RIESGO) ─────────────────
+    if (pos >= 85) {
+      alertas.push({
+        nivel:'warning', icono:'🔴', commodity: m.nombre,
+        titulo: `Precio en zona de máximos: percentil ${pos}% del rango histórico`,
+        msg: `${m.nombre} está en $${precio.toFixed(2)}/Ton, cerca de su máximo histórico ($${mx.toFixed(2)}/Ton). Riesgo elevado de corrección a la baja.`,
+        accion: '⚠️ Decisión: No es el mejor momento para comprar. Si tiene inventario, considere venta parcial antes de posible corrección.',
+        hora: ahora
+      });
+    }
+
+    // ── BREAK-EVEN TÁCHIRA (SOLO CARBÓN ENERGÉTICO) ─────────
+    if (m.key === 'carbon_energetico') {
+      const margen = precio - BREAK_EVEN_TACHIRA;
+      if (margen > 0) {
+        alertas.push({
+          nivel:'oportunidad', icono:'🏔️', commodity: 'Táchira → Caribe',
+          titulo: `Margen positivo de $${margen.toFixed(0)}/Ton sobre break-even Táchira`,
+          msg: `Precio actual ${m.nombre}: $${precio.toFixed(2)}/Ton vs. break-even Táchira estimado $${BREAK_EVEN_TACHIRA}/Ton. Margen operativo: +${((margen/BREAK_EVEN_TACHIRA)*100).toFixed(0)}%.`,
+          accion: '✅ Decisión: Condiciones favorables para inversión en extracción y exportación desde Táchira hacia puertos del Caribe (Colombia).',
+          hora: ahora
+        });
+      } else {
+        alertas.push({
+          nivel:'critica', icono:'🚫', commodity: 'Táchira — Break-even',
+          titulo: `Precio por debajo del break-even de Táchira`,
+          msg: `${m.nombre} en $${precio.toFixed(2)}/Ton, por debajo del break-even estimado $${BREAK_EVEN_TACHIRA}/Ton. Extracción en Táchira no sería rentable en este nivel.`,
+          accion: '🛑 Decisión: Posponer inversiones en extracción hasta recuperación de precios por encima de $${BREAK_EVEN_TACHIRA}/Ton.',
+          hora: ahora
+        });
+      }
+    }
+
+    // ── FOSFATOS: OPORTUNIDAD MONTE FRESCO → COLOMBIA ───────
+    if (m.key === 'roca_fosfatica' && precio > 80) {
+      alertas.push({
+        nivel:'oportunidad', icono:'🌱', commodity: 'Monte Fresco → Colombia',
+        titulo: `Precio fosfato favorable para exportar desde Táchira`,
+        msg: `Roca Fosfática a $${precio.toFixed(2)}/Ton (CFR). Colombia importa roca fosfática para fertilizantes. Yacimiento Monte Fresco (Mpio. Ayacucho, Táchira) tiene reservas estimadas para abastecer demanda regional.`,
+        accion: '✅ Decisión: Precio internacional justifica inversión en desarrollo del yacimiento Monte Fresco y apertura de ruta logística hacia Colombia.',
+        hora: ahora
+      });
+    }
+  });
+
+  // ── ALERTA GENERAL si mercados estables ─────────────────────
+  if (alertas.filter(a => a.nivel !== 'info').length === 0) {
+    alertas.push({
+      nivel:'info', icono:'✅', commodity:'Mercado General',
+      titulo:'Mercados estables dentro de parámetros normales',
+      msg:`Ningún mineral supera los umbrales configurados (Adv. diaria ≥${warnD}%, Crít. diaria ≥${critD}%). Buen momento para analizar posiciones de mediano plazo.`,
+      accion:'📋 Decisión: Sin señales de emergencia. Revisar prospectiva de 90 días para planificar inversiones.',
+      hora: new Date().toLocaleTimeString('es-ES',{hour:'2-digit',minute:'2-digit'})
+    });
+  }
+
+  return alertas;
+}
+
+function generarSenales() {
+  const senales = [];
+  MINERALES.forEach(m => {
+    const d = preciosData?.[m.key];
+    if (!d) return;
+    const pos    = rangoPos(d.precio_actual, d.min_historico, d.max_historico);
+    const varW   = d.variacion_semanal_pct ?? 0;
+    const varM   = d.variacion_mensual_pct ?? 0;
+    let senal, razon;
+
+    if (pos <= 25 && varW <= 0) {
+      senal = 'COMPRA'; razon = `En mínimos históricos (${pos}%) con tendencia bajista que puede revertir — punto de acumulación.`;
+    } else if (pos >= 80 || (varW >= 5 && pos >= 65)) {
+      senal = 'VENTA/ESPERA'; razon = `Precio en zona alta del rango histórico (${pos}%). Riesgo de corrección.`;
+    } else if (varM >= 3 && pos < 65) {
+      senal = 'COMPRA'; razon = `Tendencia alcista mensual (+${varM.toFixed(1)}%) con precio aún en zona media — momentum positivo.`;
+    } else if (varM <= -5) {
+      senal = 'ESPERAR'; razon = `Caída mensual de ${Math.abs(varM).toFixed(1)}%. Esperar estabilización.`;
+    } else {
+      senal = 'NEUTRO'; razon = `Sin señal clara. Posición de monitoreo.`;
+    }
+    senales.push({ ...m, senal, razon, precio: d.precio_actual, varW, pos });
+  });
+  return senales;
+}
+
+function renderSenales(senales) {
+  const el = document.getElementById('senales-panel');
+  el.innerHTML = senales.map(s => {
+    const cls = s.senal === 'COMPRA' ? 'senal-compra' : s.senal.includes('VENTA') ? 'senal-venta' : 'senal-esperar';
+    const badgeCls = s.senal === 'COMPRA' ? 'bg-success text-white' : s.senal.includes('VENTA') ? 'bg-danger text-white' : 'bg-warning text-dark';
+    return `
+      <div class="senal-card ${cls}">
+        <div>
+          <div style="font-size:.9rem;font-weight:700;margin-bottom:3px">${s.icono} ${s.nombre} — $${s.precio.toFixed(2)}/Ton</div>
+          <div style="font-size:.8rem;opacity:.8">${s.razon}</div>
+        </div>
+        <span class="badge-senal ${badgeCls}">${s.senal}</span>
+      </div>`;
+  }).join('');
+}
+
+function renderRangoHistorico() {
+  const el = document.getElementById('rango-panel');
+  el.innerHTML = MINERALES.map(m => {
+    const d = preciosData?.[m.key];
+    if (!d) return '';
+    const pos = rangoPos(d.precio_actual, d.min_historico, d.max_historico);
+    const color = pos <= 25 ? '#22c55e' : pos >= 75 ? '#ef4444' : '#f59e0b';
+    return `
+      <div class="mb-3">
+        <div class="d-flex justify-content-between align-items-center mb-1">
+          <span style="font-size:.85rem;font-weight:600">${m.icono} ${m.nombre}</span>
+          <span style="font-size:.8rem">$${d.min_historico?.toFixed(2)} <span style="opacity:.4">—</span> <strong style="color:${color}">$${d.precio_actual.toFixed(2)}</strong> <span style="opacity:.4">—</span> $${d.max_historico?.toFixed(2)}</span>
+        </div>
+        <div class="progress-mini">
+          <div class="progress-mini-bar" style="width:${pos}%;background:${color}"></div>
+        </div>
+        <div class="d-flex justify-content-between" style="font-size:.65rem;opacity:.5;margin-top:2px">
+          <span>Mínimo histórico</span><span>Percentil ${pos}%</span><span>Máximo histórico</span>
+        </div>
+      </div>`;
+  }).join('');
+}
+
+async function evaluarAlertas() {
+  const btn = document.getElementById('btn-evaluar');
+  btn.disabled = true;
+  btn.innerHTML = '<i class="fas fa-spinner fa-spin me-2"></i>Evaluando...';
+
+  await cargarPrecios();
+
+  const filtro = document.getElementById('alert-commodity').value;
+  const warnD  = +document.getElementById('threshold-warn-d').value;
+  const critD  = +document.getElementById('threshold-crit-d').value;
+  const warnW  = +document.getElementById('threshold-warn-w').value;
+  const critW  = +document.getElementById('threshold-crit-w').value;
+
+  const alertas = generarAlertas(filtro, warnD, critD, warnW, critW);
+  const senales = generarSenales();
+
+  // Render señales
+  renderSenales(senales);
+
+  // Render alertas
   const panel = document.getElementById('alertas-panel');
-  panel.innerHTML = ALERTAS_DEMO.map(a => `
-    <div class="alert-item ${a.nivel} mb-2">
-      <span class="alert-icon">${a.icon}</span>
+  panel.innerHTML = alertas.map(a => `
+    <div class="alerta-card ${a.nivel}">
+      <div class="alerta-icon">${a.icono}</div>
       <div style="flex:1">
-        <div style="font-size:.82rem;font-weight:600;margin-bottom:2px">${a.comd}</div>
-        <div style="font-size:.85rem">${a.msg}</div>
-        <div style="font-size:.7rem;opacity:.5;margin-top:2px">${new Date().toLocaleTimeString('es-ES')}</div>
+        <div class="d-flex align-items-center gap-2 mb-1">
+          <span class="alerta-nivel nivel-${a.nivel}">${a.nivel.toUpperCase()}</span>
+          <span class="alerta-title">${a.commodity}</span>
+        </div>
+        <div class="alerta-title">${a.titulo}</div>
+        <div class="alerta-msg">${a.msg}</div>
+        <div class="alerta-accion">${a.accion}</div>
+        <div class="alerta-hora"><i class="fas fa-clock me-1"></i>${a.hora}</div>
       </div>
-    </div>
-  `).join('');
-  document.getElementById('alert-count').textContent = ALERTAS_DEMO.length;
+    </div>`).join('');
+  document.getElementById('alert-count').textContent = alertas.filter(a => a.nivel !== 'info').length || alertas.length;
 
-  const hist = document.getElementById('historial-alertas');
-  hist.innerHTML = HISTORIAL_DEMO.map(h => `
+  // Render rango histórico
+  renderRangoHistorico();
+
+  // Agregar al historial
+  alertas.forEach(a => historial.unshift({ ...a, fecha: new Date().toLocaleString('es-ES',{day:'2-digit',month:'short',hour:'2-digit',minute:'2-digit'}) }));
+  const histEl = document.getElementById('historial-alertas');
+  histEl.innerHTML = historial.slice(0, 20).map(h => `
     <div class="stat-row">
       <div style="display:flex;align-items:center;gap:10px">
-        <span class="badge ${h.nivel==='warning'?'bg-warning text-dark':h.nivel==='critical'?'bg-danger':'bg-secondary'}" style="font-size:.65rem">${h.nivel.toUpperCase()}</span>
-        <span class="fs-xs"><strong>${h.comd}</strong> — ${h.msg}</span>
+        <span class="badge nivel-${h.nivel}" style="font-size:.62rem;border-radius:20px;padding:2px 8px">${h.nivel.toUpperCase()}</span>
+        <span class="fs-xs"><strong>${h.commodity}</strong> — ${h.titulo}</span>
       </div>
-      <span class="fs-xs text-muted">${h.fecha} ${h.hora}</span>
-    </div>
-  `).join('');
+      <span class="fs-xs text-muted" style="white-space:nowrap">${h.fecha}</span>
+    </div>`).join('');
+
+  btn.disabled = false;
+  btn.innerHTML = '<i class="fas fa-check me-2"></i>Alertas Actualizadas';
+  setTimeout(() => btn.innerHTML = '<i class="fas fa-sync-alt me-2"></i>Evaluar Alertas', 2000);
 }
 
 document.addEventListener('DOMContentLoaded', evaluarAlertas);
