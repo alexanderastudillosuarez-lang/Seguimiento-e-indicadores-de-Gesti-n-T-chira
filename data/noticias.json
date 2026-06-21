@@ -1,6 +1,36 @@
 {
-  "ultima_actualizacion": "2026-06-17T19:32:12.396955",
+  "ultima_actualizacion": "2026-06-21T16:58:35.217845",
   "noticias": [
+    {
+      "id": 1782061115,
+      "titulo": "Acuerdo en Boyacá pone fin a cinco días de bloqueos y protege páramo de El Cocuy",
+      "resumen": "Noticia del sector minero del carbón publicada por País Minero: Acuerdo en Boyacá pone fin a cinco días de bloqueos y protege páramo de El Cocuy",
+      "fuente": "País Minero",
+      "fecha": "2026-06-21T16:58:35.216489",
+      "categoria": "carbon",
+      "mineral": "carbon_energetico",
+      "sentimiento": "neutral",
+      "url": "https://www.paisminero.com/index.php?option=com_content&view=article&id=29401:acuerdo-en-boyaca-pone-fin-a-cinco-dias-de-bloqueos-y-protege-paramo-de-el-cocuy&catid=116&Itemid=10001",
+      "tags": [
+        "carbón",
+        "país minero"
+      ]
+    },
+    {
+      "id": 1782061107,
+      "titulo": "La crisis que apaga el carbón de Norte de Santander - ELTIEMPO.COM",
+      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxNTGlocEp0ekJjQkJJVXV2WGc5VlpNQzZpMU5BbFdvazVsUERvVUZ6SkN6NWhkZURMdUpZSTNwSEFjTUwydU9mOVpqY2NfbEp4d1dqeVJ2azRsVUwyT0IzLTRsYXo5VjRKbGlLUXBqSEJwRGZZTFpiLWZHbk51MnFvR192QmZLQzU1QnRFMXZDbGh2NVFzQmhiaUlkV0pad3FKeDRXMNIBqgFBVV",
+      "fuente": "ELTIEMPO.COM",
+      "fecha": "2026-02-27T08:00:00",
+      "categoria": "carbon",
+      "mineral": "carbon_energetico",
+      "sentimiento": "neutral",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNTGlocEp0ekJjQkJJVXV2WGc5VlpNQzZpMU5BbFdvazVsUERvVUZ6SkN6NWhkZURMdUpZSTNwSEFjTUwydU9mOVpqY2NfbEp4d1dqeVJ2azRsVUwyT0IzLTRsYXo5VjRKbGlLUXBqSEJwRGZZTFpiLWZHbk51MnFvR192QmZLQzU1QnRFMXZDbGh2NVFzQmhiaUlkV0pad3FKeDRXMNIBqgFBVV95cUxNOW9yS01scjBrWGZfc3QwLVg5Qkw0YTJodDdhaDZZSEhpUy1LRzZRR3IwOTFHSnNsclI3c2NQakdDMnZNWTVBM0hqYVpoeTJCX1E3SDl6LWtmU0U2X3N0MjUxbmx3ZThEMWpXcnpWTUFjb21CUHJOMXpNOVNqUXkyN2p0ZV9TVVdGN0xYblRkQ2RWV2wzS01sdzlZVXFtZ0QtSnByNElyRGJKUQ?oc=5",
+      "tags": [
+        "mercado",
+        "precio carbón térmico"
+      ]
+    },
     {
       "id": 1781724732,
       "titulo": "FutureCoal lanza un capítulo en África del Sur",
