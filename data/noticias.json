@@ -1,6 +1,36 @@
 {
-  "ultima_actualizacion": "2026-06-21T16:58:35.217845",
+  "ultima_actualizacion": "2026-06-22T21:28:51.557696",
   "noticias": [
+    {
+      "id": 1782163731,
+      "titulo": "Cerrejón se defiende de acusaciones del MinTrabajo sobre exportaciones a Israel",
+      "resumen": "Noticia del sector minero del carbón publicada por País Minero: Cerrejón se defiende de acusaciones del MinTrabajo sobre exportaciones a Israel",
+      "fuente": "País Minero",
+      "fecha": "2026-06-22T21:28:51.556558",
+      "categoria": "carbon",
+      "mineral": "carbon_energetico",
+      "sentimiento": "neutral",
+      "url": "https://www.paisminero.com/index.php?option=com_content&view=article&id=29341:cerrejon-se-defiende-de-acusaciones-del-mintrabajo-sobre-exportaciones-a-israel&catid=116&Itemid=10001",
+      "tags": [
+        "carbón",
+        "país minero"
+      ]
+    },
+    {
+      "id": 1782163724,
+      "titulo": "Russia becomes India's third-largest coal supplier in July, Coalmint data shows - Reuters",
+      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMiygFBVV95cUxQX0RibjQ4aTNtVVF5U3NQM25rUktSblhpVlNSdWUwM19fVnNYNmZ3c2RqX1diTmdRdWNKeElSNjY3UmxSNmNGV2J4MGF6VXZiUWFOQ0ZETUpmc3dOXzV0aDRhNkdqcFBDTUdiVldIeU9TbzRxVzFrTFNBSUR6SDYteTdJSlB5bGdKSEVUQ2NfekJWa1p5VHJmTW1neG1LcHA3a25ibDJHaG1meF",
+      "fuente": "Reuters",
+      "fecha": "2022-08-03T07:00:00",
+      "categoria": "carbon",
+      "mineral": "carbon_energetico",
+      "sentimiento": "neutral",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQX0RibjQ4aTNtVVF5U3NQM25rUktSblhpVlNSdWUwM19fVnNYNmZ3c2RqX1diTmdRdWNKeElSNjY3UmxSNmNGV2J4MGF6VXZiUWFOQ0ZETUpmc3dOXzV0aDRhNkdqcFBDTUdiVldIeU9TbzRxVzFrTFNBSUR6SDYteTdJSlB5bGdKSEVUQ2NfekJWa1p5VHJmTW1neG1LcHA3a25ibDJHaG1meFRwZVVTSld5MkhFek1kcklEdHpiQ29MTThheG92bVR3?oc=5",
+      "tags": [
+        "mercado",
+        "thermal coal price"
+      ]
+    },
     {
       "id": 1782061115,
       "titulo": "Acuerdo en Boyacá pone fin a cinco días de bloqueos y protege páramo de El Cocuy",
