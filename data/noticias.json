@@ -1,6 +1,36 @@
 {
-  "ultima_actualizacion": "2026-06-22T21:28:51.557696",
+  "ultima_actualizacion": "2026-06-23T17:32:05.700041",
   "noticias": [
+    {
+      "id": 1782235925,
+      "titulo": "El carbón retoma protagonismo en el sistema eléctrico: el respaldo clave ante el riesgo de el niño en Colombia",
+      "resumen": "Noticia del sector minero del carbón publicada por País Minero: El carbón retoma protagonismo en el sistema eléctrico: el respaldo clave ante el riesgo de el niño en Colombia",
+      "fuente": "País Minero",
+      "fecha": "2026-06-23T17:32:05.699019",
+      "categoria": "carbon",
+      "mineral": "carbon_energetico",
+      "sentimiento": "neutral",
+      "url": "https://www.paisminero.com/index.php?option=com_content&view=article&id=30480:el-carbon-retoma-protagonismo-en-el-sistema-electrico-el-respaldo-clave-ante-el-riesgo-de-el-nino-en-colombia&catid=116&Itemid=10001",
+      "tags": [
+        "carbón",
+        "país minero"
+      ]
+    },
+    {
+      "id": 1782235917,
+      "titulo": "Cómo invertir en carbón desde España: acciones, futuros y el debate ESG - Rankia",
+      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxNLTZrZTRUVGdMT0Vydi1vYUdIcTRBZUw5Q0dXN2pONVpvSXFaZW9sRXh1Ukl3SjJkSUxyamdyanVKVWI5bkl2TmF5NGdyR3ZHMkQtTFJINTZlN2pPc2xjczBGU1I3aXlvcU1jNnZvMWJMZ2tTVjAzZ3JIdG9vRGtSYVBnQjc0ZFF0NmdUWU1BRG1nLXF6dHZSSHJnSWtPTU1hOGNtb2w5RVU4Qz",
+      "fuente": "Rankia",
+      "fecha": "2026-06-07T07:00:00",
+      "categoria": "carbon",
+      "mineral": "carbon_energetico",
+      "sentimiento": "neutral",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNLTZrZTRUVGdMT0Vydi1vYUdIcTRBZUw5Q0dXN2pONVpvSXFaZW9sRXh1Ukl3SjJkSUxyamdyanVKVWI5bkl2TmF5NGdyR3ZHMkQtTFJINTZlN2pPc2xjczBGU1I3aXlvcU1jNnZvMWJMZ2tTVjAzZ3JIdG9vRGtSYVBnQjc0ZFF0NmdUWU1BRG1nLXF6dHZSSHJnSWtPTU1hOGNtb2w5RVU4QzA?oc=5",
+      "tags": [
+        "mercado",
+        "precio carbón térmico"
+      ]
+    },
     {
       "id": 1782163731,
       "titulo": "Cerrejón se defiende de acusaciones del MinTrabajo sobre exportaciones a Israel",
