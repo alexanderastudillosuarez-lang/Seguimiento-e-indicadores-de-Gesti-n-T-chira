@@ -1,6 +1,21 @@
 {
-  "ultima_actualizacion": "2026-06-23T17:32:05.700041",
+  "ultima_actualizacion": "2026-06-24T18:13:34.961532",
   "noticias": [
+    {
+      "id": 1782324814,
+      "titulo": "Deindustrialization in Ukraine and the EU - GMK Center",
+      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTE80TENEX1U2TTdwR3ZWR0prR25qc3BqcDJZdzhUbmYzY2FrcWlSbVljSE1XNlJIS1dqVzU5aW5TOW1LcTJwUEFNZG5YdC1IcFR1bHJRR3JaV0FfdFBJdzU0ZlBPNkJKd2puUWRqTjlVS21FeWhCVWRvSVFB0gF_QVVfeXFMUEpuZ09yaW1ycjVfdkxrSmF4Umd0WGNGS3lNUXpTRU5xdXNWLUE0UU",
+      "fuente": "GMK Center",
+      "fecha": "2025-11-27T08:00:00",
+      "categoria": "carbon",
+      "mineral": "carbon_coquizable",
+      "sentimiento": "neutral",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE80TENEX1U2TTdwR3ZWR0prR25qc3BqcDJZdzhUbmYzY2FrcWlSbVljSE1XNlJIS1dqVzU5aW5TOW1LcTJwUEFNZG5YdC1IcFR1bHJRR3JaV0FfdFBJdzU0ZlBPNkJKd2puUWRqTjlVS21FeWhCVWRvSVFB0gF_QVVfeXFMUEpuZ09yaW1ycjVfdkxrSmF4Umd0WGNGS3lNUXpTRU5xdXNWLUE0UUdOandPMTZuR0ExSm5fQ19IRWt6a21jRHZVM1k1NnRqNWJTc0ZLLVNsT0JBLXNSZTV2dkZmNkJCQXVpM21IaWZkU0NEZnJMWmRxV1ZablhINA?oc=5",
+      "tags": [
+        "mercado",
+        "coking coal price"
+      ]
+    },
     {
       "id": 1782235925,
       "titulo": "El carbón retoma protagonismo en el sistema eléctrico: el respaldo clave ante el riesgo de el niño en Colombia",
