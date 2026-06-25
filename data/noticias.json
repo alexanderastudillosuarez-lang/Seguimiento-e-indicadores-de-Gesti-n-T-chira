@@ -1,6 +1,21 @@
 {
-  "ultima_actualizacion": "2026-06-24T18:13:34.961532",
+  "ultima_actualizacion": "2026-06-25T18:35:46.727161",
   "noticias": [
+    {
+      "id": 1782412546,
+      "titulo": "JSW Steel takes over BCCL Dugdha Coal Washery in India's first asset monetization - Yieh Corp.",
+      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxQTXpaSll2Rnk2M1dudEFvUFU2NF9PSFlDZThvc1RDWTRkS09IUHhaVjllRzBFTWgtX1RKQ080RmUzZHRiU2REYUhnemFBLU50RTMxT1VJMWN0VFl1YlI4Wm56RUpab0VkMjdVMVNWa3dSTEFLOHhoVS1GOVNOLS1rR1luU2VTdkdrbWNRZ3hhVm1qOTVja2N2ZWVZSDBCM3VsQ0J2QTBwUllmQU",
+      "fuente": "Yieh Corp.",
+      "fecha": "2026-06-23T13:41:43",
+      "categoria": "carbon",
+      "mineral": "carbon_coquizable",
+      "sentimiento": "neutral",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQTXpaSll2Rnk2M1dudEFvUFU2NF9PSFlDZThvc1RDWTRkS09IUHhaVjllRzBFTWgtX1RKQ080RmUzZHRiU2REYUhnemFBLU50RTMxT1VJMWN0VFl1YlI4Wm56RUpab0VkMjdVMVNWa3dSTEFLOHhoVS1GOVNOLS1rR1luU2VTdkdrbWNRZ3hhVm1qOTVja2N2ZWVZSDBCM3VsQ0J2QTBwUllmQU9ya0JOWVJR?oc=5",
+      "tags": [
+        "mercado",
+        "coking coal price"
+      ]
+    },
     {
       "id": 1782324814,
       "titulo": "Deindustrialization in Ukraine and the EU - GMK Center",
