@@ -1,6 +1,36 @@
 {
-  "ultima_actualizacion": "2026-06-25T18:35:46.727161",
+  "ultima_actualizacion": "2026-06-26T17:23:26.389448",
   "noticias": [
+    {
+      "id": 1782494606,
+      "titulo": "Fenalcarbón destaca la fortaleza institucional de Colombia tras conocerse los resultados preliminares de las elecciones presidenciales",
+      "resumen": "Noticia del sector minero del carbón publicada por País Minero: Fenalcarbón destaca la fortaleza institucional de Colombia tras conocerse los resultados preliminares de las elecciones presidenciales",
+      "fuente": "País Minero",
+      "fecha": "2026-06-26T17:23:26.388146",
+      "categoria": "carbon",
+      "mineral": "carbon_energetico",
+      "sentimiento": "neutral",
+      "url": "https://www.paisminero.com/index.php?option=com_content&view=article&id=30508:fenalcarbon-destaca-la-fortaleza-institucional-de-colombia-tras-conocerse-los-resultados-preliminares-de-las-elecciones-presidenciales&catid=116&Itemid=10001",
+      "tags": [
+        "carbón",
+        "país minero"
+      ]
+    },
+    {
+      "id": 1782494598,
+      "titulo": "El carbón vuelve a subir: ¿qué pasa y por qué Colombia y Norte de Santander no lo aprovechan? - laopinion.co",
+      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxQaE9FZ1VkMnB1bTF6QnpvNE8tT2dEblE3UjdqM2dKRVB1WlN5cnJPQ3ZWSC1sSXQwa2VJNGhZa1RZOHEwQkNUTE1uVVNSZVpaNDVQMkhudnNnNV9ab042YkpyNDVGNHg2NWc4cHFqendQeVZxdWhrd3RRLVZ5RU9vSlhUSzV3TXJsdXJzUjRhakhaQlNrZHNaa09oNm5EY1B1WWdNN2hxaDkzM0",
+      "fuente": "laopinion.co",
+      "fecha": "2026-04-30T07:00:00",
+      "categoria": "carbon",
+      "mineral": "carbon_energetico",
+      "sentimiento": "neutral",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQaE9FZ1VkMnB1bTF6QnpvNE8tT2dEblE3UjdqM2dKRVB1WlN5cnJPQ3ZWSC1sSXQwa2VJNGhZa1RZOHEwQkNUTE1uVVNSZVpaNDVQMkhudnNnNV9ab042YkpyNDVGNHg2NWc4cHFqendQeVZxdWhrd3RRLVZ5RU9vSlhUSzV3TXJsdXJzUjRhakhaQlNrZHNaa09oNm5EY1B1WWdNN2hxaDkzM0oxUG9peHFIRGN2RXQ3Znc?oc=5",
+      "tags": [
+        "mercado",
+        "precio carbón térmico"
+      ]
+    },
     {
       "id": 1782412546,
       "titulo": "JSW Steel takes over BCCL Dugdha Coal Washery in India's first asset monetization - Yieh Corp.",
