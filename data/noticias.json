@@ -1,6 +1,36 @@
 {
-  "ultima_actualizacion": "2026-06-26T17:23:26.389448",
+  "ultima_actualizacion": "2026-06-27T15:50:56.913129",
   "noticias": [
+    {
+      "id": 1782575456,
+      "titulo": "Trump planea invertir US$700 millones en la construcción de centrales de carbón",
+      "resumen": "Noticia del sector minero del carbón publicada por País Minero: Trump planea invertir US$700 millones en la construcción de centrales de carbón",
+      "fuente": "País Minero",
+      "fecha": "2026-06-27T15:50:56.911888",
+      "categoria": "carbon",
+      "mineral": "carbon_energetico",
+      "sentimiento": "neutral",
+      "url": "https://www.paisminero.com/index.php?option=com_content&view=article&id=30434:trump-planea-invertir-us-700-millones-en-la-construccion-de-centrales-de-carbon&catid=116&Itemid=10001",
+      "tags": [
+        "carbón",
+        "país minero"
+      ]
+    },
+    {
+      "id": 1782575449,
+      "titulo": "Price to book forward de Bowen Coking Coal Ltd – ASX:BCB - TradingView",
+      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxOajZSYWxwMHlmbzg3cERJZGdQbl9MSi13T1JnazNNcEw0aXdZN2ppMGpZcGdOTmpBN0JFUGhPdEF3LXktN01LMVMwbWFXdEV6SjZ0Sk5LTDlKNUNFTzhnUm41Q09hVWJuVzhiYUxuSktNbWZzQkVSX3IxbFVYNHlnX3RERlFPRHJnazVUYUExN3BMbXhrb0E?oc=5\" target=\"_blank\">Pric",
+      "fuente": "TradingView",
+      "fecha": "2026-06-27T06:22:24",
+      "categoria": "carbon",
+      "mineral": "carbon_coquizable",
+      "sentimiento": "neutral",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOajZSYWxwMHlmbzg3cERJZGdQbl9MSi13T1JnazNNcEw0aXdZN2ppMGpZcGdOTmpBN0JFUGhPdEF3LXktN01LMVMwbWFXdEV6SjZ0Sk5LTDlKNUNFTzhnUm41Q09hVWJuVzhiYUxuSktNbWZzQkVSX3IxbFVYNHlnX3RERlFPRHJnazVUYUExN3BMbXhrb0E?oc=5",
+      "tags": [
+        "mercado",
+        "coking coal price"
+      ]
+    },
     {
       "id": 1782494606,
       "titulo": "Fenalcarbón destaca la fortaleza institucional de Colombia tras conocerse los resultados preliminares de las elecciones presidenciales",
