@@ -1,6 +1,21 @@
 {
-  "ultima_actualizacion": "2026-06-27T15:50:56.913129",
+  "ultima_actualizacion": "2026-06-28T15:54:11.832858",
   "noticias": [
+    {
+      "id": 1782662051,
+      "titulo": "Industrialización de roca fosfórica en Sechura podría movilizar US$ 2.000 millones en inversiones - Energiminas",
+      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMizAFBVV95cUxPNUM4VzRFOFJJejFzM2t5eG9lVnlVTV9IbEVDSUFUTmw0OU9MNDdoMTc0NU9USWkxRFRPa1pBMERKRklRZklyWkNLczZHUUljc3JDS0RyemExUlcxZDhVY0hiN1JWQkptRWZ3cUNjMGRqZGR1UE1WdWNVZFFFdHBxbjBXbUxtaWRjQVg2VnhlNV9OcWxvakNNUVJBX0N2ZXNzUEYwX1EwRUpBLW",
+      "fuente": "Energiminas",
+      "fecha": "2025-06-30T07:00:00",
+      "categoria": "fosfatos",
+      "mineral": "roca_fosfatica",
+      "sentimiento": "neutral",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPNUM4VzRFOFJJejFzM2t5eG9lVnlVTV9IbEVDSUFUTmw0OU9MNDdoMTc0NU9USWkxRFRPa1pBMERKRklRZklyWkNLczZHUUljc3JDS0RyemExUlcxZDhVY0hiN1JWQkptRWZ3cUNjMGRqZGR1UE1WdWNVZFFFdHBxbjBXbUxtaWRjQVg2VnhlNV9OcWxvakNNUVJBX0N2ZXNzUEYwX1EwRUpBLWF1aTdSTWJ2eGpNMU1HQW9CZ1NEbGkxZUU5S2htLVZSb2I?oc=5",
+      "tags": [
+        "mercado",
+        "roca fosfática precio"
+      ]
+    },
     {
       "id": 1782575456,
       "titulo": "Trump planea invertir US$700 millones en la construcción de centrales de carbón",
