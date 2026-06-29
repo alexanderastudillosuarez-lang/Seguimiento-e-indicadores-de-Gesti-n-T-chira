@@ -1,6 +1,36 @@
 {
-  "ultima_actualizacion": "2026-06-28T15:54:11.832858",
+  "ultima_actualizacion": "2026-06-29T18:31:14.517412",
   "noticias": [
+    {
+      "id": 1782757874,
+      "titulo": "China no renuncia al carbón a pesar de sus objetivos de energía verde.",
+      "resumen": "Noticia del sector minero del carbón publicada por País Minero: China no renuncia al carbón a pesar de sus objetivos de energía verde.",
+      "fuente": "País Minero",
+      "fecha": "2026-06-29T18:31:14.516276",
+      "categoria": "carbon",
+      "mineral": "carbon_energetico",
+      "sentimiento": "neutral",
+      "url": "https://www.paisminero.com/index.php?option=com_content&view=article&id=30540:china-no-renuncia-al-carbon-a-pesar-de-sus-objetivos-de-energia-verde&catid=116&Itemid=10001",
+      "tags": [
+        "carbón",
+        "país minero"
+      ]
+    },
+    {
+      "id": 1782757866,
+      "titulo": "China’s Richest Regions Cut Electricity Prices to Protect Industries - Bloomberg.com",
+      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMiuwFBVV95cUxQQjlCSTFRSzFQWk5iZDVrSlpNTi1aUU9Gd2RBbnRJa3NmczVFNXpnX3RqeFNIVUYtZHJCTDJxaWtMRnRYVDRlZTFoQkY0WVA3dG8ybmcxcFAyMWp2cXVVaFZvUldwX1JYYWs5SWtYYk1FajhqWGhDNnUwU3NuLVBKT29RZDNkSUxGOHRVYjhSTDY4a0VZczd3VzdwQWp0WjRTSDJoTkszaW1iNj",
+      "fuente": "Bloomberg.com",
+      "fecha": "2025-01-07T08:00:00",
+      "categoria": "carbon",
+      "mineral": "carbon_energetico",
+      "sentimiento": "neutral",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQQjlCSTFRSzFQWk5iZDVrSlpNTi1aUU9Gd2RBbnRJa3NmczVFNXpnX3RqeFNIVUYtZHJCTDJxaWtMRnRYVDRlZTFoQkY0WVA3dG8ybmcxcFAyMWp2cXVVaFZvUldwX1JYYWs5SWtYYk1FajhqWGhDNnUwU3NuLVBKT29RZDNkSUxGOHRVYjhSTDY4a0VZczd3VzdwQWp0WjRTSDJoTkszaW1iNjVOSmhSdVpGQ0lzeDRrY21F?oc=5",
+      "tags": [
+        "mercado",
+        "thermal coal price"
+      ]
+    },
     {
       "id": 1782662051,
       "titulo": "Industrialización de roca fosfórica en Sechura podría movilizar US$ 2.000 millones en inversiones - Energiminas",
