@@ -1,6 +1,21 @@
 {
-  "ultima_actualizacion": "2026-06-29T18:31:14.517412",
+  "ultima_actualizacion": "2026-07-02T17:14:37.581541",
   "noticias": [
+    {
+      "id": 1783012477,
+      "titulo": "Precio del Carbón de Coque: Noticias y Pronósticos - FocusEconomics",
+      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTFBuV3puMnJxRWl6ZE1oc2J2RWUtSUhia1dLd283WDZMZ3lRbXFleGYxZ0xNYkFsZE0ycm9QYzVRWnNIVlp3OWNEcFNsTVZfYno1YS0teTRpMkxWVkNnZWkwVU45WVlxR3F0T3dDbEV5VHo3cDBTT2c?oc=5\" target=\"_blank\">Precio del Carbón de Coque: Noticias y Pronóstic",
+      "fuente": "FocusEconomics",
+      "fecha": "2024-03-16T00:43:58",
+      "categoria": "carbon",
+      "mineral": "carbon_coquizable",
+      "sentimiento": "neutral",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBuV3puMnJxRWl6ZE1oc2J2RWUtSUhia1dLd283WDZMZ3lRbXFleGYxZ0xNYkFsZE0ycm9QYzVRWnNIVlp3OWNEcFNsTVZfYno1YS0teTRpMkxWVkNnZWkwVU45WVlxR3F0T3dDbEV5VHo3cDBTT2c?oc=5",
+      "tags": [
+        "mercado",
+        "coking coal price"
+      ]
+    },
     {
       "id": 1782757874,
       "titulo": "China no renuncia al carbón a pesar de sus objetivos de energía verde.",
