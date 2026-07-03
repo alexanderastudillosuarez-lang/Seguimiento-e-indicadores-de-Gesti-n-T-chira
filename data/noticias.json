@@ -1,6 +1,21 @@
 {
-  "ultima_actualizacion": "2026-07-02T17:14:37.581541",
+  "ultima_actualizacion": "2026-07-03T16:16:32.110893",
   "noticias": [
+    {
+      "id": 1783095392,
+      "titulo": "Pozo Azul, Distrito Regional de Manejo Integrado - laopinion.co",
+      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMihgFBVV95cUxPNkptZHZsR2lUc2dLdWVIR1JLZ0dCZkFMTS1XUThVMFI2T1hPOHR1T0p4VTQzZ0J0dnNYTGFOci1pVFQzc3J2R2ZQOGw1UzlSZVRUWm9WMl9FSDduZktJQTRSSmtXY2tJM0FxQ0JKZnhDam1yZFM2cjZ2NE9XOG93YWIwaWVHdw?oc=5\" target=\"_blank\">Pozo Azul, Distrito Regio",
+      "fuente": "laopinion.co",
+      "fecha": "2020-02-11T08:00:00",
+      "categoria": "geopolitica",
+      "mineral": "carbon_energetico",
+      "sentimiento": "neutral",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPNkptZHZsR2lUc2dLdWVIR1JLZ0dCZkFMTS1XUThVMFI2T1hPOHR1T0p4VTQzZ0J0dnNYTGFOci1pVFQzc3J2R2ZQOGw1UzlSZVRUWm9WMl9FSDduZktJQTRSSmtXY2tJM0FxQ0JKZnhDam1yZFM2cjZ2NE9XOG93YWIwaWVHdw?oc=5",
+      "tags": [
+        "mercado",
+        "site:laopinion.co minería carbón Táchira"
+      ]
+    },
     {
       "id": 1783012477,
       "titulo": "Precio del Carbón de Coque: Noticias y Pronósticos - FocusEconomics",
