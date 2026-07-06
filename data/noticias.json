@@ -1,6 +1,21 @@
 {
-  "ultima_actualizacion": "2026-07-05T15:49:41.519304",
+  "ultima_actualizacion": "2026-07-06T18:26:59.998805",
   "noticias": [
+    {
+      "id": 1783362419,
+      "titulo": "Venezuela inaugura complejo para la explotación de carbón a escasos metros de Cúcuta - laopinion.co",
+      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxNanZzZW5oRHNEY0xhajFTY3pFVUNYa2RJWTdXQjc2Q05HYlBKbUxiUVlyVFBzLXpoOVNzWm9IZzZla2FWZW0tSS04cjZ3Sy1WNk1McnBSSXJNTHpFTlZuUGRHQ1hsNElUa2ZCMC1XWDVqb3d0eWRmYmh3bERjVkRCUFJ6TTBWZzh6RDY2VEFoUURZRk9zWnJ0LXRLa1d5b0lDaW1SREhlOGd4MD",
+      "fuente": "laopinion.co",
+      "fecha": "2024-10-04T07:00:00",
+      "categoria": "geopolitica",
+      "mineral": "carbon_energetico",
+      "sentimiento": "neutral",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNanZzZW5oRHNEY0xhajFTY3pFVUNYa2RJWTdXQjc2Q05HYlBKbUxiUVlyVFBzLXpoOVNzWm9IZzZla2FWZW0tSS04cjZ3Sy1WNk1McnBSSXJNTHpFTlZuUGRHQ1hsNElUa2ZCMC1XWDVqb3d0eWRmYmh3bERjVkRCUFJ6TTBWZzh6RDY2VEFoUURZRk9zWnJ0LXRLa1d5b0lDaW1SREhlOGd4MDM1ZTJaanNn?oc=5",
+      "tags": [
+        "mercado",
+        "minería carbón Táchira Venezuela"
+      ]
+    },
     {
       "id": 1783266581,
       "titulo": "China’s Purified Phosphoric Acid Market | Non-Fertilizer Demand & Price Insights - Argus Media",
