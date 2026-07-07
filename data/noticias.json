@@ -1,6 +1,21 @@
 {
-  "ultima_actualizacion": "2026-07-06T18:26:59.998805",
+  "ultima_actualizacion": "2026-07-07T13:23:23.194363",
   "noticias": [
+    {
+      "id": 1783430603,
+      "titulo": "Italia registra un descenso en la producción de energía renovable en enero de 2025. - Energía Estratégica",
+      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMiZkFVX3lxTE5aNUMwMENDaURmX3dYelhCM2VyaVotcXUyYzVfVDhCbzhTX2dTN3YwTjU3NjQxVUhGdmtseTRtcEFYb1ZLR1FkLVMzQmhkRzgxR2hxcFlHOFNzSXhDeXRiTk53eG9vdw?oc=5\" target=\"_blank\">Italia registra un descenso en la producción de energía renovable en ",
+      "fuente": "Energía Estratégica",
+      "fecha": "2025-02-18T08:00:00",
+      "categoria": "carbon",
+      "mineral": "carbon_energetico",
+      "sentimiento": "neutral",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5aNUMwMENDaURmX3dYelhCM2VyaVotcXUyYzVfVDhCbzhTX2dTN3YwTjU3NjQxVUhGdmtseTRtcEFYb1ZLR1FkLVMzQmhkRzgxR2hxcFlHOFNzSXhDeXRiTk53eG9vdw?oc=5",
+      "tags": [
+        "mercado",
+        "thermal coal price"
+      ]
+    },
     {
       "id": 1783362419,
       "titulo": "Venezuela inaugura complejo para la explotación de carbón a escasos metros de Cúcuta - laopinion.co",
