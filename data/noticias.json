@@ -1,6 +1,21 @@
 {
-  "ultima_actualizacion": "2026-07-07T13:23:23.194363",
+  "ultima_actualizacion": "2026-07-08T12:24:23.463280",
   "noticias": [
+    {
+      "id": 1783513463,
+      "titulo": "Price to earnings forward de Shanxi Coking Coal Energy Group Co., Ltd Class A – SZSE:000983 - TradingView",
+      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxOXzZXSXZ0eXJid3FiMHRobWdLWWZXSXN0WTE1V0kxb3VSUlN3RURiMzI4RXlPaVEwb0F3X2NoY3NTazZRd1BYOHV0SHZwb3dHQWFrZHY2LW5YZ2c1VC1mY2NwVXl3eDBuWlNkeWc4RGRGUDJpYXZCUmRPZWwxX1UxUDBfYkZQSnNMZUhRbGN4UmZsVVJCQ1JoR09HZ0JRdjRQ?oc=5\" target=",
+      "fuente": "TradingView",
+      "fecha": "2026-06-27T07:09:09",
+      "categoria": "carbon",
+      "mineral": "carbon_coquizable",
+      "sentimiento": "neutral",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOXzZXSXZ0eXJid3FiMHRobWdLWWZXSXN0WTE1V0kxb3VSUlN3RURiMzI4RXlPaVEwb0F3X2NoY3NTazZRd1BYOHV0SHZwb3dHQWFrZHY2LW5YZ2c1VC1mY2NwVXl3eDBuWlNkeWc4RGRGUDJpYXZCUmRPZWwxX1UxUDBfYkZQSnNMZUhRbGN4UmZsVVJCQ1JoR09HZ0JRdjRQ?oc=5",
+      "tags": [
+        "mercado",
+        "coking coal price"
+      ]
+    },
     {
       "id": 1783430603,
       "titulo": "Italia registra un descenso en la producción de energía renovable en enero de 2025. - Energía Estratégica",
