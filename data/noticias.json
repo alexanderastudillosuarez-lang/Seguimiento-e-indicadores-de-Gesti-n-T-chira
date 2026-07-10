@@ -1,6 +1,21 @@
 {
-  "ultima_actualizacion": "2026-07-08T12:24:23.463280",
+  "ultima_actualizacion": "2026-07-10T13:15:34.487883",
   "noticias": [
+    {
+      "id": 1783689334,
+      "titulo": "Venezuela plantea exportación de carbón a Colombia a través de frontera de Táchira - LaRepublica.co",
+      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMiywFBVV95cUxPUEtXUzMwQkFuTGd6TklHVWJ2SzFZSEhjdWVGWjd1Q3c0UDQzY2VPVzVzd3VLelIyMXZxbEhIb0JMcDRITXdpRkhON2NxNFh3bXE1NVVLbHViNXVZRVlTNkhBVDVSa2NhcGpieWF6X1NFY1Znb0dLM1AxdXFYdDVJcEJlN1prMWNsRGkyTDVPQ0ZQdU9rSUpxRXZ6WmI5Wm13blhpZnQ5c3FXV3",
+      "fuente": "LaRepublica.co",
+      "fecha": "2025-07-05T07:00:00",
+      "categoria": "geopolitica",
+      "mineral": "carbon_energetico",
+      "sentimiento": "neutral",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPUEtXUzMwQkFuTGd6TklHVWJ2SzFZSEhjdWVGWjd1Q3c0UDQzY2VPVzVzd3VLelIyMXZxbEhIb0JMcDRITXdpRkhON2NxNFh3bXE1NVVLbHViNXVZRVlTNkhBVDVSa2NhcGpieWF6X1NFY1Znb0dLM1AxdXFYdDVJcEJlN1prMWNsRGkyTDVPQ0ZQdU9rSUpxRXZ6WmI5Wm13blhpZnQ5c3FXV3NMVjdiMW0xTVZVVHhkTi1KbW5IaWh5TjBfbGpFRVB0Z9IBywFBVV95cUxNeE1RT0JZVHJubFc2UWhyVmw0YXRZYkZYa2RVemlnMktjLVpHUUpxNU5kek9xb1V5Mm81SldqUmRudWkwLWhUOEd5Ty1ZekRJYm5YeDJvbG1TZmpSclNLamNFdU9nekhCaDVXTnJYY21ZSGZNMDZYdnJCbVJKdEJ5WlZ5UVdMdllrQlZldmFOam50WDBzc2FKcjZ2RWs5ZEhmOVVDOHMyWjA1eW9CWjdtSlc5djRtS3lSOUlWYTVsNWlpRWtRbDItcmxOZw?oc=5",
+      "tags": [
+        "mercado",
+        "minería carbón Táchira Venezuela"
+      ]
+    },
     {
       "id": 1783513463,
       "titulo": "Price to earnings forward de Shanxi Coking Coal Energy Group Co., Ltd Class A – SZSE:000983 - TradingView",
