@@ -1,6 +1,36 @@
 {
-  "ultima_actualizacion": "2026-07-10T13:15:34.487883",
+  "ultima_actualizacion": "2026-07-11T11:56:16.807158",
   "noticias": [
+    {
+      "id": 1783770976,
+      "titulo": "India reduce las importaciones de carbón a medida que las centrales eléctricas recurren al combustible nacional.",
+      "resumen": "Noticia del sector minero del carbón publicada por País Minero: India reduce las importaciones de carbón a medida que las centrales eléctricas recurren al combustible nacional.",
+      "fuente": "País Minero",
+      "fecha": "2026-07-11T11:56:16.805983",
+      "categoria": "carbon",
+      "mineral": "carbon_energetico",
+      "sentimiento": "neutral",
+      "url": "https://www.paisminero.com/index.php?option=com_content&view=article&id=30514:india-reduce-las-importaciones-de-carbon-a-medida-que-las-centrales-electricas-recurren-al-combustible-nacional&catid=116&Itemid=10001",
+      "tags": [
+        "carbón",
+        "país minero"
+      ]
+    },
+    {
+      "id": 1783770967,
+      "titulo": "Moderna planta de industrialización de roca fosfórica entra en operación con apoyo de Gobernación del Huila - Gobernación del Huila",
+      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMi6AFBVV95cUxOTUhTNFl2eVU3emRyZXNEMjFfSWs3OFFRSnh0N2tUcnZIRzhBeDY0SnlQNGcxY2dwODh0ZkVFUEp6ZXlobUt2NTZwSkNSa0w0MWQ3RHVZTVpuUjJXUm5ydWt6TldrTkpDVWZxc3dEM0NnQ3cyUXJYQU5iSHhoaGN5ZVhQSkxPTF8zTjd1MzlYM2diZFFlMEh4aXBqNGZpVDh6OF9waDlaaDJOaF",
+      "fuente": "Gobernación del Huila",
+      "fecha": "2025-12-14T08:00:00",
+      "categoria": "fosfatos",
+      "mineral": "roca_fosfatica",
+      "sentimiento": "neutral",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOTUhTNFl2eVU3emRyZXNEMjFfSWs3OFFRSnh0N2tUcnZIRzhBeDY0SnlQNGcxY2dwODh0ZkVFUEp6ZXlobUt2NTZwSkNSa0w0MWQ3RHVZTVpuUjJXUm5ydWt6TldrTkpDVWZxc3dEM0NnQ3cyUXJYQU5iSHhoaGN5ZVhQSkxPTF8zTjd1MzlYM2diZFFlMEh4aXBqNGZpVDh6OF9waDlaaDJOaFYteUF0THc2Yk44aTRGekcwM0lTQ1VCUG9pZUhHOUdCWklFQW9kdnVzTTN1ZnhueVNWNnFYNWprZXVMR1Yx?oc=5",
+      "tags": [
+        "mercado",
+        "roca fosfática precio"
+      ]
+    },
     {
       "id": 1783689334,
       "titulo": "Venezuela plantea exportación de carbón a Colombia a través de frontera de Táchira - LaRepublica.co",
