@@ -1,6 +1,36 @@
 {
-  "ultima_actualizacion": "2026-07-11T11:56:16.807158",
+  "ultima_actualizacion": "2026-07-12T12:03:26.161511",
   "noticias": [
+    {
+      "id": 1783857806,
+      "titulo": "‘Nunca imaginé que sería presidenta’: el balance de Claudia Bejarano tras 42 años en Cerrejón",
+      "resumen": "Noticia del sector minero del carbón publicada por País Minero: ‘Nunca imaginé que sería presidenta’: el balance de Claudia Bejarano tras 42 años en Cerrejón",
+      "fuente": "País Minero",
+      "fecha": "2026-07-12T12:03:26.160133",
+      "categoria": "carbon",
+      "mineral": "carbon_energetico",
+      "sentimiento": "neutral",
+      "url": "https://www.paisminero.com/index.php?option=com_content&view=article&id=30513:nunca-imagine-que-seria-presidenta-el-balance-de-claudia-bejarano-tras-42-anos-en-cerrejon&catid=116&Itemid=10001",
+      "tags": [
+        "carbón",
+        "país minero"
+      ]
+    },
+    {
+      "id": 1783857798,
+      "titulo": "Producción de carbón y coque en Norte de Santander cae hasta 40% en medio de crisis del sector - laopinion.co",
+      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxNaC12bm5mZkNYR25yeURYQ3hHdFRLeVpLT1VVa2JPQ0ZDZmt0VlRMZkdoUGFxMklpWEJmbzNtNWtVdnZLdWRxZkVnTUN0RHJ1ZExiLUh4azRhN08zME5jMS1Tb2VodEhWeDFYbnZpQWdXeGtRekxETmZOSGhHaTJGQzU2ZTdQWExlX21jWXBJMVV3N1FaMGhleEVWY1F0ejhnUm9FUkFZd1BLdU",
+      "fuente": "laopinion.co",
+      "fecha": "2026-03-11T07:00:00",
+      "categoria": "carbon",
+      "mineral": "carbon_coquizable",
+      "sentimiento": "neutral",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNaC12bm5mZkNYR25yeURYQ3hHdFRLeVpLT1VVa2JPQ0ZDZmt0VlRMZkdoUGFxMklpWEJmbzNtNWtVdnZLdWRxZkVnTUN0RHJ1ZExiLUh4azRhN08zME5jMS1Tb2VodEhWeDFYbnZpQWdXeGtRekxETmZOSGhHaTJGQzU2ZTdQWExlX21jWXBJMVV3N1FaMGhleEVWY1F0ejhnUm9FUkFZd1BLdU1QMUg4RlFMZVR5SEE?oc=5",
+      "tags": [
+        "mercado",
+        "carbón coquizable metalúrgico"
+      ]
+    },
     {
       "id": 1783770976,
       "titulo": "India reduce las importaciones de carbón a medida que las centrales eléctricas recurren al combustible nacional.",
