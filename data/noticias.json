@@ -1,6 +1,21 @@
 {
-  "ultima_actualizacion": "2026-07-14T12:17:56.481694",
+  "ultima_actualizacion": "2026-07-15T12:19:43.333527",
   "noticias": [
+    {
+      "id": 1784117983,
+      "titulo": "Report reveals clients of Western Sahara’s conflict mineral - Western Sahara Resource Watch",
+      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxORzZuVGExTU9mQndGT2VZbEx6cjM3NnQ3MFcwQS01M0pXdnAtSlBycUlFVVhQZFd4OExTVllDVEpPVWM3cmROSk1fSDRnVVpNT1Z0b0RER1ZIX3BUVTVzTUwwejBRWFBwWWExRXBQOU5CYzZjY1BDNkRwbmVDWmFScWh2UVptcDlBMmpJ?oc=5\" target=\"_blank\">Report reveals clie",
+      "fuente": "Western Sahara Resource Watch",
+      "fecha": "2021-04-13T07:18:04",
+      "categoria": "fosfatos",
+      "mineral": "roca_fosfatica",
+      "sentimiento": "neutral",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxORzZuVGExTU9mQndGT2VZbEx6cjM3NnQ3MFcwQS01M0pXdnAtSlBycUlFVVhQZFd4OExTVllDVEpPVWM3cmROSk1fSDRnVVpNT1Z0b0RER1ZIX3BUVTVzTUwwejBRWFBwWWExRXBQOU5CYzZjY1BDNkRwbmVDWmFScWh2UVptcDlBMmpJ?oc=5",
+      "tags": [
+        "mercado",
+        "phosphate rock price"
+      ]
+    },
     {
       "id": 1784031476,
       "titulo": "Price to sales forward de Chatham Rock Phosphate Limited – SWB:3GRE - TradingView",
