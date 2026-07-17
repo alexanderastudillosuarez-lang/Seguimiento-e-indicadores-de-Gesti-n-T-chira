@@ -1,6 +1,21 @@
 {
-  "ultima_actualizacion": "2026-07-15T12:19:43.333527",
+  "ultima_actualizacion": "2026-07-17T12:13:26.640145",
   "noticias": [
+    {
+      "id": 1784290406,
+      "titulo": "Alto costo del transporte amenaza la competitividad del carbón de Colombia y sus exportaciones: Fenalcarbón - laopinion.co",
+      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxPUy1pRk5TUkEyYTdiNndpUm5PanFmUk1QVGhKa1poVGRLZkhlZGVoNEJnTGhjajhja0t1LV9IbnplQ1hiakRfRGNaNTdsM2VQRWl4Y21oSTFXS29FM2xFOVVWSWlOSGl0YVExY1FMRTBLdFpmN2lwOF9oUVEtT19wc1VTSG5QRzAwOTFNb0YzVkFxMVU5am5ybHNwY1V3bHhkZkxIRHZsUVVfUV",
+      "fuente": "laopinion.co",
+      "fecha": "2026-07-15T19:21:35",
+      "categoria": "geopolitica",
+      "mineral": "carbon_energetico",
+      "sentimiento": "neutral",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPUy1pRk5TUkEyYTdiNndpUm5PanFmUk1QVGhKa1poVGRLZkhlZGVoNEJnTGhjajhja0t1LV9IbnplQ1hiakRfRGNaNTdsM2VQRWl4Y21oSTFXS29FM2xFOVVWSWlOSGl0YVExY1FMRTBLdFpmN2lwOF9oUVEtT19wc1VTSG5QRzAwOTFNb0YzVkFxMVU5am5ybHNwY1V3bHhkZkxIRHZsUVVfUVdjQmVv?oc=5",
+      "tags": [
+        "mercado",
+        "site:laopinion.co minería carbón Táchira"
+      ]
+    },
     {
       "id": 1784117983,
       "titulo": "Report reveals clients of Western Sahara’s conflict mineral - Western Sahara Resource Watch",
