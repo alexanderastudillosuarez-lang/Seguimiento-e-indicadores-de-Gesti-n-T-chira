@@ -1,6 +1,21 @@
 {
-  "ultima_actualizacion": "2026-07-17T12:13:26.640145",
+  "ultima_actualizacion": "2026-07-18T11:56:11.608413",
   "noticias": [
+    {
+      "id": 1784375771,
+      "titulo": "El conflicto en Oriente Medio impulsa el retorno de la generación de energía a partir del carbón - World Bank Blogs",
+      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxOcFVZalpZTUZ3dVVlNW1KU2NCUWZINmdFXzJqQWxoaUljYmVTd2o3SWZLdjNvS3IweDAtSm1yUmJxbW1McXpJQlpfaWxjVUJrb2VRN0FpVmQyaDlTRldCcG51c2g5cUJrR1BoTmd0R0tGcklxSHNUS3VXb1ZIdVFkYTlydGpybl9WMHdBbHp5M1JqQlI4LVBFRVpkRl9PMGdSNXRHUHcwaw?oc=",
+      "fuente": "World Bank Blogs",
+      "fecha": "2026-06-17T07:00:00",
+      "categoria": "carbon",
+      "mineral": "carbon_energetico",
+      "sentimiento": "neutral",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOcFVZalpZTUZ3dVVlNW1KU2NCUWZINmdFXzJqQWxoaUljYmVTd2o3SWZLdjNvS3IweDAtSm1yUmJxbW1McXpJQlpfaWxjVUJrb2VRN0FpVmQyaDlTRldCcG51c2g5cUJrR1BoTmd0R0tGcklxSHNUS3VXb1ZIdVFkYTlydGpybl9WMHdBbHp5M1JqQlI4LVBFRVpkRl9PMGdSNXRHUHcwaw?oc=5",
+      "tags": [
+        "mercado",
+        "precio carbón térmico"
+      ]
+    },
     {
       "id": 1784290406,
       "titulo": "Alto costo del transporte amenaza la competitividad del carbón de Colombia y sus exportaciones: Fenalcarbón - laopinion.co",
