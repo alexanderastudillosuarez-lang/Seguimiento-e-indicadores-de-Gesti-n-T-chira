@@ -1,6 +1,36 @@
 {
-  "ultima_actualizacion": "2026-07-18T11:56:11.608413",
+  "ultima_actualizacion": "2026-07-19T12:01:56.572116",
   "noticias": [
+    {
+      "id": 1784462516,
+      "titulo": "Estados Unidos apuesta 50.000 millones de dólares a la energía generada con carbón y gas ante el aumento vertiginoso de la demanda de electricidad.",
+      "resumen": "Noticia del sector minero del carbón publicada por País Minero: Estados Unidos apuesta 50.000 millones de dólares a la energía generada con carbón y gas ante el aumento vertiginoso de la demanda de electricidad.",
+      "fuente": "País Minero",
+      "fecha": "2026-07-19T12:01:56.570740",
+      "categoria": "carbon",
+      "mineral": "carbon_energetico",
+      "sentimiento": "neutral",
+      "url": "https://www.paisminero.com/index.php?option=com_content&view=article&id=30558:estados-unidos-apuesta-50-000-millones-de-dolares-a-la-energia-generada-con-carbon-y-gas-ante-el-aumento-vertiginoso-de-la-demanda-de-electricidad&catid=116&Itemid=10001",
+      "tags": [
+        "carbón",
+        "país minero"
+      ]
+    },
+    {
+      "id": 1784462515,
+      "titulo": "Este yacimiento de fosfato es el más grande del mundo - Inspenet",
+      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMid0FVX3lxTE1BWHdnYm0tY05KWVpibEZqYk1lbnZEeVNqdmhGMUFhYmY4XzNQWU0tSV9hUFJBbzZtLUM1X2xZTE1VRWx1TkhSdXFNVXBOY0Z1WkpNS3J2cFN1V2tyM1VBOUxzak85aUJwWTlVbHQyWDNLQXEwdHNN?oc=5\" target=\"_blank\">Este yacimiento de fosfato es el más grande del",
+      "fuente": "Inspenet",
+      "fecha": "2023-07-13T07:00:00",
+      "categoria": "fosfatos",
+      "mineral": "roca_fosfatica",
+      "sentimiento": "neutral",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1BWHdnYm0tY05KWVpibEZqYk1lbnZEeVNqdmhGMUFhYmY4XzNQWU0tSV9hUFJBbzZtLUM1X2xZTE1VRWx1TkhSdXFNVXBOY0Z1WkpNS3J2cFN1V2tyM1VBOUxzak85aUJwWTlVbHQyWDNLQXEwdHNN?oc=5",
+      "tags": [
+        "mercado",
+        "roca fosfática precio"
+      ]
+    },
     {
       "id": 1784375771,
       "titulo": "El conflicto en Oriente Medio impulsa el retorno de la generación de energía a partir del carbón - World Bank Blogs",
