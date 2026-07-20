@@ -1,6 +1,36 @@
 {
-  "ultima_actualizacion": "2026-07-19T12:01:56.572116",
+  "ultima_actualizacion": "2026-07-20T13:10:31.280817",
   "noticias": [
+    {
+      "id": 1784553031,
+      "titulo": "Rio inicia ampliación de 1.500 millones de dólares de fundición de aluminio en Quebec",
+      "resumen": "Noticia del sector minero del carbón publicada por País Minero: Rio inicia ampliación de 1.500 millones de dólares de fundición de aluminio en Quebec",
+      "fuente": "País Minero",
+      "fecha": "2026-07-20T13:10:31.279623",
+      "categoria": "carbon",
+      "mineral": "carbon_energetico",
+      "sentimiento": "neutral",
+      "url": "https://www.paisminero.com/index.php?option=com_content&view=article&id=30381:rio-inicia-ampliacion-de-1500-millones-de-dolares-de-fundicion-de-aluminio-en-quebec-20260529173054&catid=116&Itemid=10001",
+      "tags": [
+        "carbón",
+        "país minero"
+      ]
+    },
+    {
+      "id": 1784553023,
+      "titulo": "El carbón metalúrgico de Boyacá es el más apetecido en el interior y exterior del país - Boyacá 95.6 fm",
+      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxQSDNjdnM1X3hvTGJwdDZTSmpONnl2WE1zMnpiOWVsRTBUSGxranhvRzdNUy16TnVIVUozOU5lV3VjeTZsVjVaUGxJSGF4a2N1WHVKcFpKaDIzQUtwcE9QNVBjNGtRdUZuQWg0UzBVQ3VoZ3VQQ1lIS2FFTkRBb0R4TmFyWFhVWWk1UlJnZ2JIcjYzNFhJNE8wWmpBd2NZeTNmX0t5NGQwbjQ0Qz",
+      "fuente": "Boyacá 95.6 fm",
+      "fecha": "2022-01-13T08:00:00",
+      "categoria": "carbon",
+      "mineral": "carbon_coquizable",
+      "sentimiento": "neutral",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQSDNjdnM1X3hvTGJwdDZTSmpONnl2WE1zMnpiOWVsRTBUSGxranhvRzdNUy16TnVIVUozOU5lV3VjeTZsVjVaUGxJSGF4a2N1WHVKcFpKaDIzQUtwcE9QNVBjNGtRdUZuQWg0UzBVQ3VoZ3VQQ1lIS2FFTkRBb0R4TmFyWFhVWWk1UlJnZ2JIcjYzNFhJNE8wWmpBd2NZeTNmX0t5NGQwbjQ0QzRzU1lkYjdxNTFMdw?oc=5",
+      "tags": [
+        "mercado",
+        "carbón coquizable metalúrgico"
+      ]
+    },
     {
       "id": 1784462516,
       "titulo": "Estados Unidos apuesta 50.000 millones de dólares a la energía generada con carbón y gas ante el aumento vertiginoso de la demanda de electricidad.",
