@@ -1,6 +1,21 @@
 {
-  "ultima_actualizacion": "2026-07-22T12:27:53.151728",
+  "ultima_actualizacion": "2026-07-23T12:26:40.613693",
   "noticias": [
+    {
+      "id": 1784809600,
+      "titulo": "Fenalcarbón denuncia negligencia del Gobierno Petro que deja al coque colombiano por fuera del mercado de la India durante cinco años.",
+      "resumen": "Noticia del sector minero del carbón publicada por País Minero: Fenalcarbón denuncia negligencia del Gobierno Petro que deja al coque colombiano por fuera del mercado de la India durante cinco años.",
+      "fuente": "País Minero",
+      "fecha": "2026-07-23T12:26:40.612517",
+      "categoria": "carbon",
+      "mineral": "carbon_energetico",
+      "sentimiento": "neutral",
+      "url": "https://www.paisminero.com/index.php?option=com_content&view=article&id=30595:fenalcarbon-denuncia-negligencia-del-gobierno-petro-que-deja-al-coque-colombiano-por-fuera-del-mercado-de-la-india-durante-cinco-anos&catid=116&Itemid=10001",
+      "tags": [
+        "carbón",
+        "país minero"
+      ]
+    },
     {
       "id": 1784723273,
       "titulo": "India impone arancel al coque colombiano por cinco años y Fenalcarbón culpa al Gobierno Petro por negligencia | El Colombiano - El Colombiano",
