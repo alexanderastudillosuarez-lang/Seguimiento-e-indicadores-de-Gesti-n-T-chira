@@ -1,6 +1,21 @@
 {
-  "ultima_actualizacion": "2026-07-23T12:26:40.613693",
+  "ultima_actualizacion": "2026-07-24T12:23:04.456644",
   "noticias": [
+    {
+      "id": 1784895784,
+      "titulo": "Frontera abierta permanentemente, más comercio e incentivos: las exigencias al presidente electo de Colombia - laopinion.co",
+      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMiuAFBVV95cUxQUVNuVFdFNnhVSnJrMktlbEdqcC1GbTh4cVExWUJCNm40MWx1ejFzNTVIOWR3cW55S2EyZTY5WmliM253ZG0xelAxUnBwUU5WSFhteVh3SFAzMkRfaHNQODJMdEFaYTR6clFOeHg0a2luZW1zTmoydWVOZmpCTlV6N3UzTnhNVC1lQXdHY2NxUzczSTJTVVpCaGx1Y0pNUHo1TXB1OTVMRlYyN2",
+      "fuente": "laopinion.co",
+      "fecha": "2026-06-23T07:00:00",
+      "categoria": "geopolitica",
+      "mineral": "carbon_energetico",
+      "sentimiento": "neutral",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQUVNuVFdFNnhVSnJrMktlbEdqcC1GbTh4cVExWUJCNm40MWx1ejFzNTVIOWR3cW55S2EyZTY5WmliM253ZG0xelAxUnBwUU5WSFhteVh3SFAzMkRfaHNQODJMdEFaYTR6clFOeHg0a2luZW1zTmoydWVOZmpCTlV6N3UzTnhNVC1lQXdHY2NxUzczSTJTVVpCaGx1Y0pNUHo1TXB1OTVMRlYyN24tWmtuemx5ODRLY1Z1?oc=5",
+      "tags": [
+        "mercado",
+        "site:laopinion.co minería carbón Táchira"
+      ]
+    },
     {
       "id": 1784809600,
       "titulo": "Fenalcarbón denuncia negligencia del Gobierno Petro que deja al coque colombiano por fuera del mercado de la India durante cinco años.",
