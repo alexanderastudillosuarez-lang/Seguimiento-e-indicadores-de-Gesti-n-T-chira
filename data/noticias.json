@@ -1,6 +1,21 @@
 {
-  "ultima_actualizacion": "2026-07-24T12:23:04.456644",
+  "ultima_actualizacion": "2026-07-26T12:07:30.286896",
   "noticias": [
+    {
+      "id": 1785067650,
+      "titulo": "REG - Anglo American PLC - Anglo American Production Report Q2 2026 - TradingView",
+      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMi1AFBVV95cUxQNnNjNDZteGQ3V3hXRF93NjhWc2dCOGhQTllfMnpOQ1JYZVRvVERkcnhvaXFWRjl2MG91dEtlV09fRW5qT1pVOERtVkJzN1ZicDFvSzBLN05vSDNRM2pCeDZDVEdHanF6Znp0YVgwZGs4MVRYazNEWHJ4MDNncGpSTHp1NlMxNkZWWDJSSG5SV18tQ2xxSDg1ZlJrdXhNX1ZNb0I3SDlXenRaRF",
+      "fuente": "TradingView",
+      "fecha": "2026-07-23T06:00:00",
+      "categoria": "carbon",
+      "mineral": "carbon_energetico",
+      "sentimiento": "neutral",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQNnNjNDZteGQ3V3hXRF93NjhWc2dCOGhQTllfMnpOQ1JYZVRvVERkcnhvaXFWRjl2MG91dEtlV09fRW5qT1pVOERtVkJzN1ZicDFvSzBLN05vSDNRM2pCeDZDVEdHanF6Znp0YVgwZGs4MVRYazNEWHJ4MDNncGpSTHp1NlMxNkZWWDJSSG5SV18tQ2xxSDg1ZlJrdXhNX1ZNb0I3SDlXenRaRFZZS29nd3dZbXlUYmpfQmVnck1DbXY5czhIbG1wVlhlWFl6Y3BudTRXeg?oc=5",
+      "tags": [
+        "mercado",
+        "thermal coal price"
+      ]
+    },
     {
       "id": 1784895784,
       "titulo": "Frontera abierta permanentemente, más comercio e incentivos: las exigencias al presidente electo de Colombia - laopinion.co",
