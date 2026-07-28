@@ -1,6 +1,21 @@
 {
-  "ultima_actualizacion": "2026-07-26T12:07:30.286896",
+  "ultima_actualizacion": "2026-07-28T12:57:14.027049",
   "noticias": [
+    {
+      "id": 1785243434,
+      "titulo": "Tamaño del mercado del carbón metalúrgico, participación | Informe de la industria [2034] - Fortune Business Insights",
+      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxNbWJUMWY3R2lndlZCWVBwY1N2a0pHdnRyXzJDZ1ZOeWF0Qk9DSExxR1Ata3pFY0VmUGN4aE5pNWNFRWFqYWw5bEpPVmFpZDJZeTI1aTY2LU8yanhxLXg1YW1VclZMdWc5RTNQZDdBWDZlaC1jZUtEdnVNY2NfVUpsSG1Fdy0tMm0xTFVQdUNOYlh6WUQ0TjIw?oc=5\" target=\"_blank\">Tam",
+      "fuente": "Fortune Business Insights",
+      "fecha": "2026-06-22T07:00:00",
+      "categoria": "carbon",
+      "mineral": "carbon_coquizable",
+      "sentimiento": "neutral",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNbWJUMWY3R2lndlZCWVBwY1N2a0pHdnRyXzJDZ1ZOeWF0Qk9DSExxR1Ata3pFY0VmUGN4aE5pNWNFRWFqYWw5bEpPVmFpZDJZeTI1aTY2LU8yanhxLXg1YW1VclZMdWc5RTNQZDdBWDZlaC1jZUtEdnVNY2NfVUpsSG1Fdy0tMm0xTFVQdUNOYlh6WUQ0TjIw?oc=5",
+      "tags": [
+        "mercado",
+        "carbón coquizable metalúrgico"
+      ]
+    },
     {
       "id": 1785067650,
       "titulo": "REG - Anglo American PLC - Anglo American Production Report Q2 2026 - TradingView",
