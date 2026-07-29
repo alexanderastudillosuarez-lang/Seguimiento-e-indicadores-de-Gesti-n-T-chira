@@ -1,6 +1,21 @@
 {
-  "ultima_actualizacion": "2026-07-28T12:57:14.027049",
+  "ultima_actualizacion": "2026-07-29T13:03:25.355962",
   "noticias": [
+    {
+      "id": 1785330205,
+      "titulo": "Descubren el mayor depósito de roca fosfórica en Noruega: Impulso para la industria de baterías y energía solar en Europa - Reporte Minero",
+      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxQMWVRbUtKbnRpYlhqZExKUF96aWhPQ2Nqckk1OXZCWFpTSkhWZmNZclpwUnU5Vkw3VlZaVXpEQklzbDM0dVozZkZENnVxN2lHczhTZGpCTVhfcm5FRVBEOUU5ODc4Qm9MMm94UnJ3NDNTU0xBX1YzZlE3X1g3bmVxQUNGWHR1eS1ZX0FDcEhYd24tZnVRUl9ucHBGQ0JHVDRVYkZCYw?oc=5\" t",
+      "fuente": "Reporte Minero",
+      "fecha": "2023-07-10T07:00:00",
+      "categoria": "fosfatos",
+      "mineral": "roca_fosfatica",
+      "sentimiento": "neutral",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQMWVRbUtKbnRpYlhqZExKUF96aWhPQ2Nqckk1OXZCWFpTSkhWZmNZclpwUnU5Vkw3VlZaVXpEQklzbDM0dVozZkZENnVxN2lHczhTZGpCTVhfcm5FRVBEOUU5ODc4Qm9MMm94UnJ3NDNTU0xBX1YzZlE3X1g3bmVxQUNGWHR1eS1ZX0FDcEhYd24tZnVRUl9ucHBGQ0JHVDRVYkZCYw?oc=5",
+      "tags": [
+        "mercado",
+        "roca fosfática precio"
+      ]
+    },
     {
       "id": 1785243434,
       "titulo": "Tamaño del mercado del carbón metalúrgico, participación | Informe de la industria [2034] - Fortune Business Insights",
