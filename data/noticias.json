@@ -1,6 +1,21 @@
 {
-  "ultima_actualizacion": "2026-07-29T13:03:25.355962",
+  "ultima_actualizacion": "2026-07-30T12:48:21.061958",
   "noticias": [
+    {
+      "id": 1785415701,
+      "titulo": "Precio del Carbón Térmico: Gráficos y Noticias - FocusEconomics",
+      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMid0FVX3lxTE9tQjNzV2ZORWhCT0dJZXZReWJzYzJ2Sk9lT25NbDNZUFl2eDV3VXp3WGlxSkxEeVNVN21EWXZxakZLOUhOZWwxLVNNQ3h3NG9NLXE4VnFZMjJZeWszYUI4bnF0cFY5LWlXY0xOYXhpZTZBVjUtQlhr?oc=5\" target=\"_blank\">Precio del Carbón Térmico: Gráficos y Noticias<",
+      "fuente": "FocusEconomics",
+      "fecha": "2024-03-16T00:44:02",
+      "categoria": "carbon",
+      "mineral": "carbon_energetico",
+      "sentimiento": "neutral",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9tQjNzV2ZORWhCT0dJZXZReWJzYzJ2Sk9lT25NbDNZUFl2eDV3VXp3WGlxSkxEeVNVN21EWXZxakZLOUhOZWwxLVNNQ3h3NG9NLXE4VnFZMjJZeWszYUI4bnF0cFY5LWlXY0xOYXhpZTZBVjUtQlhr?oc=5",
+      "tags": [
+        "mercado",
+        "precio carbón térmico"
+      ]
+    },
     {
       "id": 1785330205,
       "titulo": "Descubren el mayor depósito de roca fosfórica en Noruega: Impulso para la industria de baterías y energía solar en Europa - Reporte Minero",
@@ -884,21 +899,6 @@
       "tags": [
         "mercado",
         "precio carbón térmico"
-      ]
-    },
-    {
-      "id": 1781062431,
-      "titulo": "Venezuela aprueba una nueva ley de minas: cuáles son las otras riquezas naturales que tiene el país además del petróleo - BBC",
-      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMiW0FVX3lxTE85SWtWd1lrSUtIelJfLTJfQnFWOHJJQnVoWnJQWU80S3drSlpjZTZTRmxDM1lCakhveUg2a3JOZzRLSXhxVnNUU2ZHeWdpbmtHZXFuQkxySzZPQ0XSAWBBVV95cUxPYWdQTEtENEx5c1BFbG5CSVVWMDJCQTI0WElDU3lKVzF5S3dGOUlzUXR3SzNQeXV5akRVeXlkbE5seUQ2NTNobE1aeFNFS0",
-      "fuente": "BBC",
-      "fecha": "2026-02-11T08:00:00",
-      "categoria": "geopolitica",
-      "mineral": "carbon_energetico",
-      "sentimiento": "neutral",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE85SWtWd1lrSUtIelJfLTJfQnFWOHJJQnVoWnJQWU80S3drSlpjZTZTRmxDM1lCakhveUg2a3JOZzRLSXhxVnNUU2ZHeWdpbmtHZXFuQkxySzZPQ0XSAWBBVV95cUxPYWdQTEtENEx5c1BFbG5CSVVWMDJCQTI0WElDU3lKVzF5S3dGOUlzUXR3SzNQeXV5akRVeXlkbE5seUQ2NTNobE1aeFNFS0NfZnpodzhmbjBmOU5WSDk4QlI?oc=5",
-      "tags": [
-        "mercado",
-        "minería carbón Táchira Venezuela"
       ]
     }
   ]
