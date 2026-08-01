@@ -1,6 +1,21 @@
 {
-  "ultima_actualizacion": "2026-07-30T12:48:21.061958",
+  "ultima_actualizacion": "2026-08-01T12:05:01.401808",
   "noticias": [
+    {
+      "id": 1785585901,
+      "titulo": "Cómo convertir las aguas residuales en una mina de fósforo - The Conversation",
+      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxOZWFxY3doNVFrUGRxX1pPcG9VZUJ4TlBuMUdEWUdkb1dFMWVfaVl3c21HUkZWZE9OTWlFUmllQm1WRl9iLTRXN3R6d1loYkNjYTRVeHh5OU9lZG51UmhJOGM4NFJaYnB5elY5UmowUzVOUkNHcldIZnR1MkdxX2lUMFNKZl8xSm9lcjVYemVHQ05LYmY2a2VPMg?oc=5\" target=\"_blank\">C",
+      "fuente": "The Conversation",
+      "fecha": "2021-07-25T07:00:00",
+      "categoria": "fosfatos",
+      "mineral": "roca_fosfatica",
+      "sentimiento": "neutral",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOZWFxY3doNVFrUGRxX1pPcG9VZUJ4TlBuMUdEWUdkb1dFMWVfaVl3c21HUkZWZE9OTWlFUmllQm1WRl9iLTRXN3R6d1loYkNjYTRVeHh5OU9lZG51UmhJOGM4NFJaYnB5elY5UmowUzVOUkNHcldIZnR1MkdxX2lUMFNKZl8xSm9lcjVYemVHQ05LYmY2a2VPMg?oc=5",
+      "tags": [
+        "mercado",
+        "roca fosfática precio"
+      ]
+    },
     {
       "id": 1785415701,
       "titulo": "Precio del Carbón Térmico: Gráficos y Noticias - FocusEconomics",
@@ -884,21 +899,6 @@
       "tags": [
         "mercado",
         "carbón coquizable metalúrgico"
-      ]
-    },
-    {
-      "id": 1781062432,
-      "titulo": "Precios del carbón suben 12.4 % en junio debido a factores climáticos y tensiones comerciales - Ministerio de Economía, Planificación y Desarrollo (MEPyD)",
-      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxOVGYtQUZGeXVyTFRKckF1eXN6bHl2VXNBOFdxQW9kOFVfVGhiNWpCWHpiUnk3aEFJMmdLNEczU3laaFhSaEF3OVg5LTFXZlNqbHVyUGYyUVZFQ2hjZmh3NzhyZFhVUEV0cnFxcjRmeHhjckxfbFE0eXItc0hpTFNZVlZuYWZ4bWxETHpROG5yUmZxRTB3RHJhemZyNHNqU2pjeWxJbWtvRXBKMm",
-      "fuente": "Ministerio de Economía, Planificación y Desarrollo (MEPyD)",
-      "fecha": "2025-07-15T19:18:52",
-      "categoria": "carbon",
-      "mineral": "carbon_energetico",
-      "sentimiento": "neutral",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOVGYtQUZGeXVyTFRKckF1eXN6bHl2VXNBOFdxQW9kOFVfVGhiNWpCWHpiUnk3aEFJMmdLNEczU3laaFhSaEF3OVg5LTFXZlNqbHVyUGYyUVZFQ2hjZmh3NzhyZFhVUEV0cnFxcjRmeHhjckxfbFE0eXItc0hpTFNZVlZuYWZ4bWxETHpROG5yUmZxRTB3RHJhemZyNHNqU2pjeWxJbWtvRXBKMmxMRVlheTdIMA?oc=5",
-      "tags": [
-        "mercado",
-        "precio carbón térmico"
       ]
     }
   ]
