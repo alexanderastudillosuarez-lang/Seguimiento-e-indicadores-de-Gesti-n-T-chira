@@ -1,6 +1,21 @@
 {
-  "ultima_actualizacion": "2026-08-01T12:05:01.401808",
+  "ultima_actualizacion": "2026-08-02T12:06:21.001232",
   "noticias": [
+    {
+      "id": 1785672381,
+      "titulo": "ArcelorMittal to shut down one BF at its Asturias plant in September - GMK Center",
+      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxPd1M4NWNKWjRlcWowVld4VzZvVm5sR3dCVWk0STNzdUlDT0hONHN4bFlXNzBHeTFBUmpTTF9oZmRpM2hjd05ZbXFkeUJjbVZRQUFDRl9qR3Q2MWN2Ym9JTS1IZi1iSDljQ09NRTdCSjktUUdyMkVBbjlmaDF1bkVmb3BZQW5Qbko5MTZjSlQ0TGRXekxLNF9YRm1sUDhtQdIBowFBVV95cUxORj",
+      "fuente": "GMK Center",
+      "fecha": "2022-09-02T07:00:00",
+      "categoria": "carbon",
+      "mineral": "carbon_coquizable",
+      "sentimiento": "neutral",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPd1M4NWNKWjRlcWowVld4VzZvVm5sR3dCVWk0STNzdUlDT0hONHN4bFlXNzBHeTFBUmpTTF9oZmRpM2hjd05ZbXFkeUJjbVZRQUFDRl9qR3Q2MWN2Ym9JTS1IZi1iSDljQ09NRTdCSjktUUdyMkVBbjlmaDF1bkVmb3BZQW5Qbko5MTZjSlQ0TGRXekxLNF9YRm1sUDhtQdIBowFBVV95cUxORjJsMmZLc3VwSlZ1TUdXemhJZU1vUEhON1hmeE1oUTFoV05OaUoweU5xTVdwUkdiSnU1YlYzd2lRd3dFa2YwRzhuLWF2b0dZQVR0YUVWelM1cTJFYU04NWNPMWVRZjB1YU5KY29Pd3Z0LV8xYW5uU0xDRU9sOTktY1V4N21xckhvajZPRmpJRE9oM3Y1cDV3bkVXQVZNRVdPVG93?oc=5",
+      "tags": [
+        "mercado",
+        "coking coal price"
+      ]
+    },
     {
       "id": 1785585901,
       "titulo": "Cómo convertir las aguas residuales en una mina de fósforo - The Conversation",
@@ -884,21 +899,6 @@
       "tags": [
         "mercado",
         "thermal coal price"
-      ]
-    },
-    {
-      "id": 1781062432,
-      "titulo": "Las 6 mineras de Boyacá y N. de Santander que le venden carbón a las grandes acerías del mundo - Las2orillas",
-      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxQZ0hXbTNQMmZsRHluV1BwM0ZPX0prdkJmQ0wxVy1NS3d3UjZjQlBXVmxCamZRcVpYMUJZZTJ3T2MyY1Uxcml4d0NzRzYzal9PTGhadmhldlZVbzZ2aE05TXFGR2ZvU2l0TG1pNWF4andTU1JYRmJ3NDR6NzhhNXdqZU5kUGpNZ1JCSVdycXBDcmdsMTEzcTYwZHIxSHFHbTd1Uk1iZTV0ZXIwOH",
-      "fuente": "Las2orillas",
-      "fecha": "2025-08-07T07:00:00",
-      "categoria": "carbon",
-      "mineral": "carbon_coquizable",
-      "sentimiento": "neutral",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQZ0hXbTNQMmZsRHluV1BwM0ZPX0prdkJmQ0wxVy1NS3d3UjZjQlBXVmxCamZRcVpYMUJZZTJ3T2MyY1Uxcml4d0NzRzYzal9PTGhadmhldlZVbzZ2aE05TXFGR2ZvU2l0TG1pNWF4andTU1JYRmJ3NDR6NzhhNXdqZU5kUGpNZ1JCSVdycXBDcmdsMTEzcTYwZHIxSHFHbTd1Uk1iZTV0ZXIwOHAtNDhFU3hWUl9TLU8weHlHQ3F3?oc=5",
-      "tags": [
-        "mercado",
-        "carbón coquizable metalúrgico"
       ]
     }
   ]
