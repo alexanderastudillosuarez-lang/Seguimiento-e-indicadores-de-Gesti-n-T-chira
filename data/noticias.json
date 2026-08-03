@@ -1,6 +1,21 @@
 {
-  "ultima_actualizacion": "2026-08-02T12:06:21.001232",
+  "ultima_actualizacion": "2026-08-03T13:44:08.112178",
   "noticias": [
+    {
+      "id": 1785764648,
+      "titulo": "Protección Civil descarta peligro por mina de carbón activa - Radio Miraflores",
+      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxOUURsUlk2OGlIR0VzaV9ZZVlBNTNfeUlzcmpzY3lrVDBieTRzMS1qY2JDdlkxbVA2eXU3RENURmozWDFUYy1takFIa2hKNFBqbXVxNkFVakduOE5JRUZDVi1kSjU2dG9XX25EYTd2RGlBejhkd1l1bS13ZlBlVVJfR3A1bG5lSDVseEJ0ZjVZNFJ1WndiVl9pYzJXNA?oc=5\" target=\"_blan",
+      "fuente": "Radio Miraflores",
+      "fecha": "2026-07-17T18:07:43",
+      "categoria": "geopolitica",
+      "mineral": "carbon_energetico",
+      "sentimiento": "neutral",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOUURsUlk2OGlIR0VzaV9ZZVlBNTNfeUlzcmpzY3lrVDBieTRzMS1qY2JDdlkxbVA2eXU3RENURmozWDFUYy1takFIa2hKNFBqbXVxNkFVakduOE5JRUZDVi1kSjU2dG9XX25EYTd2RGlBejhkd1l1bS13ZlBlVVJfR3A1bG5lSDVseEJ0ZjVZNFJ1WndiVl9pYzJXNA?oc=5",
+      "tags": [
+        "mercado",
+        "minería carbón Táchira Venezuela"
+      ]
+    },
     {
       "id": 1785672381,
       "titulo": "ArcelorMittal to shut down one BF at its Asturias plant in September - GMK Center",
@@ -884,21 +899,6 @@
       "tags": [
         "mercado",
         "precio carbón térmico"
-      ]
-    },
-    {
-      "id": 1781062433,
-      "titulo": "Fuel supply – World Energy Investment 2020 – Analysis - IEA – International Energy Agency",
-      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMid0FVX3lxTFBSMzZBdVV5YlQ5akFMUGVGZWFQa1hlMlFXUEU4RndlYlRlWlpYUmRWNzVwMTJMMXhTeDhWV1pFRU5zZUxaZTBpLW5IQ2hYODhGU0RZTmtvV083aFlGazdFRWhZUFE4eGdUZUpDRnJCRnhHZ3BSR2pN?oc=5\" target=\"_blank\">Fuel supply – World Energy Investment 2020 – An",
-      "fuente": "IEA – International Energy Agency",
-      "fecha": "2020-05-27T15:48:02",
-      "categoria": "carbon",
-      "mineral": "carbon_energetico",
-      "sentimiento": "neutral",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBSMzZBdVV5YlQ5akFMUGVGZWFQa1hlMlFXUEU4RndlYlRlWlpYUmRWNzVwMTJMMXhTeDhWV1pFRU5zZUxaZTBpLW5IQ2hYODhGU0RZTmtvV083aFlGazdFRWhZUFE4eGdUZUpDRnJCRnhHZ3BSR2pN?oc=5",
-      "tags": [
-        "mercado",
-        "thermal coal price"
       ]
     }
   ]
