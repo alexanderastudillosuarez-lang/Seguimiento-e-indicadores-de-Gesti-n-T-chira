@@ -1,6 +1,21 @@
 {
-  "ultima_actualizacion": "2026-08-03T13:44:08.112178",
+  "ultima_actualizacion": "2026-08-04T13:05:32.544291",
   "noticias": [
+    {
+      "id": 1785848732,
+      "titulo": "BlackRock moves on climate change - WWF reaction - WWF Colombia",
+      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMifkFVX3lxTE9BZ0NleG15Ykk1VGJEYUFlOXlheVlxLVk3RjFjbVRFVGk4aXVab1JJdWtOeWp3TDl5RVlsRFF3LWVaTTM1di14QkIwdFZ5UC1zUVVGaThCdjlmMnNtc2pLS3hyaUZaMFA5NXJZcEhWOXZfUzBFM3kxdWluOG5PQQ?oc=5\" target=\"_blank\">BlackRock moves on climate change - W",
+      "fuente": "WWF Colombia",
+      "fecha": "2021-10-30T20:20:27",
+      "categoria": "carbon",
+      "mineral": "carbon_energetico",
+      "sentimiento": "neutral",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9BZ0NleG15Ykk1VGJEYUFlOXlheVlxLVk3RjFjbVRFVGk4aXVab1JJdWtOeWp3TDl5RVlsRFF3LWVaTTM1di14QkIwdFZ5UC1zUVVGaThCdjlmMnNtc2pLS3hyaUZaMFA5NXJZcEhWOXZfUzBFM3kxdWluOG5PQQ?oc=5",
+      "tags": [
+        "mercado",
+        "thermal coal price"
+      ]
+    },
     {
       "id": 1785764648,
       "titulo": "Protección Civil descarta peligro por mina de carbón activa - Radio Miraflores",
@@ -884,21 +899,6 @@
       "tags": [
         "mercado",
         "coking coal price"
-      ]
-    },
-    {
-      "id": 1781062434,
-      "titulo": "Accidente mortal en una mina de China eleva los precios del carbón - Bloomberg Línea",
-      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTXNMTzVVN2M5N3A0OHFpUm1IaldKNzI5czlRMDNhYW44ekxGdjJ2d1NORFNiUzcyQ1NFVFV4cGZHaVlEWGNrTUYxOGtscUdFQmVaY0ZPaExwV1VvY2sxTXl5djk5LVFNVUlmbVRtR01Fa2JjaFZKRnJOYTZ6LWU1QXg3Q1lyWEJKRzJLbm1nTFJrQU84UEZHZGxXb2MzYWlHaEc1eldDNzl0Z0",
-      "fuente": "Bloomberg Línea",
-      "fecha": "2026-05-25T07:00:00",
-      "categoria": "carbon",
-      "mineral": "carbon_energetico",
-      "sentimiento": "neutral",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTXNMTzVVN2M5N3A0OHFpUm1IaldKNzI5czlRMDNhYW44ekxGdjJ2d1NORFNiUzcyQ1NFVFV4cGZHaVlEWGNrTUYxOGtscUdFQmVaY0ZPaExwV1VvY2sxTXl5djk5LVFNVUlmbVRtR01Fa2JjaFZKRnJOYTZ6LWU1QXg3Q1lyWEJKRzJLbm1nTFJrQU84UEZHZGxXb2MzYWlHaEc1eldDNzl0Z0XSAb8BQVVfeXFMUHlwYjI1TmdPT3luOThTWFBrZWxTWkd2eEdTaTVsTHQ1U2xXaVFVY0lISlZzMHNBYWRmZ0ZqN3A1VTMweXdCcVJmZzNvcHRIejRyUTZObmdRWW04amtfeFFPVnFzdVlLXzdha3hlbk1PWGtVZTNkSVlNVlJRTlBJMTZMTXUyMTNOclJHMzRzVTNsZ0FBa2I2RGt2em1YWkNtT2tjakFZVlM3ZnRkc1kxTnFpYUYzTXRhYmdHeWVkanM?oc=5",
-      "tags": [
-        "mercado",
-        "precio carbón térmico"
       ]
     }
   ]
