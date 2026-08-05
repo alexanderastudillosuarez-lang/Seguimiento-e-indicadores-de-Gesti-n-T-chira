@@ -1,6 +1,21 @@
 {
-  "ultima_actualizacion": "2026-08-04T13:05:32.544291",
+  "ultima_actualizacion": "2026-08-05T12:58:00.448114",
   "noticias": [
+    {
+      "id": 1785934680,
+      "titulo": "Colombia ya tiene su hoja de ruta para modernizar el mercado energético - laopinion.co",
+      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxPbEhSTXVpU2FBd1dJMGM3QldUSWhOQ2VnSW5NbXAyU2pjVWVWMXlKTTB1Vkh6ekpQRGRJTnZfZXVuVWsyNkRPb2V2eGVrY1lfSFFKeU9VVGJPZkIzbllYY0l5RmF1MVpBdnlIdzJnUnAzcGJUY2hmNXctVWh0ajVGM2xoTHFQaERiT1ZnSmc4LUNoSGtQNUhyY2ktYTE4TDJPX3BJ?oc=5\" tar",
+      "fuente": "laopinion.co",
+      "fecha": "2026-07-17T23:57:46",
+      "categoria": "geopolitica",
+      "mineral": "carbon_energetico",
+      "sentimiento": "neutral",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPbEhSTXVpU2FBd1dJMGM3QldUSWhOQ2VnSW5NbXAyU2pjVWVWMXlKTTB1Vkh6ekpQRGRJTnZfZXVuVWsyNkRPb2V2eGVrY1lfSFFKeU9VVGJPZkIzbllYY0l5RmF1MVpBdnlIdzJnUnAzcGJUY2hmNXctVWh0ajVGM2xoTHFQaERiT1ZnSmc4LUNoSGtQNUhyY2ktYTE4TDJPX3BJ?oc=5",
+      "tags": [
+        "mercado",
+        "site:laopinion.co minería carbón Táchira"
+      ]
+    },
     {
       "id": 1785848732,
       "titulo": "BlackRock moves on climate change - WWF reaction - WWF Colombia",
@@ -884,21 +899,6 @@
       "tags": [
         "mercado",
         "site:laopinion.co minería carbón Táchira"
-      ]
-    },
-    {
-      "id": 1781107072,
-      "titulo": "Coal India, BCCL shares rise up to 5% as govt designates coking coal as critical mineral - Moneycontrol.com",
-      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMi5gFBVV95cUxPY0hKZ0FyaXFpbUV5SXFMN3F2LTljdWR6V01yU280VEctSHZLSEdkbW5SWVpCWExDNjdXVnc4dVVKSjRnVzRnczVjRHlHRE8xdHU4QnRfZ1lNZnlRQjI4ME9UajkwVlZ1SDdQci1xV1lXZFJtQUtnZHgxMk00STRMWENqa1g0bGc0aGdvcWVua0VhWDlVbVo2ZzZHUTdZWUJLMDZ3NXMxRkJobC",
-      "fuente": "Moneycontrol.com",
-      "fecha": "2026-01-29T08:00:00",
-      "categoria": "carbon",
-      "mineral": "carbon_coquizable",
-      "sentimiento": "neutral",
-      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPY0hKZ0FyaXFpbUV5SXFMN3F2LTljdWR6V01yU280VEctSHZLSEdkbW5SWVpCWExDNjdXVnc4dVVKSjRnVzRnczVjRHlHRE8xdHU4QnRfZ1lNZnlRQjI4ME9UajkwVlZ1SDdQci1xV1lXZFJtQUtnZHgxMk00STRMWENqa1g0bGc0aGdvcWVua0VhWDlVbVo2ZzZHUTdZWUJLMDZ3NXMxRkJobC1yTndoTmVXUWR4Mk5VcVE5WE1hODczOVk1Y1FiQVdDZjFvLUNhUDB2N1NyQ21haThwZ3ZJS2JXaGlmZ9IB6wFBVV95cUxNdHU3T1pQR3ZvYkE3aDJZTTRqMmtHUVNYMk9GcEFGUkJvVjB3a1c1N1l1Y1dmdXhkOUhnLUF4LXdqb3RLQkZxU0ZiRlBFNWR1OXVKaTY5UlE1UE5yWENWOVBHSW9NdEZFWVhySnBuS2QyLWlxblVLaUxQcVZxVlR0TjZEWkJWRUtJZUNTR2h2NGVmLUVjYU9zdk5WeDIwdnpNSUdyWWJ5M2tac1N2cFNmR0kyRlVHbVRKMFJzVWZNWUY0VjFzallnN1AwdWVCV1VyUDhmMTJRaVE5LWdJOU05UTJ1TjhuQVQtVUpj?oc=5",
-      "tags": [
-        "mercado",
-        "coking coal price"
       ]
     }
   ]
