@@ -1,6 +1,21 @@
 {
-  "ultima_actualizacion": "2026-08-05T12:58:00.448114",
+  "ultima_actualizacion": "2026-08-06T12:59:15.166735",
   "noticias": [
+    {
+      "id": 1786021155,
+      "titulo": "Generadores de carga lanzan llamado urgente al nuevo Gobierno: el costo del transporte amenaza la competitividad del carbón y las exportaciones del país.",
+      "resumen": "Noticia del sector minero del carbón publicada por País Minero: Generadores de carga lanzan llamado urgente al nuevo Gobierno: el costo del transporte amenaza la competitividad del carbón y las exportaciones del país.",
+      "fuente": "País Minero",
+      "fecha": "2026-08-06T12:59:15.165335",
+      "categoria": "carbon",
+      "mineral": "carbon_energetico",
+      "sentimiento": "neutral",
+      "url": "https://www.paisminero.com/index.php?option=com_content&view=article&id=30634:generadores-de-carga-lanzan-llamado-urgente-al-nuevo-gobierno-el-costo-del-transporte-amenaza-la-competitividad-del-carbon-y-las-exportaciones-del-pais&catid=116&Itemid=10001",
+      "tags": [
+        "carbón",
+        "país minero"
+      ]
+    },
     {
       "id": 1785934680,
       "titulo": "Colombia ya tiene su hoja de ruta para modernizar el mercado energético - laopinion.co",
@@ -884,21 +899,6 @@
       "tags": [
         "mercado",
         "precio carbón térmico"
-      ]
-    },
-    {
-      "id": 1781107073,
-      "titulo": "Carboneros de Norte de Santander proyectan producir 2,5 millones de toneladas - laopinion.co",
-      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMiuAFBVV95cUxQU1piMUhTMUJWX2dhbHBLOXhUa2V1YU83ZTNpbXNUT0dWa2JHMWRySnh0TTQ0dXA2VjdYS1FBNlJqVlBIaW9ZaDEtQTFPWHlVRmRiWUY0dngtaWlEUFFMcVppeEJPaVBxa2V4d0ZxU2hPanFIa1h1SFRKNkhqY2dJTzlCODhTaGRyTkRnZi16VDdDSG5vSXJWUFVxbFdyV1BZbS0zMkpxeklMdl",
-      "fuente": "laopinion.co",
-      "fecha": "2021-03-02T08:00:00",
-      "categoria": "geopolitica",
-      "mineral": "carbon_energetico",
-      "sentimiento": "neutral",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQU1piMUhTMUJWX2dhbHBLOXhUa2V1YU83ZTNpbXNUT0dWa2JHMWRySnh0TTQ0dXA2VjdYS1FBNlJqVlBIaW9ZaDEtQTFPWHlVRmRiWUY0dngtaWlEUFFMcVppeEJPaVBxa2V4d0ZxU2hPanFIa1h1SFRKNkhqY2dJTzlCODhTaGRyTkRnZi16VDdDSG5vSXJWUFVxbFdyV1BZbS0zMkpxeklMdlVjXzFyb01UWjNjbkhC?oc=5",
-      "tags": [
-        "mercado",
-        "site:laopinion.co minería carbón Táchira"
       ]
     }
   ]
