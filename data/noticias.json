@@ -1,6 +1,36 @@
 {
-  "ultima_actualizacion": "2026-08-06T12:59:15.166735",
+  "ultima_actualizacion": "2026-08-07T11:49:47.790090",
   "noticias": [
+    {
+      "id": 1786103387,
+      "titulo": "Fenalcarbón advierte efecto dominó en Córdoba por reducción de  operaciones de Cerro Matoso",
+      "resumen": "Noticia del sector minero del carbón publicada por País Minero: Fenalcarbón advierte efecto dominó en Córdoba por reducción de  operaciones de Cerro Matoso",
+      "fuente": "País Minero",
+      "fecha": "2026-08-07T11:49:47.788699",
+      "categoria": "carbon",
+      "mineral": "carbon_energetico",
+      "sentimiento": "neutral",
+      "url": "https://www.paisminero.com/index.php?option=com_content&view=article&id=30572:fenalcarbon-advierte-efecto-domino-en-cordoba-por-reduccion-de-operaciones-de-cerro-matoso&catid=116&Itemid=10001",
+      "tags": [
+        "carbón",
+        "país minero"
+      ]
+    },
+    {
+      "id": 1786103386,
+      "titulo": "Ciimate change: An unstoppable movement takes hold - Buenos Aires Times",
+      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxOLWpYaE9kQnRwRU04U1dPUFUzRmJtU0NsM0tWdFpucDFyT0YwbWhRRXYySjZtSGo3LUpUWDJBT0t2SklfMGl5OEpOQXRKSzlKNGlPVG9QNFlpWjdFX3lFbUoxd3ZwQnF5R00wTHlpNU5jMy1nUDNRcjZrbWF2NHJkNnNpMERGU2ZRU2JGWDFFdGYySk3SAZgBQVVfeXFMT1dHVzU5RG1vSUpzaE",
+      "fuente": "Buenos Aires Times",
+      "fecha": "2019-10-19T07:00:00",
+      "categoria": "carbon",
+      "mineral": "carbon_energetico",
+      "sentimiento": "neutral",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOLWpYaE9kQnRwRU04U1dPUFUzRmJtU0NsM0tWdFpucDFyT0YwbWhRRXYySjZtSGo3LUpUWDJBT0t2SklfMGl5OEpOQXRKSzlKNGlPVG9QNFlpWjdFX3lFbUoxd3ZwQnF5R00wTHlpNU5jMy1nUDNRcjZrbWF2NHJkNnNpMERGU2ZRU2JGWDFFdGYySk3SAZgBQVVfeXFMT1dHVzU5RG1vSUpzaElwZXVwLWFmaS1Ua3FqeGFUVEJ1MW5YS004Z3BOV1AyX1ZiQURnMVNJRTJCZXIwd0N5QTNSQVk3VUNKUHZwUTNwT25NX0s0SG40YWdtZGJXd1VSQ1YwYmFLY0dONW9JVFVQQnlMa0RvdG9EdGZySm44cW1oQWtVOExkaU5FbFZSZS1JMGc?oc=5",
+      "tags": [
+        "mercado",
+        "thermal coal price"
+      ]
+    },
     {
       "id": 1786021155,
       "titulo": "Generadores de carga lanzan llamado urgente al nuevo Gobierno: el costo del transporte amenaza la competitividad del carbón y las exportaciones del país.",
@@ -869,36 +899,6 @@
       "tags": [
         "mercado",
         "phosphate rock price"
-      ]
-    },
-    {
-      "id": 1781107075,
-      "titulo": "Roca fosfórica: un fertilizante ideal en la producción de pastos - CONtexto Ganadero",
-      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxPSWF5VW5vT3dIbnhseDFCTmJXaEVRZmFpMWxUQTBpWEt6Uk5NUVo5NDBiMVJ3M1g5MXJfSlZfR1FmbDRWTHV6anhGalhyVUZrY0ZUSHBLc2VPRHd4aFd4Y0tia2x3TERHUldXNThVelhFTmcxaXQtc1VHUExIeEpZenFSdDlYZW4zcmpORU1wdFoyc1dPZWFpUkN6a2M2YVo5V0M1MUhXbWQ?oc",
-      "fuente": "CONtexto Ganadero",
-      "fecha": "2014-09-25T07:00:00",
-      "categoria": "fosfatos",
-      "mineral": "roca_fosfatica",
-      "sentimiento": "neutral",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPSWF5VW5vT3dIbnhseDFCTmJXaEVRZmFpMWxUQTBpWEt6Uk5NUVo5NDBiMVJ3M1g5MXJfSlZfR1FmbDRWTHV6anhGalhyVUZrY0ZUSHBLc2VPRHd4aFd4Y0tia2x3TERHUldXNThVelhFTmcxaXQtc1VHUExIeEpZenFSdDlYZW4zcmpORU1wdFoyc1dPZWFpUkN6a2M2YVo5V0M1MUhXbWQ?oc=5",
-      "tags": [
-        "mercado",
-        "roca fosfática precio"
-      ]
-    },
-    {
-      "id": 1781107074,
-      "titulo": "El carbón aún sostiene a Colombia, pero su margen se reduce rumbo a 2030, así está el panorama - Infobae",
-      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMi0wFBVV95cUxQRE43WFljQ09DQklDZmRZWnRDZ0hsX0tLdXpLOEN0dF92OWZZa2VQYnVCZnpmbDVBOUZ2LU9nZE40RGJzNXBFU2s1MjRwNHJQRmpLSDBPNC1qQkdfNUQ2aEY5MEljaFg1SFJyWkVRSG55R3BIZjc4QTE3dllyYjB1eWxyWnZQUHE2dEJOd1pnRHJqLVhGdmc3dGVzZkhoS1pLSTRYbTloSF9hWD",
-      "fuente": "Infobae",
-      "fecha": "2025-12-17T08:00:00",
-      "categoria": "carbon",
-      "mineral": "carbon_energetico",
-      "sentimiento": "neutral",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQRE43WFljQ09DQklDZmRZWnRDZ0hsX0tLdXpLOEN0dF92OWZZa2VQYnVCZnpmbDVBOUZ2LU9nZE40RGJzNXBFU2s1MjRwNHJQRmpLSDBPNC1qQkdfNUQ2aEY5MEljaFg1SFJyWkVRSG55R3BIZjc4QTE3dllyYjB1eWxyWnZQUHE2dEJOd1pnRHJqLVhGdmc3dGVzZkhoS1pLSTRYbTloSF9hWDFWNHFTaU1HLXVua3VKVUZmcXNRamNENUlOZ1lLblhzTHdlZ08tdVlR0gHuAUFVX3lxTFBUVWtLV19rbklFNEpCMXNKOXBPM09KMkNURGFkMWtZXzRqRUFDT0VSZS02cHBqWmNyWHFCWXRWRjM0eXpmOVk5bVAwQ3FZQ1RmYzhTbHJUVTI1anhjQzk1S3FSa3hlLUVPS19kRXZNNzFZUUtnS2o3bmtkbXFGOTZCWlctb2ZBOWlBQnl6N2RnRUtpSXNGdGNCVXFNTEx6WS02akhHby1UcFZNemNXUUdnVDFoY0s5ZWx6Vm1TVFVFcm1HdFpFNDV2OE9KaEJrUmIzYWlwWVFEazNxRk56bTlfOVhNRWtoRGE1Q2Eyb3c?oc=5",
-      "tags": [
-        "mercado",
-        "precio carbón térmico"
       ]
     }
   ]
