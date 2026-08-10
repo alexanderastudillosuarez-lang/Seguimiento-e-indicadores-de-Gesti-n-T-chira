@@ -1,6 +1,21 @@
 {
-  "ultima_actualizacion": "2026-08-07T11:49:47.790090",
+  "ultima_actualizacion": "2026-08-10T11:51:25.686649",
   "noticias": [
+    {
+      "id": 1786362685,
+      "titulo": "La explotación de carbón en Táchira, está bajo el control del ELN amparados por el chavismo - AlbertoNews - Periodismo sin censura",
+      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMixAFBVV95cUxQa3RVd2tWVlRzRVBzVjdQa19wSWFCbEtZNEFCN1ROeERHTEhrNEg2U2NaclVBSG03SmVCSHBhWm4xbktyY0tadmJVeXdUV0FqaFZuSUhUalJ2Qm9td0dENHFmZ0dsTm1kVFMtM21Bb3NuSXBVYkRHQzJ0cXN1aDA4dWN3TUxlN3NCMWN1OEk5TjBJajhtLTJUdkhmWUpPUXF6RTFERmhmaF9ENH",
+      "fuente": "AlbertoNews - Periodismo sin censura",
+      "fecha": "2022-02-20T08:00:00",
+      "categoria": "geopolitica",
+      "mineral": "carbon_energetico",
+      "sentimiento": "neutral",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQa3RVd2tWVlRzRVBzVjdQa19wSWFCbEtZNEFCN1ROeERHTEhrNEg2U2NaclVBSG03SmVCSHBhWm4xbktyY0tadmJVeXdUV0FqaFZuSUhUalJ2Qm9td0dENHFmZ0dsTm1kVFMtM21Bb3NuSXBVYkRHQzJ0cXN1aDA4dWN3TUxlN3NCMWN1OEk5TjBJajhtLTJUdkhmWUpPUXF6RTFERmhmaF9ENHVoTVZzelJSUjNrZ1hPWVpxM0NJRFNJbl9f?oc=5",
+      "tags": [
+        "mercado",
+        "minería carbón Táchira Venezuela"
+      ]
+    },
     {
       "id": 1786103387,
       "titulo": "Fenalcarbón advierte efecto dominó en Córdoba por reducción de  operaciones de Cerro Matoso",
@@ -884,21 +899,6 @@
       "tags": [
         "carbón",
         "país minero"
-      ]
-    },
-    {
-      "id": 1781107076,
-      "titulo": "Hormuz Strait Blockade: How Energy Shocks Feed Into Fertilizer and Food Prices - Impakter",
-      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxPam1IOG4wSnBZQmp5N2kwYndxWWVrcVh2QjlsQU41YmFEQzJSTGRHNFJDdzMwNTdPS2dGNXFkYjZnakRyMGlCdldsOHI1dEUtOWU5WGtuT0JsLUNnb1VwRW9PcWdWc19SeDFvaW5lajBOejMyTkFOM1BrY1VrLTdKbm1kc09BX1hJUk1SX1lSRGc3bkJwdW1UYkxlRnk1MnNk?oc=5\" target=",
-      "fuente": "Impakter",
-      "fecha": "2026-03-25T07:00:00",
-      "categoria": "fosfatos",
-      "mineral": "roca_fosfatica",
-      "sentimiento": "neutral",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPam1IOG4wSnBZQmp5N2kwYndxWWVrcVh2QjlsQU41YmFEQzJSTGRHNFJDdzMwNTdPS2dGNXFkYjZnakRyMGlCdldsOHI1dEUtOWU5WGtuT0JsLUNnb1VwRW9PcWdWc19SeDFvaW5lajBOejMyTkFOM1BrY1VrLTdKbm1kc09BX1hJUk1SX1lSRGc3bkJwdW1UYkxlRnk1MnNk?oc=5",
-      "tags": [
-        "mercado",
-        "phosphate rock price"
       ]
     }
   ]
