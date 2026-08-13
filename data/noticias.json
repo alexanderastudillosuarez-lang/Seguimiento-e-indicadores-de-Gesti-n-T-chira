@@ -1,6 +1,21 @@
 {
-  "ultima_actualizacion": "2026-08-10T11:51:25.686649",
+  "ultima_actualizacion": "2026-08-13T11:51:28.944756",
   "noticias": [
+    {
+      "id": 1786621888,
+      "titulo": "El gobierno toma el control de British Steel, alegando interés nacional.",
+      "resumen": "Noticia del sector minero del carbón publicada por País Minero: El gobierno toma el control de British Steel, alegando interés nacional.",
+      "fuente": "País Minero",
+      "fecha": "2026-08-13T11:51:28.943399",
+      "categoria": "carbon",
+      "mineral": "carbon_energetico",
+      "sentimiento": "neutral",
+      "url": "https://www.paisminero.com/index.php?option=com_content&view=article&id=30663:el-gobierno-toma-el-control-de-british-steel-alegando-interes-nacional&catid=116&Itemid=10001",
+      "tags": [
+        "carbón",
+        "país minero"
+      ]
+    },
     {
       "id": 1786362685,
       "titulo": "La explotación de carbón en Táchira, está bajo el control del ELN amparados por el chavismo - AlbertoNews - Periodismo sin censura",
@@ -881,21 +896,6 @@
       "mineral": "carbon_energetico",
       "sentimiento": "neutral",
       "url": "https://www.paisminero.com/index.php?option=com_content&view=article&id=30305:comunicado-operaciones-e-inversiones-de-la-sabana-j3&catid=116&Itemid=10001",
-      "tags": [
-        "carbón",
-        "país minero"
-      ]
-    },
-    {
-      "id": 1781108156,
-      "titulo": "El golpe de Petro a los suizos dueños del Cerrejón y a los gringos de la Drummond",
-      "resumen": "Noticia del sector minero del carbón publicada por País Minero: El golpe de Petro a los suizos dueños del Cerrejón y a los gringos de la Drummond",
-      "fuente": "País Minero",
-      "fecha": "2026-06-10T12:15:56.897405",
-      "categoria": "carbon",
-      "mineral": "carbon_energetico",
-      "sentimiento": "neutral",
-      "url": "https://www.paisminero.com/index.php?option=com_content&view=article&id=27864:el-golpe-de-petro-a-los-suizos-duenos-del-cerrejon-y-a-los-gringos-de-la-drummond&catid=116&Itemid=10001",
       "tags": [
         "carbón",
         "país minero"
