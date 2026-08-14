@@ -1,6 +1,21 @@
 {
-  "ultima_actualizacion": "2026-08-13T11:51:28.944756",
+  "ultima_actualizacion": "2026-08-14T11:48:33.429870",
   "noticias": [
+    {
+      "id": 1786708113,
+      "titulo": "Hormuz Strait Blockade: How Energy Shocks Feed Into Fertilizer and Food Prices - Impakter",
+      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxPam1IOG4wSnBZQmp5N2kwYndxWWVrcVh2QjlsQU41YmFEQzJSTGRHNFJDdzMwNTdPS2dGNXFkYjZnakRyMGlCdldsOHI1dEUtOWU5WGtuT0JsLUNnb1VwRW9PcWdWc19SeDFvaW5lajBOejMyTkFOM1BrY1VrLTdKbm1kc09BX1hJUk1SX1lSRGc3bkJwdW1UYkxlRnk1MnNk?oc=5\" target=",
+      "fuente": "Impakter",
+      "fecha": "2026-03-25T07:00:00",
+      "categoria": "fosfatos",
+      "mineral": "roca_fosfatica",
+      "sentimiento": "neutral",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPam1IOG4wSnBZQmp5N2kwYndxWWVrcVh2QjlsQU41YmFEQzJSTGRHNFJDdzMwNTdPS2dGNXFkYjZnakRyMGlCdldsOHI1dEUtOWU5WGtuT0JsLUNnb1VwRW9PcWdWc19SeDFvaW5lajBOejMyTkFOM1BrY1VrLTdKbm1kc09BX1hJUk1SX1lSRGc3bkJwdW1UYkxlRnk1MnNk?oc=5",
+      "tags": [
+        "mercado",
+        "phosphate rock price"
+      ]
+    },
     {
       "id": 1786621888,
       "titulo": "El gobierno toma el control de British Steel, alegando interés nacional.",
@@ -881,21 +896,6 @@
       "mineral": "carbon_energetico",
       "sentimiento": "neutral",
       "url": "https://www.paisminero.com/index.php?option=com_content&view=article&id=30341:la-crisis-energetica-mundial-esta-llevando-a-los-paises-de-vuelta-al-carbon-j3&catid=116&Itemid=10001",
-      "tags": [
-        "carbón",
-        "país minero"
-      ]
-    },
-    {
-      "id": 1781108157,
-      "titulo": "Comunicado : Operaciones e Inversiones de la Sabana.",
-      "resumen": "Noticia del sector minero del carbón publicada por País Minero: Comunicado : Operaciones e Inversiones de la Sabana.",
-      "fuente": "País Minero",
-      "fecha": "2026-06-10T12:15:57.796247",
-      "categoria": "carbon",
-      "mineral": "carbon_energetico",
-      "sentimiento": "neutral",
-      "url": "https://www.paisminero.com/index.php?option=com_content&view=article&id=30305:comunicado-operaciones-e-inversiones-de-la-sabana-j3&catid=116&Itemid=10001",
       "tags": [
         "carbón",
         "país minero"
