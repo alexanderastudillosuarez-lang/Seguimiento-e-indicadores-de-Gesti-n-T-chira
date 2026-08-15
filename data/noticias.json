@@ -1,6 +1,21 @@
 {
-  "ultima_actualizacion": "2026-08-14T11:48:33.429870",
+  "ultima_actualizacion": "2026-08-15T11:24:24.991450",
   "noticias": [
+    {
+      "id": 1786793064,
+      "titulo": "#RíoTáchiraEnvenenado: una cuenca binacional que agoniza en silencio en Colombia - Mongabay Latam",
+      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxOUWExVlpfbi1iNmtsWjhuaC1iY2tHNGhrZEVEek43NmlxNVZEek1sMzY5MnNqQ1BIaW9mOUFSTHFpQk44eG51TFZueWJmLUs2N01HMzE1eUktV2ZhRk9zYml4X3BOTG1FTTdIdGZkZmwzX25tbExEa01oX2owTjJnaFI0M0x4N1pmT054Z2VDVEtOS0Q5VWdJVw?oc=5\" target=\"_blank\">#",
+      "fuente": "Mongabay Latam",
+      "fecha": "2022-03-30T07:00:00",
+      "categoria": "geopolitica",
+      "mineral": "carbon_energetico",
+      "sentimiento": "neutral",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOUWExVlpfbi1iNmtsWjhuaC1iY2tHNGhrZEVEek43NmlxNVZEek1sMzY5MnNqQ1BIaW9mOUFSTHFpQk44eG51TFZueWJmLUs2N01HMzE1eUktV2ZhRk9zYml4X3BOTG1FTTdIdGZkZmwzX25tbExEa01oX2owTjJnaFI0M0x4N1pmT054Z2VDVEtOS0Q5VWdJVw?oc=5",
+      "tags": [
+        "mercado",
+        "minería carbón Táchira Venezuela"
+      ]
+    },
     {
       "id": 1786708113,
       "titulo": "Hormuz Strait Blockade: How Energy Shocks Feed Into Fertilizer and Food Prices - Impakter",
@@ -884,21 +899,6 @@
       "tags": [
         "mercado",
         "minería carbón Táchira Venezuela"
-      ]
-    },
-    {
-      "id": 1781108158,
-      "titulo": "La crisis energética mundial está llevando a los países de vuelta al carbón.",
-      "resumen": "Noticia del sector minero del carbón publicada por País Minero: La crisis energética mundial está llevando a los países de vuelta al carbón.",
-      "fuente": "País Minero",
-      "fecha": "2026-06-10T12:15:58.667359",
-      "categoria": "carbon",
-      "mineral": "carbon_energetico",
-      "sentimiento": "neutral",
-      "url": "https://www.paisminero.com/index.php?option=com_content&view=article&id=30341:la-crisis-energetica-mundial-esta-llevando-a-los-paises-de-vuelta-al-carbon-j3&catid=116&Itemid=10001",
-      "tags": [
-        "carbón",
-        "país minero"
       ]
     }
   ]
