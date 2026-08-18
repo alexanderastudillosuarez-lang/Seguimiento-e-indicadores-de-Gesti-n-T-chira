@@ -1,6 +1,36 @@
 {
-  "ultima_actualizacion": "2026-08-15T11:24:24.991450",
+  "ultima_actualizacion": "2026-08-18T11:29:27.319953",
   "noticias": [
+    {
+      "id": 1787052567,
+      "titulo": "India impulsa un aumento global de nuevos planes de minas de carbón",
+      "resumen": "Noticia del sector minero del carbón publicada por País Minero: India impulsa un aumento global de nuevos planes de minas de carbón",
+      "fuente": "País Minero",
+      "fecha": "2026-08-18T11:29:27.318660",
+      "categoria": "carbon",
+      "mineral": "carbon_energetico",
+      "sentimiento": "neutral",
+      "url": "https://www.paisminero.com/index.php?option=com_content&view=article&id=31097:india-impulsa-un-aumento-global-de-nuevos-planes-de-minas-de-carbon-20260813080106&catid=116&Itemid=10001",
+      "tags": [
+        "carbón",
+        "país minero"
+      ]
+    },
+    {
+      "id": 1787052565,
+      "titulo": "Panorama del coque en Colombia: ¿podría perder su puesto en exportaciones en 2024? - Portafolio.co",
+      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMivAFBVV95cUxNSlhuenRPOFJnTVpYT2xfN192Q2lYS01DMzFxSThoN3lXRG1YOXJzU0o1NnRKQ2RFYXQ2YllhWFBqUW94Ymk3UW1CdGNaeWpSUFp5SVZOVHNidmQ5Qk91NWc3N2RvZHFlV3hpS01yRzcwUktXTkUwWDNicWdtQmRBY09hWmJ0WWFiVFJrdk83WlZzN1BfeXlXZnpKVkp1dlBSRElaRmdlOW04Nj",
+      "fuente": "Portafolio.co",
+      "fecha": "2024-10-15T07:00:00",
+      "categoria": "carbon",
+      "mineral": "carbon_coquizable",
+      "sentimiento": "neutral",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNSlhuenRPOFJnTVpYT2xfN192Q2lYS01DMzFxSThoN3lXRG1YOXJzU0o1NnRKQ2RFYXQ2YllhWFBqUW94Ymk3UW1CdGNaeWpSUFp5SVZOVHNidmQ5Qk91NWc3N2RvZHFlV3hpS01yRzcwUktXTkUwWDNicWdtQmRBY09hWmJ0WWFiVFJrdk83WlZzN1BfeXlXZnpKVkp1dlBSRElaRmdlOW04NjRnc3JzZGVvVG05bXpyeXlsYtIBwgFBVV95cUxQWU8tNkFKdDk2NTR4VklPOW1BNU5KM1JtXzlMbFJUZjFBU3lWeDRSMi1RRl8wcHVhZmFYTnBkYWt6VjJyd2JaSVBJTjAyYUNVUmItcXJ2UUxxSHItaU5GZkR1Y3B1Q0VMeXVBVTNLTUl0enhIbk42ZmtWUktUT1RqSEVVcXk1akRHVWk4Sml2bXk5NXRZcUl1a0VRZFktWjlVbkFCcjVOVWtheXVsT2RrYVJHZDFhWDVJTm94M29UT2YwZw?oc=5",
+      "tags": [
+        "mercado",
+        "carbón coquizable metalúrgico"
+      ]
+    },
     {
       "id": 1786793064,
       "titulo": "#RíoTáchiraEnvenenado: una cuenca binacional que agoniza en silencio en Colombia - Mongabay Latam",
@@ -869,36 +899,6 @@
       "tags": [
         "carbón",
         "país minero"
-      ]
-    },
-    {
-      "id": 1781289173,
-      "titulo": "Argus selected to price Japanese coking coal imports - Argus Media",
-      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMi1gFBVV95cUxOTzJ1cEduT3dKYjg1NEU4R3h5bFgzTEllSG40M29aUlpCbnNlSVE1dE5QZFIya3pKdDlsZWtUXzJKU1EzMUdKMlRsNEU4WkNfbDZOM3hJOERIelV0ZzEta0l4TEdMUzJ5YnRHek5JYW41NDBLNmxiTm9qT25vZ1NQWW5NcW5odmVuc183NDFSWU5HRWVUZU04Ny1kWlAxcWdmaG9VZGJxQ205UX",
-      "fuente": "Argus Media",
-      "fecha": "2017-06-27T07:00:00",
-      "categoria": "carbon",
-      "mineral": "carbon_coquizable",
-      "sentimiento": "neutral",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOTzJ1cEduT3dKYjg1NEU4R3h5bFgzTEllSG40M29aUlpCbnNlSVE1dE5QZFIya3pKdDlsZWtUXzJKU1EzMUdKMlRsNEU4WkNfbDZOM3hJOERIelV0ZzEta0l4TEdMUzJ5YnRHek5JYW41NDBLNmxiTm9qT25vZ1NQWW5NcW5odmVuc183NDFSWU5HRWVUZU04Ny1kWlAxcWdmaG9VZGJxQ205UXZsdHNsRDNrYmpBUUo0VUpFbWh0anZKRGNmQ3JmV1ZlX0JaMi1MVWxBVzFn?oc=5",
-      "tags": [
-        "mercado",
-        "coking coal price"
-      ]
-    },
-    {
-      "id": 1781287841,
-      "titulo": "Poco oxígeno y baja paga: precariedad en minas artesanales de carbón de Venezuela - Revista Semana",
-      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMixAFBVV95cUxPclFKaUdaOWhfSmNQMGd1VnB5d093SC1zR1B0bHpqV3dLdWVfR19JUlUwRHFoYkplRExOXzB0VnFfeG81TnNxa3VDYTV4WVE4RnNWQXVieGdzdTVrQVJjMWFfSVF1clpzM0tzMUtEUGp0SzdCZ1dVU0YzSHNWRllTTzB1T0dBZ3lGdHpMS1dLeVpBRlVFVG9hRkNMbUVJa0xXWGJEUlFnSDhCZk",
-      "fuente": "Revista Semana",
-      "fecha": "2022-03-14T07:00:00",
-      "categoria": "geopolitica",
-      "mineral": "carbon_energetico",
-      "sentimiento": "neutral",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPclFKaUdaOWhfSmNQMGd1VnB5d093SC1zR1B0bHpqV3dLdWVfR19JUlUwRHFoYkplRExOXzB0VnFfeG81TnNxa3VDYTV4WVE4RnNWQXVieGdzdTVrQVJjMWFfSVF1clpzM0tzMUtEUGp0SzdCZ1dVU0YzSHNWRllTTzB1T0dBZ3lGdHpMS1dLeVpBRlVFVG9hRkNMbUVJa0xXWGJEUlFnSDhCZkpYWHlJN2ZHTkI1OVItU2h4WW8yd0djZVpq0gHKAUFVX3lxTFB0WlNVVzdFZzk2T2JFem9YOXkwRFB0TG8wc2FQTjl1ZlFXaG5vWXhrLXhyNmFGQVZyVzBYTExLVXBDWG9iR3B0Z0JFanZUTzhkTmZfenVKSHZDU0R1SVUtYk1ISGMtV0N5WEVtRlFDV05hTzZKRDY5NUZ4VEVYZFVHRTUzTHltX2Jad01jTnh5TGR5MDhnMFUwelZ1ajJwU3E4VlZKdzdwc2M0TzFGNS1TM0xmZXdaNlY2RDhDSHVNQXFwS2pWajJMZFE?oc=5",
-      "tags": [
-        "mercado",
-        "minería carbón Táchira Venezuela"
       ]
     }
   ]
