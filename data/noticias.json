@@ -1,6 +1,21 @@
 {
-  "ultima_actualizacion": "2026-08-18T11:29:27.319953",
+  "ultima_actualizacion": "2026-08-20T11:31:01.497071",
   "noticias": [
+    {
+      "id": 1787225461,
+      "titulo": "Los efectos del cambio climático en Norte de Santander - laopinion.co",
+      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxNbHktcXg0UjdaZVRWMjlxaHdFbzhHQTNRRUx2NTJSQkxqcjFZS2s1UXFwZFF1Y0g5dnJfT3E4YUU0YWhhZHhaclFIRzdyUXJ6SWdoTnJWRDFRR1FzRzVyNHlmZ1Z0dEpSSkQtVWVKUnN5QXk1U2FsbVhOd0lLblVEU0hmUGpIZmprU2RjXzdUOXJoc09aX1E?oc=5\" target=\"_blank\">Los ",
+      "fuente": "laopinion.co",
+      "fecha": "2021-11-06T07:00:00",
+      "categoria": "geopolitica",
+      "mineral": "carbon_energetico",
+      "sentimiento": "neutral",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNbHktcXg0UjdaZVRWMjlxaHdFbzhHQTNRRUx2NTJSQkxqcjFZS2s1UXFwZFF1Y0g5dnJfT3E4YUU0YWhhZHhaclFIRzdyUXJ6SWdoTnJWRDFRR1FzRzVyNHlmZ1Z0dEpSSkQtVWVKUnN5QXk1U2FsbVhOd0lLblVEU0hmUGpIZmprU2RjXzdUOXJoc09aX1E?oc=5",
+      "tags": [
+        "mercado",
+        "site:laopinion.co minería carbón Táchira"
+      ]
+    },
     {
       "id": 1787052567,
       "titulo": "India impulsa un aumento global de nuevos planes de minas de carbón",
@@ -881,21 +896,6 @@
       "mineral": "carbon_energetico",
       "sentimiento": "neutral",
       "url": "https://www.paisminero.com/index.php?option=com_content&view=article&id=30312:fenalcarbon-consejo-de-estado-suspende-decreto-que-aumentaba-retenciones-y-autorretenciones-al-sector-productivo-j3&catid=116&Itemid=10001",
-      "tags": [
-        "carbón",
-        "país minero"
-      ]
-    },
-    {
-      "id": 1781559472,
-      "titulo": "La demanda de carbón en Asia aumentará en 70 millones de toneladas en 2026 debido al fuerte déficit de GNL.",
-      "resumen": "Noticia del sector minero del carbón publicada por País Minero: La demanda de carbón en Asia aumentará en 70 millones de toneladas en 2026 debido al fuerte déficit de GNL.",
-      "fuente": "País Minero",
-      "fecha": "2026-06-15T21:37:52.352754",
-      "categoria": "carbon",
-      "mineral": "carbon_energetico",
-      "sentimiento": "neutral",
-      "url": "https://www.paisminero.com/index.php?option=com_content&view=article&id=30454:la-demanda-de-carbon-en-asia-aumentara-en-70-millones-de-toneladas-en-2026-debido-al-fuerte-deficit-de-gnl&catid=116&Itemid=10001",
       "tags": [
         "carbón",
         "país minero"
