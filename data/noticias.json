@@ -1,6 +1,21 @@
 {
-  "ultima_actualizacion": "2026-08-20T11:31:01.497071",
+  "ultima_actualizacion": "2026-08-22T11:24:46.023895",
   "noticias": [
+    {
+      "id": 1787397886,
+      "titulo": "Ministro Saab y gobernador del estado Táchira visitas el Complejo Minero Simón Bolívar - EL UNIVERSAL",
+      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMiywFBVV95cUxQbERud211Q2tjNkFnV290VnVGWFBpYzZIdkFhcTM1bGNhVmFXRjVyalk1M21UY2NtMlR4OWc0VE1ueUJRbWdUMHhoZnJjdGZPWDFlVkVPR194NWtHdEs4ZnBVNFNjU1FnZU5yY1dxb3lieDBwUWVfZnVfZUFJQ2otOTBnemJ3MWs3VlFCaTktd1VPblFYT2lBX3NxMWRudUZxZmNBMHdQeURxS2",
+      "fuente": "EL UNIVERSAL",
+      "fecha": "2025-07-03T07:00:00",
+      "categoria": "geopolitica",
+      "mineral": "carbon_energetico",
+      "sentimiento": "neutral",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQbERud211Q2tjNkFnV290VnVGWFBpYzZIdkFhcTM1bGNhVmFXRjVyalk1M21UY2NtMlR4OWc0VE1ueUJRbWdUMHhoZnJjdGZPWDFlVkVPR194NWtHdEs4ZnBVNFNjU1FnZU5yY1dxb3lieDBwUWVfZnVfZUFJQ2otOTBnemJ3MWs3VlFCaTktd1VPblFYT2lBX3NxMWRudUZxZmNBMHdQeURxS285ZWNtcnBaY3BscHV2ZUI4VEJoME1LRDg3N0lSYUpxOA?oc=5",
+      "tags": [
+        "mercado",
+        "minería carbón Táchira Venezuela"
+      ]
+    },
     {
       "id": 1787225461,
       "titulo": "Los efectos del cambio climático en Norte de Santander - laopinion.co",
@@ -884,21 +899,6 @@
       "tags": [
         "mercado",
         "precio carbón térmico"
-      ]
-    },
-    {
-      "id": 1781645859,
-      "titulo": "Fenalcarbón : ' Consejo de Estado suspende decreto que aumentaba retenciones y autorretenciones al sector productivo. '",
-      "resumen": "Noticia del sector minero del carbón publicada por País Minero: Fenalcarbón : ' Consejo de Estado suspende decreto que aumentaba retenciones y autorretenciones al sector productivo. '",
-      "fuente": "País Minero",
-      "fecha": "2026-06-16T21:37:39.411320",
-      "categoria": "carbon",
-      "mineral": "carbon_energetico",
-      "sentimiento": "neutral",
-      "url": "https://www.paisminero.com/index.php?option=com_content&view=article&id=30312:fenalcarbon-consejo-de-estado-suspende-decreto-que-aumentaba-retenciones-y-autorretenciones-al-sector-productivo-j3&catid=116&Itemid=10001",
-      "tags": [
-        "carbón",
-        "país minero"
       ]
     }
   ]
