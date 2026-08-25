@@ -1,6 +1,21 @@
 {
-  "ultima_actualizacion": "2026-08-24T11:33:07.398842",
+  "ultima_actualizacion": "2026-08-25T11:32:35.170796",
   "noticias": [
+    {
+      "id": 1787657555,
+      "titulo": "Mineros de carbón de Norte de Santander se forman para una labor más segura - laopinion.co",
+      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxPNmZXbk1WZnhMaURqendGMEFWS0xVVFZzVXhoandBeHJPdllTN280QjRtZ3ZEM2l5VXFkSnduaUl3QVJXcnp6WG1ZV0o3V2tZZHFELUNnenZNX0FpZW1haVpUVXpSWjQzT1FQdlBSUVVSZTV3djN0bFdxWFQydVlOZkpibzlWZlE2MVFJc3lKdHRHakxkQm5NbjZ0MmxhakpPcWp5OFNod053OH",
+      "fuente": "laopinion.co",
+      "fecha": "2022-08-16T07:00:00",
+      "categoria": "geopolitica",
+      "mineral": "carbon_energetico",
+      "sentimiento": "neutral",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPNmZXbk1WZnhMaURqendGMEFWS0xVVFZzVXhoandBeHJPdllTN280QjRtZ3ZEM2l5VXFkSnduaUl3QVJXcnp6WG1ZV0o3V2tZZHFELUNnenZNX0FpZW1haVpUVXpSWjQzT1FQdlBSUVVSZTV3djN0bFdxWFQydVlOZkpibzlWZlE2MVFJc3lKdHRHakxkQm5NbjZ0MmxhakpPcWp5OFNod053OHVWVlVWWWYzamxidw?oc=5",
+      "tags": [
+        "mercado",
+        "site:laopinion.co minería carbón Táchira"
+      ]
+    },
     {
       "id": 1787571187,
       "titulo": "El Banco de Inglaterra se está alejando del carbón.",
@@ -884,21 +899,6 @@
       "tags": [
         "carbón",
         "país minero"
-      ]
-    },
-    {
-      "id": 1782163724,
-      "titulo": "Russia becomes India's third-largest coal supplier in July, Coalmint data shows - Reuters",
-      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMiygFBVV95cUxQX0RibjQ4aTNtVVF5U3NQM25rUktSblhpVlNSdWUwM19fVnNYNmZ3c2RqX1diTmdRdWNKeElSNjY3UmxSNmNGV2J4MGF6VXZiUWFOQ0ZETUpmc3dOXzV0aDRhNkdqcFBDTUdiVldIeU9TbzRxVzFrTFNBSUR6SDYteTdJSlB5bGdKSEVUQ2NfekJWa1p5VHJmTW1neG1LcHA3a25ibDJHaG1meF",
-      "fuente": "Reuters",
-      "fecha": "2022-08-03T07:00:00",
-      "categoria": "carbon",
-      "mineral": "carbon_energetico",
-      "sentimiento": "neutral",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQX0RibjQ4aTNtVVF5U3NQM25rUktSblhpVlNSdWUwM19fVnNYNmZ3c2RqX1diTmdRdWNKeElSNjY3UmxSNmNGV2J4MGF6VXZiUWFOQ0ZETUpmc3dOXzV0aDRhNkdqcFBDTUdiVldIeU9TbzRxVzFrTFNBSUR6SDYteTdJSlB5bGdKSEVUQ2NfekJWa1p5VHJmTW1neG1LcHA3a25ibDJHaG1meFRwZVVTSld5MkhFek1kcklEdHpiQ29MTThheG92bVR3?oc=5",
-      "tags": [
-        "mercado",
-        "thermal coal price"
       ]
     }
   ]
