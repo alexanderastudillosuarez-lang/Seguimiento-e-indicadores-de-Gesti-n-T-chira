@@ -1,11 +1,11 @@
 {
-  "ultima_actualizacion": "2026-08-25T11:32:34.727817",
+  "ultima_actualizacion": "2026-08-26T11:33:54.542672",
   "carbon_energetico": {
     "nombre": "Carbón Energético (Newcastle)",
     "unidad": "USD/Ton",
-    "precio_actual": 135.86,
-    "variacion_diaria": 0.17,
-    "variacion_diaria_pct": 0.13,
+    "precio_actual": 136.1,
+    "variacion_diaria": 0.24,
+    "variacion_diaria_pct": 0.18,
     "variacion_semanal_pct": -2.1,
     "variacion_mensual_pct": 3.8,
     "variacion_anual_pct": -12.4,
@@ -13,16 +13,15 @@
     "min_historico": 47.23,
     "historico": {
       "7d": [
-        133.72,
         134.24,
         134.39,
         135.03,
         135.4,
         135.69,
-        135.86
+        135.86,
+        136.1
       ],
       "30d": [
-        162.6,
         154.07,
         147.86,
         143.91,
@@ -51,10 +50,10 @@
         135.03,
         135.4,
         135.69,
-        135.86
+        135.86,
+        136.1
       ],
       "90d": [
-        133.4,
         134.1,
         133.2,
         132.6,
@@ -143,10 +142,10 @@
         135.03,
         135.4,
         135.69,
-        135.86
+        135.86,
+        136.1
       ],
       "365d": [
-        210.7,
         213.1,
         215.4,
         213.9,
@@ -510,22 +509,23 @@
         135.03,
         135.4,
         135.69,
-        135.86
+        135.86,
+        136.1
       ]
     },
     "precio_consenso": {
-      "precio_consenso": 135.86,
-      "precio_min": 131.5,
-      "precio_max": 139.3,
+      "precio_consenso": 136.1,
+      "precio_min": 131.65,
+      "precio_max": 138.6,
       "n_fuentes": 10
     }
   },
   "carbon_coquizable": {
     "nombre": "Carbón Coquizable (Premium HCC)",
     "unidad": "USD/Ton",
-    "precio_actual": 245.53,
-    "variacion_diaria": 4.41,
-    "variacion_diaria_pct": 1.83,
+    "precio_actual": 249.4,
+    "variacion_diaria": 3.87,
+    "variacion_diaria_pct": 1.58,
     "variacion_semanal_pct": 1.8,
     "variacion_mensual_pct": -2.3,
     "variacion_anual_pct": -8.7,
@@ -533,16 +533,15 @@
     "min_historico": 88.5,
     "historico": {
       "7d": [
-        224.19,
         225.05,
         230.65,
         235.32,
         238.24,
         241.12,
-        245.53
+        245.53,
+        249.4
       ],
       "30d": [
-        223.81,
         223.62,
         223.77,
         223.73,
@@ -571,7 +570,8 @@
         235.32,
         238.24,
         241.12,
-        245.53
+        245.53,
+        249.4
       ],
       "90d": [
         225.37,
@@ -646,7 +646,8 @@
         235.32,
         238.24,
         241.12,
-        245.53
+        245.53,
+        249.4
       ],
       "365d": [
         225.37,
@@ -721,22 +722,23 @@
         235.32,
         238.24,
         241.12,
-        245.53
+        245.53,
+        249.4
       ]
     },
     "precio_consenso": {
-      "precio_consenso": 245.53,
-      "precio_min": 240.54,
-      "precio_max": 258.5,
+      "precio_consenso": 249.4,
+      "precio_min": 244.81,
+      "precio_max": 261.0,
       "n_fuentes": 4
     }
   },
   "roca_fosfatica": {
     "nombre": "Roca Fosfática (68% BPL)",
     "unidad": "USD/Ton",
-    "precio_actual": 152.4,
-    "variacion_diaria": 0.18,
-    "variacion_diaria_pct": 0.12,
+    "precio_actual": 152.29,
+    "variacion_diaria": -0.11,
+    "variacion_diaria_pct": -0.07,
     "variacion_semanal_pct": 2.9,
     "variacion_mensual_pct": 5.4,
     "variacion_anual_pct": -3.2,
@@ -744,16 +746,15 @@
     "min_historico": 38.0,
     "historico": {
       "7d": [
-        152.47,
         152.52,
         152.51,
         152.62,
         152.43,
         152.22,
-        152.4
+        152.4,
+        152.29
       ],
       "30d": [
-        152.98,
         153.21,
         153.46,
         153.22,
@@ -782,7 +783,8 @@
         152.62,
         152.43,
         152.22,
-        152.4
+        152.4,
+        152.29
       ],
       "90d": [
         118.37,
@@ -857,7 +859,8 @@
         152.62,
         152.43,
         152.22,
-        152.4
+        152.4,
+        152.29
       ],
       "365d": [
         118.37,
@@ -932,13 +935,14 @@
         152.62,
         152.43,
         152.22,
-        152.4
+        152.4,
+        152.29
       ]
     },
     "precio_consenso": {
-      "precio_consenso": 152.4,
-      "precio_min": 152.03,
-      "precio_max": 152.75,
+      "precio_consenso": 152.29,
+      "precio_min": 152.14,
+      "precio_max": 152.5,
       "n_fuentes": 5
     }
   },
@@ -1087,23 +1091,23 @@
     "trading_economics_coal": {
       "nombre": "Trading Economics — Coal",
       "url": "https://es.tradingeconomics.com/commodity/coal",
-      "ultima_sync": "2026-08-25T11:32:34.727817",
-      "precio": 131.5,
+      "ultima_sync": "2026-08-26T11:33:54.542672",
+      "precio": 131.65,
       "estado": "ok",
       "metodo": "scraping_real"
     },
     "world_bank_commodity": {
       "nombre": "World Bank Commodity Markets",
       "url": "https://www.worldbank.org/en/research/commodity-markets",
-      "ultima_sync": "2026-08-25T11:32:34.727817",
-      "precio": 136.17,
+      "ultima_sync": "2026-08-26T11:33:54.542672",
+      "precio": 136.05,
       "estado": "ok",
       "metodo": "simulacion_delta"
     },
     "indexmundi_coal": {
       "nombre": "IndexMundi — Coal Prices",
       "url": "https://www.indexmundi.com/commodities/?commodity=coal&months=60",
-      "ultima_sync": "2026-08-25T11:32:34.727817",
+      "ultima_sync": "2026-08-26T11:33:54.542672",
       "precio": 138.6,
       "estado": "ok",
       "metodo": "scraping_real"
@@ -1111,63 +1115,63 @@
     "iea_coal": {
       "nombre": "IEA — International Energy Agency",
       "url": "https://www.iea.org/data-and-statistics/charts/coal-prices",
-      "ultima_sync": "2026-08-25T11:32:34.727817",
-      "precio": 135.85,
+      "ultima_sync": "2026-08-26T11:33:54.542672",
+      "precio": 135.71,
       "estado": "ok",
       "metodo": "simulacion_delta"
     },
     "argus_media_coal": {
       "nombre": "Argus Media — Coal",
       "url": "https://www.argusmedia.com/en/coal-coke-and-biomass",
-      "ultima_sync": "2026-08-25T11:32:34.727817",
-      "precio": 134.84,
+      "ultima_sync": "2026-08-26T11:33:54.542672",
+      "precio": 136.61,
       "estado": "ok",
       "metodo": "simulacion_delta"
     },
     "trading_economics_coking": {
       "nombre": "Trading Economics — Coking Coal",
       "url": "https://es.tradingeconomics.com/commodity/coking-coal",
-      "ultima_sync": "2026-08-25T11:32:34.727817",
-      "precio": 258.5,
+      "ultima_sync": "2026-08-26T11:33:54.542672",
+      "precio": 261.0,
       "estado": "ok",
       "metodo": "scraping_real"
     },
     "sgx_coking": {
       "nombre": "SGX Commodity Exchange",
       "url": "https://www.sgx.com/derivatives/products/coking-coal",
-      "ultima_sync": "2026-08-25T11:32:34.727817",
-      "precio": 242.07,
+      "ultima_sync": "2026-08-26T11:33:54.542672",
+      "precio": 245.69,
       "estado": "ok",
       "metodo": "simulacion_delta"
     },
     "fastmarkets_coking": {
       "nombre": "Fastmarkets — Coking Coal",
       "url": "https://www.fastmarkets.com/commodities/metals/minor-metals",
-      "ultima_sync": "2026-08-25T11:32:34.727817",
-      "precio": 241.03,
+      "ultima_sync": "2026-08-26T11:33:54.542672",
+      "precio": 246.1,
       "estado": "ok",
       "metodo": "simulacion_delta"
     },
     "worldsteel_coking": {
       "nombre": "World Steel Association",
       "url": "https://www.worldsteel.org/steel-by-topic/raw-materials/coal.html",
-      "ultima_sync": "2026-08-25T11:32:34.727817",
-      "precio": 240.54,
+      "ultima_sync": "2026-08-26T11:33:54.542672",
+      "precio": 244.81,
       "estado": "ok",
       "metodo": "simulacion_delta"
     },
     "world_bank_fertilizer": {
       "nombre": "World Bank — Fertilizer Prices",
       "url": "https://www.worldbank.org/en/research/commodity-markets",
-      "ultima_sync": "2026-08-25T11:32:34.727817",
-      "precio": 152.75,
+      "ultima_sync": "2026-08-26T11:33:54.542672",
+      "precio": 152.26,
       "estado": "ok",
       "metodo": "simulacion_delta"
     },
     "indexmundi_phosphate": {
       "nombre": "IndexMundi — Phosphate Rock",
       "url": "https://www.indexmundi.com/commodities/?commodity=phosphate-rock",
-      "ultima_sync": "2026-08-25T11:32:34.727817",
+      "ultima_sync": "2026-08-26T11:33:54.542672",
       "precio": 152.5,
       "estado": "ok",
       "metodo": "scraping_real"
@@ -1175,64 +1179,64 @@
     "ifa_phosphate": {
       "nombre": "IFA — Int'l Fertilizer Association",
       "url": "https://www.fertilizer.org/statistics/",
-      "ultima_sync": "2026-08-25T11:32:34.727817",
-      "precio": 152.54,
+      "ultima_sync": "2026-08-26T11:33:54.542672",
+      "precio": 152.14,
       "estado": "ok",
       "metodo": "simulacion_delta"
     },
     "usgs_minerals": {
       "nombre": "USGS Minerals Data",
       "url": "https://www.usgs.gov/centers/national-minerals-information-center/phosphate-rock-statistics-and-information",
-      "ultima_sync": "2026-08-25T11:32:34.727817",
-      "precio": 152.03,
+      "ultima_sync": "2026-08-26T11:33:54.542672",
+      "precio": 152.34,
       "estado": "ok",
       "metodo": "simulacion_delta"
     },
     "la_republica": {
       "nombre": "La República Colombia",
       "url": "https://www.larepublica.co/indicadores-economicos/commodities/carbon",
-      "ultima_sync": "2026-08-25T11:32:34.727817",
-      "precio": 139.3,
+      "ultima_sync": "2026-08-26T11:33:54.542672",
+      "precio": 138.4,
       "estado": "ok",
       "metodo": "scraping_real"
     },
     "upme": {
       "nombre": "UPME — Colombia",
       "url": "https://www.upme.gov.co/",
-      "ultima_sync": "2026-08-25T11:32:34.727817",
-      "precio": 136.16,
+      "ultima_sync": "2026-08-26T11:33:54.542672",
+      "precio": 135.7,
       "estado": "ok",
       "metodo": "simulacion_delta"
     },
     "acm_mineria": {
       "nombre": "ACM Minería Colombia",
       "url": "https://acmineria.com.co/",
-      "ultima_sync": "2026-08-25T11:32:34.727817",
-      "precio": 135.64,
+      "ultima_sync": "2026-08-26T11:33:54.542672",
+      "precio": 136.43,
       "estado": "ok",
       "metodo": "simulacion_delta"
     },
     "pais_minero": {
       "nombre": "País Minero",
       "url": "https://www.paisminero.com/",
-      "ultima_sync": "2026-08-25T11:32:34.727817",
-      "precio": 135.04,
+      "ultima_sync": "2026-08-26T11:33:54.542672",
+      "precio": 136.38,
       "estado": "ok",
       "metodo": "simulacion_delta"
     },
     "sunsirs": {
       "nombre": "SunSirs — Fertilizantes",
       "url": "https://www.sunsirs.com/es",
-      "ultima_sync": "2026-08-25T11:32:34.727817",
-      "precio": 152.16,
+      "ultima_sync": "2026-08-26T11:33:54.542672",
+      "precio": 152.22,
       "estado": "ok",
       "metodo": "simulacion_delta"
     },
     "minem_venezuela": {
       "nombre": "MinDesarrollo Minero Venezuela",
       "url": "https://desarrollominero.gob.ve/",
-      "ultima_sync": "2026-08-25T11:32:34.727817",
-      "precio": 135.53,
+      "ultima_sync": "2026-08-26T11:33:54.542672",
+      "precio": 135.45,
       "estado": "ok",
       "metodo": "simulacion_delta"
     }
