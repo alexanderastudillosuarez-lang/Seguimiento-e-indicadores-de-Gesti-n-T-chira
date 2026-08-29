@@ -1,6 +1,21 @@
 {
-  "ultima_actualizacion": "2026-08-25T11:32:35.170796",
+  "ultima_actualizacion": "2026-08-29T15:33:14.567439",
   "noticias": [
+    {
+      "id": 1788017594,
+      "titulo": "Gobierno De la Espriella ordenó reactivar exportación de carbón a Israel: Fusionará funciones de ProColombia con embajadas",
+      "resumen": "Noticia del sector minero del carbón publicada por País Minero: Gobierno De la Espriella ordenó reactivar exportación de carbón a Israel: Fusionará funciones de ProColombia con embajadas",
+      "fuente": "País Minero",
+      "fecha": "2026-08-29T15:33:14.565990",
+      "categoria": "carbon",
+      "mineral": "carbon_energetico",
+      "sentimiento": "neutral",
+      "url": "https://www.paisminero.com/index.php?option=com_content&view=article&id=31191:gobierno-de-la-espriella-ordeno-reactivar-exportacion-de-carbon-a-israel-fusiona-20260823060030&catid=116&Itemid=10001",
+      "tags": [
+        "carbón",
+        "país minero"
+      ]
+    },
     {
       "id": 1787657555,
       "titulo": "Mineros de carbón de Norte de Santander se forman para una labor más segura - laopinion.co",
@@ -884,21 +899,6 @@
       "tags": [
         "mercado",
         "precio carbón térmico"
-      ]
-    },
-    {
-      "id": 1782163731,
-      "titulo": "Cerrejón se defiende de acusaciones del MinTrabajo sobre exportaciones a Israel",
-      "resumen": "Noticia del sector minero del carbón publicada por País Minero: Cerrejón se defiende de acusaciones del MinTrabajo sobre exportaciones a Israel",
-      "fuente": "País Minero",
-      "fecha": "2026-06-22T21:28:51.556558",
-      "categoria": "carbon",
-      "mineral": "carbon_energetico",
-      "sentimiento": "neutral",
-      "url": "https://www.paisminero.com/index.php?option=com_content&view=article&id=29341:cerrejon-se-defiende-de-acusaciones-del-mintrabajo-sobre-exportaciones-a-israel&catid=116&Itemid=10001",
-      "tags": [
-        "carbón",
-        "país minero"
       ]
     }
   ]
