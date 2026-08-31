@@ -1,6 +1,21 @@
 {
-  "ultima_actualizacion": "2026-08-29T15:33:14.567439",
+  "ultima_actualizacion": "2026-08-31T17:57:19.345459",
   "noticias": [
+    {
+      "id": 1788199039,
+      "titulo": "Minería con músculo: MIDME enciende el motor productivo en Zulia, Falcón y Táchira - Yvke Mundial",
+      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxQV3Nzd0ZuNklGNldoMkpoZWxnOXV6UDBMSVgwMGo2MzlIcDJmWXhIdUVseWk0azBMY0JHdEozWFpjcVJ4T1QyNGZtMWFRVTJBem1PcjQxVERXTXlTdGRocC1sbjVYM3c4cERZYzVWQ1dRZUFVUFk1OXpERjVYYU5TU3NGUmdRQW16NFI0YzJ3VFVwdjcyVGpkOVJXUnZHWWI3S21Uci1ldVNmWG",
+      "fuente": "Yvke Mundial",
+      "fecha": "2025-07-12T07:00:00",
+      "categoria": "geopolitica",
+      "mineral": "carbon_energetico",
+      "sentimiento": "neutral",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQV3Nzd0ZuNklGNldoMkpoZWxnOXV6UDBMSVgwMGo2MzlIcDJmWXhIdUVseWk0azBMY0JHdEozWFpjcVJ4T1QyNGZtMWFRVTJBem1PcjQxVERXTXlTdGRocC1sbjVYM3c4cERZYzVWQ1dRZUFVUFk1OXpERjVYYU5TU3NGUmdRQW16NFI0YzJ3VFVwdjcyVGpkOVJXUnZHWWI3S21Uci1ldVNmWGZmOHc?oc=5",
+      "tags": [
+        "mercado",
+        "minería carbón Táchira Venezuela"
+      ]
+    },
     {
       "id": 1788017594,
       "titulo": "Gobierno De la Espriella ordenó reactivar exportación de carbón a Israel: Fusionará funciones de ProColombia con embajadas",
@@ -884,21 +899,6 @@
       "tags": [
         "carbón",
         "país minero"
-      ]
-    },
-    {
-      "id": 1782235917,
-      "titulo": "Cómo invertir en carbón desde España: acciones, futuros y el debate ESG - Rankia",
-      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxNLTZrZTRUVGdMT0Vydi1vYUdIcTRBZUw5Q0dXN2pONVpvSXFaZW9sRXh1Ukl3SjJkSUxyamdyanVKVWI5bkl2TmF5NGdyR3ZHMkQtTFJINTZlN2pPc2xjczBGU1I3aXlvcU1jNnZvMWJMZ2tTVjAzZ3JIdG9vRGtSYVBnQjc0ZFF0NmdUWU1BRG1nLXF6dHZSSHJnSWtPTU1hOGNtb2w5RVU4Qz",
-      "fuente": "Rankia",
-      "fecha": "2026-06-07T07:00:00",
-      "categoria": "carbon",
-      "mineral": "carbon_energetico",
-      "sentimiento": "neutral",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNLTZrZTRUVGdMT0Vydi1vYUdIcTRBZUw5Q0dXN2pONVpvSXFaZW9sRXh1Ukl3SjJkSUxyamdyanVKVWI5bkl2TmF5NGdyR3ZHMkQtTFJINTZlN2pPc2xjczBGU1I3aXlvcU1jNnZvMWJMZ2tTVjAzZ3JIdG9vRGtSYVBnQjc0ZFF0NmdUWU1BRG1nLXF6dHZSSHJnSWtPTU1hOGNtb2w5RVU4QzA?oc=5",
-      "tags": [
-        "mercado",
-        "precio carbón térmico"
       ]
     }
   ]
