@@ -1,6 +1,21 @@
 {
-  "ultima_actualizacion": "2026-08-31T17:57:19.345459",
+  "ultima_actualizacion": "2026-09-01T15:25:56.668832",
   "noticias": [
+    {
+      "id": 1788276356,
+      "titulo": "El carbón térmico desafía la caída estacional: los precios suben en lugar de caer - sunsirs.com",
+      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMiXkFVX3lxTE9XM0hSZ3ljZ2pvYnpkR3FvLTVKLW5ZX1oxdmZYZ1NqV0w2cFhPX3VyS1BqdElrT3RkeFNOcnBuMUs0WmI2eF9jWGJyYlBxOXU4Q01iejRaaFp6MTdSb3c?oc=5\" target=\"_blank\">El carbón térmico desafía la caída estacional: los precios suben en lugar de cae",
+      "fuente": "sunsirs.com",
+      "fecha": "2026-05-19T07:00:00",
+      "categoria": "carbon",
+      "mineral": "carbon_energetico",
+      "sentimiento": "neutral",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9XM0hSZ3ljZ2pvYnpkR3FvLTVKLW5ZX1oxdmZYZ1NqV0w2cFhPX3VyS1BqdElrT3RkeFNOcnBuMUs0WmI2eF9jWGJyYlBxOXU4Q01iejRaaFp6MTdSb3c?oc=5",
+      "tags": [
+        "mercado",
+        "precio carbón térmico"
+      ]
+    },
     {
       "id": 1788199039,
       "titulo": "Minería con músculo: MIDME enciende el motor productivo en Zulia, Falcón y Táchira - Yvke Mundial",
@@ -884,21 +899,6 @@
       "tags": [
         "mercado",
         "coking coal price"
-      ]
-    },
-    {
-      "id": 1782235925,
-      "titulo": "El carbón retoma protagonismo en el sistema eléctrico: el respaldo clave ante el riesgo de el niño en Colombia",
-      "resumen": "Noticia del sector minero del carbón publicada por País Minero: El carbón retoma protagonismo en el sistema eléctrico: el respaldo clave ante el riesgo de el niño en Colombia",
-      "fuente": "País Minero",
-      "fecha": "2026-06-23T17:32:05.699019",
-      "categoria": "carbon",
-      "mineral": "carbon_energetico",
-      "sentimiento": "neutral",
-      "url": "https://www.paisminero.com/index.php?option=com_content&view=article&id=30480:el-carbon-retoma-protagonismo-en-el-sistema-electrico-el-respaldo-clave-ante-el-riesgo-de-el-nino-en-colombia&catid=116&Itemid=10001",
-      "tags": [
-        "carbón",
-        "país minero"
       ]
     }
   ]
