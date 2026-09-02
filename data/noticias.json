@@ -1,6 +1,21 @@
 {
-  "ultima_actualizacion": "2026-09-01T15:25:56.668832",
+  "ultima_actualizacion": "2026-09-02T15:01:47.516999",
   "noticias": [
+    {
+      "id": 1788361307,
+      "titulo": "Los fosfatos del Sahara Occidental y los principales productores mundiales de roca fosfática: política versus estrategia empresarial, 1969-1975 - SciELO México",
+      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxQZnlwUzRpNXIxZ2dfdTRZTFNTOHV2Q1pWNjJPVkFRT0QzNk9wS0tlWnFXUjZXTVdJVkw3OG5LanJPNkxvLWhMelZIV2hYXzFZSUxNWUlvUmJSRHFOak1xeE4ySlVQVzFYeDhFSm80ZHB4V0VTeU5YamRMX0U2ajdRSkFaaFBPS0E4Y3c?oc=5\" target=\"_blank\">Los fosfatos del Sah",
+      "fuente": "SciELO México",
+      "fecha": "2021-10-16T07:40:24",
+      "categoria": "fosfatos",
+      "mineral": "roca_fosfatica",
+      "sentimiento": "neutral",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQZnlwUzRpNXIxZ2dfdTRZTFNTOHV2Q1pWNjJPVkFRT0QzNk9wS0tlWnFXUjZXTVdJVkw3OG5LanJPNkxvLWhMelZIV2hYXzFZSUxNWUlvUmJSRHFOak1xeE4ySlVQVzFYeDhFSm80ZHB4V0VTeU5YamRMX0U2ajdRSkFaaFBPS0E4Y3c?oc=5",
+      "tags": [
+        "mercado",
+        "roca fosfática precio"
+      ]
+    },
     {
       "id": 1788276356,
       "titulo": "El carbón térmico desafía la caída estacional: los precios suben en lugar de caer - sunsirs.com",
@@ -881,21 +896,6 @@
       "mineral": "carbon_coquizable",
       "sentimiento": "neutral",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQTXpaSll2Rnk2M1dudEFvUFU2NF9PSFlDZThvc1RDWTRkS09IUHhaVjllRzBFTWgtX1RKQ080RmUzZHRiU2REYUhnemFBLU50RTMxT1VJMWN0VFl1YlI4Wm56RUpab0VkMjdVMVNWa3dSTEFLOHhoVS1GOVNOLS1rR1luU2VTdkdrbWNRZ3hhVm1qOTVja2N2ZWVZSDBCM3VsQ0J2QTBwUllmQU9ya0JOWVJR?oc=5",
-      "tags": [
-        "mercado",
-        "coking coal price"
-      ]
-    },
-    {
-      "id": 1782324814,
-      "titulo": "Deindustrialization in Ukraine and the EU - GMK Center",
-      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTE80TENEX1U2TTdwR3ZWR0prR25qc3BqcDJZdzhUbmYzY2FrcWlSbVljSE1XNlJIS1dqVzU5aW5TOW1LcTJwUEFNZG5YdC1IcFR1bHJRR3JaV0FfdFBJdzU0ZlBPNkJKd2puUWRqTjlVS21FeWhCVWRvSVFB0gF_QVVfeXFMUEpuZ09yaW1ycjVfdkxrSmF4Umd0WGNGS3lNUXpTRU5xdXNWLUE0UU",
-      "fuente": "GMK Center",
-      "fecha": "2025-11-27T08:00:00",
-      "categoria": "carbon",
-      "mineral": "carbon_coquizable",
-      "sentimiento": "neutral",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE80TENEX1U2TTdwR3ZWR0prR25qc3BqcDJZdzhUbmYzY2FrcWlSbVljSE1XNlJIS1dqVzU5aW5TOW1LcTJwUEFNZG5YdC1IcFR1bHJRR3JaV0FfdFBJdzU0ZlBPNkJKd2puUWRqTjlVS21FeWhCVWRvSVFB0gF_QVVfeXFMUEpuZ09yaW1ycjVfdkxrSmF4Umd0WGNGS3lNUXpTRU5xdXNWLUE0UUdOandPMTZuR0ExSm5fQ19IRWt6a21jRHZVM1k1NnRqNWJTc0ZLLVNsT0JBLXNSZTV2dkZmNkJCQXVpM21IaWZkU0NEZnJMWmRxV1ZablhINA?oc=5",
       "tags": [
         "mercado",
         "coking coal price"
