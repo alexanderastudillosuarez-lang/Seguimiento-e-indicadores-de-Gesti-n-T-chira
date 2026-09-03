@@ -1,6 +1,21 @@
 {
-  "ultima_actualizacion": "2026-09-02T15:01:47.516999",
+  "ultima_actualizacion": "2026-09-03T14:55:47.621628",
   "noticias": [
+    {
+      "id": 1788447347,
+      "titulo": "Enfermedades respiratorias y sueldos míseros: vida de los mineros en Venezuela - Voz de América",
+      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMiwgFBVV95cUxPaEVxRGxMcHBHclRnNzAyNVI3NE4tblVyWVEza1NhbXRaU2I3RVdMZ0lMM0FFTHMyRVo3b3dxTzgzeGo5cUJQNjI3c190eTBJX0hOM1RsZWlkQVpySDRCcTlkeTF5c2x2d0NZQko1d3NIYWZzaGJsXzlEeG5zNFk5MUtuamF5c25UbVFIMkFBeUM5WHN1Ynl3N2NTX1lNRTJNQTJPbVhPYVc2Uz",
+      "fuente": "Voz de América",
+      "fecha": "2022-04-09T07:00:00",
+      "categoria": "geopolitica",
+      "mineral": "carbon_energetico",
+      "sentimiento": "neutral",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPaEVxRGxMcHBHclRnNzAyNVI3NE4tblVyWVEza1NhbXRaU2I3RVdMZ0lMM0FFTHMyRVo3b3dxTzgzeGo5cUJQNjI3c190eTBJX0hOM1RsZWlkQVpySDRCcTlkeTF5c2x2d0NZQko1d3NIYWZzaGJsXzlEeG5zNFk5MUtuamF5c25UbVFIMkFBeUM5WHN1Ynl3N2NTX1lNRTJNQTJPbVhPYVc2UzhBTXVFZU5WWnRnbTJGanQ0aFhCeDZXQdIBxAFBVV95cUxPd201UzJZV0xsRXNrbzBQUmJ1YldpSTE3UW5lS2poZi0zVmpzNmdpSjYtdlB5QUJLbFM5U2xFNENlQTNvU0JJemx3Sjlya0RZZm9qd05GbmRpb0ktT1BhRExpanFZLUZFME5URTR5SVNJYWpzOHl3RzVwaTE5dEpFUkgzUEh6dVJkRlVWRlhqekZ4MEFRSHFZMFZIMVNpTHFzRGVQQ3pHenl2UzRKeEJrTnZxV1RNUWFCSGktYzBlcjR4MTlm?oc=5",
+      "tags": [
+        "mercado",
+        "minería carbón Táchira Venezuela"
+      ]
+    },
     {
       "id": 1788361307,
       "titulo": "Los fosfatos del Sahara Occidental y los principales productores mundiales de roca fosfática: política versus estrategia empresarial, 1969-1975 - SciELO México",
@@ -884,21 +899,6 @@
       "tags": [
         "mercado",
         "precio carbón térmico"
-      ]
-    },
-    {
-      "id": 1782412546,
-      "titulo": "JSW Steel takes over BCCL Dugdha Coal Washery in India's first asset monetization - Yieh Corp.",
-      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxQTXpaSll2Rnk2M1dudEFvUFU2NF9PSFlDZThvc1RDWTRkS09IUHhaVjllRzBFTWgtX1RKQ080RmUzZHRiU2REYUhnemFBLU50RTMxT1VJMWN0VFl1YlI4Wm56RUpab0VkMjdVMVNWa3dSTEFLOHhoVS1GOVNOLS1rR1luU2VTdkdrbWNRZ3hhVm1qOTVja2N2ZWVZSDBCM3VsQ0J2QTBwUllmQU",
-      "fuente": "Yieh Corp.",
-      "fecha": "2026-06-23T13:41:43",
-      "categoria": "carbon",
-      "mineral": "carbon_coquizable",
-      "sentimiento": "neutral",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQTXpaSll2Rnk2M1dudEFvUFU2NF9PSFlDZThvc1RDWTRkS09IUHhaVjllRzBFTWgtX1RKQ080RmUzZHRiU2REYUhnemFBLU50RTMxT1VJMWN0VFl1YlI4Wm56RUpab0VkMjdVMVNWa3dSTEFLOHhoVS1GOVNOLS1rR1luU2VTdkdrbWNRZ3hhVm1qOTVja2N2ZWVZSDBCM3VsQ0J2QTBwUllmQU9ya0JOWVJR?oc=5",
-      "tags": [
-        "mercado",
-        "coking coal price"
       ]
     }
   ]
