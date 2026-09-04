@@ -1,6 +1,21 @@
 {
-  "ultima_actualizacion": "2026-09-03T14:55:47.621628",
+  "ultima_actualizacion": "2026-09-04T14:52:33.394667",
   "noticias": [
+    {
+      "id": 1788533553,
+      "titulo": "¿Qué significa el carbón para la gente del Cesar?",
+      "resumen": "Noticia del sector minero del carbón publicada por País Minero: ¿Qué significa el carbón para la gente del Cesar?",
+      "fuente": "País Minero",
+      "fecha": "2026-09-04T14:52:33.393632",
+      "categoria": "carbon",
+      "mineral": "carbon_energetico",
+      "sentimiento": "neutral",
+      "url": "https://www.paisminero.com/index.php?option=com_content&view=article&id=30594:que-significa-el-carbon-para-la-gente-del-cesar&catid=116&Itemid=10001",
+      "tags": [
+        "carbón",
+        "país minero"
+      ]
+    },
     {
       "id": 1788447347,
       "titulo": "Enfermedades respiratorias y sueldos míseros: vida de los mineros en Venezuela - Voz de América",
@@ -884,21 +899,6 @@
       "tags": [
         "carbón",
         "país minero"
-      ]
-    },
-    {
-      "id": 1782494598,
-      "titulo": "El carbón vuelve a subir: ¿qué pasa y por qué Colombia y Norte de Santander no lo aprovechan? - laopinion.co",
-      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxQaE9FZ1VkMnB1bTF6QnpvNE8tT2dEblE3UjdqM2dKRVB1WlN5cnJPQ3ZWSC1sSXQwa2VJNGhZa1RZOHEwQkNUTE1uVVNSZVpaNDVQMkhudnNnNV9ab042YkpyNDVGNHg2NWc4cHFqendQeVZxdWhrd3RRLVZ5RU9vSlhUSzV3TXJsdXJzUjRhakhaQlNrZHNaa09oNm5EY1B1WWdNN2hxaDkzM0",
-      "fuente": "laopinion.co",
-      "fecha": "2026-04-30T07:00:00",
-      "categoria": "carbon",
-      "mineral": "carbon_energetico",
-      "sentimiento": "neutral",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQaE9FZ1VkMnB1bTF6QnpvNE8tT2dEblE3UjdqM2dKRVB1WlN5cnJPQ3ZWSC1sSXQwa2VJNGhZa1RZOHEwQkNUTE1uVVNSZVpaNDVQMkhudnNnNV9ab042YkpyNDVGNHg2NWc4cHFqendQeVZxdWhrd3RRLVZ5RU9vSlhUSzV3TXJsdXJzUjRhakhaQlNrZHNaa09oNm5EY1B1WWdNN2hxaDkzM0oxUG9peHFIRGN2RXQ3Znc?oc=5",
-      "tags": [
-        "mercado",
-        "precio carbón térmico"
       ]
     }
   ]
