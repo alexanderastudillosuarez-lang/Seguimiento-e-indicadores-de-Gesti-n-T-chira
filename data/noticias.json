@@ -1,6 +1,21 @@
 {
-  "ultima_actualizacion": "2026-09-04T14:52:33.394667",
+  "ultima_actualizacion": "2026-09-05T13:46:51.445691",
   "noticias": [
+    {
+      "id": 1788616011,
+      "titulo": "El gigante minero Glencore mira más allá de Londres con una cotización secundaria en ASX",
+      "resumen": "Noticia del sector minero del carbón publicada por País Minero: El gigante minero Glencore mira más allá de Londres con una cotización secundaria en ASX",
+      "fuente": "País Minero",
+      "fecha": "2026-09-05T13:46:51.444369",
+      "categoria": "carbon",
+      "mineral": "carbon_energetico",
+      "sentimiento": "neutral",
+      "url": "https://www.paisminero.com/index.php?option=com_content&view=article&id=31033:el-gigante-minero-glencore-mira-mas-alla-de-londres-con-una-cotizacion-secundari-20260806180052&catid=116&Itemid=10001",
+      "tags": [
+        "carbón",
+        "país minero"
+      ]
+    },
     {
       "id": 1788533553,
       "titulo": "¿Qué significa el carbón para la gente del Cesar?",
@@ -884,21 +899,6 @@
       "tags": [
         "mercado",
         "coking coal price"
-      ]
-    },
-    {
-      "id": 1782494606,
-      "titulo": "Fenalcarbón destaca la fortaleza institucional de Colombia tras conocerse los resultados preliminares de las elecciones presidenciales",
-      "resumen": "Noticia del sector minero del carbón publicada por País Minero: Fenalcarbón destaca la fortaleza institucional de Colombia tras conocerse los resultados preliminares de las elecciones presidenciales",
-      "fuente": "País Minero",
-      "fecha": "2026-06-26T17:23:26.388146",
-      "categoria": "carbon",
-      "mineral": "carbon_energetico",
-      "sentimiento": "neutral",
-      "url": "https://www.paisminero.com/index.php?option=com_content&view=article&id=30508:fenalcarbon-destaca-la-fortaleza-institucional-de-colombia-tras-conocerse-los-resultados-preliminares-de-las-elecciones-presidenciales&catid=116&Itemid=10001",
-      "tags": [
-        "carbón",
-        "país minero"
       ]
     }
   ]
