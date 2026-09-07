@@ -1,6 +1,21 @@
 {
-  "ultima_actualizacion": "2026-09-05T13:46:51.445691",
+  "ultima_actualizacion": "2026-09-07T16:20:07.737790",
   "noticias": [
+    {
+      "id": 1788798007,
+      "titulo": "Drummond pide aliviar carga fiscal al carbón y prevé producir hasta 30 millones de toneladas este año para Colombia",
+      "resumen": "Noticia del sector minero del carbón publicada por País Minero: Drummond pide aliviar carga fiscal al carbón y prevé producir hasta 30 millones de toneladas este año para Colombia",
+      "fuente": "País Minero",
+      "fecha": "2026-09-07T16:20:07.736352",
+      "categoria": "carbon",
+      "mineral": "carbon_energetico",
+      "sentimiento": "neutral",
+      "url": "https://www.paisminero.com/index.php?option=com_content&view=article&id=31437:drummond-pide-aliviar-carga-fiscal-al-carbon-y-preve-producir-hasta-30-millones-20260904150452&catid=116&Itemid=10001",
+      "tags": [
+        "carbón",
+        "país minero"
+      ]
+    },
     {
       "id": 1788616011,
       "titulo": "El gigante minero Glencore mira más allá de Londres con una cotización secundaria en ASX",
@@ -884,21 +899,6 @@
       "tags": [
         "carbón",
         "país minero"
-      ]
-    },
-    {
-      "id": 1782575449,
-      "titulo": "Price to book forward de Bowen Coking Coal Ltd – ASX:BCB - TradingView",
-      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxOajZSYWxwMHlmbzg3cERJZGdQbl9MSi13T1JnazNNcEw0aXdZN2ppMGpZcGdOTmpBN0JFUGhPdEF3LXktN01LMVMwbWFXdEV6SjZ0Sk5LTDlKNUNFTzhnUm41Q09hVWJuVzhiYUxuSktNbWZzQkVSX3IxbFVYNHlnX3RERlFPRHJnazVUYUExN3BMbXhrb0E?oc=5\" target=\"_blank\">Pric",
-      "fuente": "TradingView",
-      "fecha": "2026-06-27T06:22:24",
-      "categoria": "carbon",
-      "mineral": "carbon_coquizable",
-      "sentimiento": "neutral",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOajZSYWxwMHlmbzg3cERJZGdQbl9MSi13T1JnazNNcEw0aXdZN2ppMGpZcGdOTmpBN0JFUGhPdEF3LXktN01LMVMwbWFXdEV6SjZ0Sk5LTDlKNUNFTzhnUm41Q09hVWJuVzhiYUxuSktNbWZzQkVSX3IxbFVYNHlnX3RERlFPRHJnazVUYUExN3BMbXhrb0E?oc=5",
-      "tags": [
-        "mercado",
-        "coking coal price"
       ]
     }
   ]
