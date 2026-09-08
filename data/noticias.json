@@ -1,6 +1,36 @@
 {
-  "ultima_actualizacion": "2026-09-07T16:20:07.737790",
+  "ultima_actualizacion": "2026-09-08T15:00:41.421477",
   "noticias": [
+    {
+      "id": 1788879641,
+      "titulo": "Los precios del carbón en China se disparan a medida que el calor abrasador impulsa la demanda de energía.",
+      "resumen": "Noticia del sector minero del carbón publicada por País Minero: Los precios del carbón en China se disparan a medida que el calor abrasador impulsa la demanda de energía.",
+      "fuente": "País Minero",
+      "fecha": "2026-09-08T15:00:41.420153",
+      "categoria": "carbon",
+      "mineral": "carbon_energetico",
+      "sentimiento": "neutral",
+      "url": "https://www.paisminero.com/index.php?option=com_content&view=article&id=30936:los-precios-del-carbon-en-china-se-disparan-a-medida-que-el-calor-abrasador-impulsa-la-demanda-de-energia&catid=116&Itemid=10001",
+      "tags": [
+        "carbón",
+        "país minero"
+      ]
+    },
+    {
+      "id": 1788879639,
+      "titulo": "El crimen se va a arrodillar: De la Espriella tras caída de Bendito Menor - laopinion.co",
+      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxOemh2Zm9XcVdTaVQxdC10UzdFYVgzNWozSVRRWVB0MFcxdThaaTYzMWRhNm5xdGxGUlFNUGZHX0NVYW51THAxM1ZUeUlsNF8wZFFCa0YtRnZRMjhCX1d1eUdKNDM0RDBncU9IQ3VwRm5OTGJMTVZ0cWZYYVNHSHBOc1pSOXFaYmxSVGpDYTJpV0dFZS05TGd0MlBTVlowSi1uQ2c?oc=5\" targ",
+      "fuente": "laopinion.co",
+      "fecha": "2026-09-04T15:33:44",
+      "categoria": "geopolitica",
+      "mineral": "carbon_energetico",
+      "sentimiento": "neutral",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOemh2Zm9XcVdTaVQxdC10UzdFYVgzNWozSVRRWVB0MFcxdThaaTYzMWRhNm5xdGxGUlFNUGZHX0NVYW51THAxM1ZUeUlsNF8wZFFCa0YtRnZRMjhCX1d1eUdKNDM0RDBncU9IQ3VwRm5OTGJMTVZ0cWZYYVNHSHBOc1pSOXFaYmxSVGpDYTJpV0dFZS05TGd0MlBTVlowSi1uQ2c?oc=5",
+      "tags": [
+        "mercado",
+        "site:laopinion.co minería carbón Táchira"
+      ]
+    },
     {
       "id": 1788798007,
       "titulo": "Drummond pide aliviar carga fiscal al carbón y prevé producir hasta 30 millones de toneladas este año para Colombia",
@@ -869,36 +899,6 @@
       "tags": [
         "mercado",
         "thermal coal price"
-      ]
-    },
-    {
-      "id": 1782662051,
-      "titulo": "Industrialización de roca fosfórica en Sechura podría movilizar US$ 2.000 millones en inversiones - Energiminas",
-      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMizAFBVV95cUxPNUM4VzRFOFJJejFzM2t5eG9lVnlVTV9IbEVDSUFUTmw0OU9MNDdoMTc0NU9USWkxRFRPa1pBMERKRklRZklyWkNLczZHUUljc3JDS0RyemExUlcxZDhVY0hiN1JWQkptRWZ3cUNjMGRqZGR1UE1WdWNVZFFFdHBxbjBXbUxtaWRjQVg2VnhlNV9OcWxvakNNUVJBX0N2ZXNzUEYwX1EwRUpBLW",
-      "fuente": "Energiminas",
-      "fecha": "2025-06-30T07:00:00",
-      "categoria": "fosfatos",
-      "mineral": "roca_fosfatica",
-      "sentimiento": "neutral",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPNUM4VzRFOFJJejFzM2t5eG9lVnlVTV9IbEVDSUFUTmw0OU9MNDdoMTc0NU9USWkxRFRPa1pBMERKRklRZklyWkNLczZHUUljc3JDS0RyemExUlcxZDhVY0hiN1JWQkptRWZ3cUNjMGRqZGR1UE1WdWNVZFFFdHBxbjBXbUxtaWRjQVg2VnhlNV9OcWxvakNNUVJBX0N2ZXNzUEYwX1EwRUpBLWF1aTdSTWJ2eGpNMU1HQW9CZ1NEbGkxZUU5S2htLVZSb2I?oc=5",
-      "tags": [
-        "mercado",
-        "roca fosfática precio"
-      ]
-    },
-    {
-      "id": 1782575456,
-      "titulo": "Trump planea invertir US$700 millones en la construcción de centrales de carbón",
-      "resumen": "Noticia del sector minero del carbón publicada por País Minero: Trump planea invertir US$700 millones en la construcción de centrales de carbón",
-      "fuente": "País Minero",
-      "fecha": "2026-06-27T15:50:56.911888",
-      "categoria": "carbon",
-      "mineral": "carbon_energetico",
-      "sentimiento": "neutral",
-      "url": "https://www.paisminero.com/index.php?option=com_content&view=article&id=30434:trump-planea-invertir-us-700-millones-en-la-construccion-de-centrales-de-carbon&catid=116&Itemid=10001",
-      "tags": [
-        "carbón",
-        "país minero"
       ]
     }
   ]
