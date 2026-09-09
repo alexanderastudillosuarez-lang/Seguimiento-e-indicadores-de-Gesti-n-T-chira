@@ -1,6 +1,21 @@
 {
-  "ultima_actualizacion": "2026-09-08T15:00:41.421477",
+  "ultima_actualizacion": "2026-09-09T15:03:28.110958",
   "noticias": [
+    {
+      "id": 1788966208,
+      "titulo": "Price Action: Coal India shares up 3% as UBS maintains 'buy'; Adani Green Energy jumps 2% - TradingView",
+      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMi3gFBVV95cUxQRXhsaDRXUlgwdXJzV211RFQ3NnVmODUtamVCT0k3YzZkWWxSbEVyTnJxYjN6UGluSTNwQk05T3l6ektsVjJXMklTUVY2cFkzXzFiT0s2YUdhTjhvdXNSQk05M1JwLXlkQW5ENV9uaW1uR2cwWnlWOGNQT19vcUZocGNmNThGMFg1VHB4c2k5SmZnbEtnRXVNWDZwZzhkQUN2b0NfY1ZwVjM5UW",
+      "fuente": "TradingView",
+      "fecha": "2026-09-02T04:44:11",
+      "categoria": "carbon",
+      "mineral": "carbon_energetico",
+      "sentimiento": "neutral",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQRXhsaDRXUlgwdXJzV211RFQ3NnVmODUtamVCT0k3YzZkWWxSbEVyTnJxYjN6UGluSTNwQk05T3l6ektsVjJXMklTUVY2cFkzXzFiT0s2YUdhTjhvdXNSQk05M1JwLXlkQW5ENV9uaW1uR2cwWnlWOGNQT19vcUZocGNmNThGMFg1VHB4c2k5SmZnbEtnRXVNWDZwZzhkQUN2b0NfY1ZwVjM5UWc4aVJFNUpIVU1mX2tHLUpWUFAzamEtVXhRTFZxbnpZQU9Gc2xSMXQxT1puU1lST09uakE?oc=5",
+      "tags": [
+        "mercado",
+        "thermal coal price"
+      ]
+    },
     {
       "id": 1788879641,
       "titulo": "Los precios del carbón en China se disparan a medida que el calor abrasador impulsa la demanda de energía.",
@@ -884,21 +899,6 @@
       "tags": [
         "carbón",
         "país minero"
-      ]
-    },
-    {
-      "id": 1782757866,
-      "titulo": "China’s Richest Regions Cut Electricity Prices to Protect Industries - Bloomberg.com",
-      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMiuwFBVV95cUxQQjlCSTFRSzFQWk5iZDVrSlpNTi1aUU9Gd2RBbnRJa3NmczVFNXpnX3RqeFNIVUYtZHJCTDJxaWtMRnRYVDRlZTFoQkY0WVA3dG8ybmcxcFAyMWp2cXVVaFZvUldwX1JYYWs5SWtYYk1FajhqWGhDNnUwU3NuLVBKT29RZDNkSUxGOHRVYjhSTDY4a0VZczd3VzdwQWp0WjRTSDJoTkszaW1iNj",
-      "fuente": "Bloomberg.com",
-      "fecha": "2025-01-07T08:00:00",
-      "categoria": "carbon",
-      "mineral": "carbon_energetico",
-      "sentimiento": "neutral",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQQjlCSTFRSzFQWk5iZDVrSlpNTi1aUU9Gd2RBbnRJa3NmczVFNXpnX3RqeFNIVUYtZHJCTDJxaWtMRnRYVDRlZTFoQkY0WVA3dG8ybmcxcFAyMWp2cXVVaFZvUldwX1JYYWs5SWtYYk1FajhqWGhDNnUwU3NuLVBKT29RZDNkSUxGOHRVYjhSTDY4a0VZczd3VzdwQWp0WjRTSDJoTkszaW1iNjVOSmhSdVpGQ0lzeDRrY21F?oc=5",
-      "tags": [
-        "mercado",
-        "thermal coal price"
       ]
     }
   ]
