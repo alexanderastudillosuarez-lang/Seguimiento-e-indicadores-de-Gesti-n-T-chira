@@ -1,6 +1,36 @@
 {
-  "ultima_actualizacion": "2026-09-09T15:03:28.110958",
+  "ultima_actualizacion": "2026-09-10T14:56:23.060443",
   "noticias": [
+    {
+      "id": 1789052183,
+      "titulo": "Los precios del carbón coquizable en China se preparan para un aumento mensual récord del 46%",
+      "resumen": "Noticia del sector minero del carbón publicada por País Minero: Los precios del carbón coquizable en China se preparan para un aumento mensual récord del 46%",
+      "fuente": "País Minero",
+      "fecha": "2026-09-10T14:56:23.059511",
+      "categoria": "carbon",
+      "mineral": "carbon_coquizable",
+      "sentimiento": "neutral",
+      "url": "https://www.paisminero.com/index.php?option=com_content&view=article&id=31330:los-precios-del-carbon-coquizable-en-china-se-preparan-para-un-aumento-mensual-r-20260831130217&catid=116&Itemid=10001",
+      "tags": [
+        "carbón",
+        "país minero"
+      ]
+    },
+    {
+      "id": 1789052181,
+      "titulo": "Noticias de ACCESS Newswire en TradingView, de fecha 2026-08-26 - TradingView",
+      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTE1qemVXNXZwWWpJWHBUTGhhN3pRVE1KQUo0SWZDbGVHckgwRFZkdkpLMlVxbDhhNVRnVDNjNDhfMnVTdmVVNnZhNzVrRmJiVElmbVZsRWQyd2RicUFzcUZwYnZHdlBFbHZ3aExVcEtaRFpjYlFIVjktQThEZy1yV1E?oc=5\" target=\"_blank\">Noticias de ACCESS Newswire en Tradi",
+      "fuente": "TradingView",
+      "fecha": "2026-08-26T07:00:00",
+      "categoria": "carbon",
+      "mineral": "carbon_coquizable",
+      "sentimiento": "neutral",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1qemVXNXZwWWpJWHBUTGhhN3pRVE1KQUo0SWZDbGVHckgwRFZkdkpLMlVxbDhhNVRnVDNjNDhfMnVTdmVVNnZhNzVrRmJiVElmbVZsRWQyd2RicUFzcUZwYnZHdlBFbHZ3aExVcEtaRFpjYlFIVjktQThEZy1yV1E?oc=5",
+      "tags": [
+        "mercado",
+        "coking coal price"
+      ]
+    },
     {
       "id": 1788966208,
       "titulo": "Price Action: Coal India shares up 3% as UBS maintains 'buy'; Adani Green Energy jumps 2% - TradingView",
@@ -869,36 +899,6 @@
       "tags": [
         "mercado",
         "site:laopinion.co minería carbón Táchira"
-      ]
-    },
-    {
-      "id": 1783012477,
-      "titulo": "Precio del Carbón de Coque: Noticias y Pronósticos - FocusEconomics",
-      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTFBuV3puMnJxRWl6ZE1oc2J2RWUtSUhia1dLd283WDZMZ3lRbXFleGYxZ0xNYkFsZE0ycm9QYzVRWnNIVlp3OWNEcFNsTVZfYno1YS0teTRpMkxWVkNnZWkwVU45WVlxR3F0T3dDbEV5VHo3cDBTT2c?oc=5\" target=\"_blank\">Precio del Carbón de Coque: Noticias y Pronóstic",
-      "fuente": "FocusEconomics",
-      "fecha": "2024-03-16T00:43:58",
-      "categoria": "carbon",
-      "mineral": "carbon_coquizable",
-      "sentimiento": "neutral",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBuV3puMnJxRWl6ZE1oc2J2RWUtSUhia1dLd283WDZMZ3lRbXFleGYxZ0xNYkFsZE0ycm9QYzVRWnNIVlp3OWNEcFNsTVZfYno1YS0teTRpMkxWVkNnZWkwVU45WVlxR3F0T3dDbEV5VHo3cDBTT2c?oc=5",
-      "tags": [
-        "mercado",
-        "coking coal price"
-      ]
-    },
-    {
-      "id": 1782757874,
-      "titulo": "China no renuncia al carbón a pesar de sus objetivos de energía verde.",
-      "resumen": "Noticia del sector minero del carbón publicada por País Minero: China no renuncia al carbón a pesar de sus objetivos de energía verde.",
-      "fuente": "País Minero",
-      "fecha": "2026-06-29T18:31:14.516276",
-      "categoria": "carbon",
-      "mineral": "carbon_energetico",
-      "sentimiento": "neutral",
-      "url": "https://www.paisminero.com/index.php?option=com_content&view=article&id=30540:china-no-renuncia-al-carbon-a-pesar-de-sus-objetivos-de-energia-verde&catid=116&Itemid=10001",
-      "tags": [
-        "carbón",
-        "país minero"
       ]
     }
   ]
