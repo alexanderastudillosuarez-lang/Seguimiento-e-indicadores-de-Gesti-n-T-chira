@@ -1,6 +1,36 @@
 {
-  "ultima_actualizacion": "2026-09-10T14:56:23.060443",
+  "ultima_actualizacion": "2026-09-11T14:56:01.399404",
   "noticias": [
+    {
+      "id": 1789138561,
+      "titulo": "Carbón y gas toman fuerza en la discusión sobre la seguridad energética de Colombia",
+      "resumen": "Noticia del sector minero del carbón publicada por País Minero: Carbón y gas toman fuerza en la discusión sobre la seguridad energética de Colombia",
+      "fuente": "País Minero",
+      "fecha": "2026-09-11T14:56:01.398130",
+      "categoria": "carbon",
+      "mineral": "carbon_energetico",
+      "sentimiento": "neutral",
+      "url": "https://www.paisminero.com/index.php?option=com_content&view=article&id=31193:carbon-y-gas-toman-fuerza-en-la-discusion-sobre-la-seguridad-energetica-de-colom-20260823130037&catid=116&Itemid=10001",
+      "tags": [
+        "carbón",
+        "país minero"
+      ]
+    },
+    {
+      "id": 1789138559,
+      "titulo": "Carbón que extraen desde Las Minas de Lobatera es llevado de contrabando a Colombia - laopinion.co",
+      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxNVnkyQzFVV3NkOXFGdm1vWTRMaTVYVmtGLVN2UG9YXzYtNEFmenkxZExQS0FIbkJqN3lrOFFNb2dJVmdadzdOc2diZzBaVEtFa1BwbEZwbldsaUZYdmJvbjZHeUdpa1MyZ1dqVl90NndqQzFFbldFNDdHaHotbHQxY0VNVEFVb2RyTnZaZ1B2WnJGTDRsU2RIXzF6ZFVIWGNnN1V5bUNGWXdUVj",
+      "fuente": "laopinion.co",
+      "fecha": "2022-05-27T07:00:00",
+      "categoria": "geopolitica",
+      "mineral": "carbon_energetico",
+      "sentimiento": "neutral",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNVnkyQzFVV3NkOXFGdm1vWTRMaTVYVmtGLVN2UG9YXzYtNEFmenkxZExQS0FIbkJqN3lrOFFNb2dJVmdadzdOc2diZzBaVEtFa1BwbEZwbldsaUZYdmJvbjZHeUdpa1MyZ1dqVl90NndqQzFFbldFNDdHaHotbHQxY0VNVEFVb2RyTnZaZ1B2WnJGTDRsU2RIXzF6ZFVIWGNnN1V5bUNGWXdUVjVtcjdBeHlIcHpvY2lFeXc?oc=5",
+      "tags": [
+        "mercado",
+        "minería carbón Táchira Venezuela"
+      ]
+    },
     {
       "id": 1789052183,
       "titulo": "Los precios del carbón coquizable en China se preparan para un aumento mensual récord del 46%",
@@ -869,36 +899,6 @@
       "tags": [
         "mercado",
         "minería carbón Táchira Venezuela"
-      ]
-    },
-    {
-      "id": 1783266581,
-      "titulo": "China’s Purified Phosphoric Acid Market | Non-Fertilizer Demand & Price Insights - Argus Media",
-      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMi0gFBVV95cUxOWktveVlrZmVvM1FSLWFkdE80YmtoVUQ5N0l0WDZsaGJ4alEzYzg4anhfSkxiZnEwaWJhQmFWcURRLUZTM2NFQ2N5NVdzLXVQZ2lLeVpjM2EzMjB3aEE4UmVnbDh4YXRoZnVNeXpONk9kZThsQ3J4RmIzcGNfOEtqZVNSdDdFVDh3c0JGdXJIdVhNbHVYLVAwU2FGd0VCSjU4Y3BhZlhYQTJmVm",
-      "fuente": "Argus Media",
-      "fecha": "2025-05-21T18:13:12",
-      "categoria": "fosfatos",
-      "mineral": "roca_fosfatica",
-      "sentimiento": "neutral",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOWktveVlrZmVvM1FSLWFkdE80YmtoVUQ5N0l0WDZsaGJ4alEzYzg4anhfSkxiZnEwaWJhQmFWcURRLUZTM2NFQ2N5NVdzLXVQZ2lLeVpjM2EzMjB3aEE4UmVnbDh4YXRoZnVNeXpONk9kZThsQ3J4RmIzcGNfOEtqZVNSdDdFVDh3c0JGdXJIdVhNbHVYLVAwU2FGd0VCSjU4Y3BhZlhYQTJmVmcyMXdNT2N1LUVkS0xXRUNrd2pvS0NTTjZxaWNQcDBWMkVqcFYzWlE?oc=5",
-      "tags": [
-        "mercado",
-        "phosphate rock price"
-      ]
-    },
-    {
-      "id": 1783095392,
-      "titulo": "Pozo Azul, Distrito Regional de Manejo Integrado - laopinion.co",
-      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMihgFBVV95cUxPNkptZHZsR2lUc2dLdWVIR1JLZ0dCZkFMTS1XUThVMFI2T1hPOHR1T0p4VTQzZ0J0dnNYTGFOci1pVFQzc3J2R2ZQOGw1UzlSZVRUWm9WMl9FSDduZktJQTRSSmtXY2tJM0FxQ0JKZnhDam1yZFM2cjZ2NE9XOG93YWIwaWVHdw?oc=5\" target=\"_blank\">Pozo Azul, Distrito Regio",
-      "fuente": "laopinion.co",
-      "fecha": "2020-02-11T08:00:00",
-      "categoria": "geopolitica",
-      "mineral": "carbon_energetico",
-      "sentimiento": "neutral",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPNkptZHZsR2lUc2dLdWVIR1JLZ0dCZkFMTS1XUThVMFI2T1hPOHR1T0p4VTQzZ0J0dnNYTGFOci1pVFQzc3J2R2ZQOGw1UzlSZVRUWm9WMl9FSDduZktJQTRSSmtXY2tJM0FxQ0JKZnhDam1yZFM2cjZ2NE9XOG93YWIwaWVHdw?oc=5",
-      "tags": [
-        "mercado",
-        "site:laopinion.co minería carbón Táchira"
       ]
     }
   ]
