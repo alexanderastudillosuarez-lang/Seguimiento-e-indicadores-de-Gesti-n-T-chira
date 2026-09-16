@@ -1,6 +1,36 @@
 {
-  "ultima_actualizacion": "2026-09-15T15:29:34.914138",
+  "ultima_actualizacion": "2026-09-16T15:22:18.311322",
   "noticias": [
+    {
+      "id": 1789572138,
+      "titulo": "Por cada $100 que ha caído el dólar, las exportaciones de carbón  y coque han perdido cerca de $490.000 millones",
+      "resumen": "Noticia del sector minero del carbón publicada por País Minero: Por cada $100 que ha caído el dólar, las exportaciones de carbón  y coque han perdido cerca de $490.000 millones",
+      "fuente": "País Minero",
+      "fecha": "2026-09-16T15:22:18.309792",
+      "categoria": "carbon",
+      "mineral": "carbon_energetico",
+      "sentimiento": "neutral",
+      "url": "https://www.paisminero.com/index.php?option=com_content&view=article&id=31217:por-cada-100-que-ha-caido-el-dolar-las-exportaciones-de-carbon-y-coque-han-perdido-cerca-de-490-000-millones&catid=116&Itemid=10001",
+      "tags": [
+        "carbón",
+        "país minero"
+      ]
+    },
+    {
+      "id": 1789572137,
+      "titulo": "El conflicto en Oriente Medio impulsa el retorno de la generación de energía a partir del carbón - World Bank Blogs",
+      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMizgFBVV95cUxPSGNHRjRacXpVY29mYTRuRlM1enIwZm53N1dIZVN3TXVsTWlib19OMkFwcFBYSWFDZERGc0ktY2V1Q2F5anZ1MFk4S1ktWHFYXy1NbzVlbW5GcGhfS1I5RnRVemNuWEh3QzB4QkJYY0FrZzBlcnBHYjExYmF1LVFXNzFTZXdGLWZmZ1FVRkhMWkp4VGZ2MmNhYjljMjI4SzNpaVRoWmtwMzJRQz",
+      "fuente": "World Bank Blogs",
+      "fecha": "2026-06-17T07:00:00",
+      "categoria": "carbon",
+      "mineral": "carbon_energetico",
+      "sentimiento": "neutral",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPSGNHRjRacXpVY29mYTRuRlM1enIwZm53N1dIZVN3TXVsTWlib19OMkFwcFBYSWFDZERGc0ktY2V1Q2F5anZ1MFk4S1ktWHFYXy1NbzVlbW5GcGhfS1I5RnRVemNuWEh3QzB4QkJYY0FrZzBlcnBHYjExYmF1LVFXNzFTZXdGLWZmZ1FVRkhMWkp4VGZ2MmNhYjljMjI4SzNpaVRoWmtwMzJRQzNidW1NMFpYbzlKLUdTSlcwRi0tRDB0M3FkQlB1SW5yVm1jZw?oc=5",
+      "tags": [
+        "mercado",
+        "precio carbón térmico"
+      ]
+    },
     {
       "id": 1789486174,
       "titulo": "Nomura stays bullish on India steel as rebar recovery continues, HRC prices remain firm - es.tradingview.com",
@@ -869,36 +899,6 @@
       "tags": [
         "carbón",
         "país minero"
-      ]
-    },
-    {
-      "id": 1783770967,
-      "titulo": "Moderna planta de industrialización de roca fosfórica entra en operación con apoyo de Gobernación del Huila - Gobernación del Huila",
-      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMi6AFBVV95cUxOTUhTNFl2eVU3emRyZXNEMjFfSWs3OFFRSnh0N2tUcnZIRzhBeDY0SnlQNGcxY2dwODh0ZkVFUEp6ZXlobUt2NTZwSkNSa0w0MWQ3RHVZTVpuUjJXUm5ydWt6TldrTkpDVWZxc3dEM0NnQ3cyUXJYQU5iSHhoaGN5ZVhQSkxPTF8zTjd1MzlYM2diZFFlMEh4aXBqNGZpVDh6OF9waDlaaDJOaF",
-      "fuente": "Gobernación del Huila",
-      "fecha": "2025-12-14T08:00:00",
-      "categoria": "fosfatos",
-      "mineral": "roca_fosfatica",
-      "sentimiento": "neutral",
-      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOTUhTNFl2eVU3emRyZXNEMjFfSWs3OFFRSnh0N2tUcnZIRzhBeDY0SnlQNGcxY2dwODh0ZkVFUEp6ZXlobUt2NTZwSkNSa0w0MWQ3RHVZTVpuUjJXUm5ydWt6TldrTkpDVWZxc3dEM0NnQ3cyUXJYQU5iSHhoaGN5ZVhQSkxPTF8zTjd1MzlYM2diZFFlMEh4aXBqNGZpVDh6OF9waDlaaDJOaFYteUF0THc2Yk44aTRGekcwM0lTQ1VCUG9pZUhHOUdCWklFQW9kdnVzTTN1ZnhueVNWNnFYNWprZXVMR1Yx?oc=5",
-      "tags": [
-        "mercado",
-        "roca fosfática precio"
-      ]
-    },
-    {
-      "id": 1783689334,
-      "titulo": "Venezuela plantea exportación de carbón a Colombia a través de frontera de Táchira - LaRepublica.co",
-      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMiywFBVV95cUxPUEtXUzMwQkFuTGd6TklHVWJ2SzFZSEhjdWVGWjd1Q3c0UDQzY2VPVzVzd3VLelIyMXZxbEhIb0JMcDRITXdpRkhON2NxNFh3bXE1NVVLbHViNXVZRVlTNkhBVDVSa2NhcGpieWF6X1NFY1Znb0dLM1AxdXFYdDVJcEJlN1prMWNsRGkyTDVPQ0ZQdU9rSUpxRXZ6WmI5Wm13blhpZnQ5c3FXV3",
-      "fuente": "LaRepublica.co",
-      "fecha": "2025-07-05T07:00:00",
-      "categoria": "geopolitica",
-      "mineral": "carbon_energetico",
-      "sentimiento": "neutral",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPUEtXUzMwQkFuTGd6TklHVWJ2SzFZSEhjdWVGWjd1Q3c0UDQzY2VPVzVzd3VLelIyMXZxbEhIb0JMcDRITXdpRkhON2NxNFh3bXE1NVVLbHViNXVZRVlTNkhBVDVSa2NhcGpieWF6X1NFY1Znb0dLM1AxdXFYdDVJcEJlN1prMWNsRGkyTDVPQ0ZQdU9rSUpxRXZ6WmI5Wm13blhpZnQ5c3FXV3NMVjdiMW0xTVZVVHhkTi1KbW5IaWh5TjBfbGpFRVB0Z9IBywFBVV95cUxNeE1RT0JZVHJubFc2UWhyVmw0YXRZYkZYa2RVemlnMktjLVpHUUpxNU5kek9xb1V5Mm81SldqUmRudWkwLWhUOEd5Ty1ZekRJYm5YeDJvbG1TZmpSclNLamNFdU9nekhCaDVXTnJYY21ZSGZNMDZYdnJCbVJKdEJ5WlZ5UVdMdllrQlZldmFOam50WDBzc2FKcjZ2RWs5ZEhmOVVDOHMyWjA1eW9CWjdtSlc5djRtS3lSOUlWYTVsNWlpRWtRbDItcmxOZw?oc=5",
-      "tags": [
-        "mercado",
-        "minería carbón Táchira Venezuela"
       ]
     }
   ]
