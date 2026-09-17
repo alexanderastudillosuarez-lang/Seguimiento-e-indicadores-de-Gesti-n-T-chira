@@ -1,6 +1,21 @@
 {
-  "ultima_actualizacion": "2026-09-16T15:22:18.311322",
+  "ultima_actualizacion": "2026-09-17T15:28:52.289680",
   "noticias": [
+    {
+      "id": 1789658932,
+      "titulo": "China’s Purified Phosphoric Acid Market | Non-Fertilizer Demand & Price Insights - Argus Media",
+      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMi0gFBVV95cUxOWktveVlrZmVvM1FSLWFkdE80YmtoVUQ5N0l0WDZsaGJ4alEzYzg4anhfSkxiZnEwaWJhQmFWcURRLUZTM2NFQ2N5NVdzLXVQZ2lLeVpjM2EzMjB3aEE4UmVnbDh4YXRoZnVNeXpONk9kZThsQ3J4RmIzcGNfOEtqZVNSdDdFVDh3c0JGdXJIdVhNbHVYLVAwU2FGd0VCSjU4Y3BhZlhYQTJmVm",
+      "fuente": "Argus Media",
+      "fecha": "2025-05-21T18:13:12",
+      "categoria": "fosfatos",
+      "mineral": "roca_fosfatica",
+      "sentimiento": "neutral",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOWktveVlrZmVvM1FSLWFkdE80YmtoVUQ5N0l0WDZsaGJ4alEzYzg4anhfSkxiZnEwaWJhQmFWcURRLUZTM2NFQ2N5NVdzLXVQZ2lLeVpjM2EzMjB3aEE4UmVnbDh4YXRoZnVNeXpONk9kZThsQ3J4RmIzcGNfOEtqZVNSdDdFVDh3c0JGdXJIdVhNbHVYLVAwU2FGd0VCSjU4Y3BhZlhYQTJmVmcyMXdNT2N1LUVkS0xXRUNrd2pvS0NTTjZxaWNQcDBWMkVqcFYzWlE?oc=5",
+      "tags": [
+        "mercado",
+        "phosphate rock price"
+      ]
+    },
     {
       "id": 1789572138,
       "titulo": "Por cada $100 que ha caído el dólar, las exportaciones de carbón  y coque han perdido cerca de $490.000 millones",
@@ -884,21 +899,6 @@
       "tags": [
         "mercado",
         "carbón coquizable metalúrgico"
-      ]
-    },
-    {
-      "id": 1783770976,
-      "titulo": "India reduce las importaciones de carbón a medida que las centrales eléctricas recurren al combustible nacional.",
-      "resumen": "Noticia del sector minero del carbón publicada por País Minero: India reduce las importaciones de carbón a medida que las centrales eléctricas recurren al combustible nacional.",
-      "fuente": "País Minero",
-      "fecha": "2026-07-11T11:56:16.805983",
-      "categoria": "carbon",
-      "mineral": "carbon_energetico",
-      "sentimiento": "neutral",
-      "url": "https://www.paisminero.com/index.php?option=com_content&view=article&id=30514:india-reduce-las-importaciones-de-carbon-a-medida-que-las-centrales-electricas-recurren-al-combustible-nacional&catid=116&Itemid=10001",
-      "tags": [
-        "carbón",
-        "país minero"
       ]
     }
   ]
