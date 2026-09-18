@@ -1,6 +1,21 @@
 {
-  "ultima_actualizacion": "2026-09-17T15:28:52.289680",
+  "ultima_actualizacion": "2026-09-18T14:52:30.007301",
   "noticias": [
+    {
+      "id": 1789743150,
+      "titulo": "Colombia exportó el mayor embarque de carbón y coque metalúrgico de su historia - Noticias RCN",
+      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxQMV9yR0VuQkFpZHZoVnhxdzBlZmwwci0zSW54OXVYMnlLRS1rcFRsZU9Dc3J3ZFMyNmU3Mjlna2VJcFMzV25GSHdEZlRsM1NWa00wYlA5UC0ta2s1Uzk2VGs4STV6YnFZemJMR0QxNW0wT3RuNE9BVzByOXFuWmgyTFpKNXdSSEMwMVJEajdrV3lnSC1pcmRWTnZDbUFDb3ItWk1IZy0yLVRqbD",
+      "fuente": "Noticias RCN",
+      "fecha": "2024-04-13T19:50:09",
+      "categoria": "carbon",
+      "mineral": "carbon_coquizable",
+      "sentimiento": "neutral",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQMV9yR0VuQkFpZHZoVnhxdzBlZmwwci0zSW54OXVYMnlLRS1rcFRsZU9Dc3J3ZFMyNmU3Mjlna2VJcFMzV25GSHdEZlRsM1NWa00wYlA5UC0ta2s1Uzk2VGs4STV6YnFZemJMR0QxNW0wT3RuNE9BVzByOXFuWmgyTFpKNXdSSEMwMVJEajdrV3lnSC1pcmRWTnZDbUFDb3ItWk1IZy0yLVRqbDRXbl9oZGt2bDFQcGhIeF8xX29UN07SAcABQVVfeXFMUEhqRGgxUC14aGxoWC1udl9vOWR2RHZVcE5XczZ1U2dYOVVqRFpwWmpJLWtRdmRvZUZVLXdQcGJUQmtKVkR6OHVjd0hubk5NTEgwYzhOeElrSUxiY3FyeXhSVGsxR3VRSXJYcEctOXNDY081WXR3YmM2RlFtaXp4VWFBblM1d0Z2dHdrVEgwbENtWU01SXNKdVBqX3VXYUVIakZXRlk4aWE1aDdFRDI5VHBGNFRyVDZkQ0NWdXg5dUpD?oc=5",
+      "tags": [
+        "mercado",
+        "carbón coquizable metalúrgico"
+      ]
+    },
     {
       "id": 1789658932,
       "titulo": "China’s Purified Phosphoric Acid Market | Non-Fertilizer Demand & Price Insights - Argus Media",
@@ -884,21 +899,6 @@
       "tags": [
         "carbón",
         "país minero"
-      ]
-    },
-    {
-      "id": 1783857798,
-      "titulo": "Producción de carbón y coque en Norte de Santander cae hasta 40% en medio de crisis del sector - laopinion.co",
-      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxNaC12bm5mZkNYR25yeURYQ3hHdFRLeVpLT1VVa2JPQ0ZDZmt0VlRMZkdoUGFxMklpWEJmbzNtNWtVdnZLdWRxZkVnTUN0RHJ1ZExiLUh4azRhN08zME5jMS1Tb2VodEhWeDFYbnZpQWdXeGtRekxETmZOSGhHaTJGQzU2ZTdQWExlX21jWXBJMVV3N1FaMGhleEVWY1F0ejhnUm9FUkFZd1BLdU",
-      "fuente": "laopinion.co",
-      "fecha": "2026-03-11T07:00:00",
-      "categoria": "carbon",
-      "mineral": "carbon_coquizable",
-      "sentimiento": "neutral",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNaC12bm5mZkNYR25yeURYQ3hHdFRLeVpLT1VVa2JPQ0ZDZmt0VlRMZkdoUGFxMklpWEJmbzNtNWtVdnZLdWRxZkVnTUN0RHJ1ZExiLUh4azRhN08zME5jMS1Tb2VodEhWeDFYbnZpQWdXeGtRekxETmZOSGhHaTJGQzU2ZTdQWExlX21jWXBJMVV3N1FaMGhleEVWY1F0ejhnUm9FUkFZd1BLdU1QMUg4RlFMZVR5SEE?oc=5",
-      "tags": [
-        "mercado",
-        "carbón coquizable metalúrgico"
       ]
     }
   ]
