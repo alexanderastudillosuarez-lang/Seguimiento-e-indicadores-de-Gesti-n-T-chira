@@ -1,6 +1,21 @@
 {
-  "ultima_actualizacion": "2026-09-21T16:54:27.625034",
+  "ultima_actualizacion": "2026-09-22T15:27:46.122292",
   "noticias": [
+    {
+      "id": 1790090866,
+      "titulo": "Crisis en Hormuz impulsará la demanda global de carbón a niveles récord",
+      "resumen": "Noticia del sector minero del carbón publicada por País Minero: Crisis en Hormuz impulsará la demanda global de carbón a niveles récord",
+      "fuente": "País Minero",
+      "fecha": "2026-09-22T15:27:46.121174",
+      "categoria": "carbon",
+      "mineral": "carbon_energetico",
+      "sentimiento": "neutral",
+      "url": "https://www.paisminero.com/index.php?option=com_content&view=article&id=31785:crisis-en-hormuz-impulsara-la-demanda-global-de-carbon-a-niveles-record-20260920150043&catid=116&Itemid=10001",
+      "tags": [
+        "carbón",
+        "país minero"
+      ]
+    },
     {
       "id": 1790009667,
       "titulo": "Revolutionary Strategies on a Heated Earth - Spectre: A Marxist Journal",
@@ -884,21 +899,6 @@
       "tags": [
         "mercado",
         "site:laopinion.co minería carbón Táchira"
-      ]
-    },
-    {
-      "id": 1784117983,
-      "titulo": "Report reveals clients of Western Sahara’s conflict mineral - Western Sahara Resource Watch",
-      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxORzZuVGExTU9mQndGT2VZbEx6cjM3NnQ3MFcwQS01M0pXdnAtSlBycUlFVVhQZFd4OExTVllDVEpPVWM3cmROSk1fSDRnVVpNT1Z0b0RER1ZIX3BUVTVzTUwwejBRWFBwWWExRXBQOU5CYzZjY1BDNkRwbmVDWmFScWh2UVptcDlBMmpJ?oc=5\" target=\"_blank\">Report reveals clie",
-      "fuente": "Western Sahara Resource Watch",
-      "fecha": "2021-04-13T07:18:04",
-      "categoria": "fosfatos",
-      "mineral": "roca_fosfatica",
-      "sentimiento": "neutral",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxORzZuVGExTU9mQndGT2VZbEx6cjM3NnQ3MFcwQS01M0pXdnAtSlBycUlFVVhQZFd4OExTVllDVEpPVWM3cmROSk1fSDRnVVpNT1Z0b0RER1ZIX3BUVTVzTUwwejBRWFBwWWExRXBQOU5CYzZjY1BDNkRwbmVDWmFScWh2UVptcDlBMmpJ?oc=5",
-      "tags": [
-        "mercado",
-        "phosphate rock price"
       ]
     }
   ]
