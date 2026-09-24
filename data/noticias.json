@@ -1,6 +1,21 @@
 {
-  "ultima_actualizacion": "2026-09-23T15:22:20.952489",
+  "ultima_actualizacion": "2026-09-24T15:45:32.649183",
   "noticias": [
+    {
+      "id": 1790264732,
+      "titulo": "Qué dicen los números del carbón en Colombia: producción es la peor en 22 años - El Espectador",
+      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxNUTBKWEk2MTNIWGM5YUJOTV9JOFl4VHplM3RhUy1ramJ5VUlMcmJvZ2JZMXJWaVBhZm9NY08tNjY0SnFiRV8zYTdNaWx6QVFSaHYyeWNxVW91Y1pMeVFJNUVHbjAwc0M1ZE9JTzVtUUV6NlpRbzNvUXZhUnZrT2FiYktuNERpd3UtN2VMTm9xYVlVV3pKQVVxLXhsdHEzTzRxR214Mmt6TTUtOX",
+      "fuente": "El Espectador",
+      "fecha": "2026-04-28T07:00:00",
+      "categoria": "carbon",
+      "mineral": "carbon_energetico",
+      "sentimiento": "neutral",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNUTBKWEk2MTNIWGM5YUJOTV9JOFl4VHplM3RhUy1ramJ5VUlMcmJvZ2JZMXJWaVBhZm9NY08tNjY0SnFiRV8zYTdNaWx6QVFSaHYyeWNxVW91Y1pMeVFJNUVHbjAwc0M1ZE9JTzVtUUV6NlpRbzNvUXZhUnZrT2FiYktuNERpd3UtN2VMTm9xYVlVV3pKQVVxLXhsdHEzTzRxR214Mmt6TTUtOXRhVlhGeW5OV0pFMUdGblZzRk8zT3Q5SXhyZW9pYtIB3AFBVV95cUxNNTNHUlJLaXRPYldDTnpwVDQ3WkhTSDhSY3FTY2U4NmxVTnY3cWhXRWJ4bURjak96UlA2Si1hMDBEbHcyYjJKREpVTHNJbDFKNWxQcTdaOVhnblFxWl9hbjd4aFQzMjFEbWZDUlBkb1NpZDhWRnhlbWIwNVlLVl9pc0lqZlBIUnVKUExxTVl4amJQYXFVUm05LVhIRks0OWJ2dmkwTkFzRzIwVjczQXBVRkR1QWlYbzhZWWFvTHNrQzc1WGM1ZWpSeFRPQkhxM04wWW11cm50bHp1UjZK?oc=5",
+      "tags": [
+        "mercado",
+        "precio carbón térmico"
+      ]
+    },
     {
       "id": 1790176940,
       "titulo": "IEA: La demanda global de carbón alcanzará un récord histórico mientras la guerra en Irán ahoga el suministro de GNL",
@@ -884,21 +899,6 @@
       "tags": [
         "carbón",
         "país minero"
-      ]
-    },
-    {
-      "id": 1784462515,
-      "titulo": "Este yacimiento de fosfato es el más grande del mundo - Inspenet",
-      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMid0FVX3lxTE1BWHdnYm0tY05KWVpibEZqYk1lbnZEeVNqdmhGMUFhYmY4XzNQWU0tSV9hUFJBbzZtLUM1X2xZTE1VRWx1TkhSdXFNVXBOY0Z1WkpNS3J2cFN1V2tyM1VBOUxzak85aUJwWTlVbHQyWDNLQXEwdHNN?oc=5\" target=\"_blank\">Este yacimiento de fosfato es el más grande del",
-      "fuente": "Inspenet",
-      "fecha": "2023-07-13T07:00:00",
-      "categoria": "fosfatos",
-      "mineral": "roca_fosfatica",
-      "sentimiento": "neutral",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1BWHdnYm0tY05KWVpibEZqYk1lbnZEeVNqdmhGMUFhYmY4XzNQWU0tSV9hUFJBbzZtLUM1X2xZTE1VRWx1TkhSdXFNVXBOY0Z1WkpNS3J2cFN1V2tyM1VBOUxzak85aUJwWTlVbHQyWDNLQXEwdHNN?oc=5",
-      "tags": [
-        "mercado",
-        "roca fosfática precio"
       ]
     }
   ]
