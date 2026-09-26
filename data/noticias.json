@@ -1,6 +1,21 @@
 {
-  "ultima_actualizacion": "2026-09-24T15:45:32.649183",
+  "ultima_actualizacion": "2026-09-26T14:55:55.534168",
   "noticias": [
+    {
+      "id": 1790434555,
+      "titulo": "India considera la mezcla obligatoria de carbón importado a medida que se desmoronan los stocks de las plantas",
+      "resumen": "Noticia del sector minero del carbón publicada por País Minero: India considera la mezcla obligatoria de carbón importado a medida que se desmoronan los stocks de las plantas",
+      "fuente": "País Minero",
+      "fecha": "2026-09-26T14:55:55.532940",
+      "categoria": "carbon",
+      "mineral": "carbon_energetico",
+      "sentimiento": "neutral",
+      "url": "https://www.paisminero.com/index.php?option=com_content&view=article&id=31917:india-considera-la-mezcla-obligatoria-de-carbon-importado-a-medida-que-se-desmor-20260926050306&catid=116&Itemid=10001",
+      "tags": [
+        "carbón",
+        "país minero"
+      ]
+    },
     {
       "id": 1790264732,
       "titulo": "Qué dicen los números del carbón en Colombia: producción es la peor en 22 años - El Espectador",
@@ -884,21 +899,6 @@
       "tags": [
         "mercado",
         "carbón coquizable metalúrgico"
-      ]
-    },
-    {
-      "id": 1784462516,
-      "titulo": "Estados Unidos apuesta 50.000 millones de dólares a la energía generada con carbón y gas ante el aumento vertiginoso de la demanda de electricidad.",
-      "resumen": "Noticia del sector minero del carbón publicada por País Minero: Estados Unidos apuesta 50.000 millones de dólares a la energía generada con carbón y gas ante el aumento vertiginoso de la demanda de electricidad.",
-      "fuente": "País Minero",
-      "fecha": "2026-07-19T12:01:56.570740",
-      "categoria": "carbon",
-      "mineral": "carbon_energetico",
-      "sentimiento": "neutral",
-      "url": "https://www.paisminero.com/index.php?option=com_content&view=article&id=30558:estados-unidos-apuesta-50-000-millones-de-dolares-a-la-energia-generada-con-carbon-y-gas-ante-el-aumento-vertiginoso-de-la-demanda-de-electricidad&catid=116&Itemid=10001",
-      "tags": [
-        "carbón",
-        "país minero"
       ]
     }
   ]
