@@ -1,6 +1,21 @@
 {
-  "ultima_actualizacion": "2026-09-26T14:55:55.534168",
+  "ultima_actualizacion": "2026-09-27T15:34:02.575856",
   "noticias": [
+    {
+      "id": 1790523242,
+      "titulo": "Energía Barata - laopinion.co",
+      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMiW0FVX3lxTE4zRmNyZ2NjMGFTbG01VTFrbEVoQXNtaE16Yl91eWp4OTBobzIxUXZWeWpZRm4zWXhHbGtQQU1LZEliRjE5OUhoWlBBSHB5YVhTZDVwWG52WXF2T2c?oc=5\" target=\"_blank\">Energía Barata</a>  <font color=\"#6f6f6f\">laopinion.co</font>",
+      "fuente": "laopinion.co",
+      "fecha": "2023-03-11T08:00:00",
+      "categoria": "geopolitica",
+      "mineral": "carbon_energetico",
+      "sentimiento": "neutral",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4zRmNyZ2NjMGFTbG01VTFrbEVoQXNtaE16Yl91eWp4OTBobzIxUXZWeWpZRm4zWXhHbGtQQU1LZEliRjE5OUhoWlBBSHB5YVhTZDVwWG52WXF2T2c?oc=5",
+      "tags": [
+        "mercado",
+        "site:laopinion.co minería carbón Táchira"
+      ]
+    },
     {
       "id": 1790434555,
       "titulo": "India considera la mezcla obligatoria de carbón importado a medida que se desmoronan los stocks de las plantas",
@@ -884,21 +899,6 @@
       "tags": [
         "carbón",
         "país minero"
-      ]
-    },
-    {
-      "id": 1784553023,
-      "titulo": "El carbón metalúrgico de Boyacá es el más apetecido en el interior y exterior del país - Boyacá 95.6 fm",
-      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxQSDNjdnM1X3hvTGJwdDZTSmpONnl2WE1zMnpiOWVsRTBUSGxranhvRzdNUy16TnVIVUozOU5lV3VjeTZsVjVaUGxJSGF4a2N1WHVKcFpKaDIzQUtwcE9QNVBjNGtRdUZuQWg0UzBVQ3VoZ3VQQ1lIS2FFTkRBb0R4TmFyWFhVWWk1UlJnZ2JIcjYzNFhJNE8wWmpBd2NZeTNmX0t5NGQwbjQ0Qz",
-      "fuente": "Boyacá 95.6 fm",
-      "fecha": "2022-01-13T08:00:00",
-      "categoria": "carbon",
-      "mineral": "carbon_coquizable",
-      "sentimiento": "neutral",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQSDNjdnM1X3hvTGJwdDZTSmpONnl2WE1zMnpiOWVsRTBUSGxranhvRzdNUy16TnVIVUozOU5lV3VjeTZsVjVaUGxJSGF4a2N1WHVKcFpKaDIzQUtwcE9QNVBjNGtRdUZuQWg0UzBVQ3VoZ3VQQ1lIS2FFTkRBb0R4TmFyWFhVWWk1UlJnZ2JIcjYzNFhJNE8wWmpBd2NZeTNmX0t5NGQwbjQ0QzRzU1lkYjdxNTFMdw?oc=5",
-      "tags": [
-        "mercado",
-        "carbón coquizable metalúrgico"
       ]
     }
   ]
