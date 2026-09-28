@@ -1,6 +1,36 @@
 {
-  "ultima_actualizacion": "2026-09-27T15:34:02.575856",
+  "ultima_actualizacion": "2026-09-28T18:32:52.938643",
   "noticias": [
+    {
+      "id": 1790620372,
+      "titulo": "La demanda de carbón en India se prevé que aumente un 4.2% a medida que las reservas en las plantas alcanzan niveles críticos.",
+      "resumen": "Noticia del sector minero del carbón publicada por País Minero: La demanda de carbón en India se prevé que aumente un 4.2% a medida que las reservas en las plantas alcanzan niveles críticos.",
+      "fuente": "País Minero",
+      "fecha": "2026-09-28T18:32:52.937067",
+      "categoria": "carbon",
+      "mineral": "carbon_energetico",
+      "sentimiento": "neutral",
+      "url": "https://www.paisminero.com/index.php?option=com_content&view=article&id=31801:la-demanda-de-carbon-en-india-se-preve-que-aumente-un-42-a-medida-que-las-reserv-20260921150243&catid=116&Itemid=10001",
+      "tags": [
+        "carbón",
+        "país minero"
+      ]
+    },
+    {
+      "id": 1790620371,
+      "titulo": "El carbón metalúrgico de Boyacá es el más apetecido en el interior y exterior del país - Boyacá 95.6 fm",
+      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxQSDNjdnM1X3hvTGJwdDZTSmpONnl2WE1zMnpiOWVsRTBUSGxranhvRzdNUy16TnVIVUozOU5lV3VjeTZsVjVaUGxJSGF4a2N1WHVKcFpKaDIzQUtwcE9QNVBjNGtRdUZuQWg0UzBVQ3VoZ3VQQ1lIS2FFTkRBb0R4TmFyWFhVWWk1UlJnZ2JIcjYzNFhJNE8wWmpBd2NZeTNmX0t5NGQwbjQ0Qz",
+      "fuente": "Boyacá 95.6 fm",
+      "fecha": "2022-01-13T08:00:00",
+      "categoria": "carbon",
+      "mineral": "carbon_coquizable",
+      "sentimiento": "neutral",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQSDNjdnM1X3hvTGJwdDZTSmpONnl2WE1zMnpiOWVsRTBUSGxranhvRzdNUy16TnVIVUozOU5lV3VjeTZsVjVaUGxJSGF4a2N1WHVKcFpKaDIzQUtwcE9QNVBjNGtRdUZuQWg0UzBVQ3VoZ3VQQ1lIS2FFTkRBb0R4TmFyWFhVWWk1UlJnZ2JIcjYzNFhJNE8wWmpBd2NZeTNmX0t5NGQwbjQ0QzRzU1lkYjdxNTFMdw?oc=5",
+      "tags": [
+        "mercado",
+        "carbón coquizable metalúrgico"
+      ]
+    },
     {
       "id": 1790523242,
       "titulo": "Energía Barata - laopinion.co",
@@ -869,36 +899,6 @@
       "tags": [
         "mercado",
         "carbón coquizable metalúrgico"
-      ]
-    },
-    {
-      "id": 1784636716,
-      "titulo": "La invasión de Ucrania provoca un aumento de las ganancias de Marruecos por su saqueo ilegal de fosfato del Sáhara Occidental ocupado – Rebelion - Rebelión",
-      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMi6wFBVV95cUxPQWlWV3NTa3RtNTZxSFM0N3NMZUFpME9ta2pIQVNzYXhuVFVGai1LTlNjSVplcWhTSlI5SmxVUmEtWTdqRnJHOVFqZWU3TjU3Xzl4djJQV2s1SFlVeEtVVEF5U1piRWNZc2lUT0lGcFBFVnI0UVAyQUJaMExGY2owdS1kdF9xSHRiVmlkZ3Uwc2N1ckg2cElGU2wzQU1Lck9EOHV1Q2ZmY2hKY2",
-      "fuente": "Rebelión",
-      "fecha": "2023-04-27T07:00:00",
-      "categoria": "fosfatos",
-      "mineral": "roca_fosfatica",
-      "sentimiento": "neutral",
-      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPQWlWV3NTa3RtNTZxSFM0N3NMZUFpME9ta2pIQVNzYXhuVFVGai1LTlNjSVplcWhTSlI5SmxVUmEtWTdqRnJHOVFqZWU3TjU3Xzl4djJQV2s1SFlVeEtVVEF5U1piRWNZc2lUT0lGcFBFVnI0UVAyQUJaMExGY2owdS1kdF9xSHRiVmlkZ3Uwc2N1ckg2cElGU2wzQU1Lck9EOHV1Q2ZmY2hKY2kxSVo3UFByckRnNnRvbDVtZHJka0xnUHVvdmtHaXFSa3FSZlptV0R2b1hkcU0wTHNIMzBtSXFzWnlaN05JRzhR?oc=5",
-      "tags": [
-        "mercado",
-        "roca fosfática precio"
-      ]
-    },
-    {
-      "id": 1784553031,
-      "titulo": "Rio inicia ampliación de 1.500 millones de dólares de fundición de aluminio en Quebec",
-      "resumen": "Noticia del sector minero del carbón publicada por País Minero: Rio inicia ampliación de 1.500 millones de dólares de fundición de aluminio en Quebec",
-      "fuente": "País Minero",
-      "fecha": "2026-07-20T13:10:31.279623",
-      "categoria": "carbon",
-      "mineral": "carbon_energetico",
-      "sentimiento": "neutral",
-      "url": "https://www.paisminero.com/index.php?option=com_content&view=article&id=30381:rio-inicia-ampliacion-de-1500-millones-de-dolares-de-fundicion-de-aluminio-en-quebec-20260529173054&catid=116&Itemid=10001",
-      "tags": [
-        "carbón",
-        "país minero"
       ]
     }
   ]
