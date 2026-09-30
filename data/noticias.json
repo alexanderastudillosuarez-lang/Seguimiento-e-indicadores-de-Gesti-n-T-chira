@@ -1,6 +1,36 @@
 {
-  "ultima_actualizacion": "2026-09-29T16:50:10.459474",
+  "ultima_actualizacion": "2026-09-30T16:44:41.009046",
   "noticias": [
+    {
+      "id": 1790786681,
+      "titulo": "El problema del carbón en Polonia ha cambiado",
+      "resumen": "Noticia del sector minero del carbón publicada por País Minero: El problema del carbón en Polonia ha cambiado",
+      "fuente": "País Minero",
+      "fecha": "2026-09-30T16:44:41.007806",
+      "categoria": "carbon",
+      "mineral": "carbon_energetico",
+      "sentimiento": "neutral",
+      "url": "https://www.paisminero.com/index.php?option=com_content&view=article&id=31309:el-problema-del-carbon-en-polonia-ha-cambiado-20260830050107&catid=116&Itemid=10001",
+      "tags": [
+        "carbón",
+        "país minero"
+      ]
+    },
+    {
+      "id": 1790786679,
+      "titulo": "Shell Surges 2.6% as Asia's Missing LNG Demand Waits Offshore - TradingView",
+      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMiuwFBVV95cUxNQnFZN0lyNGN5T3RjNm5zZ0k1Ul8tdEF4dUgta2ZjVDAzOFRSNXFORTVScG9yTERuYzdyUjlhbW9ZOW9MTmh3REVxWm9xS2I3X0hSRW9PN2NaNjNCQ1NmVDIzYnVYb2hCQ1hZUkJZUXpiYUFIUlAxR3dfV2FqUWdIdV9YWmI5V3kxV1ZwdVpkdUszNkdqNkxacmd1THB0YzZldlBqdkpLRnRZX2",
+      "fuente": "TradingView",
+      "fecha": "2026-09-15T07:00:00",
+      "categoria": "carbon",
+      "mineral": "carbon_energetico",
+      "sentimiento": "neutral",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNQnFZN0lyNGN5T3RjNm5zZ0k1Ul8tdEF4dUgta2ZjVDAzOFRSNXFORTVScG9yTERuYzdyUjlhbW9ZOW9MTmh3REVxWm9xS2I3X0hSRW9PN2NaNjNCQ1NmVDIzYnVYb2hCQ1hZUkJZUXpiYUFIUlAxR3dfV2FqUWdIdV9YWmI5V3kxV1ZwdVpkdUszNkdqNkxacmd1THB0YzZldlBqdkpLRnRZX2R4U1NrVlNrRE5FcnhjTE0w?oc=5",
+      "tags": [
+        "mercado",
+        "thermal coal price"
+      ]
+    },
     {
       "id": 1790700610,
       "titulo": "El Huila, una potencia minera por desarrollar - Caracol Radio",
@@ -869,36 +899,6 @@
       "tags": [
         "mercado",
         "thermal coal price"
-      ]
-    },
-    {
-      "id": 1784895784,
-      "titulo": "Frontera abierta permanentemente, más comercio e incentivos: las exigencias al presidente electo de Colombia - laopinion.co",
-      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMiuAFBVV95cUxQUVNuVFdFNnhVSnJrMktlbEdqcC1GbTh4cVExWUJCNm40MWx1ejFzNTVIOWR3cW55S2EyZTY5WmliM253ZG0xelAxUnBwUU5WSFhteVh3SFAzMkRfaHNQODJMdEFaYTR6clFOeHg0a2luZW1zTmoydWVOZmpCTlV6N3UzTnhNVC1lQXdHY2NxUzczSTJTVVpCaGx1Y0pNUHo1TXB1OTVMRlYyN2",
-      "fuente": "laopinion.co",
-      "fecha": "2026-06-23T07:00:00",
-      "categoria": "geopolitica",
-      "mineral": "carbon_energetico",
-      "sentimiento": "neutral",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQUVNuVFdFNnhVSnJrMktlbEdqcC1GbTh4cVExWUJCNm40MWx1ejFzNTVIOWR3cW55S2EyZTY5WmliM253ZG0xelAxUnBwUU5WSFhteVh3SFAzMkRfaHNQODJMdEFaYTR6clFOeHg0a2luZW1zTmoydWVOZmpCTlV6N3UzTnhNVC1lQXdHY2NxUzczSTJTVVpCaGx1Y0pNUHo1TXB1OTVMRlYyN24tWmtuemx5ODRLY1Z1?oc=5",
-      "tags": [
-        "mercado",
-        "site:laopinion.co minería carbón Táchira"
-      ]
-    },
-    {
-      "id": 1784809600,
-      "titulo": "Fenalcarbón denuncia negligencia del Gobierno Petro que deja al coque colombiano por fuera del mercado de la India durante cinco años.",
-      "resumen": "Noticia del sector minero del carbón publicada por País Minero: Fenalcarbón denuncia negligencia del Gobierno Petro que deja al coque colombiano por fuera del mercado de la India durante cinco años.",
-      "fuente": "País Minero",
-      "fecha": "2026-07-23T12:26:40.612517",
-      "categoria": "carbon",
-      "mineral": "carbon_energetico",
-      "sentimiento": "neutral",
-      "url": "https://www.paisminero.com/index.php?option=com_content&view=article&id=30595:fenalcarbon-denuncia-negligencia-del-gobierno-petro-que-deja-al-coque-colombiano-por-fuera-del-mercado-de-la-india-durante-cinco-anos&catid=116&Itemid=10001",
-      "tags": [
-        "carbón",
-        "país minero"
       ]
     }
   ]
