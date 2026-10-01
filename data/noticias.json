@@ -1,6 +1,21 @@
 {
-  "ultima_actualizacion": "2026-09-30T16:44:41.009046",
+  "ultima_actualizacion": "2026-10-01T17:18:53.010879",
   "noticias": [
+    {
+      "id": 1790875133,
+      "titulo": "Quienes habitan en el caserío La Lomita del municipio Sucre, en #Tachira, alertaron sobre el agrietamiento de un terreno de donde emana humo y fuego. El hecho obligó a autoridades locales, geólogos y a equipos de organismos de prevención a trasladars - facebook.com",
+      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMi4wFBVV95cUxQUzJzQVJEQ2xPc0xkSWpBMzh6X29xdlN4c0lDR3o0aThQanllM1NnMXV4YS1JYVJvNk5PczhPejNkR1A0RkZQbnpKR1R5V3lfYTVwS01xRE9idjJsRGE1ZmRaMUhuQk5kYzc3ejVmWGR5dFo4WWFSX2Z2ZnM5cWtsVDFpVWx0dDg3c0Z5U0pZNWw1RVZHbFJvQzNTN3RvaU5RQTNjbWE0YjRDc3",
+      "fuente": "facebook.com",
+      "fecha": "2026-07-16T07:00:00",
+      "categoria": "geopolitica",
+      "mineral": "carbon_energetico",
+      "sentimiento": "neutral",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQUzJzQVJEQ2xPc0xkSWpBMzh6X29xdlN4c0lDR3o0aThQanllM1NnMXV4YS1JYVJvNk5PczhPejNkR1A0RkZQbnpKR1R5V3lfYTVwS01xRE9idjJsRGE1ZmRaMUhuQk5kYzc3ejVmWGR5dFo4WWFSX2Z2ZnM5cWtsVDFpVWx0dDg3c0Z5U0pZNWw1RVZHbFJvQzNTN3RvaU5RQTNjbWE0YjRDc3l6TTd1NFliSVJ1UG5DN3BOSGNSSFJsRlpmckxwVHJqQVNuM2ZQeUwtSnI2MEdDLXllOTBEQlZWMA?oc=5",
+      "tags": [
+        "mercado",
+        "minería carbón Táchira Venezuela"
+      ]
+    },
     {
       "id": 1790786681,
       "titulo": "El problema del carbón en Polonia ha cambiado",
@@ -884,21 +899,6 @@
       "tags": [
         "mercado",
         "carbón coquizable metalúrgico"
-      ]
-    },
-    {
-      "id": 1785067650,
-      "titulo": "REG - Anglo American PLC - Anglo American Production Report Q2 2026 - TradingView",
-      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMi1AFBVV95cUxQNnNjNDZteGQ3V3hXRF93NjhWc2dCOGhQTllfMnpOQ1JYZVRvVERkcnhvaXFWRjl2MG91dEtlV09fRW5qT1pVOERtVkJzN1ZicDFvSzBLN05vSDNRM2pCeDZDVEdHanF6Znp0YVgwZGs4MVRYazNEWHJ4MDNncGpSTHp1NlMxNkZWWDJSSG5SV18tQ2xxSDg1ZlJrdXhNX1ZNb0I3SDlXenRaRF",
-      "fuente": "TradingView",
-      "fecha": "2026-07-23T06:00:00",
-      "categoria": "carbon",
-      "mineral": "carbon_energetico",
-      "sentimiento": "neutral",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQNnNjNDZteGQ3V3hXRF93NjhWc2dCOGhQTllfMnpOQ1JYZVRvVERkcnhvaXFWRjl2MG91dEtlV09fRW5qT1pVOERtVkJzN1ZicDFvSzBLN05vSDNRM2pCeDZDVEdHanF6Znp0YVgwZGs4MVRYazNEWHJ4MDNncGpSTHp1NlMxNkZWWDJSSG5SV18tQ2xxSDg1ZlJrdXhNX1ZNb0I3SDlXenRaRFZZS29nd3dZbXlUYmpfQmVnck1DbXY5czhIbG1wVlhlWFl6Y3BudTRXeg?oc=5",
-      "tags": [
-        "mercado",
-        "thermal coal price"
       ]
     }
   ]
