@@ -1,6 +1,36 @@
 {
-  "ultima_actualizacion": "2026-10-01T17:18:53.010879",
+  "ultima_actualizacion": "2026-10-02T16:34:03.377014",
   "noticias": [
+    {
+      "id": 1790958843,
+      "titulo": "China impulsa a los mineros de carbón a aumentar la oferta mientras los precios suben",
+      "resumen": "Noticia del sector minero del carbón publicada por País Minero: China impulsa a los mineros de carbón a aumentar la oferta mientras los precios suben",
+      "fuente": "País Minero",
+      "fecha": "2026-10-02T16:34:03.375714",
+      "categoria": "carbon",
+      "mineral": "carbon_energetico",
+      "sentimiento": "neutral",
+      "url": "https://www.paisminero.com/index.php?option=com_content&view=article&id=31734:china-impulsa-a-los-mineros-de-carbon-a-aumentar-la-oferta-mientras-los-precios--20260918050250&catid=116&Itemid=10001",
+      "tags": [
+        "carbón",
+        "país minero"
+      ]
+    },
+    {
+      "id": 1790958841,
+      "titulo": "Perfil y datos de la empresa Alpha Metallurgical Resources, Inc. (AMR) - Yahoo Finanzas",
+      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMiYEFVX3lxTFBSb2k2VUFUejdpNzFfbHUtbXhVdkdJZC16Z1pSWVczSlRWY3hMSDdadVFmSDNrNkpwNndudW44ZXVyMThVb2NkVFRlTDRBY1VieWJQRnN1YmhYVVVFdVlLbg?oc=5\" target=\"_blank\">Perfil y datos de la empresa Alpha Metallurgical Resources, Inc. (AMR)</a>  <",
+      "fuente": "Yahoo Finanzas",
+      "fecha": "2018-04-24T22:13:06",
+      "categoria": "carbon",
+      "mineral": "carbon_coquizable",
+      "sentimiento": "neutral",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBSb2k2VUFUejdpNzFfbHUtbXhVdkdJZC16Z1pSWVczSlRWY3hMSDdadVFmSDNrNkpwNndudW44ZXVyMThVb2NkVFRlTDRBY1VieWJQRnN1YmhYVVVFdVlLbg?oc=5",
+      "tags": [
+        "mercado",
+        "coking coal price"
+      ]
+    },
     {
       "id": 1790875133,
       "titulo": "Quienes habitan en el caserío La Lomita del municipio Sucre, en #Tachira, alertaron sobre el agrietamiento de un terreno de donde emana humo y fuego. El hecho obligó a autoridades locales, geólogos y a equipos de organismos de prevención a trasladars - facebook.com",
@@ -869,36 +899,6 @@
       "tags": [
         "mercado",
         "precio carbón térmico"
-      ]
-    },
-    {
-      "id": 1785330205,
-      "titulo": "Descubren el mayor depósito de roca fosfórica en Noruega: Impulso para la industria de baterías y energía solar en Europa - Reporte Minero",
-      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxQMWVRbUtKbnRpYlhqZExKUF96aWhPQ2Nqckk1OXZCWFpTSkhWZmNZclpwUnU5Vkw3VlZaVXpEQklzbDM0dVozZkZENnVxN2lHczhTZGpCTVhfcm5FRVBEOUU5ODc4Qm9MMm94UnJ3NDNTU0xBX1YzZlE3X1g3bmVxQUNGWHR1eS1ZX0FDcEhYd24tZnVRUl9ucHBGQ0JHVDRVYkZCYw?oc=5\" t",
-      "fuente": "Reporte Minero",
-      "fecha": "2023-07-10T07:00:00",
-      "categoria": "fosfatos",
-      "mineral": "roca_fosfatica",
-      "sentimiento": "neutral",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQMWVRbUtKbnRpYlhqZExKUF96aWhPQ2Nqckk1OXZCWFpTSkhWZmNZclpwUnU5Vkw3VlZaVXpEQklzbDM0dVozZkZENnVxN2lHczhTZGpCTVhfcm5FRVBEOUU5ODc4Qm9MMm94UnJ3NDNTU0xBX1YzZlE3X1g3bmVxQUNGWHR1eS1ZX0FDcEhYd24tZnVRUl9ucHBGQ0JHVDRVYkZCYw?oc=5",
-      "tags": [
-        "mercado",
-        "roca fosfática precio"
-      ]
-    },
-    {
-      "id": 1785243434,
-      "titulo": "Tamaño del mercado del carbón metalúrgico, participación | Informe de la industria [2034] - Fortune Business Insights",
-      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxNbWJUMWY3R2lndlZCWVBwY1N2a0pHdnRyXzJDZ1ZOeWF0Qk9DSExxR1Ata3pFY0VmUGN4aE5pNWNFRWFqYWw5bEpPVmFpZDJZeTI1aTY2LU8yanhxLXg1YW1VclZMdWc5RTNQZDdBWDZlaC1jZUtEdnVNY2NfVUpsSG1Fdy0tMm0xTFVQdUNOYlh6WUQ0TjIw?oc=5\" target=\"_blank\">Tam",
-      "fuente": "Fortune Business Insights",
-      "fecha": "2026-06-22T07:00:00",
-      "categoria": "carbon",
-      "mineral": "carbon_coquizable",
-      "sentimiento": "neutral",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNbWJUMWY3R2lndlZCWVBwY1N2a0pHdnRyXzJDZ1ZOeWF0Qk9DSExxR1Ata3pFY0VmUGN4aE5pNWNFRWFqYWw5bEpPVmFpZDJZeTI1aTY2LU8yanhxLXg1YW1VclZMdWc5RTNQZDdBWDZlaC1jZUtEdnVNY2NfVUpsSG1Fdy0tMm0xTFVQdUNOYlh6WUQ0TjIw?oc=5",
-      "tags": [
-        "mercado",
-        "carbón coquizable metalúrgico"
       ]
     }
   ]
