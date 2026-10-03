@@ -1,6 +1,36 @@
 {
-  "ultima_actualizacion": "2026-10-02T16:34:03.377014",
+  "ultima_actualizacion": "2026-10-03T15:06:10.746334",
   "noticias": [
+    {
+      "id": 1791039970,
+      "titulo": "India Aumenta Entregas de Carbón por Ferrocarril a Medida que las Reservas de las Plantas de Energía Disminuyen",
+      "resumen": "Noticia del sector minero del carbón publicada por País Minero: India Aumenta Entregas de Carbón por Ferrocarril a Medida que las Reservas de las Plantas de Energía Disminuyen",
+      "fuente": "País Minero",
+      "fecha": "2026-10-03T15:06:10.745148",
+      "categoria": "carbon",
+      "mineral": "carbon_energetico",
+      "sentimiento": "neutral",
+      "url": "https://www.paisminero.com/index.php?option=com_content&view=article&id=31495:india-aumenta-entregas-de-carbon-por-ferrocarril-a-medida-que-las-reservas-de-la-20260907150249&catid=116&Itemid=10001",
+      "tags": [
+        "carbón",
+        "país minero"
+      ]
+    },
+    {
+      "id": 1791039969,
+      "titulo": "El colapso de Ormuz desata la fiebre por el carbón térmico - La Razón",
+      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxNNVdYaE5ZMTVOcmJ6VHVLMlVUNU5kM1p0X2dELUc3eTJCN0w5NzVfaXNtNUJnSmF6dHo0el9aWEpIdkNuaHdHX21CT1ZERTRkRkE1dWdQSm9veHJoTGlOTWlBTGloNTVvaVFGVERTZkJsaXotTWVtQ1N1Y19tTDVsajl2QzhnMlFJZDVEaUduNk02bDMwWEMweDFJSVhrLUdHOERWYWtBa2Z1LX",
+      "fuente": "La Razón",
+      "fecha": "2026-09-27T01:41:37",
+      "categoria": "carbon",
+      "mineral": "carbon_energetico",
+      "sentimiento": "neutral",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNNVdYaE5ZMTVOcmJ6VHVLMlVUNU5kM1p0X2dELUc3eTJCN0w5NzVfaXNtNUJnSmF6dHo0el9aWEpIdkNuaHdHX21CT1ZERTRkRkE1dWdQSm9veHJoTGlOTWlBTGloNTVvaVFGVERTZkJsaXotTWVtQ1N1Y19tTDVsajl2QzhnMlFJZDVEaUduNk02bDMwWEMweDFJSVhrLUdHOERWYWtBa2Z1LXZpTnB2UGJR0gHGAUFVX3lxTE5zUzVZQTRpZjBuenkzUmloSndCYTRKcThQcEhfQU4tYkVLV3lITUYwbmRiUmY5Y2hLbnBPWk44cDVVMHVPazFzM05aM0o2SWk0anI3MDNqWTh6c3ZkNGZROWZLOE8zc1QtTnhkZjJiRnpyV2Uwcl9XUUVfbFZVNmRjQ0poUkVIaVc3RVNRX0NXRjdGMHdwcEtZUkdELUZFRjRIdVhlRlp1bWlqbDV1NndoekNvV3NJZ2pqcjJSODlqbkhSdGpQUQ?oc=5",
+      "tags": [
+        "mercado",
+        "precio carbón térmico"
+      ]
+    },
     {
       "id": 1790958843,
       "titulo": "China impulsa a los mineros de carbón a aumentar la oferta mientras los precios suben",
@@ -869,36 +899,6 @@
       "tags": [
         "mercado",
         "coking coal price"
-      ]
-    },
-    {
-      "id": 1785585901,
-      "titulo": "Cómo convertir las aguas residuales en una mina de fósforo - The Conversation",
-      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxOZWFxY3doNVFrUGRxX1pPcG9VZUJ4TlBuMUdEWUdkb1dFMWVfaVl3c21HUkZWZE9OTWlFUmllQm1WRl9iLTRXN3R6d1loYkNjYTRVeHh5OU9lZG51UmhJOGM4NFJaYnB5elY5UmowUzVOUkNHcldIZnR1MkdxX2lUMFNKZl8xSm9lcjVYemVHQ05LYmY2a2VPMg?oc=5\" target=\"_blank\">C",
-      "fuente": "The Conversation",
-      "fecha": "2021-07-25T07:00:00",
-      "categoria": "fosfatos",
-      "mineral": "roca_fosfatica",
-      "sentimiento": "neutral",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOZWFxY3doNVFrUGRxX1pPcG9VZUJ4TlBuMUdEWUdkb1dFMWVfaVl3c21HUkZWZE9OTWlFUmllQm1WRl9iLTRXN3R6d1loYkNjYTRVeHh5OU9lZG51UmhJOGM4NFJaYnB5elY5UmowUzVOUkNHcldIZnR1MkdxX2lUMFNKZl8xSm9lcjVYemVHQ05LYmY2a2VPMg?oc=5",
-      "tags": [
-        "mercado",
-        "roca fosfática precio"
-      ]
-    },
-    {
-      "id": 1785415701,
-      "titulo": "Precio del Carbón Térmico: Gráficos y Noticias - FocusEconomics",
-      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMid0FVX3lxTE9tQjNzV2ZORWhCT0dJZXZReWJzYzJ2Sk9lT25NbDNZUFl2eDV3VXp3WGlxSkxEeVNVN21EWXZxakZLOUhOZWwxLVNNQ3h3NG9NLXE4VnFZMjJZeWszYUI4bnF0cFY5LWlXY0xOYXhpZTZBVjUtQlhr?oc=5\" target=\"_blank\">Precio del Carbón Térmico: Gráficos y Noticias<",
-      "fuente": "FocusEconomics",
-      "fecha": "2024-03-16T00:44:02",
-      "categoria": "carbon",
-      "mineral": "carbon_energetico",
-      "sentimiento": "neutral",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9tQjNzV2ZORWhCT0dJZXZReWJzYzJ2Sk9lT25NbDNZUFl2eDV3VXp3WGlxSkxEeVNVN21EWXZxakZLOUhOZWwxLVNNQ3h3NG9NLXE4VnFZMjJZeWszYUI4bnF0cFY5LWlXY0xOYXhpZTZBVjUtQlhr?oc=5",
-      "tags": [
-        "mercado",
-        "precio carbón térmico"
       ]
     }
   ]
