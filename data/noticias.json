@@ -1,6 +1,21 @@
 {
-  "ultima_actualizacion": "2026-10-04T15:42:55.110597",
+  "ultima_actualizacion": "2026-10-06T17:05:40.152643",
   "noticias": [
+    {
+      "id": 1791306340,
+      "titulo": "El FBI engañó a Bendito Menor y logró ubicarlo: conozca los detalles del operativo - La Opinión Cúcuta",
+      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxNLUtmNzktTkdORy1OcEh5bUY4aVlaTl9qMVRpWmZ1eUJYWWJYbmtwSGM3aVBMRjZsNE1GaEhNWTdtVDZhdmdkTHhmaVFXZEphM2h3ZW5HaUVKYi1SeWVubjdpZE54eTF0TkxNR1pzby1zWXVnMmFZMzI1REpXN0V3QmRTdTV6eFIzSmdEMUZ4RFJlOGRIUTVNdHkzWW4yOHlJU05WTlRNZGZjby",
+      "fuente": "La Opinión Cúcuta",
+      "fecha": "2026-09-04T07:00:00",
+      "categoria": "geopolitica",
+      "mineral": "carbon_energetico",
+      "sentimiento": "neutral",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNLUtmNzktTkdORy1OcEh5bUY4aVlaTl9qMVRpWmZ1eUJYWWJYbmtwSGM3aVBMRjZsNE1GaEhNWTdtVDZhdmdkTHhmaVFXZEphM2h3ZW5HaUVKYi1SeWVubjdpZE54eTF0TkxNR1pzby1zWXVnMmFZMzI1REpXN0V3QmRTdTV6eFIzSmdEMUZ4RFJlOGRIUTVNdHkzWW4yOHlJU05WTlRNZGZjby1kbFE?oc=5",
+      "tags": [
+        "mercado",
+        "site:laopinion.co minería carbón Táchira"
+      ]
+    },
     {
       "id": 1791128575,
       "titulo": "Glencore detiene el ferrocarril de carbón de Cerrejón tras ataque",
@@ -884,21 +899,6 @@
       "tags": [
         "mercado",
         "site:laopinion.co minería carbón Táchira"
-      ]
-    },
-    {
-      "id": 1785848732,
-      "titulo": "BlackRock moves on climate change - WWF reaction - WWF Colombia",
-      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMifkFVX3lxTE9BZ0NleG15Ykk1VGJEYUFlOXlheVlxLVk3RjFjbVRFVGk4aXVab1JJdWtOeWp3TDl5RVlsRFF3LWVaTTM1di14QkIwdFZ5UC1zUVVGaThCdjlmMnNtc2pLS3hyaUZaMFA5NXJZcEhWOXZfUzBFM3kxdWluOG5PQQ?oc=5\" target=\"_blank\">BlackRock moves on climate change - W",
-      "fuente": "WWF Colombia",
-      "fecha": "2021-10-30T20:20:27",
-      "categoria": "carbon",
-      "mineral": "carbon_energetico",
-      "sentimiento": "neutral",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9BZ0NleG15Ykk1VGJEYUFlOXlheVlxLVk3RjFjbVRFVGk4aXVab1JJdWtOeWp3TDl5RVlsRFF3LWVaTTM1di14QkIwdFZ5UC1zUVVGaThCdjlmMnNtc2pLS3hyaUZaMFA5NXJZcEhWOXZfUzBFM3kxdWluOG5PQQ?oc=5",
-      "tags": [
-        "mercado",
-        "thermal coal price"
       ]
     }
   ]
