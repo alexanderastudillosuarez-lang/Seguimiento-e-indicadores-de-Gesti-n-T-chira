@@ -1,6 +1,21 @@
 {
-  "ultima_actualizacion": "2026-10-06T17:05:40.152643",
+  "ultima_actualizacion": "2026-10-07T17:43:08.355482",
   "noticias": [
+    {
+      "id": 1791394988,
+      "titulo": "Grupo Hochschild acuerda vender proyecto de roca fosfórica de Bayóvar a australiana Bifox por US$61,9 millones - Gato Encerrado",
+      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMi6gFBVV95cUxNemM2VXhqcHlDR1VVWGJ3cWJvcVM2RDVwN1lYSk5yNVBBdU81cmpxQmZzUHozOTE1Rk5sbVR2blNWcTk3d1ZqcktMdUZqeEhYaXNBT096MkZybHhWSUJpczBTWWlGWTRIZVFkaDA1OWhKNFpmUU9FYU1Wc0FuVmNaZW84U21SQ29md2p6elBranBfLTlxaXhMNlBQeW94NHBodFpIY1VPMEN3Z0",
+      "fuente": "Gato Encerrado",
+      "fecha": "2026-06-16T18:51:59",
+      "categoria": "fosfatos",
+      "mineral": "roca_fosfatica",
+      "sentimiento": "neutral",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNemM2VXhqcHlDR1VVWGJ3cWJvcVM2RDVwN1lYSk5yNVBBdU81cmpxQmZzUHozOTE1Rk5sbVR2blNWcTk3d1ZqcktMdUZqeEhYaXNBT096MkZybHhWSUJpczBTWWlGWTRIZVFkaDA1OWhKNFpmUU9FYU1Wc0FuVmNaZW84U21SQ29md2p6elBranBfLTlxaXhMNlBQeW94NHBodFpIY1VPMEN3Z0p4enluejNzcS1aNWlPdGlXRkdUV3JfcThBOWFGQ1NLTk1sUEE2VkRlMWZXNzBwT1hkNU0xRG1tNnZWNXFkWHc?oc=5",
+      "tags": [
+        "mercado",
+        "roca fosfática precio"
+      ]
+    },
     {
       "id": 1791306340,
       "titulo": "El FBI engañó a Bendito Menor y logró ubicarlo: conozca los detalles del operativo - La Opinión Cúcuta",
@@ -884,21 +899,6 @@
       "tags": [
         "carbón",
         "país minero"
-      ]
-    },
-    {
-      "id": 1785934680,
-      "titulo": "Colombia ya tiene su hoja de ruta para modernizar el mercado energético - laopinion.co",
-      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxPbEhSTXVpU2FBd1dJMGM3QldUSWhOQ2VnSW5NbXAyU2pjVWVWMXlKTTB1Vkh6ekpQRGRJTnZfZXVuVWsyNkRPb2V2eGVrY1lfSFFKeU9VVGJPZkIzbllYY0l5RmF1MVpBdnlIdzJnUnAzcGJUY2hmNXctVWh0ajVGM2xoTHFQaERiT1ZnSmc4LUNoSGtQNUhyY2ktYTE4TDJPX3BJ?oc=5\" tar",
-      "fuente": "laopinion.co",
-      "fecha": "2026-07-17T23:57:46",
-      "categoria": "geopolitica",
-      "mineral": "carbon_energetico",
-      "sentimiento": "neutral",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPbEhSTXVpU2FBd1dJMGM3QldUSWhOQ2VnSW5NbXAyU2pjVWVWMXlKTTB1Vkh6ekpQRGRJTnZfZXVuVWsyNkRPb2V2eGVrY1lfSFFKeU9VVGJPZkIzbllYY0l5RmF1MVpBdnlIdzJnUnAzcGJUY2hmNXctVWh0ajVGM2xoTHFQaERiT1ZnSmc4LUNoSGtQNUhyY2ktYTE4TDJPX3BJ?oc=5",
-      "tags": [
-        "mercado",
-        "site:laopinion.co minería carbón Táchira"
       ]
     }
   ]
