@@ -1,6 +1,21 @@
 {
-  "ultima_actualizacion": "2026-10-07T17:43:08.355482",
+  "ultima_actualizacion": "2026-10-08T17:47:36.446090",
   "noticias": [
+    {
+      "id": 1791481656,
+      "titulo": "Tamaño del mercado del carbón metalúrgico, participación | Informe de la industria [2034] - Fortune Business Insights",
+      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxNbWJUMWY3R2lndlZCWVBwY1N2a0pHdnRyXzJDZ1ZOeWF0Qk9DSExxR1Ata3pFY0VmUGN4aE5pNWNFRWFqYWw5bEpPVmFpZDJZeTI1aTY2LU8yanhxLXg1YW1VclZMdWc5RTNQZDdBWDZlaC1jZUtEdnVNY2NfVUpsSG1Fdy0tMm0xTFVQdUNOYlh6WUQ0TjIw?oc=5\" target=\"_blank\">Tam",
+      "fuente": "Fortune Business Insights",
+      "fecha": "2026-09-07T07:00:00",
+      "categoria": "carbon",
+      "mineral": "carbon_energetico",
+      "sentimiento": "neutral",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNbWJUMWY3R2lndlZCWVBwY1N2a0pHdnRyXzJDZ1ZOeWF0Qk9DSExxR1Ata3pFY0VmUGN4aE5pNWNFRWFqYWw5bEpPVmFpZDJZeTI1aTY2LU8yanhxLXg1YW1VclZMdWc5RTNQZDdBWDZlaC1jZUtEdnVNY2NfVUpsSG1Fdy0tMm0xTFVQdUNOYlh6WUQ0TjIw?oc=5",
+      "tags": [
+        "mercado",
+        "precio carbón térmico"
+      ]
+    },
     {
       "id": 1791394988,
       "titulo": "Grupo Hochschild acuerda vender proyecto de roca fosfórica de Bayóvar a australiana Bifox por US$61,9 millones - Gato Encerrado",
@@ -884,21 +899,6 @@
       "tags": [
         "mercado",
         "thermal coal price"
-      ]
-    },
-    {
-      "id": 1786021155,
-      "titulo": "Generadores de carga lanzan llamado urgente al nuevo Gobierno: el costo del transporte amenaza la competitividad del carbón y las exportaciones del país.",
-      "resumen": "Noticia del sector minero del carbón publicada por País Minero: Generadores de carga lanzan llamado urgente al nuevo Gobierno: el costo del transporte amenaza la competitividad del carbón y las exportaciones del país.",
-      "fuente": "País Minero",
-      "fecha": "2026-08-06T12:59:15.165335",
-      "categoria": "carbon",
-      "mineral": "carbon_energetico",
-      "sentimiento": "neutral",
-      "url": "https://www.paisminero.com/index.php?option=com_content&view=article&id=30634:generadores-de-carga-lanzan-llamado-urgente-al-nuevo-gobierno-el-costo-del-transporte-amenaza-la-competitividad-del-carbon-y-las-exportaciones-del-pais&catid=116&Itemid=10001",
-      "tags": [
-        "carbón",
-        "país minero"
       ]
     }
   ]
