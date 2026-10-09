@@ -1,6 +1,36 @@
 {
-  "ultima_actualizacion": "2026-10-08T17:47:36.446090",
+  "ultima_actualizacion": "2026-10-09T17:23:13.548860",
   "noticias": [
+    {
+      "id": 1791566593,
+      "titulo": "Entrevista | “Esperamos recuperar y trabajar para exportar nuevamente carbón a Israel”, presidente de Drummond",
+      "resumen": "Noticia del sector minero del carbón publicada por País Minero: Entrevista | “Esperamos recuperar y trabajar para exportar nuevamente carbón a Israel”, presidente de Drummond",
+      "fuente": "País Minero",
+      "fecha": "2026-10-09T17:23:13.547620",
+      "categoria": "carbon",
+      "mineral": "carbon_energetico",
+      "sentimiento": "neutral",
+      "url": "https://www.paisminero.com/index.php?option=com_content&view=article&id=31502:entrevista-esperamos-recuperar-y-trabajar-para-exportar-nuevamente-carbon-a-isra-20260907150321&catid=116&Itemid=10001",
+      "tags": [
+        "carbón",
+        "país minero"
+      ]
+    },
+    {
+      "id": 1791566592,
+      "titulo": "La demanda de carbón en Asia aumentará en 100 millones de toneladas a raíz del conflicto en Oriente Medio - El Periódico de la Energía",
+      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMi2AFBVV95cUxNWEtIcXp0amk3Z25EVFJlcElTYlhKSjh4d3dtRjhCWjMxT1Iyc0s1OWJaS0NPQ3FBZ2xwYmtWek5GMGV2U0RiSzF2Z2tEYXNXbS1yUlFCaHA2RXEyMEhtdmdUdC1mb0VwTkVWUEFDeVhJZFV6d3JENEFsSXJZZ251ZEpXbUZqWHV2UlhPLTdqSnFXQmk1a2NvT0JVMmhIMVNPUWFUUloyM2pKWE",
+      "fuente": "El Periódico de la Energía",
+      "fecha": "2026-06-09T07:00:00",
+      "categoria": "carbon",
+      "mineral": "carbon_energetico",
+      "sentimiento": "neutral",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNWEtIcXp0amk3Z25EVFJlcElTYlhKSjh4d3dtRjhCWjMxT1Iyc0s1OWJaS0NPQ3FBZ2xwYmtWek5GMGV2U0RiSzF2Z2tEYXNXbS1yUlFCaHA2RXEyMEhtdmdUdC1mb0VwTkVWUEFDeVhJZFV6d3JENEFsSXJZZ251ZEpXbUZqWHV2UlhPLTdqSnFXQmk1a2NvT0JVMmhIMVNPUWFUUloyM2pKWEFjdHdMSGMwd2pDazNsOEVja3V4OUxfLWFRdHhMSV91R2J3WU1GSWJrZ0dEMUE?oc=5",
+      "tags": [
+        "mercado",
+        "precio carbón térmico"
+      ]
+    },
     {
       "id": 1791481656,
       "titulo": "Tamaño del mercado del carbón metalúrgico, participación | Informe de la industria [2034] - Fortune Business Insights",
@@ -869,36 +899,6 @@
       "tags": [
         "mercado",
         "minería carbón Táchira Venezuela"
-      ]
-    },
-    {
-      "id": 1786103387,
-      "titulo": "Fenalcarbón advierte efecto dominó en Córdoba por reducción de  operaciones de Cerro Matoso",
-      "resumen": "Noticia del sector minero del carbón publicada por País Minero: Fenalcarbón advierte efecto dominó en Córdoba por reducción de  operaciones de Cerro Matoso",
-      "fuente": "País Minero",
-      "fecha": "2026-08-07T11:49:47.788699",
-      "categoria": "carbon",
-      "mineral": "carbon_energetico",
-      "sentimiento": "neutral",
-      "url": "https://www.paisminero.com/index.php?option=com_content&view=article&id=30572:fenalcarbon-advierte-efecto-domino-en-cordoba-por-reduccion-de-operaciones-de-cerro-matoso&catid=116&Itemid=10001",
-      "tags": [
-        "carbón",
-        "país minero"
-      ]
-    },
-    {
-      "id": 1786103386,
-      "titulo": "Ciimate change: An unstoppable movement takes hold - Buenos Aires Times",
-      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxOLWpYaE9kQnRwRU04U1dPUFUzRmJtU0NsM0tWdFpucDFyT0YwbWhRRXYySjZtSGo3LUpUWDJBT0t2SklfMGl5OEpOQXRKSzlKNGlPVG9QNFlpWjdFX3lFbUoxd3ZwQnF5R00wTHlpNU5jMy1nUDNRcjZrbWF2NHJkNnNpMERGU2ZRU2JGWDFFdGYySk3SAZgBQVVfeXFMT1dHVzU5RG1vSUpzaE",
-      "fuente": "Buenos Aires Times",
-      "fecha": "2019-10-19T07:00:00",
-      "categoria": "carbon",
-      "mineral": "carbon_energetico",
-      "sentimiento": "neutral",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOLWpYaE9kQnRwRU04U1dPUFUzRmJtU0NsM0tWdFpucDFyT0YwbWhRRXYySjZtSGo3LUpUWDJBT0t2SklfMGl5OEpOQXRKSzlKNGlPVG9QNFlpWjdFX3lFbUoxd3ZwQnF5R00wTHlpNU5jMy1nUDNRcjZrbWF2NHJkNnNpMERGU2ZRU2JGWDFFdGYySk3SAZgBQVVfeXFMT1dHVzU5RG1vSUpzaElwZXVwLWFmaS1Ua3FqeGFUVEJ1MW5YS004Z3BOV1AyX1ZiQURnMVNJRTJCZXIwd0N5QTNSQVk3VUNKUHZwUTNwT25NX0s0SG40YWdtZGJXd1VSQ1YwYmFLY0dONW9JVFVQQnlMa0RvdG9EdGZySm44cW1oQWtVOExkaU5FbFZSZS1JMGc?oc=5",
-      "tags": [
-        "mercado",
-        "thermal coal price"
       ]
     }
   ]
