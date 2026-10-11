@@ -1,6 +1,21 @@
 {
-  "ultima_actualizacion": "2026-10-10T16:09:02.073753",
+  "ultima_actualizacion": "2026-10-11T16:35:45.208302",
   "noticias": [
+    {
+      "id": 1791736545,
+      "titulo": "Precio de acciones, noticias, cotización e historial de Peabody Energy Corporation (BTU) - Yahoo",
+      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMiUEFVX3lxTE5xeHBZZzdrMjJQUFFfODY2RGRjU1dqZFVYRE9PVkJ5SVdoa2l0ejIxcFE4SWN0UFFzdmZCTXB3a2ZBS01mTENaMHh3aHg0Rm1N?oc=5\" target=\"_blank\">Precio de acciones, noticias, cotización e historial de Peabody Energy Corporation (BTU)</a>  <font",
+      "fuente": "Yahoo",
+      "fecha": "2017-05-08T18:46:55",
+      "categoria": "carbon",
+      "mineral": "carbon_energetico",
+      "sentimiento": "neutral",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5xeHBZZzdrMjJQUFFfODY2RGRjU1dqZFVYRE9PVkJ5SVdoa2l0ejIxcFE4SWN0UFFzdmZCTXB3a2ZBS01mTENaMHh3aHg0Rm1N?oc=5",
+      "tags": [
+        "mercado",
+        "thermal coal price"
+      ]
+    },
     {
       "id": 1791648542,
       "titulo": "Venezuela inaugura complejo para la explotación de carbón a escasos metros de Cúcuta - La Opinión Cúcuta",
@@ -884,21 +899,6 @@
       "tags": [
         "mercado",
         "phosphate rock price"
-      ]
-    },
-    {
-      "id": 1786621888,
-      "titulo": "El gobierno toma el control de British Steel, alegando interés nacional.",
-      "resumen": "Noticia del sector minero del carbón publicada por País Minero: El gobierno toma el control de British Steel, alegando interés nacional.",
-      "fuente": "País Minero",
-      "fecha": "2026-08-13T11:51:28.943399",
-      "categoria": "carbon",
-      "mineral": "carbon_energetico",
-      "sentimiento": "neutral",
-      "url": "https://www.paisminero.com/index.php?option=com_content&view=article&id=30663:el-gobierno-toma-el-control-de-british-steel-alegando-interes-nacional&catid=116&Itemid=10001",
-      "tags": [
-        "carbón",
-        "país minero"
       ]
     }
   ]
