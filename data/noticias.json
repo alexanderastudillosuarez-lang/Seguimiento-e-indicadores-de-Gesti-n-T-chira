@@ -1,6 +1,21 @@
 {
-  "ultima_actualizacion": "2026-10-11T16:35:45.208302",
+  "ultima_actualizacion": "2026-10-12T20:11:16.829258",
   "noticias": [
+    {
+      "id": 1791835876,
+      "titulo": "Bharat Coking Coal Limited anuncia cambios en su equipo directivo con efectos a partir del 23 de septiembre de 2026 - MarketScreener España",
+      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMi7AFBVV95cUxNd2hxZEZMR2l2Z1VheFhaSENuOS1XRVpPRV9ZMGtBV0FtTy1LZExJSjYzYzE5VjMwc2pWSUw5ajl0VWxWbi03YUg0cFZnQmJQNjhjZFdQV1pQN3Q4TUU0SVNtNjczc1dtU0dnbVNyaGpSLXRBUnh1RDZHX2dLdU8xV1Q0ZEhDREhPUm1KNFEyY2lXYXExOGNlQkp5TWdEZm0zWk5NVnlwYWt2U1",
+      "fuente": "MarketScreener España",
+      "fecha": "2026-09-24T07:00:00",
+      "categoria": "carbon",
+      "mineral": "carbon_coquizable",
+      "sentimiento": "neutral",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNd2hxZEZMR2l2Z1VheFhaSENuOS1XRVpPRV9ZMGtBV0FtTy1LZExJSjYzYzE5VjMwc2pWSUw5ajl0VWxWbi03YUg0cFZnQmJQNjhjZFdQV1pQN3Q4TUU0SVNtNjczc1dtU0dnbVNyaGpSLXRBUnh1RDZHX2dLdU8xV1Q0ZEhDREhPUm1KNFEyY2lXYXExOGNlQkp5TWdEZm0zWk5NVnlwYWt2U1FrVWVmR2ZTSjNiNFhLOFVKLWRwSWdIQWdadFl3RU5OaFBQZlpDYlM4MXlabVpvVHpsZlc5enNfZDB2cTlwYXVpZg?oc=5",
+      "tags": [
+        "mercado",
+        "coking coal price"
+      ]
+    },
     {
       "id": 1791736545,
       "titulo": "Precio de acciones, noticias, cotización e historial de Peabody Energy Corporation (BTU) - Yahoo",
@@ -884,21 +899,6 @@
       "tags": [
         "mercado",
         "minería carbón Táchira Venezuela"
-      ]
-    },
-    {
-      "id": 1786708113,
-      "titulo": "Hormuz Strait Blockade: How Energy Shocks Feed Into Fertilizer and Food Prices - Impakter",
-      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxPam1IOG4wSnBZQmp5N2kwYndxWWVrcVh2QjlsQU41YmFEQzJSTGRHNFJDdzMwNTdPS2dGNXFkYjZnakRyMGlCdldsOHI1dEUtOWU5WGtuT0JsLUNnb1VwRW9PcWdWc19SeDFvaW5lajBOejMyTkFOM1BrY1VrLTdKbm1kc09BX1hJUk1SX1lSRGc3bkJwdW1UYkxlRnk1MnNk?oc=5\" target=",
-      "fuente": "Impakter",
-      "fecha": "2026-03-25T07:00:00",
-      "categoria": "fosfatos",
-      "mineral": "roca_fosfatica",
-      "sentimiento": "neutral",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPam1IOG4wSnBZQmp5N2kwYndxWWVrcVh2QjlsQU41YmFEQzJSTGRHNFJDdzMwNTdPS2dGNXFkYjZnakRyMGlCdldsOHI1dEUtOWU5WGtuT0JsLUNnb1VwRW9PcWdWc19SeDFvaW5lajBOejMyTkFOM1BrY1VrLTdKbm1kc09BX1hJUk1SX1lSRGc3bkJwdW1UYkxlRnk1MnNk?oc=5",
-      "tags": [
-        "mercado",
-        "phosphate rock price"
       ]
     }
   ]
