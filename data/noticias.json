@@ -1,6 +1,36 @@
 {
-  "ultima_actualizacion": "2026-10-12T20:11:16.829258",
+  "ultima_actualizacion": "2026-10-15T15:32:13.835192",
   "noticias": [
+    {
+      "id": 1792078333,
+      "titulo": "Estas son las compañías que operan en Colombia y que más han exportado carbón en lo que va de 2026",
+      "resumen": "Noticia del sector minero del carbón publicada por País Minero: Estas son las compañías que operan en Colombia y que más han exportado carbón en lo que va de 2026",
+      "fuente": "País Minero",
+      "fecha": "2026-10-15T15:32:13.833913",
+      "categoria": "carbon",
+      "mineral": "carbon_energetico",
+      "sentimiento": "neutral",
+      "url": "https://www.paisminero.com/index.php?option=com_content&view=article&id=32091:estas-son-las-companias-que-operan-en-colombia-y-que-mas-han-exportado-carbon-en-20261003150137&catid=116&Itemid=10001",
+      "tags": [
+        "carbón",
+        "país minero"
+      ]
+    },
+    {
+      "id": 1792078332,
+      "titulo": "Steel prices hit 4-yr high on rise in cost amid strong demand - TradingView",
+      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMiuAFBVV95cUxPZGR3MEFabG42V3lkajRoOTVaWFU3SGZpSWNWYlhwVVdvYlY0RW5KQm1GUWNpeUhCc0JZLTVyMWdTV0xTamxEb1RJRmxWck1xNXFRSndwd2QwNWtRQ3YyOWtKbVFMTjB1MkJPaDg0b0IzUnFKQ2xZSzRBZFNRVDlMRkxyUzB6TUY4YjNaTTNyOWJqQ1JKU3dZV29uNWFGTERLMnRHQk1DOWRTS3",
+      "fuente": "TradingView",
+      "fecha": "2026-09-21T07:00:00",
+      "categoria": "carbon",
+      "mineral": "carbon_coquizable",
+      "sentimiento": "neutral",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPZGR3MEFabG42V3lkajRoOTVaWFU3SGZpSWNWYlhwVVdvYlY0RW5KQm1GUWNpeUhCc0JZLTVyMWdTV0xTamxEb1RJRmxWck1xNXFRSndwd2QwNWtRQ3YyOWtKbVFMTjB1MkJPaDg0b0IzUnFKQ2xZSzRBZFNRVDlMRkxyUzB6TUY4YjNaTTNyOWJqQ1JKU3dZV29uNWFGTERLMnRHQk1DOWRTS3dqcTFHS0hsRE1pdHJB?oc=5",
+      "tags": [
+        "mercado",
+        "coking coal price"
+      ]
+    },
     {
       "id": 1791835876,
       "titulo": "Bharat Coking Coal Limited anuncia cambios en su equipo directivo con efectos a partir del 23 de septiembre de 2026 - MarketScreener España",
@@ -869,36 +899,6 @@
       "tags": [
         "carbón",
         "país minero"
-      ]
-    },
-    {
-      "id": 1787052565,
-      "titulo": "Panorama del coque en Colombia: ¿podría perder su puesto en exportaciones en 2024? - Portafolio.co",
-      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMivAFBVV95cUxNSlhuenRPOFJnTVpYT2xfN192Q2lYS01DMzFxSThoN3lXRG1YOXJzU0o1NnRKQ2RFYXQ2YllhWFBqUW94Ymk3UW1CdGNaeWpSUFp5SVZOVHNidmQ5Qk91NWc3N2RvZHFlV3hpS01yRzcwUktXTkUwWDNicWdtQmRBY09hWmJ0WWFiVFJrdk83WlZzN1BfeXlXZnpKVkp1dlBSRElaRmdlOW04Nj",
-      "fuente": "Portafolio.co",
-      "fecha": "2024-10-15T07:00:00",
-      "categoria": "carbon",
-      "mineral": "carbon_coquizable",
-      "sentimiento": "neutral",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNSlhuenRPOFJnTVpYT2xfN192Q2lYS01DMzFxSThoN3lXRG1YOXJzU0o1NnRKQ2RFYXQ2YllhWFBqUW94Ymk3UW1CdGNaeWpSUFp5SVZOVHNidmQ5Qk91NWc3N2RvZHFlV3hpS01yRzcwUktXTkUwWDNicWdtQmRBY09hWmJ0WWFiVFJrdk83WlZzN1BfeXlXZnpKVkp1dlBSRElaRmdlOW04NjRnc3JzZGVvVG05bXpyeXlsYtIBwgFBVV95cUxQWU8tNkFKdDk2NTR4VklPOW1BNU5KM1JtXzlMbFJUZjFBU3lWeDRSMi1RRl8wcHVhZmFYTnBkYWt6VjJyd2JaSVBJTjAyYUNVUmItcXJ2UUxxSHItaU5GZkR1Y3B1Q0VMeXVBVTNLTUl0enhIbk42ZmtWUktUT1RqSEVVcXk1akRHVWk4Sml2bXk5NXRZcUl1a0VRZFktWjlVbkFCcjVOVWtheXVsT2RrYVJHZDFhWDVJTm94M29UT2YwZw?oc=5",
-      "tags": [
-        "mercado",
-        "carbón coquizable metalúrgico"
-      ]
-    },
-    {
-      "id": 1786793064,
-      "titulo": "#RíoTáchiraEnvenenado: una cuenca binacional que agoniza en silencio en Colombia - Mongabay Latam",
-      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxOUWExVlpfbi1iNmtsWjhuaC1iY2tHNGhrZEVEek43NmlxNVZEek1sMzY5MnNqQ1BIaW9mOUFSTHFpQk44eG51TFZueWJmLUs2N01HMzE1eUktV2ZhRk9zYml4X3BOTG1FTTdIdGZkZmwzX25tbExEa01oX2owTjJnaFI0M0x4N1pmT054Z2VDVEtOS0Q5VWdJVw?oc=5\" target=\"_blank\">#",
-      "fuente": "Mongabay Latam",
-      "fecha": "2022-03-30T07:00:00",
-      "categoria": "geopolitica",
-      "mineral": "carbon_energetico",
-      "sentimiento": "neutral",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOUWExVlpfbi1iNmtsWjhuaC1iY2tHNGhrZEVEek43NmlxNVZEek1sMzY5MnNqQ1BIaW9mOUFSTHFpQk44eG51TFZueWJmLUs2N01HMzE1eUktV2ZhRk9zYml4X3BOTG1FTTdIdGZkZmwzX25tbExEa01oX2owTjJnaFI0M0x4N1pmT054Z2VDVEtOS0Q5VWdJVw?oc=5",
-      "tags": [
-        "mercado",
-        "minería carbón Táchira Venezuela"
       ]
     }
   ]
