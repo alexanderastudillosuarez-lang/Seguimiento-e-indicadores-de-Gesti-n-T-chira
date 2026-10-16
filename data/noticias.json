@@ -1,6 +1,36 @@
 {
-  "ultima_actualizacion": "2026-10-15T15:32:13.835192",
+  "ultima_actualizacion": "2026-10-16T15:18:48.168839",
   "noticias": [
+    {
+      "id": 1792163928,
+      "titulo": "Pequeñas fábricas indias enfrentan apagones a medida que caen las reservas de carbón",
+      "resumen": "Noticia del sector minero del carbón publicada por País Minero: Pequeñas fábricas indias enfrentan apagones a medida que caen las reservas de carbón",
+      "fuente": "País Minero",
+      "fecha": "2026-10-16T15:18:48.167647",
+      "categoria": "carbon",
+      "mineral": "carbon_energetico",
+      "sentimiento": "neutral",
+      "url": "https://www.paisminero.com/index.php?option=com_content&view=article&id=32274:pequenas-fabricas-indias-enfrentan-apagones-a-medida-que-caen-las-reservas-de-ca-20261012150305&catid=116&Itemid=10001",
+      "tags": [
+        "carbón",
+        "país minero"
+      ]
+    },
+    {
+      "id": 1792163926,
+      "titulo": "Demanda interna de carbón en Colombia cae a mínimos y abre paso a un posible repunte en 2026 - Portafolio.co",
+      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMixwFBVV95cUxPelBqeXVaTjFIWlNCWDctb3RNNS1HV0U4YW9xcDctV0FPRDVuVHJrcXFKQ1phYlg3enZLMThCaF95QlBOdVpoUUVOakFDX3ZKSVlyRkwta1BwX1hvQlFkTzJsdUZFQ2JEb0lSd1FfSjRIVmFwalNEM0gxc1lxeXd0OHN0OEQ1UGQzcnFTV25DTzRVTElyRTNDb1hJVHlNWXlFdVl4M1lMX0ZmaG",
+      "fuente": "Portafolio.co",
+      "fecha": "2026-04-29T07:00:00",
+      "categoria": "carbon",
+      "mineral": "carbon_energetico",
+      "sentimiento": "neutral",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPelBqeXVaTjFIWlNCWDctb3RNNS1HV0U4YW9xcDctV0FPRDVuVHJrcXFKQ1phYlg3enZLMThCaF95QlBOdVpoUUVOakFDX3ZKSVlyRkwta1BwX1hvQlFkTzJsdUZFQ2JEb0lSd1FfSjRIVmFwalNEM0gxc1lxeXd0OHN0OEQ1UGQzcnFTV25DTzRVTElyRTNDb1hJVHlNWXlFdVl4M1lMX0ZmaGNuRFdzU3ktemJxdlpEUFlERXZVSVFlMHlHT1NF0gHMAUFVX3lxTE8tci1maUQtTC1STGVWTnphb2lwLVF0NnlTRFdTakNaVnVaTkFfUW9OT096LUtXUlFsZDdlNWNrWDh0R3Q3Z3FLMUtoWWprZ1JTdFdBNlJpMndHR2k4cmpndmMzX2NSTXZIVVlEZ1h3VExxSDU4bE9HTkFoOXQ1d1ViV0RMNFpZLWo2Y1VQWEZCUVNjUWt1dExSSk1JdGhDQlZHaFVyNXpjLXpxMzZfSHI2MjVRMWhmbDh3TXV1UnVqanNqamZLMlZjdnp2VA?oc=5",
+      "tags": [
+        "mercado",
+        "precio carbón térmico"
+      ]
+    },
     {
       "id": 1792078333,
       "titulo": "Estas son las compañías que operan en Colombia y que más han exportado carbón en lo que va de 2026",
@@ -869,36 +899,6 @@
       "tags": [
         "mercado",
         "minería carbón Táchira Venezuela"
-      ]
-    },
-    {
-      "id": 1787225461,
-      "titulo": "Los efectos del cambio climático en Norte de Santander - laopinion.co",
-      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxNbHktcXg0UjdaZVRWMjlxaHdFbzhHQTNRRUx2NTJSQkxqcjFZS2s1UXFwZFF1Y0g5dnJfT3E4YUU0YWhhZHhaclFIRzdyUXJ6SWdoTnJWRDFRR1FzRzVyNHlmZ1Z0dEpSSkQtVWVKUnN5QXk1U2FsbVhOd0lLblVEU0hmUGpIZmprU2RjXzdUOXJoc09aX1E?oc=5\" target=\"_blank\">Los ",
-      "fuente": "laopinion.co",
-      "fecha": "2021-11-06T07:00:00",
-      "categoria": "geopolitica",
-      "mineral": "carbon_energetico",
-      "sentimiento": "neutral",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNbHktcXg0UjdaZVRWMjlxaHdFbzhHQTNRRUx2NTJSQkxqcjFZS2s1UXFwZFF1Y0g5dnJfT3E4YUU0YWhhZHhaclFIRzdyUXJ6SWdoTnJWRDFRR1FzRzVyNHlmZ1Z0dEpSSkQtVWVKUnN5QXk1U2FsbVhOd0lLblVEU0hmUGpIZmprU2RjXzdUOXJoc09aX1E?oc=5",
-      "tags": [
-        "mercado",
-        "site:laopinion.co minería carbón Táchira"
-      ]
-    },
-    {
-      "id": 1787052567,
-      "titulo": "India impulsa un aumento global de nuevos planes de minas de carbón",
-      "resumen": "Noticia del sector minero del carbón publicada por País Minero: India impulsa un aumento global de nuevos planes de minas de carbón",
-      "fuente": "País Minero",
-      "fecha": "2026-08-18T11:29:27.318660",
-      "categoria": "carbon",
-      "mineral": "carbon_energetico",
-      "sentimiento": "neutral",
-      "url": "https://www.paisminero.com/index.php?option=com_content&view=article&id=31097:india-impulsa-un-aumento-global-de-nuevos-planes-de-minas-de-carbon-20260813080106&catid=116&Itemid=10001",
-      "tags": [
-        "carbón",
-        "país minero"
       ]
     }
   ]
