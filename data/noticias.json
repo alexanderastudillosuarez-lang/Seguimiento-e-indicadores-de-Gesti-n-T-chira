@@ -1,6 +1,21 @@
 {
-  "ultima_actualizacion": "2026-10-17T14:06:52.710746",
+  "ultima_actualizacion": "2026-10-18T14:23:26.101734",
   "noticias": [
+    {
+      "id": 1792333406,
+      "titulo": "Precio de acciones, noticias, cotización e historial de Alpha Metallurgical Resources, Inc. (AMR) - Yahoo",
+      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMiUEFVX3lxTE1Cb055RHJFTDlmenh5eE55T0ZJTUJlTUZ0MHQ0NFBLZy1DaUFJa3ZNdjhQeS03NWlya2V0QkpyaG9JSjZ6RlJrVW11WWJUczdE?oc=5\" target=\"_blank\">Precio de acciones, noticias, cotización e historial de Alpha Metallurgical Resources, Inc. (AMR)</",
+      "fuente": "Yahoo",
+      "fecha": "2017-05-13T06:21:26",
+      "categoria": "carbon",
+      "mineral": "carbon_coquizable",
+      "sentimiento": "neutral",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1Cb055RHJFTDlmenh5eE55T0ZJTUJlTUZ0MHQ0NFBLZy1DaUFJa3ZNdjhQeS03NWlya2V0QkpyaG9JSjZ6RlJrVW11WWJUczdE?oc=5",
+      "tags": [
+        "mercado",
+        "coking coal price"
+      ]
+    },
     {
       "id": 1792246012,
       "titulo": "Australia aprueba la extensión de una mina de carbón gigante a pesar de los compromisos de París",
@@ -884,21 +899,6 @@
       "tags": [
         "mercado",
         "minería carbón Táchira Venezuela"
-      ]
-    },
-    {
-      "id": 1787484289,
-      "titulo": "La industria china de conversión de carbón a gas se triplicará para 2030, dice Rystad",
-      "resumen": "Noticia del sector minero del carbón publicada por País Minero: La industria china de conversión de carbón a gas se triplicará para 2030, dice Rystad",
-      "fuente": "País Minero",
-      "fecha": "2026-08-23T11:24:49.405281",
-      "categoria": "carbon",
-      "mineral": "carbon_energetico",
-      "sentimiento": "neutral",
-      "url": "https://www.paisminero.com/index.php?option=com_content&view=article&id=31075:la-industria-china-de-conversion-de-carbon-a-gas-se-triplicara-para-2030-dice-ry-20260812052856&catid=116&Itemid=10001",
-      "tags": [
-        "carbón",
-        "país minero"
       ]
     }
   ]
