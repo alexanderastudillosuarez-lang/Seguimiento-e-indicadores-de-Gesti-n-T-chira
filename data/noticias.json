@@ -1,6 +1,36 @@
 {
-  "ultima_actualizacion": "2026-10-18T14:23:26.101734",
+  "ultima_actualizacion": "2026-10-19T17:23:06.442922",
   "noticias": [
+    {
+      "id": 1792430586,
+      "titulo": "La demanda global de carbón aumenta a medida que se agudiza la escasez de GNL",
+      "resumen": "Noticia del sector minero del carbón publicada por País Minero: La demanda global de carbón aumenta a medida que se agudiza la escasez de GNL",
+      "fuente": "País Minero",
+      "fecha": "2026-10-19T17:23:06.441637",
+      "categoria": "carbon",
+      "mineral": "carbon_energetico",
+      "sentimiento": "neutral",
+      "url": "https://www.paisminero.com/index.php?option=com_content&view=article&id=32283:la-demanda-global-de-carbon-aumenta-a-medida-que-se-agudiza-la-escasez-de-gnl-20261013050230&catid=116&Itemid=10001",
+      "tags": [
+        "carbón",
+        "país minero"
+      ]
+    },
+    {
+      "id": 1792430584,
+      "titulo": "Táchira da los primeros pasos para la industrialización de la fosforita y el carbón - Diario de Los Andes",
+      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxPRG4xMV9zMUNsX3JaRXIyS2tGdDE2V1k2MlB0Qm1DUUx0S01SSjA5aUU1cGRKWkR3ME9Wdy1pRldseGwwVC02NmVsaDRkZGhMcGhZMnR5U1NOQUdiQ1FnTWFmMVd2WW42Zi1qTnkxR0JaaE5JaW4wR2thenVDeFlMMFU0TjJ6Z2hLWW5vTWZaZ19JN1o2WkNPRm16UDdjT0w3VDRHM0p0TDZWLW",
+      "fuente": "Diario de Los Andes",
+      "fecha": "2022-03-17T07:00:00",
+      "categoria": "geopolitica",
+      "mineral": "carbon_energetico",
+      "sentimiento": "neutral",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPRG4xMV9zMUNsX3JaRXIyS2tGdDE2V1k2MlB0Qm1DUUx0S01SSjA5aUU1cGRKWkR3ME9Wdy1pRldseGwwVC02NmVsaDRkZGhMcGhZMnR5U1NOQUdiQ1FnTWFmMVd2WW42Zi1qTnkxR0JaaE5JaW4wR2thenVDeFlMMFU0TjJ6Z2hLWW5vTWZaZ19JN1o2WkNPRm16UDdjT0w3VDRHM0p0TDZWLW1hZlVzZmlVVdIBuAFBVV95cUxOaExhV1A1Y1VCUEZ3V1JpT0h6ZEZqRzZESXJmb3oxelZqaFZ0aU1aOWRjZFQ2UU5fRWZnclhtMWJhblJWdl9qOUZWbHdreEhBMmF1MDY5RDZGekdCMG1nTVd6UDhPOFZtMzI3S0JRZzAzVzIzYkFBc3FLMldNWnh3bDRXV2plaGVQT081NThhWmtaNmZOVy1kOUJaTUJhYldCdmhLTzhaQ2dCcTJhbG1hWXRjeHBDRE5P?oc=5",
+      "tags": [
+        "mercado",
+        "minería carbón Táchira Venezuela"
+      ]
+    },
     {
       "id": 1792333406,
       "titulo": "Precio de acciones, noticias, cotización e historial de Alpha Metallurgical Resources, Inc. (AMR) - Yahoo",
@@ -869,36 +899,6 @@
       "tags": [
         "mercado",
         "site:laopinion.co minería carbón Táchira"
-      ]
-    },
-    {
-      "id": 1787571187,
-      "titulo": "El Banco de Inglaterra se está alejando del carbón.",
-      "resumen": "Noticia del sector minero del carbón publicada por País Minero: El Banco de Inglaterra se está alejando del carbón.",
-      "fuente": "País Minero",
-      "fecha": "2026-08-24T11:33:07.397569",
-      "categoria": "carbon",
-      "mineral": "carbon_energetico",
-      "sentimiento": "neutral",
-      "url": "https://www.paisminero.com/index.php?option=com_content&view=article&id=30980:el-banco-de-inglaterra-se-esta-alejando-del-carbon&catid=116&Itemid=10001",
-      "tags": [
-        "carbón",
-        "país minero"
-      ]
-    },
-    {
-      "id": 1787571186,
-      "titulo": "Ministro de Minas: vamos a posicionar el carbón del Táchira - Diario La Nación – Lo dice siempre",
-      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxOcWNscVNmME1hMmp5ZjBQYlFBX0kxczc0cnFtMW0yQXJJMzhVeHNBRXE1WU84d0VZMU1SYjY1N3o4RXJwLXhoSzFuMG5XZmpCbUI3cFNicnFaaDVrZVhvVzMtZTFsZ3daQXo3NHBsQ0pHVjV4V1BpMGNDdFpIdzJ6Uk9YSGhWNTBhbDR4anRBZ1RtZV9Ucnhr?oc=5\" target=\"_blank\">Min",
-      "fuente": "Diario La Nación – Lo dice siempre",
-      "fecha": "2025-07-13T07:00:00",
-      "categoria": "geopolitica",
-      "mineral": "carbon_energetico",
-      "sentimiento": "neutral",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOcWNscVNmME1hMmp5ZjBQYlFBX0kxczc0cnFtMW0yQXJJMzhVeHNBRXE1WU84d0VZMU1SYjY1N3o4RXJwLXhoSzFuMG5XZmpCbUI3cFNicnFaaDVrZVhvVzMtZTFsZ3daQXo3NHBsQ0pHVjV4V1BpMGNDdFpIdzJ6Uk9YSGhWNTBhbDR4anRBZ1RtZV9Ucnhr?oc=5",
-      "tags": [
-        "mercado",
-        "minería carbón Táchira Venezuela"
       ]
     }
   ]
