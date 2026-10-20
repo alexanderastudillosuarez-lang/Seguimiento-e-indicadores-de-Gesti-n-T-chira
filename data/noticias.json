@@ -1,6 +1,36 @@
 {
-  "ultima_actualizacion": "2026-10-19T17:23:06.442922",
+  "ultima_actualizacion": "2026-10-20T15:35:34.773713",
   "noticias": [
+    {
+      "id": 1792510534,
+      "titulo": "La Corte Suprema de Australia Bloquea la Expansión de una Gran Mina de Carbón por Emisiones",
+      "resumen": "Noticia del sector minero del carbón publicada por País Minero: La Corte Suprema de Australia Bloquea la Expansión de una Gran Mina de Carbón por Emisiones",
+      "fuente": "País Minero",
+      "fecha": "2026-10-20T15:35:34.772330",
+      "categoria": "carbon",
+      "mineral": "carbon_energetico",
+      "sentimiento": "neutral",
+      "url": "https://www.paisminero.com/index.php?option=com_content&view=article&id=32167:la-corte-suprema-de-australia-bloquea-la-expansion-de-una-gran-mina-de-carbon-po-20261007050415&catid=116&Itemid=10001",
+      "tags": [
+        "carbón",
+        "país minero"
+      ]
+    },
+    {
+      "id": 1792510533,
+      "titulo": "JSW: Restructuring targets cost cuts, higher coking coal output, and a 30% emissions reduction by 2030 - TradingView",
+      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMijAJBVV95cUxPaXRLV0hReGVoV1p5N09VektKOGRjWU85MW12VEU3bWJGTzI2Q3Z2SlVWMnJfSUhMOVltOUlDWTFucUZWQ1VEWEZucEc4dUhjMmEwaUhVSmxNRWg2dDMweHJnVlRVV2FrOF9qUDZ0LXBQV3l2Y1FTZXFFajkwRXVnbzVid09CZTJhTGZNV0pXV2dVdnpnWkpSTDFUTFl5a29kZEs1d0VjSGhldl",
+      "fuente": "TradingView",
+      "fecha": "2026-09-29T07:00:00",
+      "categoria": "carbon",
+      "mineral": "carbon_coquizable",
+      "sentimiento": "neutral",
+      "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxPaXRLV0hReGVoV1p5N09VektKOGRjWU85MW12VEU3bWJGTzI2Q3Z2SlVWMnJfSUhMOVltOUlDWTFucUZWQ1VEWEZucEc4dUhjMmEwaUhVSmxNRWg2dDMweHJnVlRVV2FrOF9qUDZ0LXBQV3l2Y1FTZXFFajkwRXVnbzVid09CZTJhTGZNV0pXV2dVdnpnWkpSTDFUTFl5a29kZEs1d0VjSGhldlBxaXV0bko5NEJtNGJKYjBZbW5PN3dfRHg3c2lsVUtvTTVwOWg2enljRU5QWWN4cnFZY0NwWUhNd1dkeUVJUDhJamd2WExIY0hmSFhMdDJmNDFkdGNQcENwbnlMbW52bFds?oc=5",
+      "tags": [
+        "mercado",
+        "coking coal price"
+      ]
+    },
     {
       "id": 1792430586,
       "titulo": "La demanda global de carbón aumenta a medida que se agudiza la escasez de GNL",
@@ -869,36 +899,6 @@
       "tags": [
         "mercado",
         "minería carbón Táchira Venezuela"
-      ]
-    },
-    {
-      "id": 1788017594,
-      "titulo": "Gobierno De la Espriella ordenó reactivar exportación de carbón a Israel: Fusionará funciones de ProColombia con embajadas",
-      "resumen": "Noticia del sector minero del carbón publicada por País Minero: Gobierno De la Espriella ordenó reactivar exportación de carbón a Israel: Fusionará funciones de ProColombia con embajadas",
-      "fuente": "País Minero",
-      "fecha": "2026-08-29T15:33:14.565990",
-      "categoria": "carbon",
-      "mineral": "carbon_energetico",
-      "sentimiento": "neutral",
-      "url": "https://www.paisminero.com/index.php?option=com_content&view=article&id=31191:gobierno-de-la-espriella-ordeno-reactivar-exportacion-de-carbon-a-israel-fusiona-20260823060030&catid=116&Itemid=10001",
-      "tags": [
-        "carbón",
-        "país minero"
-      ]
-    },
-    {
-      "id": 1787657555,
-      "titulo": "Mineros de carbón de Norte de Santander se forman para una labor más segura - laopinion.co",
-      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxPNmZXbk1WZnhMaURqendGMEFWS0xVVFZzVXhoandBeHJPdllTN280QjRtZ3ZEM2l5VXFkSnduaUl3QVJXcnp6WG1ZV0o3V2tZZHFELUNnenZNX0FpZW1haVpUVXpSWjQzT1FQdlBSUVVSZTV3djN0bFdxWFQydVlOZkpibzlWZlE2MVFJc3lKdHRHakxkQm5NbjZ0MmxhakpPcWp5OFNod053OH",
-      "fuente": "laopinion.co",
-      "fecha": "2022-08-16T07:00:00",
-      "categoria": "geopolitica",
-      "mineral": "carbon_energetico",
-      "sentimiento": "neutral",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPNmZXbk1WZnhMaURqendGMEFWS0xVVFZzVXhoandBeHJPdllTN280QjRtZ3ZEM2l5VXFkSnduaUl3QVJXcnp6WG1ZV0o3V2tZZHFELUNnenZNX0FpZW1haVpUVXpSWjQzT1FQdlBSUVVSZTV3djN0bFdxWFQydVlOZkpibzlWZlE2MVFJc3lKdHRHakxkQm5NbjZ0MmxhakpPcWp5OFNod053OHVWVlVWWWYzamxidw?oc=5",
-      "tags": [
-        "mercado",
-        "site:laopinion.co minería carbón Táchira"
       ]
     }
   ]
