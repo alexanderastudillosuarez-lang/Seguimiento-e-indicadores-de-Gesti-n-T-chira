@@ -1,6 +1,36 @@
 {
-  "ultima_actualizacion": "2026-10-20T15:35:34.773713",
+  "ultima_actualizacion": "2026-10-21T15:52:58.544093",
   "noticias": [
+    {
+      "id": 1792597978,
+      "titulo": "La producción de carbón en China cae un 6.8% ante el aumento de temores por el suministro invernal",
+      "resumen": "Noticia del sector minero del carbón publicada por País Minero: La producción de carbón en China cae un 6.8% ante el aumento de temores por el suministro invernal",
+      "fuente": "País Minero",
+      "fecha": "2026-10-21T15:52:58.542821",
+      "categoria": "carbon",
+      "mineral": "carbon_energetico",
+      "sentimiento": "neutral",
+      "url": "https://www.paisminero.com/index.php?option=com_content&view=article&id=32418:la-produccion-de-carbon-en-china-cae-un-68-ante-el-aumento-de-temores-por-el-sum-20261019050148&catid=116&Itemid=10001",
+      "tags": [
+        "carbón",
+        "país minero"
+      ]
+    },
+    {
+      "id": 1792597977,
+      "titulo": "Penalizaciones al consumo de energía elevarían hasta 10% los costos de producir carbón en Colombia: Fenalcarbón - Portafolio.co",
+      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMi5AFBVV95cUxPdjRSblBJaVNyQUNfUERoWHhKekZlbWdnSUVqUC1vb3BsRGFEUkE1bDlJYnhIVFBQd2NQaXhkUzh5RG5maXpyUXgxQlN2RHdvVGtQNjhkMTQzWnRiTmoyc2VVZzRYa3VZSE05RXhVc2prN1I2RHFJLU5vZWNWMllENllGX2NzT2dZOXppNEtxbFY2X3pTRFpQWkpIOG90cjVrSmVfWFdzUHBONG",
+      "fuente": "Portafolio.co",
+      "fecha": "2026-10-19T15:28:37",
+      "categoria": "carbon",
+      "mineral": "carbon_energetico",
+      "sentimiento": "neutral",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPdjRSblBJaVNyQUNfUERoWHhKekZlbWdnSUVqUC1vb3BsRGFEUkE1bDlJYnhIVFBQd2NQaXhkUzh5RG5maXpyUXgxQlN2RHdvVGtQNjhkMTQzWnRiTmoyc2VVZzRYa3VZSE05RXhVc2prN1I2RHFJLU5vZWNWMllENllGX2NzT2dZOXppNEtxbFY2X3pTRFpQWkpIOG90cjVrSmVfWFdzUHBONGpRZXpXWEdMTk9oUTh3QjVVTDdEcmFSc0NSTXNVRFhDXzJ1cGxVVThPbmVlVjdzQkk5RHMxQ1lXZF_SAeoBQVVfeXFMTlo3dVFjcVR6TlM1SXlET2FKQ294emlMVk5OSU90RTZJNUhRdVJJclpOdTAtcGVQMWFZaVZsaGhPbTdvc3FlNHFCRlZDTkFWYUpFN01Za0duZDdxTF9GQ0ZXbFZzWWFLbWlNTVBYYjBnajBMalJyV1RibW01enhBYmJQa2tfLXd4Zlhmd1hDaU4wQ0lqTEtsVnVsRHNDYlNidEhocG9DVjB5TEFoV21rUVBOWkJrU0RiWG95NDE0SW9KZ0NQd0tCQVdyeDd5TnpTTTRPOFJwTXJZbTVyWnh3ZDZLTEF5bTNxNkFn?oc=5",
+      "tags": [
+        "mercado",
+        "precio carbón térmico"
+      ]
+    },
     {
       "id": 1792510534,
       "titulo": "La Corte Suprema de Australia Bloquea la Expansión de una Gran Mina de Carbón por Emisiones",
@@ -869,36 +899,6 @@
       "tags": [
         "mercado",
         "roca fosfática precio"
-      ]
-    },
-    {
-      "id": 1788276356,
-      "titulo": "El carbón térmico desafía la caída estacional: los precios suben en lugar de caer - sunsirs.com",
-      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMiXkFVX3lxTE9XM0hSZ3ljZ2pvYnpkR3FvLTVKLW5ZX1oxdmZYZ1NqV0w2cFhPX3VyS1BqdElrT3RkeFNOcnBuMUs0WmI2eF9jWGJyYlBxOXU4Q01iejRaaFp6MTdSb3c?oc=5\" target=\"_blank\">El carbón térmico desafía la caída estacional: los precios suben en lugar de cae",
-      "fuente": "sunsirs.com",
-      "fecha": "2026-05-19T07:00:00",
-      "categoria": "carbon",
-      "mineral": "carbon_energetico",
-      "sentimiento": "neutral",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9XM0hSZ3ljZ2pvYnpkR3FvLTVKLW5ZX1oxdmZYZ1NqV0w2cFhPX3VyS1BqdElrT3RkeFNOcnBuMUs0WmI2eF9jWGJyYlBxOXU4Q01iejRaaFp6MTdSb3c?oc=5",
-      "tags": [
-        "mercado",
-        "precio carbón térmico"
-      ]
-    },
-    {
-      "id": 1788199039,
-      "titulo": "Minería con músculo: MIDME enciende el motor productivo en Zulia, Falcón y Táchira - Yvke Mundial",
-      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxQV3Nzd0ZuNklGNldoMkpoZWxnOXV6UDBMSVgwMGo2MzlIcDJmWXhIdUVseWk0azBMY0JHdEozWFpjcVJ4T1QyNGZtMWFRVTJBem1PcjQxVERXTXlTdGRocC1sbjVYM3c4cERZYzVWQ1dRZUFVUFk1OXpERjVYYU5TU3NGUmdRQW16NFI0YzJ3VFVwdjcyVGpkOVJXUnZHWWI3S21Uci1ldVNmWG",
-      "fuente": "Yvke Mundial",
-      "fecha": "2025-07-12T07:00:00",
-      "categoria": "geopolitica",
-      "mineral": "carbon_energetico",
-      "sentimiento": "neutral",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQV3Nzd0ZuNklGNldoMkpoZWxnOXV6UDBMSVgwMGo2MzlIcDJmWXhIdUVseWk0azBMY0JHdEozWFpjcVJ4T1QyNGZtMWFRVTJBem1PcjQxVERXTXlTdGRocC1sbjVYM3c4cERZYzVWQ1dRZUFVUFk1OXpERjVYYU5TU3NGUmdRQW16NFI0YzJ3VFVwdjcyVGpkOVJXUnZHWWI3S21Uci1ldVNmWGZmOHc?oc=5",
-      "tags": [
-        "mercado",
-        "minería carbón Táchira Venezuela"
       ]
     }
   ]
