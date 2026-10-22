@@ -1,6 +1,36 @@
 {
-  "ultima_actualizacion": "2026-10-21T15:52:58.544093",
+  "ultima_actualizacion": "2026-10-22T15:49:29.308993",
   "noticias": [
+    {
+      "id": 1792684169,
+      "titulo": "India Aumenta Suministros de Carbón a Niveles Récord Ante la Crisis Energética que se Aproxima",
+      "resumen": "Noticia del sector minero del carbón publicada por País Minero: India Aumenta Suministros de Carbón a Niveles Récord Ante la Crisis Energética que se Aproxima",
+      "fuente": "País Minero",
+      "fecha": "2026-10-22T15:49:29.307663",
+      "categoria": "carbon",
+      "mineral": "carbon_energetico",
+      "sentimiento": "neutral",
+      "url": "https://www.paisminero.com/index.php?option=com_content&view=article&id=32489:india-aumenta-suministros-de-carbon-a-niveles-record-ante-la-crisis-energetica-q-20261022050345&catid=116&Itemid=10001",
+      "tags": [
+        "carbón",
+        "país minero"
+      ]
+    },
+    {
+      "id": 1792684167,
+      "titulo": "El carbón vuelve a subir: ¿qué pasa y por qué Colombia y Norte de Santander no lo aprovechan? - La Opinión Cúcuta",
+      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxQaE9FZ1VkMnB1bTF6QnpvNE8tT2dEblE3UjdqM2dKRVB1WlN5cnJPQ3ZWSC1sSXQwa2VJNGhZa1RZOHEwQkNUTE1uVVNSZVpaNDVQMkhudnNnNV9ab042YkpyNDVGNHg2NWc4cHFqendQeVZxdWhrd3RRLVZ5RU9vSlhUSzV3TXJsdXJzUjRhakhaQlNrZHNaa09oNm5EY1B1WWdNN2hxaDkzM0",
+      "fuente": "La Opinión Cúcuta",
+      "fecha": "2026-04-30T07:00:00",
+      "categoria": "carbon",
+      "mineral": "carbon_energetico",
+      "sentimiento": "neutral",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQaE9FZ1VkMnB1bTF6QnpvNE8tT2dEblE3UjdqM2dKRVB1WlN5cnJPQ3ZWSC1sSXQwa2VJNGhZa1RZOHEwQkNUTE1uVVNSZVpaNDVQMkhudnNnNV9ab042YkpyNDVGNHg2NWc4cHFqendQeVZxdWhrd3RRLVZ5RU9vSlhUSzV3TXJsdXJzUjRhakhaQlNrZHNaa09oNm5EY1B1WWdNN2hxaDkzM0oxUG9peHFIRGN2RXQ3Znc?oc=5",
+      "tags": [
+        "mercado",
+        "precio carbón térmico"
+      ]
+    },
     {
       "id": 1792597978,
       "titulo": "La producción de carbón en China cae un 6.8% ante el aumento de temores por el suministro invernal",
@@ -869,36 +899,6 @@
       "tags": [
         "carbón",
         "país minero"
-      ]
-    },
-    {
-      "id": 1788447347,
-      "titulo": "Enfermedades respiratorias y sueldos míseros: vida de los mineros en Venezuela - Voz de América",
-      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMiwgFBVV95cUxPaEVxRGxMcHBHclRnNzAyNVI3NE4tblVyWVEza1NhbXRaU2I3RVdMZ0lMM0FFTHMyRVo3b3dxTzgzeGo5cUJQNjI3c190eTBJX0hOM1RsZWlkQVpySDRCcTlkeTF5c2x2d0NZQko1d3NIYWZzaGJsXzlEeG5zNFk5MUtuamF5c25UbVFIMkFBeUM5WHN1Ynl3N2NTX1lNRTJNQTJPbVhPYVc2Uz",
-      "fuente": "Voz de América",
-      "fecha": "2022-04-09T07:00:00",
-      "categoria": "geopolitica",
-      "mineral": "carbon_energetico",
-      "sentimiento": "neutral",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPaEVxRGxMcHBHclRnNzAyNVI3NE4tblVyWVEza1NhbXRaU2I3RVdMZ0lMM0FFTHMyRVo3b3dxTzgzeGo5cUJQNjI3c190eTBJX0hOM1RsZWlkQVpySDRCcTlkeTF5c2x2d0NZQko1d3NIYWZzaGJsXzlEeG5zNFk5MUtuamF5c25UbVFIMkFBeUM5WHN1Ynl3N2NTX1lNRTJNQTJPbVhPYVc2UzhBTXVFZU5WWnRnbTJGanQ0aFhCeDZXQdIBxAFBVV95cUxPd201UzJZV0xsRXNrbzBQUmJ1YldpSTE3UW5lS2poZi0zVmpzNmdpSjYtdlB5QUJLbFM5U2xFNENlQTNvU0JJemx3Sjlya0RZZm9qd05GbmRpb0ktT1BhRExpanFZLUZFME5URTR5SVNJYWpzOHl3RzVwaTE5dEpFUkgzUEh6dVJkRlVWRlhqekZ4MEFRSHFZMFZIMVNpTHFzRGVQQ3pHenl2UzRKeEJrTnZxV1RNUWFCSGktYzBlcjR4MTlm?oc=5",
-      "tags": [
-        "mercado",
-        "minería carbón Táchira Venezuela"
-      ]
-    },
-    {
-      "id": 1788361307,
-      "titulo": "Los fosfatos del Sahara Occidental y los principales productores mundiales de roca fosfática: política versus estrategia empresarial, 1969-1975 - SciELO México",
-      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxQZnlwUzRpNXIxZ2dfdTRZTFNTOHV2Q1pWNjJPVkFRT0QzNk9wS0tlWnFXUjZXTVdJVkw3OG5LanJPNkxvLWhMelZIV2hYXzFZSUxNWUlvUmJSRHFOak1xeE4ySlVQVzFYeDhFSm80ZHB4V0VTeU5YamRMX0U2ajdRSkFaaFBPS0E4Y3c?oc=5\" target=\"_blank\">Los fosfatos del Sah",
-      "fuente": "SciELO México",
-      "fecha": "2021-10-16T07:40:24",
-      "categoria": "fosfatos",
-      "mineral": "roca_fosfatica",
-      "sentimiento": "neutral",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQZnlwUzRpNXIxZ2dfdTRZTFNTOHV2Q1pWNjJPVkFRT0QzNk9wS0tlWnFXUjZXTVdJVkw3OG5LanJPNkxvLWhMelZIV2hYXzFZSUxNWUlvUmJSRHFOak1xeE4ySlVQVzFYeDhFSm80ZHB4V0VTeU5YamRMX0U2ajdRSkFaaFBPS0E4Y3c?oc=5",
-      "tags": [
-        "mercado",
-        "roca fosfática precio"
       ]
     }
   ]
