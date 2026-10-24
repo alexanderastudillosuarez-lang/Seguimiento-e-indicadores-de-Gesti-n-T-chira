@@ -1,6 +1,21 @@
 {
-  "ultima_actualizacion": "2026-10-23T15:40:35.270499",
+  "ultima_actualizacion": "2026-10-24T14:22:33.821918",
   "noticias": [
+    {
+      "id": 1792851753,
+      "titulo": "Metals prices: Argus iron ore price assessments - Argus Media",
+      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMigwFBVV95cUxQRkg1ZlBJbUtYYXlmR20xenNrdmEtclZVTnV6S2F0Q29Qdm5sa1NCdTJtLWtQUjBCWllXUUd6dlpacGh0eUpfZkVFVXoyN19zdTRHZzVDcEx2RUNERGJwaUF5TUN1dG04bVFxbTR2ejdKZVUyR2RjTlItTkk3d29qOThIcw?oc=5\" target=\"_blank\">Metals prices: Argus iron ore",
+      "fuente": "Argus Media",
+      "fecha": "2024-03-08T21:26:26",
+      "categoria": "carbon",
+      "mineral": "carbon_coquizable",
+      "sentimiento": "neutral",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQRkg1ZlBJbUtYYXlmR20xenNrdmEtclZVTnV6S2F0Q29Qdm5sa1NCdTJtLWtQUjBCWllXUUd6dlpacGh0eUpfZkVFVXoyN19zdTRHZzVDcEx2RUNERGJwaUF5TUN1dG04bVFxbTR2ejdKZVUyR2RjTlItTkk3d29qOThIcw?oc=5",
+      "tags": [
+        "mercado",
+        "coking coal price"
+      ]
+    },
     {
       "id": 1792770035,
       "titulo": "#RíoTáchiraEnvenenado: una cuenca binacional que agoniza en silencio en Colombia - Mongabay Latam",
@@ -881,21 +896,6 @@
       "mineral": "carbon_energetico",
       "sentimiento": "neutral",
       "url": "https://www.paisminero.com/index.php?option=com_content&view=article&id=31437:drummond-pide-aliviar-carga-fiscal-al-carbon-y-preve-producir-hasta-30-millones-20260904150452&catid=116&Itemid=10001",
-      "tags": [
-        "carbón",
-        "país minero"
-      ]
-    },
-    {
-      "id": 1788616011,
-      "titulo": "El gigante minero Glencore mira más allá de Londres con una cotización secundaria en ASX",
-      "resumen": "Noticia del sector minero del carbón publicada por País Minero: El gigante minero Glencore mira más allá de Londres con una cotización secundaria en ASX",
-      "fuente": "País Minero",
-      "fecha": "2026-09-05T13:46:51.444369",
-      "categoria": "carbon",
-      "mineral": "carbon_energetico",
-      "sentimiento": "neutral",
-      "url": "https://www.paisminero.com/index.php?option=com_content&view=article&id=31033:el-gigante-minero-glencore-mira-mas-alla-de-londres-con-una-cotizacion-secundari-20260806180052&catid=116&Itemid=10001",
       "tags": [
         "carbón",
         "país minero"
