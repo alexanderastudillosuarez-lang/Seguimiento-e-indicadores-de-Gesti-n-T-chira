@@ -1,6 +1,36 @@
 {
-  "ultima_actualizacion": "2026-10-24T14:22:33.821918",
+  "ultima_actualizacion": "2026-10-25T14:54:38.253015",
   "noticias": [
+    {
+      "id": 1792940078,
+      "titulo": "Las importaciones de carbón de China caen un 6% mientras los precios alcanzan un máximo de casi tres años",
+      "resumen": "Noticia del sector minero del carbón publicada por País Minero: Las importaciones de carbón de China caen un 6% mientras los precios alcanzan un máximo de casi tres años",
+      "fuente": "País Minero",
+      "fecha": "2026-10-25T14:54:38.251953",
+      "categoria": "carbon",
+      "mineral": "carbon_energetico",
+      "sentimiento": "neutral",
+      "url": "https://www.paisminero.com/index.php?option=com_content&view=article&id=32320:las-importaciones-de-carbon-de-china-caen-un-6-mientras-los-precios-alcanzan-un--20261014150319&catid=116&Itemid=10001",
+      "tags": [
+        "carbón",
+        "país minero"
+      ]
+    },
+    {
+      "id": 1792940076,
+      "titulo": "Precio de acciones, noticias, cotización e historial de Core Natural Resources, Inc. (CNR) - Yahoo",
+      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMiUEFVX3lxTE1NRWN0LUZqVF82UFplUWV0Skw1VXlMamdqTElvQ3lBdXo3aG1hV3FYY0hPTmZVV1F1cXBHaVNQZDFXNWpabkZ4T0k0RkJiak9I?oc=5\" target=\"_blank\">Precio de acciones, noticias, cotización e historial de Core Natural Resources, Inc. (CNR)</a>  <fo",
+      "fuente": "Yahoo",
+      "fecha": "2017-05-31T06:55:17",
+      "categoria": "carbon",
+      "mineral": "carbon_energetico",
+      "sentimiento": "neutral",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1NRWN0LUZqVF82UFplUWV0Skw1VXlMamdqTElvQ3lBdXo3aG1hV3FYY0hPTmZVV1F1cXBHaVNQZDFXNWpabkZ4T0k0RkJiak9I?oc=5",
+      "tags": [
+        "mercado",
+        "thermal coal price"
+      ]
+    },
     {
       "id": 1792851753,
       "titulo": "Metals prices: Argus iron ore price assessments - Argus Media",
@@ -866,36 +896,6 @@
       "mineral": "carbon_energetico",
       "sentimiento": "neutral",
       "url": "https://www.paisminero.com/index.php?option=com_content&view=article&id=30936:los-precios-del-carbon-en-china-se-disparan-a-medida-que-el-calor-abrasador-impulsa-la-demanda-de-energia&catid=116&Itemid=10001",
-      "tags": [
-        "carbón",
-        "país minero"
-      ]
-    },
-    {
-      "id": 1788879639,
-      "titulo": "El crimen se va a arrodillar: De la Espriella tras caída de Bendito Menor - laopinion.co",
-      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxOemh2Zm9XcVdTaVQxdC10UzdFYVgzNWozSVRRWVB0MFcxdThaaTYzMWRhNm5xdGxGUlFNUGZHX0NVYW51THAxM1ZUeUlsNF8wZFFCa0YtRnZRMjhCX1d1eUdKNDM0RDBncU9IQ3VwRm5OTGJMTVZ0cWZYYVNHSHBOc1pSOXFaYmxSVGpDYTJpV0dFZS05TGd0MlBTVlowSi1uQ2c?oc=5\" targ",
-      "fuente": "laopinion.co",
-      "fecha": "2026-09-04T15:33:44",
-      "categoria": "geopolitica",
-      "mineral": "carbon_energetico",
-      "sentimiento": "neutral",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOemh2Zm9XcVdTaVQxdC10UzdFYVgzNWozSVRRWVB0MFcxdThaaTYzMWRhNm5xdGxGUlFNUGZHX0NVYW51THAxM1ZUeUlsNF8wZFFCa0YtRnZRMjhCX1d1eUdKNDM0RDBncU9IQ3VwRm5OTGJMTVZ0cWZYYVNHSHBOc1pSOXFaYmxSVGpDYTJpV0dFZS05TGd0MlBTVlowSi1uQ2c?oc=5",
-      "tags": [
-        "mercado",
-        "site:laopinion.co minería carbón Táchira"
-      ]
-    },
-    {
-      "id": 1788798007,
-      "titulo": "Drummond pide aliviar carga fiscal al carbón y prevé producir hasta 30 millones de toneladas este año para Colombia",
-      "resumen": "Noticia del sector minero del carbón publicada por País Minero: Drummond pide aliviar carga fiscal al carbón y prevé producir hasta 30 millones de toneladas este año para Colombia",
-      "fuente": "País Minero",
-      "fecha": "2026-09-07T16:20:07.736352",
-      "categoria": "carbon",
-      "mineral": "carbon_energetico",
-      "sentimiento": "neutral",
-      "url": "https://www.paisminero.com/index.php?option=com_content&view=article&id=31437:drummond-pide-aliviar-carga-fiscal-al-carbon-y-preve-producir-hasta-30-millones-20260904150452&catid=116&Itemid=10001",
       "tags": [
         "carbón",
         "país minero"
