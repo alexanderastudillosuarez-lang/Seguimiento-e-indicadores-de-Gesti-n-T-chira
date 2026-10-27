@@ -1,6 +1,36 @@
 {
-  "ultima_actualizacion": "2026-10-25T14:54:38.253015",
+  "ultima_actualizacion": "2026-10-27T16:17:54.310640",
   "noticias": [
+    {
+      "id": 1793117874,
+      "titulo": "La escasez global de gas hace que las plantas de carbón restantes en Europa sean rentables",
+      "resumen": "Noticia del sector minero del carbón publicada por País Minero: La escasez global de gas hace que las plantas de carbón restantes en Europa sean rentables",
+      "fuente": "País Minero",
+      "fecha": "2026-10-27T16:17:54.309404",
+      "categoria": "carbon",
+      "mineral": "carbon_energetico",
+      "sentimiento": "neutral",
+      "url": "https://www.paisminero.com/index.php?option=com_content&view=article&id=32383:la-escasez-global-de-gas-hace-que-las-plantas-de-carbon-restantes-en-europa-sean-20261017050309&catid=116&Itemid=10001",
+      "tags": [
+        "carbón",
+        "país minero"
+      ]
+    },
+    {
+      "id": 1793117872,
+      "titulo": "Cómo invertir en carbón desde España: acciones, futuros y el debate ESG - Rankia",
+      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxNLTZrZTRUVGdMT0Vydi1vYUdIcTRBZUw5Q0dXN2pONVpvSXFaZW9sRXh1Ukl3SjJkSUxyamdyanVKVWI5bkl2TmF5NGdyR3ZHMkQtTFJINTZlN2pPc2xjczBGU1I3aXlvcU1jNnZvMWJMZ2tTVjAzZ3JIdG9vRGtSYVBnQjc0ZFF0NmdUWU1BRG1nLXF6dHZSSHJnSWtPTU1hOGNtb2w5RVU4Qz",
+      "fuente": "Rankia",
+      "fecha": "2026-06-07T07:00:00",
+      "categoria": "carbon",
+      "mineral": "carbon_energetico",
+      "sentimiento": "neutral",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNLTZrZTRUVGdMT0Vydi1vYUdIcTRBZUw5Q0dXN2pONVpvSXFaZW9sRXh1Ukl3SjJkSUxyamdyanVKVWI5bkl2TmF5NGdyR3ZHMkQtTFJINTZlN2pPc2xjczBGU1I3aXlvcU1jNnZvMWJMZ2tTVjAzZ3JIdG9vRGtSYVBnQjc0ZFF0NmdUWU1BRG1nLXF6dHZSSHJnSWtPTU1hOGNtb2w5RVU4QzA?oc=5",
+      "tags": [
+        "mercado",
+        "precio carbón térmico"
+      ]
+    },
     {
       "id": 1792940078,
       "titulo": "Las importaciones de carbón de China caen un 6% mientras los precios alcanzan un máximo de casi tres años",
@@ -869,36 +899,6 @@
       "tags": [
         "mercado",
         "coking coal price"
-      ]
-    },
-    {
-      "id": 1788966208,
-      "titulo": "Price Action: Coal India shares up 3% as UBS maintains 'buy'; Adani Green Energy jumps 2% - TradingView",
-      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMi3gFBVV95cUxQRXhsaDRXUlgwdXJzV211RFQ3NnVmODUtamVCT0k3YzZkWWxSbEVyTnJxYjN6UGluSTNwQk05T3l6ektsVjJXMklTUVY2cFkzXzFiT0s2YUdhTjhvdXNSQk05M1JwLXlkQW5ENV9uaW1uR2cwWnlWOGNQT19vcUZocGNmNThGMFg1VHB4c2k5SmZnbEtnRXVNWDZwZzhkQUN2b0NfY1ZwVjM5UW",
-      "fuente": "TradingView",
-      "fecha": "2026-09-02T04:44:11",
-      "categoria": "carbon",
-      "mineral": "carbon_energetico",
-      "sentimiento": "neutral",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQRXhsaDRXUlgwdXJzV211RFQ3NnVmODUtamVCT0k3YzZkWWxSbEVyTnJxYjN6UGluSTNwQk05T3l6ektsVjJXMklTUVY2cFkzXzFiT0s2YUdhTjhvdXNSQk05M1JwLXlkQW5ENV9uaW1uR2cwWnlWOGNQT19vcUZocGNmNThGMFg1VHB4c2k5SmZnbEtnRXVNWDZwZzhkQUN2b0NfY1ZwVjM5UWc4aVJFNUpIVU1mX2tHLUpWUFAzamEtVXhRTFZxbnpZQU9Gc2xSMXQxT1puU1lST09uakE?oc=5",
-      "tags": [
-        "mercado",
-        "thermal coal price"
-      ]
-    },
-    {
-      "id": 1788879641,
-      "titulo": "Los precios del carbón en China se disparan a medida que el calor abrasador impulsa la demanda de energía.",
-      "resumen": "Noticia del sector minero del carbón publicada por País Minero: Los precios del carbón en China se disparan a medida que el calor abrasador impulsa la demanda de energía.",
-      "fuente": "País Minero",
-      "fecha": "2026-09-08T15:00:41.420153",
-      "categoria": "carbon",
-      "mineral": "carbon_energetico",
-      "sentimiento": "neutral",
-      "url": "https://www.paisminero.com/index.php?option=com_content&view=article&id=30936:los-precios-del-carbon-en-china-se-disparan-a-medida-que-el-calor-abrasador-impulsa-la-demanda-de-energia&catid=116&Itemid=10001",
-      "tags": [
-        "carbón",
-        "país minero"
       ]
     }
   ]
