@@ -1,6 +1,36 @@
 {
-  "ultima_actualizacion": "2026-10-30T16:58:09.278497",
+  "ultima_actualizacion": "2026-10-31T15:59:30.294100",
   "noticias": [
+    {
+      "id": 1793462370,
+      "titulo": "La creciente factura del gas en Europa está llevando a las empresas de servicios públicos a regresar al carbón.",
+      "resumen": "Noticia del sector minero del carbón publicada por País Minero: La creciente factura del gas en Europa está llevando a las empresas de servicios públicos a regresar al carbón.",
+      "fuente": "País Minero",
+      "fecha": "2026-10-31T15:59:30.293022",
+      "categoria": "carbon",
+      "mineral": "carbon_energetico",
+      "sentimiento": "neutral",
+      "url": "https://www.paisminero.com/index.php?option=com_content&view=article&id=32071:la-creciente-factura-del-gas-en-europa-esta-llevando-a-las-empresas-de-servicios-20261002150435&catid=116&Itemid=10001",
+      "tags": [
+        "carbón",
+        "país minero"
+      ]
+    },
+    {
+      "id": 1793462366,
+      "titulo": "El carbón en Norte de Santander: el ‘seguro energético’ que multiplica por 3,4 cada peso invertido - La Opinión Cúcuta",
+      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxORkJkVUp1d2xOaHhtNlZuYktqZGRYZ2JkM0VCVDl0MzMyR1k1YnVOUFpSZFZ3NDR1QU5NajdsRURzNEJ0MkxfZ04tc1dHMVRpOUNZTklPcFN3cXQ0ZUtSVnZKZ3hTSmw0aHhWcEx2Q19ydkw2V3kxaS0ydDFqY3p4dGJKTnEyTl9YdG5RUG5IMG5JSDFCVzJOQTFaay1MOURwamR3TVdfRnI2bH",
+      "fuente": "La Opinión Cúcuta",
+      "fecha": "2026-10-28T11:30:26",
+      "categoria": "geopolitica",
+      "mineral": "carbon_energetico",
+      "sentimiento": "neutral",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxORkJkVUp1d2xOaHhtNlZuYktqZGRYZ2JkM0VCVDl0MzMyR1k1YnVOUFpSZFZ3NDR1QU5NajdsRURzNEJ0MkxfZ04tc1dHMVRpOUNZTklPcFN3cXQ0ZUtSVnZKZ3hTSmw0aHhWcEx2Q19ydkw2V3kxaS0ydDFqY3p4dGJKTnEyTl9YdG5RUG5IMG5JSDFCVzJOQTFaay1MOURwamR3TVdfRnI2bHhlTG9UN2F2QXU?oc=5",
+      "tags": [
+        "mercado",
+        "site:laopinion.co minería carbón Táchira"
+      ]
+    },
     {
       "id": 1793379489,
       "titulo": "Noticias de CNBC TV18 en TradingView, de fecha 2026-10-13 — cnbctv:7b6a67bab094b:0 - TradingView",
@@ -869,36 +899,6 @@
       "tags": [
         "mercado",
         "thermal coal price"
-      ]
-    },
-    {
-      "id": 1789138561,
-      "titulo": "Carbón y gas toman fuerza en la discusión sobre la seguridad energética de Colombia",
-      "resumen": "Noticia del sector minero del carbón publicada por País Minero: Carbón y gas toman fuerza en la discusión sobre la seguridad energética de Colombia",
-      "fuente": "País Minero",
-      "fecha": "2026-09-11T14:56:01.398130",
-      "categoria": "carbon",
-      "mineral": "carbon_energetico",
-      "sentimiento": "neutral",
-      "url": "https://www.paisminero.com/index.php?option=com_content&view=article&id=31193:carbon-y-gas-toman-fuerza-en-la-discusion-sobre-la-seguridad-energetica-de-colom-20260823130037&catid=116&Itemid=10001",
-      "tags": [
-        "carbón",
-        "país minero"
-      ]
-    },
-    {
-      "id": 1789138559,
-      "titulo": "Carbón que extraen desde Las Minas de Lobatera es llevado de contrabando a Colombia - laopinion.co",
-      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxNVnkyQzFVV3NkOXFGdm1vWTRMaTVYVmtGLVN2UG9YXzYtNEFmenkxZExQS0FIbkJqN3lrOFFNb2dJVmdadzdOc2diZzBaVEtFa1BwbEZwbldsaUZYdmJvbjZHeUdpa1MyZ1dqVl90NndqQzFFbldFNDdHaHotbHQxY0VNVEFVb2RyTnZaZ1B2WnJGTDRsU2RIXzF6ZFVIWGNnN1V5bUNGWXdUVj",
-      "fuente": "laopinion.co",
-      "fecha": "2022-05-27T07:00:00",
-      "categoria": "geopolitica",
-      "mineral": "carbon_energetico",
-      "sentimiento": "neutral",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNVnkyQzFVV3NkOXFGdm1vWTRMaTVYVmtGLVN2UG9YXzYtNEFmenkxZExQS0FIbkJqN3lrOFFNb2dJVmdadzdOc2diZzBaVEtFa1BwbEZwbldsaUZYdmJvbjZHeUdpa1MyZ1dqVl90NndqQzFFbldFNDdHaHotbHQxY0VNVEFVb2RyTnZaZ1B2WnJGTDRsU2RIXzF6ZFVIWGNnN1V5bUNGWXdUVjVtcjdBeHlIcHpvY2lFeXc?oc=5",
-      "tags": [
-        "mercado",
-        "minería carbón Táchira Venezuela"
       ]
     }
   ]
