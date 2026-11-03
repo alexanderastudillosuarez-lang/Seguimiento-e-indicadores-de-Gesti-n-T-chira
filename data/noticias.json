@@ -1,6 +1,36 @@
 {
-  "ultima_actualizacion": "2026-10-31T15:59:30.294100",
+  "ultima_actualizacion": "2026-11-03T18:18:08.588874",
   "noticias": [
+    {
+      "id": 1793729888,
+      "titulo": "Las exportaciones de carbón de Indonesia caen un 23% mientras la demanda global se dirige a un récord",
+      "resumen": "Noticia del sector minero del carbón publicada por País Minero: Las exportaciones de carbón de Indonesia caen un 23% mientras la demanda global se dirige a un récord",
+      "fuente": "País Minero",
+      "fecha": "2026-11-03T18:18:08.587676",
+      "categoria": "carbon",
+      "mineral": "carbon_energetico",
+      "sentimiento": "neutral",
+      "url": "https://www.paisminero.com/index.php?option=com_content&view=article&id=31974:las-exportaciones-de-carbon-de-indonesia-caen-un-23-mientras-la-demanda-global-s-20260928150437&catid=116&Itemid=10001",
+      "tags": [
+        "carbón",
+        "país minero"
+      ]
+    },
+    {
+      "id": 1793729887,
+      "titulo": "Noruega encuentra bajo tierra un gigantesco yacimiento de 70.000 millones de toneladas de un mineral clave par - Diario AS",
+      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMi-AFBVV95cUxOeDFuTklCQ3AwcXFEZnVyTVJYMHdVd0wwVXZEMFhiZ01SQUlHeVJiQzRMTXhudi04MVIwWDRRY0hOYmpQcHBKbUQ3WlhKbXJ6dzJzVGlHdnhZNkNrWDBKRGg4aDFRdHlnbFlUTFg5S3hFOGhrTU1ldHpCLWZ3U3RVc0Nfb2dGNHYyZmtaRkhaVXh6d3kxd01MZjRqSXdfVVJLdm1EMlp5ZVByND",
+      "fuente": "Diario AS",
+      "fecha": "2026-09-04T07:00:00",
+      "categoria": "fosfatos",
+      "mineral": "roca_fosfatica",
+      "sentimiento": "neutral",
+      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOeDFuTklCQ3AwcXFEZnVyTVJYMHdVd0wwVXZEMFhiZ01SQUlHeVJiQzRMTXhudi04MVIwWDRRY0hOYmpQcHBKbUQ3WlhKbXJ6dzJzVGlHdnhZNkNrWDBKRGg4aDFRdHlnbFlUTFg5S3hFOGhrTU1ldHpCLWZ3U3RVc0Nfb2dGNHYyZmtaRkhaVXh6d3kxd01MZjRqSXdfVVJLdm1EMlp5ZVByNDVlLW4tSTlyQWxHajhQekthV2hIVzZVczFxNk5TZVNDYmpLVGJyV1BaSjk4RFlKUEhXTlBhdHRIUFBKWVl0c3lDdWxyRUkydXFPQWN5Q9IBjAJBVV95cUxPUmhUaG1hSnpoVWlaLUR1MlRlWFcySzJUTmVmTEhvc1FPZXVlbDh2clBMVUxiN0RRZExZb3Y3RHNMczhfOVRmdWpXci1PRU5fS2FXcVFsLTlrQzVHNERPTE9udXVJVDZxd2N2MVFndGRTMW9mMEc5M2lqNW5uX1VyQ1RvVDJXeXJCcV9KNDItYS16YzR2WS1vYm56TURITUlUaXdaU2RmM1VhSXZLTWo2NnNNSEdMUE1OTTVMX09ZZUQyVW1BaWxWZ0U3ZkNIZ0Y2WFdLNG9TOXR1UmVlZGxQOXlMbVhxcThvSFlwV3VQWWZ6NFF0OW1FTDdIdnd4YlYtWkF1dHBqZkhzaUlC?oc=5",
+      "tags": [
+        "mercado",
+        "roca fosfática precio"
+      ]
+    },
     {
       "id": 1793462370,
       "titulo": "La creciente factura del gas en Europa está llevando a las empresas de servicios públicos a regresar al carbón.",
@@ -866,36 +896,6 @@
       "mineral": "carbon_energetico",
       "sentimiento": "neutral",
       "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPZmtJc0hLMFVtZGdSSVJ3aDdXZmFzeW92YWZqV2ZMdER4VXdXU00tSjBIX1NQSkF0eDREaHJWeUpETkQ5MEJQRzhabWwzbVpILUR4NXZzQVgwT3JHRTdabEZBMHpBTG5oUDhzcG1WNEljQ1FjbWhuRzFVX1VuTlRwc2JUd2tNWTFzNE1TZlI1YnNBRmx6a21XbzlBX0hDT21TOV9Tc1JsWXBPWm5PU05tVzdJWUVwWENXMGRfWXlONmZmOXJTQ08tSlllWEdPTXZvVWZuOFBWWDUyWG5HVGtpYnp3?oc=5",
-      "tags": [
-        "mercado",
-        "thermal coal price"
-      ]
-    },
-    {
-      "id": 1789311119,
-      "titulo": "Paísminero lamenta la partida del Dr Alfonso Escobar , Director ejecutivo de Fedecundi.",
-      "resumen": "Noticia del sector minero del carbón publicada por País Minero: Paísminero lamenta la partida del Dr Alfonso Escobar , Director ejecutivo de Fedecundi.",
-      "fuente": "País Minero",
-      "fecha": "2026-09-13T14:51:59.895141",
-      "categoria": "carbon",
-      "mineral": "carbon_energetico",
-      "sentimiento": "neutral",
-      "url": "https://www.paisminero.com/index.php?option=com_content&view=article&id=31406:paisminero-lamenta-la-partida-del-dr-alfonso-escobar-director-ejecutivo-de-fedecundi&catid=116&Itemid=10001",
-      "tags": [
-        "carbón",
-        "país minero"
-      ]
-    },
-    {
-      "id": 1789311118,
-      "titulo": "Coal India stock jumps 4%, top Nifty gainer as Mahanadi Coalfields IPO lifts sentiment; strong coal demand helps - TradingView",
-      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMigAJBVV95cUxOZktKMWozQy1XOWthemNDQUo0WlRzX1JOZExLUnNfUm9XVk85Z3dHOC1sVzhBSFZzR1pRZm9td2I3VUsyYzBPLWpNRUl4U2RqbXJRQlMyYVMyY2k2QWg2Y05Ua0M2bEtHLUFHSlNheGtaakthQy1CaG5BbDVNU3VibkFFR3RzcUVlSFJWYzZfNFlxbmJGdnc2SGszdWtrcEpXRHVrOEVZX0VMMW",
-      "fuente": "TradingView",
-      "fecha": "2026-09-01T07:00:00",
-      "categoria": "carbon",
-      "mineral": "carbon_energetico",
-      "sentimiento": "neutral",
-      "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOZktKMWozQy1XOWthemNDQUo0WlRzX1JOZExLUnNfUm9XVk85Z3dHOC1sVzhBSFZzR1pRZm9td2I3VUsyYzBPLWpNRUl4U2RqbXJRQlMyYVMyY2k2QWg2Y05Ua0M2bEtHLUFHSlNheGtaakthQy1CaG5BbDVNU3VibkFFR3RzcUVlSFJWYzZfNFlxbmJGdnc2SGszdWtrcEpXRHVrOEVZX0VMMWN1ZWdWUkZEWHlJMk1tRXBHMkJDdnNGV3ZsR1ludTRhZ3FMNHY2RnpiWHlqSmhDZllsUC1zLW42NWh2bzlqU1BvcnRobXRXN0NXSXl6NWhaU1hPZU95?oc=5",
       "tags": [
         "mercado",
         "thermal coal price"
