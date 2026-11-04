@@ -1,6 +1,21 @@
 {
-  "ultima_actualizacion": "2026-11-03T18:18:08.588874",
+  "ultima_actualizacion": "2026-11-04T18:31:02.828937",
   "noticias": [
+    {
+      "id": 1793817062,
+      "titulo": "Autoridades declaran como zona de alto riesgo área de combustión de carbón en Táchira - Noticias Venevisión",
+      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMizwFBVV95cUxPWFhQYkZfSEJsbDREdWhLeDVURVJTXzNTQXNKanVvdDE2aDlFcURQcXVGLW9pSUdPWjJhLTlIMTR3a0JyVzFmMEFJY0R1aWZ0emswYWt6SWk0QjBPdjVCdnBnd1FMNTh1ejBaLWlaRWhIclZVd2xIZzlFRGJtX3YzalV4Ny1wdk5hTTRsTlNybTcxWVdIMHRTZXZzMGxRckppczBOdXZ0VGtJb1",
+      "fuente": "Noticias Venevisión",
+      "fecha": "2026-07-17T07:00:00",
+      "categoria": "geopolitica",
+      "mineral": "carbon_energetico",
+      "sentimiento": "neutral",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPWFhQYkZfSEJsbDREdWhLeDVURVJTXzNTQXNKanVvdDE2aDlFcURQcXVGLW9pSUdPWjJhLTlIMTR3a0JyVzFmMEFJY0R1aWZ0emswYWt6SWk0QjBPdjVCdnBnd1FMNTh1ejBaLWlaRWhIclZVd2xIZzlFRGJtX3YzalV4Ny1wdk5hTTRsTlNybTcxWVdIMHRTZXZzMGxRckppczBOdXZ0VGtJb1c1a21Kd29BLThpOGdlVW8xc1NIaTg0MlZnVzRrWU5HX1RvY3M?oc=5",
+      "tags": [
+        "mercado",
+        "minería carbón Táchira Venezuela"
+      ]
+    },
     {
       "id": 1793729888,
       "titulo": "Las exportaciones de carbón de Indonesia caen un 23% mientras la demanda global se dirige a un récord",
@@ -884,21 +899,6 @@
       "tags": [
         "mercado",
         "precio carbón térmico"
-      ]
-    },
-    {
-      "id": 1789486174,
-      "titulo": "Nomura stays bullish on India steel as rebar recovery continues, HRC prices remain firm - es.tradingview.com",
-      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMi4gFBVV95cUxPZmtJc0hLMFVtZGdSSVJ3aDdXZmFzeW92YWZqV2ZMdER4VXdXU00tSjBIX1NQSkF0eDREaHJWeUpETkQ5MEJQRzhabWwzbVpILUR4NXZzQVgwT3JHRTdabEZBMHpBTG5oUDhzcG1WNEljQ1FjbWhuRzFVX1VuTlRwc2JUd2tNWTFzNE1TZlI1YnNBRmx6a21XbzlBX0hDT21TOV9Tc1JsWXBPWm",
-      "fuente": "es.tradingview.com",
-      "fecha": "2026-08-31T07:00:00",
-      "categoria": "carbon",
-      "mineral": "carbon_energetico",
-      "sentimiento": "neutral",
-      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPZmtJc0hLMFVtZGdSSVJ3aDdXZmFzeW92YWZqV2ZMdER4VXdXU00tSjBIX1NQSkF0eDREaHJWeUpETkQ5MEJQRzhabWwzbVpILUR4NXZzQVgwT3JHRTdabEZBMHpBTG5oUDhzcG1WNEljQ1FjbWhuRzFVX1VuTlRwc2JUd2tNWTFzNE1TZlI1YnNBRmx6a21XbzlBX0hDT21TOV9Tc1JsWXBPWm5PU05tVzdJWUVwWENXMGRfWXlONmZmOXJTQ08tSlllWEdPTXZvVWZuOFBWWDUyWG5HVGtpYnp3?oc=5",
-      "tags": [
-        "mercado",
-        "thermal coal price"
       ]
     }
   ]
