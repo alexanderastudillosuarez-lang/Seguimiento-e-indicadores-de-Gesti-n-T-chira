@@ -1,6 +1,21 @@
 {
-  "ultima_actualizacion": "2026-11-04T18:31:02.828937",
+  "ultima_actualizacion": "2026-11-05T18:36:03.976275",
   "noticias": [
+    {
+      "id": 1793903763,
+      "titulo": "Report reveals clients of Western Sahara’s conflict mineral - Western Sahara Resource Watch",
+      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxORzZuVGExTU9mQndGT2VZbEx6cjM3NnQ3MFcwQS01M0pXdnAtSlBycUlFVVhQZFd4OExTVllDVEpPVWM3cmROSk1fSDRnVVpNT1Z0b0RER1ZIX3BUVTVzTUwwejBRWFBwWWExRXBQOU5CYzZjY1BDNkRwbmVDWmFScWh2UVptcDlBMmpJ?oc=5\" target=\"_blank\">Report reveals clie",
+      "fuente": "Western Sahara Resource Watch",
+      "fecha": "2021-04-13T07:18:04",
+      "categoria": "fosfatos",
+      "mineral": "roca_fosfatica",
+      "sentimiento": "neutral",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxORzZuVGExTU9mQndGT2VZbEx6cjM3NnQ3MFcwQS01M0pXdnAtSlBycUlFVVhQZFd4OExTVllDVEpPVWM3cmROSk1fSDRnVVpNT1Z0b0RER1ZIX3BUVTVzTUwwejBRWFBwWWExRXBQOU5CYzZjY1BDNkRwbmVDWmFScWh2UVptcDlBMmpJ?oc=5",
+      "tags": [
+        "mercado",
+        "phosphate rock price"
+      ]
+    },
     {
       "id": 1793817062,
       "titulo": "Autoridades declaran como zona de alto riesgo área de combustión de carbón en Táchira - Noticias Venevisión",
@@ -884,21 +899,6 @@
       "tags": [
         "carbón",
         "país minero"
-      ]
-    },
-    {
-      "id": 1789572137,
-      "titulo": "El conflicto en Oriente Medio impulsa el retorno de la generación de energía a partir del carbón - World Bank Blogs",
-      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMizgFBVV95cUxPSGNHRjRacXpVY29mYTRuRlM1enIwZm53N1dIZVN3TXVsTWlib19OMkFwcFBYSWFDZERGc0ktY2V1Q2F5anZ1MFk4S1ktWHFYXy1NbzVlbW5GcGhfS1I5RnRVemNuWEh3QzB4QkJYY0FrZzBlcnBHYjExYmF1LVFXNzFTZXdGLWZmZ1FVRkhMWkp4VGZ2MmNhYjljMjI4SzNpaVRoWmtwMzJRQz",
-      "fuente": "World Bank Blogs",
-      "fecha": "2026-06-17T07:00:00",
-      "categoria": "carbon",
-      "mineral": "carbon_energetico",
-      "sentimiento": "neutral",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPSGNHRjRacXpVY29mYTRuRlM1enIwZm53N1dIZVN3TXVsTWlib19OMkFwcFBYSWFDZERGc0ktY2V1Q2F5anZ1MFk4S1ktWHFYXy1NbzVlbW5GcGhfS1I5RnRVemNuWEh3QzB4QkJYY0FrZzBlcnBHYjExYmF1LVFXNzFTZXdGLWZmZ1FVRkhMWkp4VGZ2MmNhYjljMjI4SzNpaVRoWmtwMzJRQzNidW1NMFpYbzlKLUdTSlcwRi0tRDB0M3FkQlB1SW5yVm1jZw?oc=5",
-      "tags": [
-        "mercado",
-        "precio carbón térmico"
       ]
     }
   ]
