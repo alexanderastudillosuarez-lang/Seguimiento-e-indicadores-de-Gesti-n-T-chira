@@ -1,6 +1,21 @@
 {
-  "ultima_actualizacion": "2026-11-05T18:36:03.976275",
+  "ultima_actualizacion": "2026-11-07T16:46:36.845892",
   "noticias": [
+    {
+      "id": 1794069996,
+      "titulo": "Huila les apuesta fuerte a su propios fertilizantes para dejar de depender de las exportaciones - CONtexto Ganadero",
+      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMi0wFBVV95cUxNSHhCX2owTFU3NExoaUNmQzlZb25DZWtoeDdkcm12SlRmWEx0UUdUU0w3VmtyOHh2Y1RLN1ZYSGtNMkVRckNhc18zVnJpRVlLQUZHWF9KbWxhVUlxeU83bmM1cmZXNjNZSjhqaXlsWE8yOV9xVkJVM3hEbnlzREJjLTUyVHhjZVdoczZyRXlpS3JMSFZhSy05aXRHX3NURWVsakVEZ0JTRXFjb0",
+      "fuente": "CONtexto Ganadero",
+      "fecha": "2026-09-14T07:00:00",
+      "categoria": "fosfatos",
+      "mineral": "roca_fosfatica",
+      "sentimiento": "neutral",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNSHhCX2owTFU3NExoaUNmQzlZb25DZWtoeDdkcm12SlRmWEx0UUdUU0w3VmtyOHh2Y1RLN1ZYSGtNMkVRckNhc18zVnJpRVlLQUZHWF9KbWxhVUlxeU83bmM1cmZXNjNZSjhqaXlsWE8yOV9xVkJVM3hEbnlzREJjLTUyVHhjZVdoczZyRXlpS3JMSFZhSy05aXRHX3NURWVsakVEZ0JTRXFjb0J3bllnMW53N0pNc1h6YkxRZ1RuTzhoMzg2WFNVN2h3VW1HaDExTnY4?oc=5",
+      "tags": [
+        "mercado",
+        "roca fosfática precio"
+      ]
+    },
     {
       "id": 1793903763,
       "titulo": "Report reveals clients of Western Sahara’s conflict mineral - Western Sahara Resource Watch",
@@ -884,21 +899,6 @@
       "tags": [
         "mercado",
         "phosphate rock price"
-      ]
-    },
-    {
-      "id": 1789572138,
-      "titulo": "Por cada $100 que ha caído el dólar, las exportaciones de carbón  y coque han perdido cerca de $490.000 millones",
-      "resumen": "Noticia del sector minero del carbón publicada por País Minero: Por cada $100 que ha caído el dólar, las exportaciones de carbón  y coque han perdido cerca de $490.000 millones",
-      "fuente": "País Minero",
-      "fecha": "2026-09-16T15:22:18.309792",
-      "categoria": "carbon",
-      "mineral": "carbon_energetico",
-      "sentimiento": "neutral",
-      "url": "https://www.paisminero.com/index.php?option=com_content&view=article&id=31217:por-cada-100-que-ha-caido-el-dolar-las-exportaciones-de-carbon-y-coque-han-perdido-cerca-de-490-000-millones&catid=116&Itemid=10001",
-      "tags": [
-        "carbón",
-        "país minero"
       ]
     }
   ]
