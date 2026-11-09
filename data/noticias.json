@@ -1,6 +1,21 @@
 {
-  "ultima_actualizacion": "2026-11-07T16:46:36.845892",
+  "ultima_actualizacion": "2026-11-09T21:20:55.586441",
   "noticias": [
+    {
+      "id": 1794259255,
+      "titulo": "Fosfatos del Pacífico invertirá US$940 millones para producir roca fosfórica en Bayóvar - Forbes Perú",
+      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMiwwFBVV95cUxPUFNWSmp0WEVSbm5NOGR0NnlQRXhydG1vS1ZXbVhvU0ZkeXJIclNlMWg3OEQ4c2hKSEhLR2FMU3VnQXQzNjN0R1pLbXJNM09iaUZKSDQwTVJzV01uN1gyTVM0eDhmSGVKdE1PQ3ZfR29MZ0RjZ3A2Q3VtcGozU2pOZE1xY1EyMGJRUktqNWlWM0l1YUJuMlNONjFncnpNVnBfLVZqMjloQm5FNT",
+      "fuente": "Forbes Perú",
+      "fecha": "2024-06-27T07:00:00",
+      "categoria": "fosfatos",
+      "mineral": "roca_fosfatica",
+      "sentimiento": "neutral",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPUFNWSmp0WEVSbm5NOGR0NnlQRXhydG1vS1ZXbVhvU0ZkeXJIclNlMWg3OEQ4c2hKSEhLR2FMU3VnQXQzNjN0R1pLbXJNM09iaUZKSDQwTVJzV01uN1gyTVM0eDhmSGVKdE1PQ3ZfR29MZ0RjZ3A2Q3VtcGozU2pOZE1xY1EyMGJRUktqNWlWM0l1YUJuMlNONjFncnpNVnBfLVZqMjloQm5FNTZ5MEF3dWxDdFg3RlhQNEoxM3FuOFBocHM?oc=5",
+      "tags": [
+        "mercado",
+        "roca fosfática precio"
+      ]
+    },
     {
       "id": 1794069996,
       "titulo": "Huila les apuesta fuerte a su propios fertilizantes para dejar de depender de las exportaciones - CONtexto Ganadero",
@@ -884,21 +899,6 @@
       "tags": [
         "mercado",
         "carbón coquizable metalúrgico"
-      ]
-    },
-    {
-      "id": 1789658932,
-      "titulo": "China’s Purified Phosphoric Acid Market | Non-Fertilizer Demand & Price Insights - Argus Media",
-      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMi0gFBVV95cUxOWktveVlrZmVvM1FSLWFkdE80YmtoVUQ5N0l0WDZsaGJ4alEzYzg4anhfSkxiZnEwaWJhQmFWcURRLUZTM2NFQ2N5NVdzLXVQZ2lLeVpjM2EzMjB3aEE4UmVnbDh4YXRoZnVNeXpONk9kZThsQ3J4RmIzcGNfOEtqZVNSdDdFVDh3c0JGdXJIdVhNbHVYLVAwU2FGd0VCSjU4Y3BhZlhYQTJmVm",
-      "fuente": "Argus Media",
-      "fecha": "2025-05-21T18:13:12",
-      "categoria": "fosfatos",
-      "mineral": "roca_fosfatica",
-      "sentimiento": "neutral",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOWktveVlrZmVvM1FSLWFkdE80YmtoVUQ5N0l0WDZsaGJ4alEzYzg4anhfSkxiZnEwaWJhQmFWcURRLUZTM2NFQ2N5NVdzLXVQZ2lLeVpjM2EzMjB3aEE4UmVnbDh4YXRoZnVNeXpONk9kZThsQ3J4RmIzcGNfOEtqZVNSdDdFVDh3c0JGdXJIdVhNbHVYLVAwU2FGd0VCSjU4Y3BhZlhYQTJmVmcyMXdNT2N1LUVkS0xXRUNrd2pvS0NTTjZxaWNQcDBWMkVqcFYzWlE?oc=5",
-      "tags": [
-        "mercado",
-        "phosphate rock price"
       ]
     }
   ]
