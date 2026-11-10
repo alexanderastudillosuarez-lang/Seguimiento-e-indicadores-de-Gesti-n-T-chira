@@ -1,6 +1,21 @@
 {
-  "ultima_actualizacion": "2026-11-09T21:20:55.586441",
+  "ultima_actualizacion": "2026-11-10T18:31:16.217381",
   "noticias": [
+    {
+      "id": 1794335476,
+      "titulo": "Protección Civil descarta peligro por mina de carbón activa - Radio Miraflores",
+      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxOUURsUlk2OGlIR0VzaV9ZZVlBNTNfeUlzcmpzY3lrVDBieTRzMS1qY2JDdlkxbVA2eXU3RENURmozWDFUYy1takFIa2hKNFBqbXVxNkFVakduOE5JRUZDVi1kSjU2dG9XX25EYTd2RGlBejhkd1l1bS13ZlBlVVJfR3A1bG5lSDVseEJ0ZjVZNFJ1WndiVl9pYzJXNA?oc=5\" target=\"_blan",
+      "fuente": "Radio Miraflores",
+      "fecha": "2026-07-17T07:00:00",
+      "categoria": "geopolitica",
+      "mineral": "carbon_energetico",
+      "sentimiento": "neutral",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOUURsUlk2OGlIR0VzaV9ZZVlBNTNfeUlzcmpzY3lrVDBieTRzMS1qY2JDdlkxbVA2eXU3RENURmozWDFUYy1takFIa2hKNFBqbXVxNkFVakduOE5JRUZDVi1kSjU2dG9XX25EYTd2RGlBejhkd1l1bS13ZlBlVVJfR3A1bG5lSDVseEJ0ZjVZNFJ1WndiVl9pYzJXNA?oc=5",
+      "tags": [
+        "mercado",
+        "minería carbón Táchira Venezuela"
+      ]
+    },
     {
       "id": 1794259255,
       "titulo": "Fosfatos del Pacífico invertirá US$940 millones para producir roca fosfórica en Bayóvar - Forbes Perú",
@@ -881,21 +896,6 @@
       "mineral": "carbon_coquizable",
       "sentimiento": "neutral",
       "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQWTVsX2g3WWhGZVYyXzFQdDlBRmhDeHU4NEQzTnhZSloxQ3BEQzlGZm9IU2dsYjNwT2hsNXpTa3BBWWZ1SFpubzNtT3N2eHdnaFUxMDNTbWI5OWtlNWd4QzViUHVBd21CaDI0RU5qRDc0Z0tubkszUldrbEFoLXBtSmI1Zks3b3ZaaFB6d25nd012WEJ4VU1QcWUxNjhJZzBGTDdhbUYwMnJ5OVQzaUppNkYxakY3Q3NGMlFfcG0zZ3dKUHN3MEliYl93YUhyUmp6bzl0QUN2VTlJVXgwS1RmeWxMdmxHcm9HR2FPX9IBhwJBVV95cUxPaWFRMU1KSnMzWHY4UDlqc3VOS05tSjhYMWpMNm9MNGpvN1gzdlFuTm1iVW4yYU5nQXFTcVNJLUJlQU91ZXlJUDVFUFYxZG9fN2ItV3lyaklmX0x4SUo0Z1VtMm9JdUVOX1YyZHJZN3FQUk1NZ2gxN1VFZ3pYSjdiNnp0TWs4bFVnT0RrMlR3VW1sUk1yVmVvdGljM2h6a05zMXJpUUhpR2dBMXc1OGkwZXFnYzVibFVpakh4MVZHUW82WTNWQndJQTktb19wNkQ2dVZ3Uko5azVmQVBWd1VpVVh1QjVXRll1c2dpcmZ6RnpBMnJfaEhTdzVwaDFjVGs0TkEtaThEcw?oc=5",
-      "tags": [
-        "mercado",
-        "carbón coquizable metalúrgico"
-      ]
-    },
-    {
-      "id": 1789743150,
-      "titulo": "Colombia exportó el mayor embarque de carbón y coque metalúrgico de su historia - Noticias RCN",
-      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxQMV9yR0VuQkFpZHZoVnhxdzBlZmwwci0zSW54OXVYMnlLRS1rcFRsZU9Dc3J3ZFMyNmU3Mjlna2VJcFMzV25GSHdEZlRsM1NWa00wYlA5UC0ta2s1Uzk2VGs4STV6YnFZemJMR0QxNW0wT3RuNE9BVzByOXFuWmgyTFpKNXdSSEMwMVJEajdrV3lnSC1pcmRWTnZDbUFDb3ItWk1IZy0yLVRqbD",
-      "fuente": "Noticias RCN",
-      "fecha": "2024-04-13T19:50:09",
-      "categoria": "carbon",
-      "mineral": "carbon_coquizable",
-      "sentimiento": "neutral",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQMV9yR0VuQkFpZHZoVnhxdzBlZmwwci0zSW54OXVYMnlLRS1rcFRsZU9Dc3J3ZFMyNmU3Mjlna2VJcFMzV25GSHdEZlRsM1NWa00wYlA5UC0ta2s1Uzk2VGs4STV6YnFZemJMR0QxNW0wT3RuNE9BVzByOXFuWmgyTFpKNXdSSEMwMVJEajdrV3lnSC1pcmRWTnZDbUFDb3ItWk1IZy0yLVRqbDRXbl9oZGt2bDFQcGhIeF8xX29UN07SAcABQVVfeXFMUEhqRGgxUC14aGxoWC1udl9vOWR2RHZVcE5XczZ1U2dYOVVqRFpwWmpJLWtRdmRvZUZVLXdQcGJUQmtKVkR6OHVjd0hubk5NTEgwYzhOeElrSUxiY3FyeXhSVGsxR3VRSXJYcEctOXNDY081WXR3YmM2RlFtaXp4VWFBblM1d0Z2dHdrVEgwbENtWU01SXNKdVBqX3VXYUVIakZXRlk4aWE1aDdFRDI5VHBGNFRyVDZkQ0NWdXg5dUpD?oc=5",
       "tags": [
         "mercado",
         "carbón coquizable metalúrgico"
