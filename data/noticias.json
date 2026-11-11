@@ -1,6 +1,21 @@
 {
-  "ultima_actualizacion": "2026-11-10T18:31:16.217381",
+  "ultima_actualizacion": "2026-11-11T18:29:46.322392",
   "noticias": [
+    {
+      "id": 1794421786,
+      "titulo": "Does the Active Market Drive Prices Upward? Q3 Review and Q4 Outlook for the Iron Phosphate Market - Shanghai Metals Market",
+      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMihgJBVV95cUxPRS1LbXdCTUIzQzAtaXl2NDNjU1JEVE9BY0RLQWtqUFRWZ2dNOTlZdEdCeHMyZ0NHWlZCNHdhdWhiNV9lcDFhNV9EVGh4QV9Vc08xbkM2TkRub2VNQzg1eUM0Y0JGNC1JV1AyOG41aVNrUFhWY3lFNXNIenQyc3pDSklHT0FFVC1xdFpmTGY4cVM3LVBWdGZQTUt3NkdQS09ramI0ajJyYWdJaW",
+      "fuente": "Shanghai Metals Market",
+      "fecha": "2024-09-24T07:00:00",
+      "categoria": "fosfatos",
+      "mineral": "roca_fosfatica",
+      "sentimiento": "neutral",
+      "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxPRS1LbXdCTUIzQzAtaXl2NDNjU1JEVE9BY0RLQWtqUFRWZ2dNOTlZdEdCeHMyZ0NHWlZCNHdhdWhiNV9lcDFhNV9EVGh4QV9Vc08xbkM2TkRub2VNQzg1eUM0Y0JGNC1JV1AyOG41aVNrUFhWY3lFNXNIenQyc3pDSklHT0FFVC1xdFpmTGY4cVM3LVBWdGZQTUt3NkdQS09ramI0ajJyYWdJaWd5ZnJvaGxFWFNCdXB3ZXNwQmEyTldlVEFFNnhoQ1lBbUlweTNjWWxiUjhnell4akhzd2hLNnhHUkp3VjB6TFJtLXlQTWlFeTJWXzFlaE1HazhqdTJiN1c5bWF3?oc=5",
+      "tags": [
+        "mercado",
+        "phosphate rock price"
+      ]
+    },
     {
       "id": 1794335476,
       "titulo": "Protección Civil descarta peligro por mina de carbón activa - Radio Miraflores",
@@ -884,21 +899,6 @@
       "tags": [
         "mercado",
         "thermal coal price"
-      ]
-    },
-    {
-      "id": 1789915056,
-      "titulo": "El gremio del carbón responsabilizó a Petro de dejar al coque colombiano fuera del mercado indio por cinco años - Infobae",
-      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMi7AFBVV95cUxQWTVsX2g3WWhGZVYyXzFQdDlBRmhDeHU4NEQzTnhZSloxQ3BEQzlGZm9IU2dsYjNwT2hsNXpTa3BBWWZ1SFpubzNtT3N2eHdnaFUxMDNTbWI5OWtlNWd4QzViUHVBd21CaDI0RU5qRDc0Z0tubkszUldrbEFoLXBtSmI1Zks3b3ZaaFB6d25nd012WEJ4VU1QcWUxNjhJZzBGTDdhbUYwMnJ5OV",
-      "fuente": "Infobae",
-      "fecha": "2026-07-08T07:00:00",
-      "categoria": "carbon",
-      "mineral": "carbon_coquizable",
-      "sentimiento": "neutral",
-      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQWTVsX2g3WWhGZVYyXzFQdDlBRmhDeHU4NEQzTnhZSloxQ3BEQzlGZm9IU2dsYjNwT2hsNXpTa3BBWWZ1SFpubzNtT3N2eHdnaFUxMDNTbWI5OWtlNWd4QzViUHVBd21CaDI0RU5qRDc0Z0tubkszUldrbEFoLXBtSmI1Zks3b3ZaaFB6d25nd012WEJ4VU1QcWUxNjhJZzBGTDdhbUYwMnJ5OVQzaUppNkYxakY3Q3NGMlFfcG0zZ3dKUHN3MEliYl93YUhyUmp6bzl0QUN2VTlJVXgwS1RmeWxMdmxHcm9HR2FPX9IBhwJBVV95cUxPaWFRMU1KSnMzWHY4UDlqc3VOS05tSjhYMWpMNm9MNGpvN1gzdlFuTm1iVW4yYU5nQXFTcVNJLUJlQU91ZXlJUDVFUFYxZG9fN2ItV3lyaklmX0x4SUo0Z1VtMm9JdUVOX1YyZHJZN3FQUk1NZ2gxN1VFZ3pYSjdiNnp0TWs4bFVnT0RrMlR3VW1sUk1yVmVvdGljM2h6a05zMXJpUUhpR2dBMXc1OGkwZXFnYzVibFVpakh4MVZHUW82WTNWQndJQTktb19wNkQ2dVZ3Uko5azVmQVBWd1VpVVh1QjVXRll1c2dpcmZ6RnpBMnJfaEhTdzVwaDFjVGs0TkEtaThEcw?oc=5",
-      "tags": [
-        "mercado",
-        "carbón coquizable metalúrgico"
       ]
     }
   ]
