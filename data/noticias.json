@@ -1,6 +1,21 @@
 {
-  "ultima_actualizacion": "2026-11-11T18:29:46.322392",
+  "ultima_actualizacion": "2026-11-12T18:45:18.822554",
   "noticias": [
+    {
+      "id": 1794509118,
+      "titulo": "Entrevista | Drummond Energy tiene cuatro contratos para desarrollar yacimientos no convencionales en Colombia",
+      "resumen": "Noticia del sector minero del carbón publicada por País Minero: Entrevista | Drummond Energy tiene cuatro contratos para desarrollar yacimientos no convencionales en Colombia",
+      "fuente": "País Minero",
+      "fecha": "2026-11-12T18:45:18.821423",
+      "categoria": "carbon",
+      "mineral": "carbon_energetico",
+      "sentimiento": "neutral",
+      "url": "https://www.paisminero.com/index.php?option=com_content&view=article&id=32719:entrevista-drummond-energy-tiene-cuatro-contratos-para-desarrollar-yacimientos-n-20261101160058&catid=116&Itemid=10001",
+      "tags": [
+        "carbón",
+        "país minero"
+      ]
+    },
     {
       "id": 1794421786,
       "titulo": "Does the Active Market Drive Prices Upward? Q3 Review and Q4 Outlook for the Iron Phosphate Market - Shanghai Metals Market",
@@ -884,21 +899,6 @@
       "tags": [
         "carbón",
         "país minero"
-      ]
-    },
-    {
-      "id": 1790009667,
-      "titulo": "Revolutionary Strategies on a Heated Earth - Spectre: A Marxist Journal",
-      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTE1VVVdycWpSbG5jTXNCLXd5RFJGTHdndWIwMGJlMkxCdW16N2hySG5jb0x3LWJyLVRHSUxGYTFmR04yZ2ZZQ2hPUER2bHZQNHRzU0tFTHZCVVdnZEgzd2NVRkdOeFpmdjNfa2tUUDY1dFVIRDF0Nm1xd0dn?oc=5\" target=\"_blank\">Revolutionary Strategies on a Heated Earth<",
-      "fuente": "Spectre: A Marxist Journal",
-      "fecha": "2021-12-31T08:00:00",
-      "categoria": "carbon",
-      "mineral": "carbon_energetico",
-      "sentimiento": "neutral",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1VVVdycWpSbG5jTXNCLXd5RFJGTHdndWIwMGJlMkxCdW16N2hySG5jb0x3LWJyLVRHSUxGYTFmR04yZ2ZZQ2hPUER2bHZQNHRzU0tFTHZCVVdnZEgzd2NVRkdOeFpmdjNfa2tUUDY1dFVIRDF0Nm1xd0dn?oc=5",
-      "tags": [
-        "mercado",
-        "thermal coal price"
       ]
     }
   ]
