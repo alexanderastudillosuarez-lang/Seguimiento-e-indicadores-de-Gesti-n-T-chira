@@ -1,6 +1,36 @@
 {
-  "ultima_actualizacion": "2026-11-12T18:45:18.822554",
+  "ultima_actualizacion": "2026-11-17T19:41:21.633606",
   "noticias": [
+    {
+      "id": 1794944481,
+      "titulo": "Proyecto solar masivo en planta de carbón de Texas asegura préstamo verde de $1.8 mil millones",
+      "resumen": "Noticia del sector minero del carbón publicada por País Minero: Proyecto solar masivo en planta de carbón de Texas asegura préstamo verde de $1.8 mil millones",
+      "fuente": "País Minero",
+      "fecha": "2026-11-17T19:41:21.632540",
+      "categoria": "carbon",
+      "mineral": "carbon_energetico",
+      "sentimiento": "neutral",
+      "url": "https://www.paisminero.com/index.php?option=com_content&view=article&id=32915:proyecto-solar-masivo-en-planta-de-carbon-de-texas-asegura-prestamo-verde-de-18--20261109160453&catid=116&Itemid=10001",
+      "tags": [
+        "carbón",
+        "país minero"
+      ]
+    },
+    {
+      "id": 1794944478,
+      "titulo": "Conferencia de resultados del 3T 2026 de Core Natural Resources (CNR): $90M devueltos, impulso en el 4T - TradingKey",
+      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMiaEFVX3lxTE9mTGpVX3o1YlVUc3NiZzA5RDhQV3cwdHVKLUpZdU5jaS1nc1FhWk94STNNY3VENHRLUlRhQUtOUWtvOGJkUVJTSUQyLVQ1S2Job21rVnloZUx5MUN0cS0yakdManpEV2J2?oc=5\" target=\"_blank\">Conferencia de resultados del 3T 2026 de Core Natural Resources (CN",
+      "fuente": "TradingKey",
+      "fecha": "2026-11-05T08:00:00",
+      "categoria": "carbon",
+      "mineral": "carbon_energetico",
+      "sentimiento": "neutral",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9mTGpVX3o1YlVUc3NiZzA5RDhQV3cwdHVKLUpZdU5jaS1nc1FhWk94STNNY3VENHRLUlRhQUtOUWtvOGJkUVJTSUQyLVQ1S2Job21rVnloZUx5MUN0cS0yakdManpEV2J2?oc=5",
+      "tags": [
+        "mercado",
+        "thermal coal price"
+      ]
+    },
     {
       "id": 1794509118,
       "titulo": "Entrevista | Drummond Energy tiene cuatro contratos para desarrollar yacimientos no convencionales en Colombia",
@@ -866,36 +896,6 @@
       "mineral": "carbon_energetico",
       "sentimiento": "neutral",
       "url": "https://www.paisminero.com/index.php?option=com_content&view=article&id=31567:iea-la-demanda-global-de-carbon-alcanzara-un-record-historico-mientras-la-guerra-20260910150321&catid=116&Itemid=10001",
-      "tags": [
-        "carbón",
-        "país minero"
-      ]
-    },
-    {
-      "id": 1790176939,
-      "titulo": "Producción de carbón y coque en Norte de Santander cae hasta 40% en medio de crisis del sector - laopinion.co",
-      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxNaC12bm5mZkNYR25yeURYQ3hHdFRLeVpLT1VVa2JPQ0ZDZmt0VlRMZkdoUGFxMklpWEJmbzNtNWtVdnZLdWRxZkVnTUN0RHJ1ZExiLUh4azRhN08zME5jMS1Tb2VodEhWeDFYbnZpQWdXeGtRekxETmZOSGhHaTJGQzU2ZTdQWExlX21jWXBJMVV3N1FaMGhleEVWY1F0ejhnUm9FUkFZd1BLdU",
-      "fuente": "laopinion.co",
-      "fecha": "2026-03-11T07:00:00",
-      "categoria": "carbon",
-      "mineral": "carbon_coquizable",
-      "sentimiento": "neutral",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNaC12bm5mZkNYR25yeURYQ3hHdFRLeVpLT1VVa2JPQ0ZDZmt0VlRMZkdoUGFxMklpWEJmbzNtNWtVdnZLdWRxZkVnTUN0RHJ1ZExiLUh4azRhN08zME5jMS1Tb2VodEhWeDFYbnZpQWdXeGtRekxETmZOSGhHaTJGQzU2ZTdQWExlX21jWXBJMVV3N1FaMGhleEVWY1F0ejhnUm9FUkFZd1BLdU1QMUg4RlFMZVR5SEE?oc=5",
-      "tags": [
-        "mercado",
-        "carbón coquizable metalúrgico"
-      ]
-    },
-    {
-      "id": 1790090866,
-      "titulo": "Crisis en Hormuz impulsará la demanda global de carbón a niveles récord",
-      "resumen": "Noticia del sector minero del carbón publicada por País Minero: Crisis en Hormuz impulsará la demanda global de carbón a niveles récord",
-      "fuente": "País Minero",
-      "fecha": "2026-09-22T15:27:46.121174",
-      "categoria": "carbon",
-      "mineral": "carbon_energetico",
-      "sentimiento": "neutral",
-      "url": "https://www.paisminero.com/index.php?option=com_content&view=article&id=31785:crisis-en-hormuz-impulsara-la-demanda-global-de-carbon-a-niveles-record-20260920150043&catid=116&Itemid=10001",
       "tags": [
         "carbón",
         "país minero"
