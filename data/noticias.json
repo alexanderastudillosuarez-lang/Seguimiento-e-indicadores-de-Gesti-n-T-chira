@@ -1,6 +1,21 @@
 {
-  "ultima_actualizacion": "2026-11-17T19:41:21.633606",
+  "ultima_actualizacion": "2026-11-19T19:25:41.073944",
   "noticias": [
+    {
+      "id": 1795116341,
+      "titulo": "Railways to develop Rs 1000-cr network for coal transportation to Buxar thermal power plant - The Times of India",
+      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMi9wFBVV95cUxNYzc5MktURHRaSFVZZjRlb182UTZQeHpmZmJuV1lCMlZyMzZjZ3hfX3RZMHpLZ29vRWRWc0paejVpaGVEcGtyQWh2VkFBRlBULTRXMjhaMUxFM3VrWHhodU00UVRkemtUcVVTRUJuRF9lcS15LW1ySlJvclVmQ1Y1SlhzT2c3TUxkZEFqYnZfQXlzU3hkc0ZyMHFHV3h1enlPYVhMdE9RYzFGbm",
+      "fuente": "The Times of India",
+      "fecha": "2026-11-01T07:00:00",
+      "categoria": "carbon",
+      "mineral": "carbon_energetico",
+      "sentimiento": "neutral",
+      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNYzc5MktURHRaSFVZZjRlb182UTZQeHpmZmJuV1lCMlZyMzZjZ3hfX3RZMHpLZ29vRWRWc0paejVpaGVEcGtyQWh2VkFBRlBULTRXMjhaMUxFM3VrWHhodU00UVRkemtUcVVTRUJuRF9lcS15LW1ySlJvclVmQ1Y1SlhzT2c3TUxkZEFqYnZfQXlzU3hkc0ZyMHFHV3h1enlPYVhMdE9RYzFGbmdwVDB3LWNZTVd3R003aHJzRzIwVFQ1ZjNhUFAzOUNLazVWRDdzaVN6M1YzeG9MTEJlaWF2UndlWHp0c0hTUm1uX1c5QnpyZmZUZFpN0gH8AUFVX3lxTE9IeFlneWFLaFc3MUlhZzBBeWUxc1dGbnhWVkc4c1BWLXpCcWs0cDYtWHlQOUNTUVh5ck5WR3gyMnJBVDNxclhYeV91X2llRnkwM2RROVR3VWxZamtiY1Bza2ZtZUtNN1A5UVNYSFpkMFV6SG91RUdFQlZrbFNJNlpOT2MzQTZGbXNRMHpCOXFraFRSSGhUdHdwc0RfZ09ORFdmNnFPa3NpalV0NWtJQ1dNb21rYXZHUWxORFk2T05NSlpBZXJNcHdWMlM3YzJZMkdTR1dQRmFJdGc5NFVTVEdxVkdjel94dkM4SkZJSWNVZXpFU2g5NHliMnhVcw?oc=5",
+      "tags": [
+        "mercado",
+        "thermal coal price"
+      ]
+    },
     {
       "id": 1794944481,
       "titulo": "Proyecto solar masivo en planta de carbón de Texas asegura préstamo verde de $1.8 mil millones",
@@ -884,21 +899,6 @@
       "tags": [
         "mercado",
         "precio carbón térmico"
-      ]
-    },
-    {
-      "id": 1790176940,
-      "titulo": "IEA: La demanda global de carbón alcanzará un récord histórico mientras la guerra en Irán ahoga el suministro de GNL",
-      "resumen": "Noticia del sector minero del carbón publicada por País Minero: IEA: La demanda global de carbón alcanzará un récord histórico mientras la guerra en Irán ahoga el suministro de GNL",
-      "fuente": "País Minero",
-      "fecha": "2026-09-23T15:22:20.951112",
-      "categoria": "carbon",
-      "mineral": "carbon_energetico",
-      "sentimiento": "neutral",
-      "url": "https://www.paisminero.com/index.php?option=com_content&view=article&id=31567:iea-la-demanda-global-de-carbon-alcanzara-un-record-historico-mientras-la-guerra-20260910150321&catid=116&Itemid=10001",
-      "tags": [
-        "carbón",
-        "país minero"
       ]
     }
   ]
