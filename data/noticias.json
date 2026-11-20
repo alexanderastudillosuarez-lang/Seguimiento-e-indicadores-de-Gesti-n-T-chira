@@ -1,6 +1,36 @@
 {
-  "ultima_actualizacion": "2026-11-19T19:25:41.073944",
+  "ultima_actualizacion": "2026-11-20T19:00:31.319685",
   "noticias": [
+    {
+      "id": 1795201231,
+      "titulo": "La crisis del carbón en India se agrava a medida que la demanda de energía aumenta",
+      "resumen": "Noticia del sector minero del carbón publicada por País Minero: La crisis del carbón en India se agrava a medida que la demanda de energía aumenta",
+      "fuente": "País Minero",
+      "fecha": "2026-11-20T19:00:31.318578",
+      "categoria": "carbon",
+      "mineral": "carbon_energetico",
+      "sentimiento": "neutral",
+      "url": "https://www.paisminero.com/index.php?option=com_content&view=article&id=32466:la-crisis-del-carbon-en-india-se-agrava-a-medida-que-la-demanda-de-energia-aumen-20261021050301&catid=116&Itemid=10001",
+      "tags": [
+        "carbón",
+        "país minero"
+      ]
+    },
+    {
+      "id": 1795201229,
+      "titulo": "Platts: Los precios de los fosfatos de Marruecos seguirán ahora un sistema de reporte basado en contratos - يابلادي",
+      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxQRm40dElCRGdBbUtpMlpvM2QtZDZKSGJlOFBHdnJBU3R0Mm52eE9nVi05M3c1b2ZUOWoxTjRrWEhXVTJNNW1mMVBTVlpZOUxwdVptSWNYOXI3S3ZNbFl1ZXJGRUZLVmlVWkc2WWRDMVUyU2djb25wVWJEYzZPaVhONkI1LW5tWm5KZkdOQW9tX2FvclgtanlvVWI5Yw?oc=5\" target=\"_blan",
+      "fuente": "يابلادي",
+      "fecha": "2025-05-20T07:00:00",
+      "categoria": "fosfatos",
+      "mineral": "roca_fosfatica",
+      "sentimiento": "neutral",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQRm40dElCRGdBbUtpMlpvM2QtZDZKSGJlOFBHdnJBU3R0Mm52eE9nVi05M3c1b2ZUOWoxTjRrWEhXVTJNNW1mMVBTVlpZOUxwdVptSWNYOXI3S3ZNbFl1ZXJGRUZLVmlVWkc2WWRDMVUyU2djb25wVWJEYzZPaVhONkI1LW5tWm5KZkdOQW9tX2FvclgtanlvVWI5Yw?oc=5",
+      "tags": [
+        "mercado",
+        "phosphate rock price"
+      ]
+    },
     {
       "id": 1795116341,
       "titulo": "Railways to develop Rs 1000-cr network for coal transportation to Buxar thermal power plant - The Times of India",
@@ -869,36 +899,6 @@
       "tags": [
         "mercado",
         "site:laopinion.co minería carbón Táchira"
-      ]
-    },
-    {
-      "id": 1790434555,
-      "titulo": "India considera la mezcla obligatoria de carbón importado a medida que se desmoronan los stocks de las plantas",
-      "resumen": "Noticia del sector minero del carbón publicada por País Minero: India considera la mezcla obligatoria de carbón importado a medida que se desmoronan los stocks de las plantas",
-      "fuente": "País Minero",
-      "fecha": "2026-09-26T14:55:55.532940",
-      "categoria": "carbon",
-      "mineral": "carbon_energetico",
-      "sentimiento": "neutral",
-      "url": "https://www.paisminero.com/index.php?option=com_content&view=article&id=31917:india-considera-la-mezcla-obligatoria-de-carbon-importado-a-medida-que-se-desmor-20260926050306&catid=116&Itemid=10001",
-      "tags": [
-        "carbón",
-        "país minero"
-      ]
-    },
-    {
-      "id": 1790264732,
-      "titulo": "Qué dicen los números del carbón en Colombia: producción es la peor en 22 años - El Espectador",
-      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxNUTBKWEk2MTNIWGM5YUJOTV9JOFl4VHplM3RhUy1ramJ5VUlMcmJvZ2JZMXJWaVBhZm9NY08tNjY0SnFiRV8zYTdNaWx6QVFSaHYyeWNxVW91Y1pMeVFJNUVHbjAwc0M1ZE9JTzVtUUV6NlpRbzNvUXZhUnZrT2FiYktuNERpd3UtN2VMTm9xYVlVV3pKQVVxLXhsdHEzTzRxR214Mmt6TTUtOX",
-      "fuente": "El Espectador",
-      "fecha": "2026-04-28T07:00:00",
-      "categoria": "carbon",
-      "mineral": "carbon_energetico",
-      "sentimiento": "neutral",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNUTBKWEk2MTNIWGM5YUJOTV9JOFl4VHplM3RhUy1ramJ5VUlMcmJvZ2JZMXJWaVBhZm9NY08tNjY0SnFiRV8zYTdNaWx6QVFSaHYyeWNxVW91Y1pMeVFJNUVHbjAwc0M1ZE9JTzVtUUV6NlpRbzNvUXZhUnZrT2FiYktuNERpd3UtN2VMTm9xYVlVV3pKQVVxLXhsdHEzTzRxR214Mmt6TTUtOXRhVlhGeW5OV0pFMUdGblZzRk8zT3Q5SXhyZW9pYtIB3AFBVV95cUxNNTNHUlJLaXRPYldDTnpwVDQ3WkhTSDhSY3FTY2U4NmxVTnY3cWhXRWJ4bURjak96UlA2Si1hMDBEbHcyYjJKREpVTHNJbDFKNWxQcTdaOVhnblFxWl9hbjd4aFQzMjFEbWZDUlBkb1NpZDhWRnhlbWIwNVlLVl9pc0lqZlBIUnVKUExxTVl4amJQYXFVUm05LVhIRks0OWJ2dmkwTkFzRzIwVjczQXBVRkR1QWlYbzhZWWFvTHNrQzc1WGM1ZWpSeFRPQkhxM04wWW11cm50bHp1UjZK?oc=5",
-      "tags": [
-        "mercado",
-        "precio carbón térmico"
       ]
     }
   ]
