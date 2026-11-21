@@ -1,6 +1,21 @@
 {
-  "ultima_actualizacion": "2026-11-20T19:00:31.319685",
+  "ultima_actualizacion": "2026-11-21T17:54:58.588513",
   "noticias": [
+    {
+      "id": 1795283698,
+      "titulo": "Nuevo depósito de fosfatos en Bayóvar producirá 2,5 millones TM de roca fosfórica al año - La República",
+      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMigAJBVV95cUxOX05hQmNRWUtaRXFIM1FqSTN5VDBkcWRVMzJFbDVjLUN2djQ0dVE5cTB0Skg2dTVRY2o3cjBJaFVRTzgzcUtLYVpDTmZXWVQxMW1Ed19mZElUYjdWY29NNk9sRWxMQU5FUE5vOGZxb0Rwakw4Z21VQUgwaWhoQlB2a0NOSGE2ZWtmLTdFeFh4c0FSeUlHVU5ISjc1Ti1HTWVfSHRPLUs0WXhvOH",
+      "fuente": "La República",
+      "fecha": "2024-05-13T07:00:00",
+      "categoria": "fosfatos",
+      "mineral": "roca_fosfatica",
+      "sentimiento": "neutral",
+      "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOX05hQmNRWUtaRXFIM1FqSTN5VDBkcWRVMzJFbDVjLUN2djQ0dVE5cTB0Skg2dTVRY2o3cjBJaFVRTzgzcUtLYVpDTmZXWVQxMW1Ed19mZElUYjdWY29NNk9sRWxMQU5FUE5vOGZxb0Rwakw4Z21VQUgwaWhoQlB2a0NOSGE2ZWtmLTdFeFh4c0FSeUlHVU5ISjc1Ti1HTWVfSHRPLUs0WXhvOHJ2WEI1Wk9NN1dHOGNnYy1xd3ptb1l6YjRVbURMVl9WcE9wUTR5Tm9jUi1vWWVDOWFKM1JPeTFDQVh5VDI3WU1nU1JiSnRuNmtGSU9zMk9rODlPWUp30gGGAkFVX3lxTE1PRUNfc2FZWHVDZXVkckJzdzF4NTQ5TFplY3JYNDNaZUFWdlJhYUZMSTBPRDVkSjRJbUd5NlU1MWVBRFRJRDladkdaUTJOVm5uU1Y4Zkd2WHRXU3lnZlFxRV9mQmszQzJIaHRjQWlxU0hlZDZRYlZDRjB2ckRnbElPdFN4el80UTdKekEwbTc3aTUxNEc5VFBmU0hsSEVDRzNfaWNWVExEX0lTYzJ0dV92cWpKMkg1SkhLOVVtS1ZVXzBFSU5fcDhKbW5aai1oZTB5VzRlXzZOdC1tUTFubDRZTXdFWWJkWW1hQmFCazZ4Q2g4cGVDVURZOUVvcGItOUsydTV4V3c?oc=5",
+      "tags": [
+        "mercado",
+        "roca fosfática precio"
+      ]
+    },
     {
       "id": 1795201231,
       "titulo": "La crisis del carbón en India se agrava a medida que la demanda de energía aumenta",
@@ -884,21 +899,6 @@
       "tags": [
         "mercado",
         "carbón coquizable metalúrgico"
-      ]
-    },
-    {
-      "id": 1790523242,
-      "titulo": "Energía Barata - laopinion.co",
-      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMiW0FVX3lxTE4zRmNyZ2NjMGFTbG01VTFrbEVoQXNtaE16Yl91eWp4OTBobzIxUXZWeWpZRm4zWXhHbGtQQU1LZEliRjE5OUhoWlBBSHB5YVhTZDVwWG52WXF2T2c?oc=5\" target=\"_blank\">Energía Barata</a>  <font color=\"#6f6f6f\">laopinion.co</font>",
-      "fuente": "laopinion.co",
-      "fecha": "2023-03-11T08:00:00",
-      "categoria": "geopolitica",
-      "mineral": "carbon_energetico",
-      "sentimiento": "neutral",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4zRmNyZ2NjMGFTbG01VTFrbEVoQXNtaE16Yl91eWp4OTBobzIxUXZWeWpZRm4zWXhHbGtQQU1LZEliRjE5OUhoWlBBSHB5YVhTZDVwWG52WXF2T2c?oc=5",
-      "tags": [
-        "mercado",
-        "site:laopinion.co minería carbón Táchira"
       ]
     }
   ]
