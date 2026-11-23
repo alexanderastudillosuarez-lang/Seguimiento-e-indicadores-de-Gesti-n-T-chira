@@ -1,6 +1,21 @@
 {
-  "ultima_actualizacion": "2026-11-21T17:54:58.588513",
+  "ultima_actualizacion": "2026-11-23T22:29:46.866456",
   "noticias": [
+    {
+      "id": 1795472986,
+      "titulo": "Proposed Issue Of Payment-In-Kind Interest Shares Under Convertible Debenture - TradingView",
+      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMi0gFBVV95cUxPZDcwelhzSm5FNW9DVjdrVm5sZm5SMEpoX04tbmc1ZlVMYmpxOUVvR3pGNGFQZVg4bXNzcWRKajZjQTYyTllxV0t3bGowQkx2ZHJoYjdkV0JXSmRuald1MVF5dldNTno3bmhWMnZKNkZKZE1nOHdGTzcwOFMtemRWQ0syOHR2N0RsQUYwQmZCV1NjdDc3RTlaMjV4ZTlCdW5hSUVZNFU3SUVOLU",
+      "fuente": "TradingView",
+      "fecha": "2026-11-20T13:50:00",
+      "categoria": "carbon",
+      "mineral": "carbon_energetico",
+      "sentimiento": "neutral",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPZDcwelhzSm5FNW9DVjdrVm5sZm5SMEpoX04tbmc1ZlVMYmpxOUVvR3pGNGFQZVg4bXNzcWRKajZjQTYyTllxV0t3bGowQkx2ZHJoYjdkV0JXSmRuald1MVF5dldNTno3bmhWMnZKNkZKZE1nOHdGTzcwOFMtemRWQ0syOHR2N0RsQUYwQmZCV1NjdDc3RTlaMjV4ZTlCdW5hSUVZNFU3SUVOLUhqLW5FLUJueHpnS2xhYUM0NEkwVi14cnpwUWhuQU5ZX3dueVlwT2c?oc=5",
+      "tags": [
+        "mercado",
+        "thermal coal price"
+      ]
+    },
     {
       "id": 1795283698,
       "titulo": "Nuevo depósito de fosfatos en Bayóvar producirá 2,5 millones TM de roca fosfórica al año - La República",
@@ -884,21 +899,6 @@
       "tags": [
         "carbón",
         "país minero"
-      ]
-    },
-    {
-      "id": 1790620371,
-      "titulo": "El carbón metalúrgico de Boyacá es el más apetecido en el interior y exterior del país - Boyacá 95.6 fm",
-      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxQSDNjdnM1X3hvTGJwdDZTSmpONnl2WE1zMnpiOWVsRTBUSGxranhvRzdNUy16TnVIVUozOU5lV3VjeTZsVjVaUGxJSGF4a2N1WHVKcFpKaDIzQUtwcE9QNVBjNGtRdUZuQWg0UzBVQ3VoZ3VQQ1lIS2FFTkRBb0R4TmFyWFhVWWk1UlJnZ2JIcjYzNFhJNE8wWmpBd2NZeTNmX0t5NGQwbjQ0Qz",
-      "fuente": "Boyacá 95.6 fm",
-      "fecha": "2022-01-13T08:00:00",
-      "categoria": "carbon",
-      "mineral": "carbon_coquizable",
-      "sentimiento": "neutral",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQSDNjdnM1X3hvTGJwdDZTSmpONnl2WE1zMnpiOWVsRTBUSGxranhvRzdNUy16TnVIVUozOU5lV3VjeTZsVjVaUGxJSGF4a2N1WHVKcFpKaDIzQUtwcE9QNVBjNGtRdUZuQWg0UzBVQ3VoZ3VQQ1lIS2FFTkRBb0R4TmFyWFhVWWk1UlJnZ2JIcjYzNFhJNE8wWmpBd2NZeTNmX0t5NGQwbjQ0QzRzU1lkYjdxNTFMdw?oc=5",
-      "tags": [
-        "mercado",
-        "carbón coquizable metalúrgico"
       ]
     }
   ]
