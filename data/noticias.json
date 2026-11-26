@@ -1,6 +1,21 @@
 {
-  "ultima_actualizacion": "2026-11-24T21:01:54.591899",
+  "ultima_actualizacion": "2026-11-26T20:01:44.199382",
   "noticias": [
+    {
+      "id": 1795723304,
+      "titulo": "Más colombianos migrantes se interesan por invertir en vivienda en el país - La Opinión Cúcuta",
+      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxPamN2eFNZclFjeVJ2aWlIVXNUVTItOUliTTBwQm84Y3J3OGQ4QUxsRkw2QS0tRmtNVC0xUjN6Y3hOTHNESjYwRC1acUI1TXZlelRXdERtS3ZRSDgyUENzZ3VsT2hVTFJVTVhBcjlKMHI0Vnk0WVJUYXpFYkdSRDVHN2NTSU96V3hnVVlwM0VmQXRmUkt3ZVFnM2x1azBuelpxXzJsRzRLOA?oc=",
+      "fuente": "La Opinión Cúcuta",
+      "fecha": "2026-11-20T16:28:59",
+      "categoria": "geopolitica",
+      "mineral": "carbon_energetico",
+      "sentimiento": "neutral",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPamN2eFNZclFjeVJ2aWlIVXNUVTItOUliTTBwQm84Y3J3OGQ4QUxsRkw2QS0tRmtNVC0xUjN6Y3hOTHNESjYwRC1acUI1TXZlelRXdERtS3ZRSDgyUENzZ3VsT2hVTFJVTVhBcjlKMHI0Vnk0WVJUYXpFYkdSRDVHN2NTSU96V3hnVVlwM0VmQXRmUkt3ZVFnM2x1azBuelpxXzJsRzRLOA?oc=5",
+      "tags": [
+        "mercado",
+        "site:laopinion.co minería carbón Táchira"
+      ]
+    },
     {
       "id": 1795554114,
       "titulo": "Revolutionary Strategies on a Heated Earth - Spectre Journal",
@@ -884,21 +899,6 @@
       "tags": [
         "mercado",
         "thermal coal price"
-      ]
-    },
-    {
-      "id": 1790700610,
-      "titulo": "El Huila, una potencia minera por desarrollar - Caracol Radio",
-      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMihgFBVV95cUxQOFgtRkVMYXdub2dGRDBOaG5sSXYyNk83aEtoc1RwY0JIQkJjUUxtZjNuZ3Vzb0F0V25zQUJySmRzMkFGNFlvZmV3RXY4MUNudm9YZGd0RGtDbEdDc0pHNGhxUk5xdzNKZ2pobmZwTXNZZEg1cDV2QkNZMUxIZ1FGSVcyc1VUQdIBmgFBVV95cUxOWnpTVkZuTl9KbWxQeHJzR2JkbmtHaVctYk",
-      "fuente": "Caracol Radio",
-      "fecha": "2025-06-19T07:00:00",
-      "categoria": "fosfatos",
-      "mineral": "roca_fosfatica",
-      "sentimiento": "neutral",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQOFgtRkVMYXdub2dGRDBOaG5sSXYyNk83aEtoc1RwY0JIQkJjUUxtZjNuZ3Vzb0F0V25zQUJySmRzMkFGNFlvZmV3RXY4MUNudm9YZGd0RGtDbEdDc0pHNGhxUk5xdzNKZ2pobmZwTXNZZEg1cDV2QkNZMUxIZ1FGSVcyc1VUQdIBmgFBVV95cUxOWnpTVkZuTl9KbWxQeHJzR2JkbmtHaVctYkY5dXpVaFl6b3VES2ZlX2draVRLOEFlM25VSmd3OFYzX21PMEZTUGlIZVh3T0FpSFFETDVKTjYtTUNwcmN2OEdqT0R2LVVEM1VIdnA5VnM1cjVyWHc2TVJFUEVJTnRseGhQdUc5WEJIc0ppQlk2cVNSME9MdUxJNV9n?oc=5",
-      "tags": [
-        "mercado",
-        "roca fosfática precio"
       ]
     }
   ]
