@@ -1,6 +1,21 @@
 {
-  "ultima_actualizacion": "2026-11-26T20:01:44.199382",
+  "ultima_actualizacion": "2026-11-27T19:51:02.129317",
   "noticias": [
+    {
+      "id": 1795809062,
+      "titulo": "Ilegalidad en la mira y vía libre al carbón, el nuevo rumbo minero que alienta a Norte de Santander - La Opinión Cúcuta",
+      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxQSl8yMjRZZ0VMeW9xd0xldVVVX0Mwc3oxbG5UNE5FUGtNck52MWpQY0Q5d2lXSFdYN0I4QklWSnJJUWpUX0tvVXB4LWExOE0zTnQ2WG1wWng0VG96emNxYVhZdkx1QndwWXI0bE1yQ0EwaDJxWGVKSVFMZy1ldWxkOTRSVGlFakdHUktCQmZfZ0EyMUszOVczY1VJbk14NUp0Q3JvNE5YTmdXUW",
+      "fuente": "La Opinión Cúcuta",
+      "fecha": "2026-10-30T07:00:00",
+      "categoria": "geopolitica",
+      "mineral": "carbon_energetico",
+      "sentimiento": "neutral",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQSl8yMjRZZ0VMeW9xd0xldVVVX0Mwc3oxbG5UNE5FUGtNck52MWpQY0Q5d2lXSFdYN0I4QklWSnJJUWpUX0tvVXB4LWExOE0zTnQ2WG1wWng0VG96emNxYVhZdkx1QndwWXI0bE1yQ0EwaDJxWGVKSVFMZy1ldWxkOTRSVGlFakdHUktCQmZfZ0EyMUszOVczY1VJbk14NUp0Q3JvNE5YTmdXUWsyTkx0UGRB?oc=5",
+      "tags": [
+        "mercado",
+        "site:laopinion.co minería carbón Táchira"
+      ]
+    },
     {
       "id": 1795723304,
       "titulo": "Más colombianos migrantes se interesan por invertir en vivienda en el país - La Opinión Cúcuta",
@@ -884,21 +899,6 @@
       "tags": [
         "carbón",
         "país minero"
-      ]
-    },
-    {
-      "id": 1790786679,
-      "titulo": "Shell Surges 2.6% as Asia's Missing LNG Demand Waits Offshore - TradingView",
-      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMiuwFBVV95cUxNQnFZN0lyNGN5T3RjNm5zZ0k1Ul8tdEF4dUgta2ZjVDAzOFRSNXFORTVScG9yTERuYzdyUjlhbW9ZOW9MTmh3REVxWm9xS2I3X0hSRW9PN2NaNjNCQ1NmVDIzYnVYb2hCQ1hZUkJZUXpiYUFIUlAxR3dfV2FqUWdIdV9YWmI5V3kxV1ZwdVpkdUszNkdqNkxacmd1THB0YzZldlBqdkpLRnRZX2",
-      "fuente": "TradingView",
-      "fecha": "2026-09-15T07:00:00",
-      "categoria": "carbon",
-      "mineral": "carbon_energetico",
-      "sentimiento": "neutral",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNQnFZN0lyNGN5T3RjNm5zZ0k1Ul8tdEF4dUgta2ZjVDAzOFRSNXFORTVScG9yTERuYzdyUjlhbW9ZOW9MTmh3REVxWm9xS2I3X0hSRW9PN2NaNjNCQ1NmVDIzYnVYb2hCQ1hZUkJZUXpiYUFIUlAxR3dfV2FqUWdIdV9YWmI5V3kxV1ZwdVpkdUszNkdqNkxacmd1THB0YzZldlBqdkpLRnRZX2R4U1NrVlNrRE5FcnhjTE0w?oc=5",
-      "tags": [
-        "mercado",
-        "thermal coal price"
       ]
     }
   ]
