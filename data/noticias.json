@@ -1,6 +1,21 @@
 {
-  "ultima_actualizacion": "2026-11-27T19:51:02.129317",
+  "ultima_actualizacion": "2026-11-28T18:43:59.910382",
   "noticias": [
+    {
+      "id": 1795891439,
+      "titulo": "La oportunidad de negocio verde que hay en la reducción del metano en el sector carbón - laopinion.co",
+      "resumen": "<a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxOVzdvSjVHTHdVcVdoenkxSVdiYk5nVXY3aEpoYW5lUno4V1dTQjNNdFVUc3hvSTItampWNXo2am5ORDY0clhEdnNvSm13eDFGUFAyMkJ3T0IyZzZDQXVVM1cwS0xxei1MQ2V2Q1VaQzJxanNiSmdaaG5LMDNQYW1GNWgtdWFYcXotb1ZMa3dfQVRhQ3ZTbFNWYlBtN25qVUtlRDc5bUxkMlZNRG",
+      "fuente": "laopinion.co",
+      "fecha": "2023-10-20T07:00:00",
+      "categoria": "geopolitica",
+      "mineral": "carbon_energetico",
+      "sentimiento": "neutral",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOVzdvSjVHTHdVcVdoenkxSVdiYk5nVXY3aEpoYW5lUno4V1dTQjNNdFVUc3hvSTItampWNXo2am5ORDY0clhEdnNvSm13eDFGUFAyMkJ3T0IyZzZDQXVVM1cwS0xxei1MQ2V2Q1VaQzJxanNiSmdaaG5LMDNQYW1GNWgtdWFYcXotb1ZMa3dfQVRhQ3ZTbFNWYlBtN25qVUtlRDc5bUxkMlZNRG9aMzhyVzJJUHhodUE?oc=5",
+      "tags": [
+        "mercado",
+        "site:laopinion.co minería carbón Táchira"
+      ]
+    },
     {
       "id": 1795809062,
       "titulo": "Ilegalidad en la mira y vía libre al carbón, el nuevo rumbo minero que alienta a Norte de Santander - La Opinión Cúcuta",
@@ -884,21 +899,6 @@
       "tags": [
         "mercado",
         "minería carbón Táchira Venezuela"
-      ]
-    },
-    {
-      "id": 1790786681,
-      "titulo": "El problema del carbón en Polonia ha cambiado",
-      "resumen": "Noticia del sector minero del carbón publicada por País Minero: El problema del carbón en Polonia ha cambiado",
-      "fuente": "País Minero",
-      "fecha": "2026-09-30T16:44:41.007806",
-      "categoria": "carbon",
-      "mineral": "carbon_energetico",
-      "sentimiento": "neutral",
-      "url": "https://www.paisminero.com/index.php?option=com_content&view=article&id=31309:el-problema-del-carbon-en-polonia-ha-cambiado-20260830050107&catid=116&Itemid=10001",
-      "tags": [
-        "carbón",
-        "país minero"
       ]
     }
   ]
